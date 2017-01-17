@@ -1,0 +1,664 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+
+<html>
+
+	<head>
+		<meta http-equiv="content-type" content="text/html;charset=ISO-8859-1">
+		<meta name="generator" content="Adobe GoLive 6">
+		<title>The 'MP4' Registration Authority</title>
+    <style type="text/css">
+<!--
+.fourCC {
+	font-family: "Courier New", Courier, monospace;
+}
+-->
+    </style>
+	</head>
+
+	<body bgcolor="#ffffff">
+		<p><img src="Graphics/mp4reg.gif" alt="" width="184" height="48" border="0"></p>
+		<table width="600" border="0" cellspacing="0" cellpadding="0">
+			<tr height="1">
+				<td width="50" height="1"></td> <td width="50" height="1"></td> <td width="50" height="1"></td>
+				<td width="50" height="1"></td> <td width="50" height="1"></td> <td width="50" height="1"></td>
+				<td width="50" height="1"></td> <td width="50" height="1"></td> <td width="50" height="1"></td>
+				<td width="50" height="1"></td> <td width="50" height="1"></td> <td width="50" height="1"></td>
+			</tr>
+			<tr height="32">
+				<td colspan="3" width="150" height="32"><a href="index.html"><img src="Graphics/introtab.gif" alt="" width="150" height="32" border="0"></a></td>
+				<td colspan="3" width="150" height="32"><a href="specs.html"><img src="Graphics/spectab.gif" alt="" width="150" height="32" border="0"></a></td>
+				<td colspan="3" width="150" height="32"><img src="Graphics/regtypestab.gif" alt="" width="150" height="32" border="0"></td>
+				<td colspan="3" width="150" height="32"><a href="request.html"><img src="Graphics/reqtab.gif" alt="" width="150" height="32" border="0"></a></td>
+			</tr>
+			<tr height="24">
+				<td colspan="2" width="100" height="24"><a href="atoms.html"><img src="Graphics/atoms-pl.gif" alt="" width="100" height="24" border="0"></a></td>
+				<td colspan="2" width="100" height="24"><a href="filetype.html"><img src="Graphics/filetype-pl.gif" alt="" width="100" height="24" border="0"></a></td>
+				<td colspan="2" width="100" height="24"><a href="codecs.html"><img src="Graphics/codecs-pl.gif" alt="" width="100" height="24" border="0"></a></td>
+				<td colspan="2" width="100" height="24"><a href="trackref.html"><img src="Graphics/trackref-pl.gif" alt="" width="100" height="24" border="0"></a></td>
+				<td colspan="2" width="100" height="24"><img src="Graphics/handler-ch.gif" alt="" width="100" height="24" border="0"></td>
+				<td colspan="2" width="100" height="24"><a href="object.html"><img src="Graphics/object-pl.gif" alt="" width="100" height="24" border="0"></a></td>
+			</tr>
+		</table>
+		<table width="600" border="0" cellspacing="0" cellpadding="0" cool gridx="16" gridy="16" height="54" showgridx showgridy>
+			<tr height="53">
+				<td content csheight="53" width="599" height="53" valign="top" xpos="0">This section documents various codes used in the file format; handler codes (that declare track types) and sample group types, in particular.</td>
+				<td width="1" height="53"><spacer type="block" width="1" height="53"></td>
+			</tr>
+			<tr height="1" cntrlrow>
+				<td width="599" height="1"><spacer type="block" width="599" height="1"></td>
+				<td width="1" height="1"></td>
+			</tr>
+		</table>
+		<table border=4 cellpadding=0 cellspacing=2 width=600 style="border-collapse:
+ collapse;table-layout:fixed">
+			<col width=51>
+			<col width=204>
+			<col width=55>
+			<col width=84>
+			<tr >
+				<td  class=xl26 width=70><strong>Code</strong></td>
+				<td class=xl26 width=323><strong>Abstract</strong></td>
+				<td class=xl26 width=103><strong>Type</strong></td>
+				<td class=xl26 width=78><strong>Defined in/by</strong></td>
+			</tr>
+			<tr>
+			  <td class=fourCC><font face="Courier New, Courier, Monaco, monospace">nclx</font></td>
+              <td>Normal color information</td>
+              <td>Color info</td>
+              <td class=xl37><a href="specs.html#iso" target="_parent">ISO</a></td>
+          </tr>
+			<tr>
+			  <td class=fourCC><font face="Courier New, Courier, Monaco, monospace">prof</font></td>
+              <td>Full ICC color profile</td>
+              <td>Color info</td>
+              <td class=xl37><a href="specs.html#iso" target="_parent">ISO</a></td>
+          </tr>
+			<tr>
+			  <td class=fourCC><font face="Courier New, Courier, Monaco, monospace">rICC</font></td>
+              <td>Restricted ICC color profile</td>
+              <td>Color info</td>
+              <td class=xl37><a href="specs.html#iso" target="_parent">ISO</a></td>
+          </tr>
+			<tr >
+			  <td class=fourCC><font face="Courier New, Courier, Monaco, monospace">url$20</font></td>
+              <td>URL data location</td>
+              <td>Data reference</td>
+              <td class=xl37><a href="specs.html#iso" target="_parent">ISO</a></td>
+          </tr>
+			<tr >
+			  <td class=fourCC><font face="Courier New, Courier, Monaco, monospace">urn$20</font></td>
+              <td>URN data location</td>
+              <td>Data reference</td>
+              <td class=xl37><a href="specs.html#iso" target="_parent">ISO</a></td>
+          </tr>
+			<tr>
+			  <td class=fourCC><font face="Courier New,Courier,Monaco"><a name="3gsd"></a>3gsd</font></td>
+              <td width="323">3GPP Scene Description</td>
+              <td>handler</td>
+              <td class=xl37 width="78"><a href="specs.html#3gpp" target="_parent">3GPP</a></td>
+          </tr>
+			<tr>
+			  <td class=fourCC><font face="Courier New, Courier, Monaco, monospace"><a name="auxv"></a>auxv</font></td>
+              <td width="323">Auxiliary video</td>
+              <td>handler</td>
+              <td class=xl37 width="78"><a href="specs.html#iso" target="_parent">ISO</a></td>
+          </tr>
+			<tr >
+			  <td  class=fourCC><font face="Courier New,Courier,Monaco"><a name="clcp" id="clcp"></a>clcp</font></td>
+              <td>Closed Caption Track</td>
+              <td>handler</td>
+              <td class=xl37><a href="specs.html#apple" target="_parent">Apple</a></td>
+          </tr>
+			<tr>
+			  <td class=fourCC><font face="Courier New,Courier,Monaco"><a name="cpad"></a>cpad</font></td>
+              <td width="323">CPCM Auxiliary Metadata</td>
+              <td>handler</td>
+              <td class=xl37 width="78"><a href="specs.html#DVBa121">DVB</a></td>
+          </tr>
+			<tr >
+			  <td  class=fourCC><font face="Courier New,Courier,Monaco"><a name="crsm"></a>crsm</font></td>
+              <td width="323">ClockReferenceStream</td>
+              <td>handler</td>
+              <td class=xl37 width="78"><a href="specs.html#MP4V1" target="_parent">MPEG-4</a></td>
+          </tr>
+			<tr >
+			  <td class=fourCC><font face="Courier New,Courier,Monaco"><a name="dmbd"></a>dmbd</font></td>
+              <td width="323">DVB Mandatory Metadata</td>
+              <td>handler</td>
+              <td class=xl37 width="78"><a href="specs.html#DVBa121">DVB</a></td>
+          </tr>
+			<tr >
+			  <td class=fourCC><font face="Courier New,Courier,Monaco"><a name="dtva"></a>dtva</font></td>
+              <td width="323">TV-Anytime Metadata, according to DVB specifications</td>
+              <td>handler</td>
+              <td class=xl37 width="78"><a href="specs.html#DVBa121">DVB</a></td>
+          </tr>
+			<tr>
+			  <td class=fourCC><font face="Courier New,Courier,Monaco"><a name="fdsm"></a>fdsm</font></td>
+              <td width="323">Font data streams (defined in part MPEG-4 part 18)</td>
+              <td>handler</td>
+              <td class=xl37 width="78"><a href="specs.html#MP4V1" target="_parent">MPEG-4</a></td>
+          </tr>
+			<tr>
+			  <td class=fourCC><font face="Courier New,Courier,Monaco"><a name="gesm"></a>gesm</font></td>
+              <td width="323">General MPEG-4 systems streams (without specific handler)</td>
+              <td>handler</td>
+              <td class=xl37 width="78">see (1) below</td>
+          </tr>
+			<tr>
+			  <td  class=fourCC><a name="GRAP"></a>GRAP</td>
+              <td>Subtitle Graphics stream (HMMP)</td>
+              <td>handler</td>
+              <td class=xl37><a href="specs.html#Sony">Sony</a></td>
+          </tr>
+			<tr>
+			  <td  class=fourCC><font face="Courier New,Courier,Monaco"><a name="hint"></a>hint</font></td>
+              <td width="323">Hint track</td>
+              <td>handler</td>
+              <td class=xl37 width="78"><a href="specs.html#ISO" target="_parent">ISO</a></td>
+          </tr>
+			<tr>
+			  <td class=fourCC><font face="Courier New, Courier, Monaco, monospace"><a name="hpix"></a>hpix</font></td>
+              <td width="323">Hipix Rich Picture Format</td>
+              <td>handler</td>
+              <td class=xl37 width="78"><a href="specs.html#hum-mon">HIPIX</a></td>
+          </tr>
+			<tr>
+			  <td class=fourCC><font face="Courier New,Courier,Monaco"><a name="ID32"></a>ID32</font></td>
+              <td width="323">ID3 version 2 meta-data handler (meta box)</td>
+              <td>handler</td>
+              <td class=xl37 width="78"><a href="specs.html#id3v2">inline</a></td>
+          </tr>
+			<tr>
+			  <td class=fourCC><font face="Courier New,Courier,Monaco"><a name="idpc"></a>ipdc</font></td>
+              <td width="323">DVB IPDC ESG Metadata</td>
+              <td>handler</td>
+              <td class=xl37 width="78"><a href="specs.html#DVBa121">DVB</a></td>
+          </tr>
+			<tr >
+			  <td  class=fourCC><font face="Courier New,Courier,Monaco"><a name="ipsm"></a>ipsm</font></td>
+              <td width="323">IPMP Stream</td>
+              <td>handler</td>
+              <td class=xl37 width="78"><a href="specs.html#MP4V1" target="_parent">MPEG-4</a></td>
+          </tr>
+			<tr>
+			  <td  class=fourCC><font face="Courier New,Courier,Monaco"><a name="m7sm"></a>m7sm</font></td>
+              <td width="323">MPEG7Stream</td>
+              <td>handler</td>
+              <td class=xl37 width="78"><a href="specs.html#MP4V1" target="_parent">MPEG-4</a></td>
+          </tr>
+			<tr>
+			  <td class=fourCC><font face="Courier New, Courier, Monaco, monospace"><a name="meta"></a>meta</font></td>
+              <td width="323">Metadata</td>
+              <td>handler</td>
+              <td class=xl37 width="78"><a href="specs.html#iso" target="_parent">ISO</a></td>
+          </tr>
+			<tr>
+			  <td  class=fourCC><font face="Courier New,Courier,Monaco"><a name="mjsm"></a>mjsm</font></td>
+              <td width="323">MPEG-J Stream</td>
+              <td>handler</td>
+              <td class=xl37 width="78"><a href="specs.html#MP4V1" target="_parent">MPEG-4</a></td>
+          </tr>
+			<tr>
+			  <td class=fourCC><font face="Courier New,Courier,Monaco"><a name="mp21"></a>mp21</font></td>
+              <td width="323">MPEG-21 Digital item</td>
+              <td>handler</td>
+              <td class=xl37 width="78"><a href="specs.html#MPEG21">MPEG-21</a></td>
+          </tr>
+			<tr >
+			  <td  class=fourCC><font face="Courier New,Courier,Monaco"><a name="mp7b"></a>mp7b</font></td>
+              <td>MPEG-7 (binary meta-data)</td>
+              <td>handler</td>
+              <td class=xl37><a href="specs.html#ISO" target="_parent">ISO</a></td>
+          </tr>
+			<tr >
+			  <td  class=fourCC><font face="Courier New,Courier,Monaco"><a name="mp7t"></a>mp7t</font></td>
+              <td>MPEG-7 (textual meta-data)</td>
+              <td>handler</td>
+              <td class=xl37><a href="specs.html#ISO" target="_parent">ISO</a></td>
+          </tr>
+			<tr >
+			  <td  class=fourCC><font face="Courier New,Courier,Monaco">MPEG</font></td>
+              <td>QuickTime MPEG track handler</td>
+              <td>handler</td>
+              <td class=xl37><a href="specs.html#apple" target="_parent">Apple</a><a href="specs.html#DECE10"></a></td>
+          </tr>
+			<tr>
+			  <td  class=fourCC><font face="Courier New,Courier,Monaco">musi</font></td>
+              <td>QuickTime Music track handler</td>
+              <td>handler</td>
+              <td class=xl37><a href="specs.html#apple" target="_parent">Apple</a><a href="specs.html#DECE10"></a></td>
+          </tr>
+			<tr>
+			  <td  class=fourCC>nrtm</td>
+              <td>Non-Real Time Metadata (XAVC Format)</td>
+              <td>handler</td>
+              <td class=xl37><a href="specs.html#Sony">Sony</a></td>
+          </tr>
+			<tr >
+			  <td  class=fourCC><font face="Courier New,Courier,Monaco"><a name="null"></a>null</font></td>
+              <td>No handling required (meta-data)</td>
+              <td>handler</td>
+              <td class=xl37><a href="specs.html#ISO" target="_parent">ISO</a></td>
+          </tr>
+			<tr >
+			  <td  class=fourCC><font face="Courier New,Courier,Monaco"><a name="ocsm"></a>ocsm</font></td>
+              <td width="323">ObjectContentInfoStream</td>
+              <td>handler</td>
+              <td class=xl37 width="78"><a href="specs.html#MP4V1" target="_parent">MPEG-4</a></td>
+          </tr>
+			<tr >
+			  <td  class=fourCC><font face="Courier New,Courier,Monaco"><a name="odsm"></a>odsm</font></td>
+              <td width="323">ObjectDescriptorStream</td>
+              <td>handler</td>
+              <td class=xl37 width="78"><a href="specs.html#MP4V1" target="_parent">MPEG-4</a></td>
+          </tr>
+			<tr>
+			  <td  class=fourCC><font face="Courier New,Courier,Monaco">qd3d</font></td>
+              <td>QuickTime QuickDraw 3D ttrack handler</td>
+              <td>handler</td>
+              <td class=xl37><a href="specs.html#apple" target="_parent">Apple</a><a href="specs.html#DECE10"></a></td>
+          </tr>
+			<tr >
+			  <td  class=fourCC><font face="Courier New,Courier,Monaco"><a name="sbtl" id="sbtl"></a>sbtl</font></td>
+              <td>QuickTime Subtitle track handler</td>
+              <td>handler</td>
+              <td class=xl37><a href="specs.html#apple" target="_parent">Apple</a><a href="specs.html#DECE10"></a></td>
+          </tr>
+			<tr>
+			  <td  class=fourCC><font face="Courier New,Courier,Monaco"><a name="sdsm"></a>sdsm</font></td>
+              <td width="323">SceneDescriptionStream</td>
+              <td>handler</td>
+              <td class=xl37 width="78"><a href="specs.html#MP4V1" target="_parent">MPEG-4</a></td>
+          </tr>
+			<tr >
+			  <td class=fourCC><font face="Courier New,Courier,Monaco"><a name="skmm"></a>skmm</font></td>
+              <td width="323">Key Management Messages</td>
+              <td>handler</td>
+              <td class=xl37 width="78"><a href="specs.html#DVBa121">DVB</a></td>
+          </tr>
+			<tr >
+			  <td class=fourCC><font face="Courier New,Courier,Monaco"><a name="smhr"></a>smhr</font></td>
+              <td width="323">Samsung Video Metadata Handler</td>
+              <td>handler</td>
+              <td class=xl37 width="78"><a href="specs.html#samsung">Samsung</a></td>
+          </tr>
+			<tr >
+			  <td  class=fourCC><font face="Courier New,Courier,Monaco"><a name="soun"></a>soun</font></td>
+              <td width="323">Audio track</td>
+              <td>handler</td>
+              <td class=xl37 width="78"><a href="specs.html#iso" target="_parent">ISO</a></td>
+          </tr>
+			<tr >
+			  <td  class=fourCC><font face="Courier New,Courier,Monaco">sprt</font></td>
+              <td>QuickTime Sprite track handler</td>
+              <td>handler</td>
+              <td class=xl37><a href="specs.html#apple" target="_parent">Apple</a><a href="specs.html#DECE10"></a></td>
+          </tr>
+			<tr >
+			  <td  class=fourCC><font face="Courier New,Courier,Monaco">strm</font></td>
+              <td>QuickTime Streaming track handler</td>
+              <td>handler</td>
+              <td class=xl37><a href="specs.html#apple" target="_parent">Apple</a><a href="specs.html#DECE10"></a></td>
+          </tr>
+			<tr >
+			  <td  class=fourCC><font face="Courier New,Courier,Monaco"><a name="subt"></a>subt</font></td>
+              <td>Subtitle track handler</td>
+              <td>handler</td>
+              <td class=xl37><a href="specs.html#iso" target="_parent">ISO</a><a href="specs.html#DECE10"></a></td>
+          </tr>
+			<tr >
+			  <td  class=fourCC><font face="Courier New,Courier,Monaco"><a name="text"></a>text</font></td>
+              <td width="323">Text track</td>
+              <td>handler</td>
+              <td class=xl37 width="78"><a href="specs.html#3gpp" target="_parent">3GPP</a></td>
+          </tr>
+			<tr >
+			  <td  class=fourCC><font face="Courier New,Courier,Monaco"><a name="tmcd"></a>tmcd</font></td>
+              <td>Timecode Track</td>
+              <td>handler</td>
+              <td class=xl37><a href="specs.html#apple" target="_parent">Apple</a></td>
+          </tr>
+			<tr >
+			  <td  class=fourCC><font face="Courier New,Courier,Monaco">twen</font></td>
+              <td>QuickTime Tween track handler</td>
+              <td>handler</td>
+              <td class=xl37><a href="specs.html#apple" target="_parent">Apple</a><a href="specs.html#DECE10"></a></td>
+          </tr>
+			<tr >
+			  <td class=fourCC><font face="Courier New,Courier,Monaco"><a name="uri"></a>uri$20</font></td>
+              <td width="323">URI identified metadata</td>
+              <td>handler</td>
+              <td class=xl37 width="78"><a href="specs.html#DVBa121">DVB</a></td>
+          </tr>
+			<tr >
+			  <td  class=fourCC><font face="Courier New,Courier,Monaco"><a name="vide"></a>vide</font></td>
+              <td width="323">Video track</td>
+              <td>handler</td>
+              <td class=xl37 width="78"><a href="specs.html#iso" target="_parent">ISO</a></td>
+          </tr>
+			<tr >
+			  <td class=fourCC><font face="Courier New, Courier, Monaco, monospace">fdel</font></td>
+              <td width="323">File delivery reference</td>
+              <td>item ref.</td>
+              <td class=xl37 width="78"><a href="specs.html#iso" target="_parent">ISO</a></td>
+          </tr>
+			<tr>
+			  <td class=fourCC><font face="Courier New, Courier, Monaco, monospace">iloc</font></td>
+              <td width="323">Item data location</td>
+              <td>item ref.</td>
+              <td class=xl37 width="78"><a href="specs.html#iso" target="_parent">ISO</a></td>
+          </tr>
+			<tr>
+			  <td class=fourCC><font face="Courier New, Courier, Monaco, monospace">bitr</font></td>
+              <td> Bitrate</td>
+              <td>Multiview Reln. Attribute</td>
+              <td class=xl37><a href="specs.html#AVC" target="_parent">NALu Video</a></td>
+          </tr>
+			<tr >
+			  <td class=fourCC><font face="Courier New, Courier, Monaco, monospace">ecam</font></td>
+              <td>Extrinsic camera parameters</td>
+              <td>Multiview Reln. Attribute</td>
+              <td class=xl37><a href="specs.html#AVC" target="_parent">NALu Video</a></td>
+          </tr>
+			<tr >
+			  <td class=fourCC><font face="Courier New, Courier, Monaco, monospace">elvi</font></td>
+              <td>Elliptical view array</td>
+              <td>Multiview Reln. Attribute</td>
+              <td class=xl37><a href="specs.html#AVC" target="_parent">NALu Video</a></td>
+          </tr>
+			<tr >
+			  <td class=fourCC><font face="Courier New, Courier, Monaco, monospace">frar</font></td>
+              <td>Frame rate</td>
+              <td>Multiview Reln. Attribute</td>
+              <td class=xl37><a href="specs.html#AVC" target="_parent">NALu Video</a></td>
+          </tr>
+			<tr >
+			  <td class=fourCC><font face="Courier New, Courier, Monaco, monospace">geom</font></td>
+              <td>Geometry</td>
+              <td>Multiview Reln. Attribute</td>
+              <td class=xl37><a href="specs.html#AVC" target="_parent">NALu Video</a></td>
+          </tr>
+			<tr>
+			  <td class=fourCC><font face="Courier New, Courier, Monaco, monospace">icam</font></td>
+              <td>Intrinsic camera parameters</td>
+              <td>Multiview Reln. Attribute</td>
+              <td class=xl37><a href="specs.html#AVC" target="_parent">NALu Video</a></td>
+          </tr>
+			<tr >
+			  <td class=fourCC><font face="Courier New, Courier, Monaco, monospace">ilvi</font></td>
+              <td>Inline view array</td>
+              <td>Multiview Reln. Attribute</td>
+              <td class=xl37><a href="specs.html#AVC" target="_parent">NALu Video</a></td>
+          </tr>
+			<tr>
+			  <td class=fourCC><font face="Courier New, Courier, Monaco, monospace">levl</font></td>
+              <td> Level</td>
+              <td>Multiview Reln. Attribute</td>
+              <td class=xl37><a href="specs.html#AVC" target="_parent">NALu Video</a></td>
+          </tr>
+			<tr>
+			  <td class=fourCC><font face="Courier New, Courier, Monaco, monospace">nvws</font></td>
+              <td>Number of output views</td>
+              <td>Multiview Reln. Attribute</td>
+              <td class=xl37><a href="specs.html#AVC" target="_parent">NALu Video</a></td>
+          </tr>
+			<tr>
+			  <td class=fourCC><font face="Courier New, Courier, Monaco, monospace">plvi</font></td>
+              <td>Planar view array</td>
+              <td>Multiview Reln. Attribute</td>
+              <td class=xl37><a href="specs.html#AVC" target="_parent">NALu Video</a></td>
+          </tr>
+			<tr>
+			  <td class=fourCC><font face="Courier New, Courier, Monaco, monospace">prfl</font></td>
+              <td> Profile</td>
+              <td>Multiview Reln. Attribute</td>
+              <td class=xl37><a href="specs.html#AVC" target="_parent">NALu Video</a></td>
+          </tr>
+			<tr>
+			  <td class=fourCC><font face="Courier New, Courier, Monaco, monospace">rtvi</font></td>
+              <td>Rectangular view array</td>
+              <td>Multiview Reln. Attribute</td>
+              <td class=xl37><a href="specs.html#AVC" target="_parent">NALu Video</a></td>
+          </tr>
+			<tr>
+			  <td class=fourCC><font face="Courier New, Courier, Monaco, monospace">spvi</font></td>
+              <td>Spherical view array</td>
+              <td>Multiview Reln. Attribute</td>
+              <td class=xl37><a href="specs.html#AVC" target="_parent">NALu Video</a></td>
+          </tr>
+			<tr>
+			  <td class=fourCC><font face="Courier New, Courier, Monaco, monospace">stvi</font></td>
+              <td>Stereo view array</td>
+              <td>Multiview Reln. Attribute</td>
+              <td class=xl37><a href="specs.html#AVC" target="_parent">NALu Video</a></td>
+          </tr>
+			<tr>
+			  <td class=fourCC><font face="Courier New,Courier,Monaco">aSEI</font></td>
+              <td>SEI-restricted video</td>
+              <td>protection scheme </td>
+              <td class=xl37><a href="specs.html#AVC" target="_parent">NALu Video</a></td>
+          </tr>
+			<tr>
+			  <td class=fourCC><font face="Courier New,Courier,Monaco">cenc</font></td>
+              <td width="323">Common Encryption</td>
+              <td>protection scheme </td>
+              <td class=xl37 width="78"><a href="specs.html#ISO-CENC">ISO-CENC</a></td>
+          </tr>
+			<tr>
+			  <td class=fourCC><font face="Courier New,Courier,Monaco">cpcm</font></td>
+              <td width="323">CPCM (DVB BlueBook A094) protected content</td>
+              <td>protection scheme </td>
+              <td class=xl37 width="78"><a href="specs.html#DVBa121">DVB</a></td>
+          </tr>
+			<tr>
+			  <td class=fourCC><font face="Courier New,Courier,Monaco">odkm</font></td>
+              <td width="323">OMA DRM KMS protection scheme</td>
+              <td>protection scheme </td>
+              <td class=xl37 width="78"><a href="specs.html#OMADCF">OMA DRM 2.0</a></td>
+          </tr>
+			<tr>
+			  <td class=fourCC><font face="Courier New,Courier,Monaco">stvi</font></td>
+              <td>Stereo video restricted scheme</td>
+              <td>protection scheme </td>
+              <td class=xl37><a href="specs.html#iso" target="_parent">ISO</a></td>
+          </tr>
+			<tr>
+			  <td class=fourCC><font face="Courier New,Courier,Monaco">3gag</font></td>
+              <td width="323">Text track3GPP PSS Annex G video buffer parameters</td>
+              <td>sample group</td>
+              <td class=xl37 width="78"><a href="specs.html#3gpp" target="_parent">3GPP</a></td>
+          </tr>
+			<tr>
+			  <td class=fourCC><font face="Courier New, Courier, Monaco, monospace">alst</font></td>
+              <td width="323">Alternative startup sequence</td>
+              <td>sample group</td>
+              <td class=xl37 width="78"><a href="specs.html#iso" target="_parent">ISO</a></td>
+          </tr>
+			<tr>
+			  <td class=fourCC><font face="Courier New,Courier,Monaco">avcb</font></td>
+              <td width="323">AVC HRD parameters</td>
+              <td>sample group</td>
+              <td class=xl37 width="78"><a href="specs.html#3gpp" target="_parent">3GPP</a></td>
+          </tr>
+			<tr>
+			  <td  class=fourCC><font face="Courier New,Courier,Monaco">avll</font></td>
+              <td width="323">AVC layer description group</td>
+              <td>sample group</td>
+              <td class=xl37 width="78"><a href="specs.html#AVC" target="_parent">NALu Video</a></td>
+          </tr>
+			<tr>
+			  <td  class=fourCC><font face="Courier New,Courier,Monaco">avss</font></td>
+              <td width="323">AVC Sub-sequence group</td>
+              <td>sample group</td>
+              <td class=xl37 width="78"><a href="specs.html#AVC" target="_parent">NALu Video</a></td>
+          </tr>
+			<tr>
+			  <td class=fourCC><font face="Courier New, Courier, Monaco, monospace">dtrt</font></td>
+              <td width="323">SVC decode re-timing</td>
+              <td>sample group</td>
+              <td class=xl37 width="78"><a href="specs.html#AVC" target="_parent">NALu Video</a></td>
+          </tr>
+			<tr>
+			  <td class=fourCC><font face="Courier New, Courier, Monaco, monospace">mvif</font></td>
+              <td width="323">MVC Scalability Information</td>
+              <td>sample group</td>
+              <td class=xl37 width="78"><a href="specs.html#AVC" target="_parent">NALu Video</a></td>
+          </tr>
+			<tr>
+			  <td  class=fourCC><font face="Courier New,Courier,Monaco">rap$20</font></td>
+              <td>Random access point</td>
+              <td>sample group</td>
+              <td class=xl37><a href="specs.html#iso" target="_parent">ISO</a></td>
+          </tr>
+			<tr>
+			  <td class=fourCC><font face="Courier New, Courier, Monaco, monospace">rash</font></td>
+              <td width="323">Rate share</td>
+              <td>sample group</td>
+              <td class=xl37 width="78"><a href="specs.html#iso" target="_parent">ISO</a></td>
+          </tr>
+			<tr>
+			  <td  class=fourCC><font face="Courier New,Courier,Monaco">roll</font></td>
+              <td width="323">Pre/Post roll group</td>
+              <td>sample group</td>
+              <td class=xl37 width="78"><a href="specs.html#avc" target="_parent">NALu Video, </a><a href="specs.html#ISO" target="_parent">ISO</a></td>
+          </tr>
+			<tr>
+			  <td class=fourCC><font face="Courier New, Courier, Monaco, monospace">scif</font></td>
+              <td width="323">SVC Scalability Information</td>
+              <td>sample group</td>
+              <td class=xl37 width="78"><a href="specs.html#AVC" target="_parent">NALu Video</a></td>
+          </tr>
+			<tr>
+			  <td class=fourCC><font face="Courier New, Courier, Monaco, monospace">scnm</font></td>
+              <td width="323">AVC/SVC/MVC map groups</td>
+              <td>sample group</td>
+              <td class=xl37 width="78"><a href="specs.html#AVC" target="_parent">NALu Video</a></td>
+          </tr>
+			<tr>
+			  <td  class=fourCC><font face="Courier New,Courier,Monaco">stsa</font></td>
+              <td>Step-wise Temporal Layer</td>
+              <td>sample group</td>
+              <td class=xl37><a href="specs.html#AVC" target="_parent">NALu Video</a><a href="specs.html#iso" target="_parent"></a></td>
+          </tr>
+			<tr>
+			  <td class=fourCC><font face="Courier New, Courier, Monaco, monospace">sync</font></td>
+              <td>Sync sample groups</td>
+              <td>sample group</td>
+              <td class=xl37><a href="specs.html#AVC" target="_parent">NALu Video</a></td>
+          </tr>
+			<tr>
+			  <td  class=fourCC><font face="Courier New,Courier,Monaco">tele</font></td>
+              <td>Temporal Level</td>
+              <td>sample group</td>
+              <td class=xl37><a href="specs.html#iso" target="_parent">ISO</a></td>
+          </tr>
+			<tr>
+			  <td  class=fourCC><font face="Courier New,Courier,Monaco">tsas</font></td>
+              <td>Temporal Sub-Layer</td>
+              <td>sample group</td>
+              <td class=xl37><a href="specs.html#AVC" target="_parent">NALu Video</a><a href="specs.html#iso" target="_parent"></a></td>
+          </tr>
+			<tr>
+			  <td  class=fourCC><font face="Courier New,Courier,Monaco">tscl</font></td>
+              <td>Temporal Layer</td>
+              <td>sample group</td>
+              <td class=xl37><a href="specs.html#AVC" target="_parent">NALu Video</a><a href="specs.html#iso" target="_parent"></a></td>
+          </tr>
+			<tr>
+			  <td class=fourCC><font face="Courier New, Courier, Monaco, monospace">vipr</font></td>
+              <td width="323">View priority</td>
+              <td>sample group</td>
+              <td class=xl37 width="78"><a href="specs.html#AVC" target="_parent">NALu Video</a></td>
+          </tr>
+			<tr>
+			  <td class=fourCC><font face="Courier New, Courier, Monaco, monospace">bitr</font></td>
+              <td width="323">Track differs in bitrate</td>
+              <td>track sel.</td>
+              <td class=xl37 width="78"><a href="specs.html#iso" target="_parent">ISO</a></td>
+          </tr>
+			<tr>
+			  <td class=fourCC><font face="Courier New, Courier, Monaco, monospace">cdec</font></td>
+              <td width="323">Track differs by codec type in the Sample Entry</td>
+              <td>track sel.</td>
+              <td class=xl37 width="78"><a href="specs.html#iso" target="_parent">ISO</a></td>
+          </tr>
+			<tr>
+			  <td class=fourCC><font face="Courier New, Courier, Monaco, monospace">cgsc</font></td>
+              <td width="323">The track can be coarse-grain scaled.</td>
+              <td>track sel.</td>
+              <td class=xl37 width="78"><a href="specs.html#iso" target="_parent">ISO</a></td>
+          </tr>
+			<tr>
+			  <td class=fourCC><font face="Courier New, Courier, Monaco, monospace">fgsc</font></td>
+              <td width="323">The track can be fine-grain scaled.</td>
+              <td>track sel.</td>
+              <td class=xl37 width="78"><a href="specs.html#iso" target="_parent">ISO</a></td>
+          </tr>
+			<tr>
+			  <td class=fourCC><font face="Courier New, Courier, Monaco, monospace">frar</font></td>
+              <td width="323">Track differs in frame rate</td>
+              <td>track sel.</td>
+              <td class=xl37 width="78"><a href="specs.html#iso" target="_parent">ISO</a></td>
+          </tr>
+			<tr>
+			  <td class=fourCC><font face="Courier New, Courier, Monaco, monospace">mela</font></td>
+              <td width="323">Track differs in language</td>
+              <td>track sel.</td>
+              <td class=xl37 width="78"><a href="specs.html#iso" target="_parent">ISO</a></td>
+          </tr>
+			<tr>
+			  <td class=fourCC><font face="Courier New, Courier, Monaco, monospace">mpsz</font></td>
+              <td width="323">Track differs in the maximum RTP Packet size</td>
+              <td>track sel.</td>
+              <td class=xl37 width="78"><a href="specs.html#iso" target="_parent">ISO</a></td>
+          </tr>
+			<tr>
+			  <td class=fourCC><font face="Courier New, Courier, Monaco, monospace">mtyp</font></td>
+              <td width="323">Track differs in media type (handler type)</td>
+              <td>track sel.</td>
+              <td class=xl37 width="78"><a href="specs.html#iso" target="_parent">ISO</a></td>
+          </tr>
+			<tr>
+			  <td class=fourCC><font face="Courier New, Courier, Monaco, monospace">nvws</font></td>
+              <td>Number of views in the sub track</td>
+              <td>track sel.</td>
+              <td class=xl37><a href="specs.html#iso" target="_parent">ISO</a></td>
+          </tr>
+			<tr>
+			  <td class=fourCC><font face="Courier New, Courier, Monaco, monospace">resc</font></td>
+              <td width="323">The track can be region-of-interest scaled.</td>
+              <td>track sel.</td>
+              <td class=xl37 width="78"><a href="specs.html#iso" target="_parent">ISO</a></td>
+          </tr>
+			<tr>
+			  <td class=fourCC><font face="Courier New, Courier, Monaco, monospace">scsz</font></td>
+              <td width="323">Track differs in width and/or height</td>
+              <td>track sel.</td>
+              <td class=xl37 width="78"><a href="specs.html#iso" target="_parent">ISO</a></td>
+          </tr>
+			<tr>
+			  <td class=fourCC><font face="Courier New, Courier, Monaco, monospace">spsc</font></td>
+              <td width="323">The track can be spatially scaled.</td>
+              <td>track sel.</td>
+              <td class=xl37 width="78"><a href="specs.html#iso" target="_parent">ISO</a></td>
+          </tr>
+			<tr>
+			  <td class=fourCC><font face="Courier New, Courier, Monaco, monospace">tesc</font></td>
+              <td width="323">The track can be temporally scaled.</td>
+              <td>track sel.</td>
+              <td class=xl37 width="78"><a href="specs.html#iso" target="_parent">ISO</a></td>
+          </tr>
+			<tr>
+			  <td height="21" class=fourCC><font face="Courier New, Courier, Monaco, monospace">vwsc</font></td>
+              <td>Sub-track can be scaled in terms of number of views</td>
+              <td>track sel.</td>
+              <td class=xl37><a href="specs.html#iso" target="_parent">ISO</a></td>
+          </tr>
+		</table>
+		<ol>
+			<li type="1">There only exists a defined set of handler code-points in MP4 file format allowing declaration of most known MPEG-4 Systems streams. However there is no provision for private MPEG-4 streams, which may be used by the file creator. This will likely push the file creator into using one of the defined handler types, which is wrong and may corrupt processing by some file readers. This is a generic handler type to indicate that the media is an MPEG-4 systems stream, without further details on the stream type itself. The associated sample descriptions must still remain the same, i.e. &quot;mp4s&quot; as used with all MPEG-4 systems streams.
+	</ol>
+	</body>
+
+</html>
