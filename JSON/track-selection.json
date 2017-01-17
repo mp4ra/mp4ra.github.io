@@ -1,0 +1,16 @@
+[
+	{ "code": "bitr", "description": "Track differs in bitrate", "type": "track sel.", "specification": "ISO" },
+	{ "code": "cdec", "description": "Track differs by codec type in the Sample Entry", "type": "track sel.", "specification": "ISO" },
+	{ "code": "cgsc", "description": "The track can be coarse-grain scaled.", "type": "track sel.", "specification": "ISO" },
+	{ "code": "fgsc", "description": "The track can be fine-grain scaled.", "type": "track sel.", "specification": "ISO" },
+	{ "code": "frar", "description": "Track differs in frame rate", "type": "track sel.", "specification": "ISO" },
+	{ "code": "mela", "description": "Track differs in language", "type": "track sel.", "specification": "ISO" },
+	{ "code": "mpsz", "description": "Track differs in the maximum RTP Packet size", "type": "track sel.", "specification": "ISO" },
+	{ "code": "mtyp", "description": "Track differs in media type (handler type)", "type": "track sel.", "specification": "ISO" },
+	{ "code": "nvws", "description": "Number of views in the sub track", "type": "track sel.", "specification": "ISO" },
+	{ "code": "resc", "description": "The track can be region-of-interest scaled.", "type": "track sel.", "specification": "ISO" },
+	{ "code": "scsz", "description": "Track differs in width and/or height", "type": "track sel.", "specification": "ISO" },
+	{ "code": "spsc", "description": "The track can be spatially scaled.", "type": "track sel.", "specification": "ISO" },
+	{ "code": "tesc", "description": "The track can be temporally scaled.", "type": "track sel.", "specification": "ISO" },
+	{ "code": "vwsc", "description": "Sub-track can be scaled in terms of number of views", "type": "track sel.", "specification": "ISO" },
+]

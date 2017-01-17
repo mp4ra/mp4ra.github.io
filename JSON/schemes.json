@@ -1,0 +1,7 @@
+[
+	{ "code": "aSEI", "description": "SEI-restricted video", "type": "protection scheme", "specification": "NALu Video" },
+	{ "code": "cenc", "description": "Common Encryption", "type": "protection scheme", "specification": "ISO-CENC" },
+	{ "code": "cpcm", "description": "CPCM (DVB BlueBook A094) protected content", "type": "protection scheme", "specification": "DVB" },
+	{ "code": "odkm", "description": "OMA DRM KMS protection scheme", "type": "protection scheme", "specification": "OMA DRM 2.0" },
+	{ "code": "stvi", "description": "Stereo video restricted scheme", "type": "protection scheme", "specification": "ISO" },
+]

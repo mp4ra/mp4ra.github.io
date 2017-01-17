@@ -1,0 +1,17 @@
+[
+	{ "code": "00", "description": "Forbidden" },
+	{ "code": "01", "description": "ObjectDescriptorStream (see 8.5)" },
+	{ "code": "02", "description": "ClockReferenceStream (see 10.2.5)" },
+	{ "code": "03", "description": "SceneDescriptionStream (see 9.2.1)" },
+	{ "code": "04", "description": "VisualStream" },
+	{ "code": "05", "description": "AudioStream" },
+	{ "code": "06", "description": "MPEG7Stream" },
+	{ "code": "07", "description": "IPMPStream (see 8.3.2)" },
+	{ "code": "08", "description": "ObjectContentInfoStream (see 8.4.2)" },
+	{ "code": "09", "description": "MPEGJStream" },
+	{ "code": "0A", "description": "Interaction Stream" },
+	{ "code": "0B", "description": "IPMPToolStream" },
+	{ "code": "0C", "description": "FontDataStream" },
+	{ "code": "0D", "description": "StreamingText" },
+	{ "code": "20- 3F", "description": "user private" },
+]
