@@ -6,13 +6,38 @@
 		<meta http-equiv="content-type" content="text/html;charset=ISO-8859-1">
 		<meta name="generator" content="Adobe GoLive 6">
 		<title>The 'MP4' Registration Authority</title>
-    <style type="text/css">
-<!--
-.fourCC {
-	font-family: "Courier New", Courier, monospace;
-}
--->
-    </style>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script type="text/javascript" src="helper.js"></script> 
+    <script type="text/javascript">
+      window.onload = function() {
+        loadJSON('JSON/specifications.json', function (specs) {
+          loadJSON('JSON/handlers.json', function (boxes) {
+            buildTable(boxes, specs, document.getElementById('handlersTable'), null, "code");
+          });
+          loadJSON('JSON/data-references.json', function (boxes) {
+            buildTable(boxes, specs, document.getElementById('dataReferencesTable'));
+          });
+          loadJSON('JSON/item-references.json', function (boxes) {
+            buildTable(boxes, specs, document.getElementById('itemReferencesTable'));
+          });
+          loadJSON('JSON/multiview-attributes.json', function (boxes) {
+            buildTable(boxes, specs, document.getElementById('multiviewAttributesTable'));
+          });
+          loadJSON('JSON/schemes.json', function (boxes) {
+            buildTable(boxes, specs, document.getElementById('schemesTable'));
+          });
+          loadJSON('JSON/sample-groups.json', function (boxes) {
+            buildTable(boxes, specs, document.getElementById('sampleGroupsTable'));
+          });
+          loadJSON('JSON/track-selection.json', function (boxes) {
+            buildTable(boxes, specs, document.getElementById('trackSelectionTypesTable'));
+          });
+          loadJSON('JSON/color-types.json', function (boxes) {
+            buildTable(boxes, specs, document.getElementById('colorsTable'));
+          });
+        });
+      }
+    </script>
 	</head>
 
 	<body bgcolor="#ffffff">
@@ -49,7 +74,48 @@
 				<td width="1" height="1"></td>
 			</tr>
 		</table>
-		<table border=4 cellpadding=0 cellspacing=2 width=600 style="border-collapse:
+    
+    <p><a name="handlers" id="handlers"></a><b>Handlers</b></p>
+    <div id="handlersTable">
+    </div>
+    <ol>
+      <li type="1">There only exists a defined set of handler code-points in MP4 file format allowing declaration of most known MPEG-4 Systems streams. However there is no provision for private MPEG-4 streams, which may be used by the file creator. This will likely push the file creator into using one of the defined handler types, which is wrong and may corrupt processing by some file readers. This is a generic handler type to indicate that the media is an MPEG-4 systems stream, without further details on the stream type itself. The associated sample descriptions must still remain the same, i.e. &quot;mp4s&quot; as used with all MPEG-4 systems streams.
+  </ol>
+
+    <p><a name="datarefs" id="datarefs"></a><b>Data References</b></p>
+    <div id="dataReferencesTable">
+    </div>
+
+    <p><a name="itemrefs" id="itemrefs"></a><b>Item References</b></p>
+    <div id="itemReferencesTable">
+    </div>
+    <br>
+
+    <p><a name="multiview" id="multiview"></a><b>Multiview Attributes</b></p>
+    <div id="multiviewAttributesTable">
+    </div>
+    <br>
+
+    <p><a name="schemes" id="schemes"></a><b>Protection and Restricted Schemes</b></p>
+    <div id="schemesTable">
+    </div>
+    <br>
+
+    <p><a name="samplegroups" id="samplegroups"></a><b>Sample Groups</b></p>
+    <div id="sampleGroupsTable">
+    </div>
+    <br>
+
+    <p><a name="tracksel" id="tracksel"></a><b>Track Selection Types</b></p>
+    <div id="trackSelectionTypesTable">
+    </div>
+    <br>
+
+    <p><a name="colors" id="colors"></a><b>Color Types</b></p>
+    <div id="colorsTable">
+    </div>
+
+		<!--table border=4 cellpadding=0 cellspacing=2 width=600 style="border-collapse:
  collapse;table-layout:fixed">
 			<col width=51>
 			<col width=204>
@@ -655,10 +721,7 @@
               <td>track sel.</td>
               <td class=xl37><a href="specs.html#iso" target="_parent">ISO</a></td>
           </tr>
-		</table>
-		<ol>
-			<li type="1">There only exists a defined set of handler code-points in MP4 file format allowing declaration of most known MPEG-4 Systems streams. However there is no provision for private MPEG-4 streams, which may be used by the file creator. This will likely push the file creator into using one of the defined handler types, which is wrong and may corrupt processing by some file readers. This is a generic handler type to indicate that the media is an MPEG-4 systems stream, without further details on the stream type itself. The associated sample descriptions must still remain the same, i.e. &quot;mp4s&quot; as used with all MPEG-4 systems streams.
-	</ol>
+		</table-->
 	</body>
 
 </html>

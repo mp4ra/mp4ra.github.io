@@ -6,12 +6,17 @@
 		<meta http-equiv="content-type" content="text/html;charset=ISO-8859-1">
 		<meta name="generator" content="Adobe GoLive 6">
 		<title>The 'MP4' Registration Authority</title>
-    <style type="text/css">
-<!--
-.fourCC {
-	font-family: "Courier New", Courier, monospace;
-}
--->
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<script type="text/javascript" src="helper.js"></script> 
+		<script type="text/javascript">
+			window.onload = function() {
+				loadJSON('JSON/specifications.json', function (specs) {
+					loadJSON('JSON/brands.json', function (boxes) {
+						buildTable(boxes, specs, document.getElementById('brandsTable'));
+					});
+				});
+			}
+		</script>
     </style>
 	</head>
 
@@ -51,7 +56,9 @@
 				<td width="1" height="1"></td>
 			</tr>
 		</table>
-		<table border=4 cellpadding=0 cellspacing=2 width=600 style="border-collapse:
+		<div id="brandsTable">
+		</div>
+		<!--table border=4 cellpadding=0 cellspacing=2 width=600 style="border-collapse:
  collapse;table-layout:fixed">
 			<col width=59>
 			<col class=xl25 width=173>
@@ -564,7 +571,6 @@
               <td class=xl25>XAVC File Format</td>
               <td class=xl37><a href="specs.html#Sony">Sony</a></td>
           </tr>
-		</table>
+		</table-->
 	</body>
-
 </html>

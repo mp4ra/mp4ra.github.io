@@ -6,6 +6,23 @@
 		<meta http-equiv="content-type" content="text/html;charset=ISO-8859-1">
 		<meta name="generator" content="Adobe GoLive 6">
 		<title>The 'MP4' Registration Authority</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<script type="text/javascript" src="helper.js"></script>
+		<script type="text/javascript">
+			window.onload = function() {
+				loadJSON('JSON/specifications.json', function (specs) {
+					loadJSON('JSON/boxes.json', function (boxes) {
+						buildTable(boxes, specs, document.getElementById('boxesTable'));
+					});
+					loadJSON('JSON/boxes-udta.json', function (boxes) {
+						buildTable(boxes, specs, document.getElementById('udtaBoxesTable'));
+					});
+					loadJSON('JSON/boxes-qt.json', function (boxes) {
+						buildTable(boxes, specs, document.getElementById('qtBoxesTable'));
+					});
+				});
+			}
+		</script>
 	</head>
 
 	<body bgcolor="#ffffff">
@@ -48,7 +65,9 @@
 				<td width="1" height="1"></td>
 			</tr>
 		</table>
-		<table border=4 cellpadding=0 cellspacing=2 width=597 style="border-collapse:
+		<div id="boxesTable">
+		</div>
+		<!--table border=4 cellpadding=0 cellspacing=2 width=597 style="border-collapse:
  collapse;table-layout:fixed">
 			<tr class=xl26 >
 				<td  class=xl26 width=80><strong>Code</strong></td>
@@ -901,9 +920,12 @@
               <td class=xl25 width=383>a tool by which vendors can add XML formatted information</td>
               <td class=xl37 width="110"><a href="specs.html#JPEG2000" target="_parent">JP2</a></td>
           </tr>
-		</table>
+		</table-->
     <p><a name="userdata" id="userdata"></a><b>User-data Codes</b></p>
-    <table width=597 border=4 cellpadding=0 cellspacing=2 style="border-collapse:
+	<div id="udtaBoxesTable">
+	</div>
+
+    <!--table width=597 border=4 cellpadding=0 cellspacing=2 style="border-collapse:
  collapse;table-layout:fixed">
       <tr class=xl26 >
         <td  class=xl26 width="80"><strong>Code</strong></td>
@@ -1090,9 +1112,11 @@
         <td class=xl25 width=383>Year when media was recorded</td>
         <td class=xl37 width="110"><a href="specs.html#3GPP">3GPP</a></td>
       </tr>
-    </table>
-<p><a name="qtatom"></a><b>QuickTime Codes</b></p>
-		<table border=4 cellpadding=0 cellspacing=2 width=597 style="border-collapse:
+    </table-->
+	<p><a name="qtatom"></a><b>QuickTime Codes</b></p>
+	<div id="qtBoxesTable">
+	</div>
+		<!--table border=4 cellpadding=0 cellspacing=2 width=597 style="border-collapse:
  collapse;table-layout:fixed">
 			<tr>
 				<td class=xl26 width=80><strong>Code</strong></td>
@@ -1174,7 +1198,6 @@
               <td class=xl25>Expansion space reservation</td>
               <td class=xl37><a href="specs.html#QT">QT</a></td>
           </tr>
-		</table>
+		</table-->
 	</body>
-
 </html>

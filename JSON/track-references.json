@@ -17,10 +17,5 @@
 	{ "code": "sync", "description": "this track uses the referenced track as its synchronization source.", "specification": "MPEG-4" },
 	{ "code": "tmcd", "description": "Time code. Usually references a time code track.", "specification": "Apple" },
 	{ "code": "vdep", "description": "Auxiliary video depth", "specification": "ISO" },
-	{ "code": "vplx", "description": "Auxiliary video parallax", "specification": "ISO" },
-	{ "code": "cdep", "description": "Structural Dependency", "specification": "QT" },
-	{ "code": "chap", "description": "Chapter or scene list. Usually references a text track.", "specification": "QT" },
-	{ "code": "scpt", "description": "Transcript. Usually references a text track.", "specification": "QT" },
-	{ "code": "ssrc", "description": "Nonprimary source. Indicates that the referenced track should send its data to this track, rather than presenting it.", "specification": "QT" },
-	{ "code": "tmcd", "description": "Time code. Usually references a time code track.", "specification": "QT" },
+	{ "code": "vplx", "description": "Auxiliary video parallax", "specification": "ISO" }
 ]

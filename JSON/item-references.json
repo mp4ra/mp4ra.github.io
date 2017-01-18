@@ -1,4 +1,4 @@
 [
 	{ "code": "fdel", "description": "File delivery reference", "type": "item ref.", "specification": "ISO" },
-	{ "code": "iloc", "description": "Item data location", "type": "item ref.", "specification": "ISO" },
+	{ "code": "iloc", "description": "Item data location", "type": "item ref.", "specification": "ISO" }
 ]

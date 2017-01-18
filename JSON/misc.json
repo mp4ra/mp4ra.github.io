@@ -1,4 +1,0 @@
-[
-{ "code": "url$20", "description": "URL data location", "type": "Data reference", "specification": "ISO" },
-{ "code": "urn$20", "description": "URN data location", "type": "Data reference", "specification": "ISO" },
-]

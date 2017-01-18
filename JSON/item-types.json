@@ -1,3 +1,3 @@
 [
-	{ "code": "auvd", "description": "Auxiliary Video descriptor", "handler": "", "specification": "ISO" },
+	{ "code": "auvd", "description": "Auxiliary Video descriptor", "specification": "ISO" }
 ]

@@ -12,5 +12,5 @@
 	{ "code": "scsz", "description": "Track differs in width and/or height", "type": "track sel.", "specification": "ISO" },
 	{ "code": "spsc", "description": "The track can be spatially scaled.", "type": "track sel.", "specification": "ISO" },
 	{ "code": "tesc", "description": "The track can be temporally scaled.", "type": "track sel.", "specification": "ISO" },
-	{ "code": "vwsc", "description": "Sub-track can be scaled in terms of number of views", "type": "track sel.", "specification": "ISO" },
+	{ "code": "vwsc", "description": "Sub-track can be scaled in terms of number of views", "type": "track sel.", "specification": "ISO" }
 ]

@@ -6,6 +6,16 @@
 		<meta http-equiv="content-type" content="text/html;charset=ISO-8859-1">
 		<meta name="generator" content="Adobe GoLive 6">
 		<title>The 'MP4' Registration Authority</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<script type="text/javascript" src="helper.js"></script>
+		<script type="text/javascript">
+			window.onload = function() {
+				loadJSON('JSON/specifications.json', function (array) {
+					buildSpecsTable(array, document.getElementById('specsTable'));
+				});
+			}
+			
+		</script>
 	</head>
 
 	<body bgcolor="#ffffff">
@@ -36,7 +46,9 @@
 				<td width="1" height="1"></td>
 			</tr>
 		</table>
-		<table width="608" border="4" cellspacing="2" cellpadding="0">
+		<div id="specsTable">
+		</div>
+		<!--table width="608" border="4" cellspacing="2" cellpadding="0">
 			<tr>
 				<td width="88"><strong>Name</strong></td>
 				<td><strong>Specification or Source</strong></td>
@@ -319,7 +331,7 @@
 				<td width="88"><a id="itunes" name="itunes"></a>iTunes</td>
 				<td>General documentation can be found on Apple's <a href="http://developer.apple.com/quicktime/">developer</a> site</td>
 			</tr>
-		</table>
+		</table-->
 <h2>Inline definitions not recorded in an external document</h2>
 		<ol>
 			<li type="1"><a id="id3v2" name="id3v2"></a>ID3 version 2 meta-data

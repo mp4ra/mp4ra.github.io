@@ -8,7 +8,7 @@
 	{ "code": "mvif", "description": "MVC Scalability Information", "type": "sample group", "specification": "NALu Video" },
 	{ "code": "rap ", "description": "Random access point", "type": "sample group", "specification": "ISO" },
 	{ "code": "rash", "description": "Rate share", "type": "sample group", "specification": "ISO" },
-	{ "code": "roll", "description": "Pre/Post roll group", "type": "sample group", "specification": "NALu Video, ISO" },
+	{ "code": "roll", "description": "Pre/Post roll group", "type": "sample group", "specification": "ISO" },
 	{ "code": "scif", "description": "SVC Scalability Information", "type": "sample group", "specification": "NALu Video" },
 	{ "code": "scnm", "description": "AVC/SVC/MVC map groups", "type": "sample group", "specification": "NALu Video" },
 	{ "code": "stsa", "description": "Step-wise Temporal Layer", "type": "sample group", "specification": "NALu Video" },
@@ -16,5 +16,5 @@
 	{ "code": "tele", "description": "Temporal Level", "type": "sample group", "specification": "ISO" },
 	{ "code": "tsas", "description": "Temporal Sub-Layer", "type": "sample group", "specification": "NALu Video" },
 	{ "code": "tscl", "description": "Temporal Layer", "type": "sample group", "specification": "NALu Video" },
-	{ "code": "vipr", "description": "View priority", "type": "sample group", "specification": "NALu Video" },
+	{ "code": "vipr", "description": "View priority", "type": "sample group", "specification": "NALu Video" }
 ]
