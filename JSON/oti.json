@@ -45,6 +45,7 @@
 	{ "code": "AC", "description": "DTS Express low bit rate audio, also known as DTS LBR", "specification": "DTSE" },
 	{ "code": "AD", "description": "Opus audio", "specification": "Opus" },
 	{ "code": "AE", "description": "AC-4 Audio", "specification": "ETSI AC-4" },
+	{ "code": "AF", "description": "Auro-Cx 3D audio", "specification": "Auro" },
 	{ "code": "C0 - E0", "description": "user private", "specification": "" },
 	{ "code": "E1", "description": "13K Voice", "specification": "3GPP2" },
 	{ "code": "E2 - FE", "description": "user private", "specification": "" },
