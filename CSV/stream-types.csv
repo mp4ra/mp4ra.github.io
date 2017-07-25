@@ -1,0 +1,16 @@
+code,description
+00,Forbidden
+01,ObjectDescriptorStream (see 8.5)
+02,ClockReferenceStream (see 10.2.5)
+03,SceneDescriptionStream (see 9.2.1)
+04,VisualStream
+05,AudioStream
+06,MPEG7Stream
+07,IPMPStream (see 8.3.2)
+08,ObjectContentInfoStream (see 8.4.2)
+09,MPEGJStream
+0A,Interaction Stream
+0B,IPMPToolStream
+0C,FontDataStream
+0D,StreamingText
+20- 3F,user private

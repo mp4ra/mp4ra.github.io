@@ -10,29 +10,29 @@
     <script type="text/javascript" src="helper.js"></script> 
     <script type="text/javascript">
       window.onload = function() {
-        loadJSON('JSON/specifications.json', function (specs) {
-          loadJSON('JSON/handlers.json', function (boxes) {
+        loadCSV('CSV/specifications.csv', function (specs) {
+          loadCSV('CSV/handlers.csv', function (boxes) {
             buildTable(boxes, specs, document.getElementById('handlersTable'), null, "code");
           });
-          loadJSON('JSON/data-references.json', function (boxes) {
+          loadCSV('CSV/data-references.csv', function (boxes) {
             buildTable(boxes, specs, document.getElementById('dataReferencesTable'));
           });
-          loadJSON('JSON/item-references.json', function (boxes) {
+          loadCSV('CSV/item-references.csv', function (boxes) {
             buildTable(boxes, specs, document.getElementById('itemReferencesTable'));
           });
-          loadJSON('JSON/multiview-attributes.json', function (boxes) {
+          loadCSV('CSV/multiview-attributes.csv', function (boxes) {
             buildTable(boxes, specs, document.getElementById('multiviewAttributesTable'));
           });
-          loadJSON('JSON/schemes.json', function (boxes) {
+          loadCSV('CSV/schemes.csv', function (boxes) {
             buildTable(boxes, specs, document.getElementById('schemesTable'));
           });
-          loadJSON('JSON/sample-groups.json', function (boxes) {
+          loadCSV('CSV/sample-groups.csv', function (boxes) {
             buildTable(boxes, specs, document.getElementById('sampleGroupsTable'));
           });
-          loadJSON('JSON/track-selection.json', function (boxes) {
+          loadCSV('CSV/track-selection.csv', function (boxes) {
             buildTable(boxes, specs, document.getElementById('trackSelectionTypesTable'));
           });
-          loadJSON('JSON/color-types.json', function (boxes) {
+          loadCSV('CSV/color-types.csv', function (boxes) {
             buildTable(boxes, specs, document.getElementById('colorsTable'));
           });
         });

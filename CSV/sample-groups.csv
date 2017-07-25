@@ -1,0 +1,19 @@
+code,description,type,specification
+3gag,3GPP PSS Annex G video buffer parameters,sample group,3GPP
+alst,Alternative startup sequence,sample group,ISO
+avcb,AVC HRD parameters,sample group,3GPP
+avll,AVC layer description group,sample group,NALu Video
+avss,AVC Sub-sequence group,sample group,NALu Video
+dtrt,SVC decode re-timing,sample group,NALu Video
+mvif,MVC Scalability Information,sample group,NALu Video
+"rap ",Random access point,sample group,ISO
+rash,Rate share,sample group,ISO
+roll,Pre/Post roll group,sample group,ISO
+scif,SVC Scalability Information,sample group,NALu Video
+scnm,AVC/SVC/MVC map groups,sample group,NALu Video
+stsa,Step-wise Temporal Layer,sample group,NALu Video
+sync,Sync sample groups,sample group,NALu Video
+tele,Temporal Level,sample group,ISO
+tsas,Temporal Sub-Layer,sample group,NALu Video
+tscl,Temporal Layer,sample group,NALu Video
+vipr,View priority,sample group,NALu Video

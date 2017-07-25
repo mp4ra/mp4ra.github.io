@@ -1,0 +1,6 @@
+code,description,specification
+cdep,Structural Dependency,QT
+chap,Chapter or scene list. Usually references a text track.,QT
+scpt,Transcript. Usually references a text track.,QT
+ssrc,"Nonprimary source. Indicates that the referenced track should send its data to this track, rather than presenting it.",QT
+tmcd,Time code. Usually references a time code track.,QT

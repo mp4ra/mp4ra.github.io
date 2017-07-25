@@ -10,7 +10,7 @@
 		<script type="text/javascript" src="helper.js"></script>
 		<script type="text/javascript">
 			window.onload = function() {
-				loadJSON('JSON/specifications.json', function (array) {
+				loadCSV('CSV/specifications.csv', function (array) {
 					buildSpecsTable(array, document.getElementById('specsTable'));
 				});
 			}

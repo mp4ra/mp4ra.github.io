@@ -1,0 +1,4 @@
+code,description,type,specification
+nclx,Normal color information,Color info,ISO
+prof,Full ICC color profile,Color info,ISO
+rICC,Restricted ICC color profile,Color info,ISO

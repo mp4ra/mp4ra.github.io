@@ -1,7 +1,0 @@
-[
-	{ "code": "cdep", "description": "Structural Dependency", "specification": "QT" },
-	{ "code": "chap", "description": "Chapter or scene list. Usually references a text track.", "specification": "QT" },
-	{ "code": "scpt", "description": "Transcript. Usually references a text track.", "specification": "QT" },
-	{ "code": "ssrc", "description": "Nonprimary source. Indicates that the referenced track should send its data to this track, rather than presenting it.", "specification": "QT" },
-	{ "code": "tmcd", "description": "Time code. Usually references a time code track.", "specification": "QT" }
-]

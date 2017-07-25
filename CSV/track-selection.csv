@@ -1,0 +1,15 @@
+code,description,type,specification
+bitr,Track differs in bitrate,track sel.,ISO
+cdec,Track differs by codec type in the Sample Entry,track sel.,ISO
+cgsc,The track can be coarse-grain scaled.,track sel.,ISO
+fgsc,The track can be fine-grain scaled.,track sel.,ISO
+frar,Track differs in frame rate,track sel.,ISO
+mela,Track differs in language,track sel.,ISO
+mpsz,Track differs in the maximum RTP Packet size,track sel.,ISO
+mtyp,Track differs in media type (handler type),track sel.,ISO
+nvws,Number of views in the sub track,track sel.,ISO
+resc,The track can be region-of-interest scaled.,track sel.,ISO
+scsz,Track differs in width and/or height,track sel.,ISO
+spsc,The track can be spatially scaled.,track sel.,ISO
+tesc,The track can be temporally scaled.,track sel.,ISO
+vwsc,Sub-track can be scaled in terms of number of views,track sel.,ISO

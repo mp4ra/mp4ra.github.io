@@ -1,0 +1,52 @@
+code,description,handler,specification
+agsm,GSM,Audio,QT
+alaw,a-Law,Audio,QT
+CFHD,CineForm High-Definition (HD) wavelet codec,Video,CineForm
+civd,Cinepak Video,Video,QT
+c608,CEA 608 Captions,Closed Caption,QT
+c708,CEA 708 Captions,Closed Caption,QT
+drac,Dirac Video Coder,Video,Dirac
+DV10,Digital Voodoo 10 bit Uncompressed 4:2:2 codec,Video,Digital Voodoo
+dvh5,DVCPRO-HD 1080/50i,Video,QT
+dvh6,DVCPRO-HD 1080/60i,Video,QT
+dvhp,DVCPRO-HD 720/60p,Video,QT
+dvi$20,"DVI (as used in RTP, 4:1 compression)",Audio,QT
+DVOO,Digital Voodoo 8 bit Uncompressed 4:2:2 codec,Video,Digital Voodoo
+DVOR,Digital Voodoo intermediate raw,Video,Digital Voodoo
+DVTV,Digital Voodoo intermediate 2vuy,Video,Digital Voodoo
+DVVT,Digital Voodoo intermediate v210,Video,Digital Voodoo
+fl32,32 bit float,Audio,QT
+fl64,64 bit float,Audio,QT
+flic,Autodesk FLIC animation format,Video,QT
+gif,GIF image format,Video,QT
+h261,ITU H.261 video,Video,QT
+h263,ITU H.263 video (QuickTime format),Video,QT
+HD10,Digital Voodoo 10 bit Uncompressed 4:2:2 HD codec,Video,Digital Voodoo
+ima4,"IMA (International Multimedia Assocation, defunct, 4:1)",Audio,QT
+in24,24 bit integer uncompressed,Audio,QT
+in32,32 bit integer uncompressed,Audio,QT
+jpeg,JPEG image format,Video,QT
+lpcm,Uncompressed audio (various integer and float formats),Audio,QT
+M105,Internal format of video data supported by Matrox hardware; pixel organization is proprietary,Video,Matrox
+mjpa,Motion-JPEG (format A),Video,QT
+mjpb,Motion-JPEG (format B),Video,QT
+Opus,Opus audio coding,Audio,Opus
+png,W3C Portable Network Graphics (PNG),Video,QT
+PNTG,Apple MacPaint image format,Video,QT
+Qclp,Qualcomm PureVoice,Audio,QT
+QDM2,Qdesign music 2,Audio,QT
+QDMC,Qdesign music 1,Audio,QT
+rle$20,Apple animation codec,Video,QT
+rpza,Apple simple video 'road pizza' compression,Video,QT
+Shr0,Generic SheerVideo codec,Video,BitJazz
+Shr1,SheerVideo RGB[A] 8b - at 8 bits/channel,Video,BitJazz
+Shr2,"SheerVideo Y'CbCr[A] 8bv 4:4:4[:4] - at 8 bits/channel, in ITU-R BT.601-4 video range",Video,BitJazz
+Shr3,"SheerVideo Y'CbCr 8bv 4:2:2 - 2:1 chroma subsampling, at 8 bits/channel, in ITU-R BT.601-4 video range",Video,BitJazz
+Shr4,"SheerVideo Y'CbCr 8bw 4:2:2 - 2:1 chroma subsampling, at 8 bits/channel, with full-range luma and wide-range two's-complement chroma",Video,BitJazz
+SVQ1,Sorenson Video 1 video,Video,QT
+SVQ3,Sorenson Video 3 video,Video,QT
+tga,Truvision Targa video format,Video,QT
+tiff,Tagged Image File Format (Adobe),Video,QT
+ulaw,Samples have been compressed using uLaw 2:1.,Audio,QT
+vdva,DV audio (variable duration per video frame),Audio,QT
+WRLE,Windows BMP image format,Video,QT

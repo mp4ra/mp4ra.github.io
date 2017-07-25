@@ -1,0 +1,37 @@
+code,description,specification
+albm,Album title and track number for media,3GPP
+alou,Album loudness base,ISO
+angl,Name of the camera angle through which the clip was shot,Apple
+auth,Author of the media,3GPP
+clfn,Name of the clip file,Apple
+clid,Identifier of the clip,Apple
+clsf,Classification of the media,3GPP
+cmid,Identifier of the camera,Apple
+cmnm,Name that identifies the camera,Apple
+coll,Name of the collection from which the media comes,3GPP
+cprt,copyright etc.,ISO
+date,"Date and time, formatted according to ISO 8601, when the content was created. For clips captured by recording devices, this is typically the date and time when the clip’s recording started.",Apple
+dscp,Media description,3GPP
+gnre,Media genre,3GPP
+hinf,hint information,ISO
+hnti,Hint information,ISO
+hpix,Hipix Rich Picture (user-data or meta-data),Hipix
+kywd,Media keywords,3GPP
+loci,Media location information,3GPP
+ludt,Track loudness container,ISO
+manu,Manufacturer name of the camera,Apple
+modl,Model name of the camera,Apple
+perf,Media performer name,3GPP
+reel,Name of the tape reel,Apple
+rtng,Media rating,3GPP
+scen,Name of the scene for which the clip was shot,Apple
+shot,Name that identifies the shot,Apple
+slno,Serial number of the camera,Apple
+strk,Sub track information,ISO
+thmb,Thumbnail image of the media,3GPP
+titl,Media title,3GPP
+tlou,Track loudness base,ISO
+tsel,Track selection,ISO
+tsel,Track selection,3GPP
+urat,User 'star' rating of the media,3GPP
+yrrc,Year when media was recorded,3GPP

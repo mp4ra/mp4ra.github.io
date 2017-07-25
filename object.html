@@ -10,11 +10,11 @@
 	    <script type="text/javascript" src="helper.js"></script> 
 	    <script type="text/javascript">
 	      window.onload = function() {
-	        loadJSON('JSON/specifications.json', function (specs) {
-	          loadJSON('JSON/oti.json', function (boxes) {
+	        loadCSV('CSV/specifications.csv', function (specs) {
+	          loadCSV('CSV/oti.csv', function (boxes) {
 	            buildTable(boxes, specs, document.getElementById('otiTable'));
 	          });
-	          loadJSON('JSON/stream-types.json', function (boxes) {
+	          loadCSV('CSV/stream-types.csv', function (boxes) {
 	            buildTable(boxes, specs, document.getElementById('streamTypesTable'));
 	          });
 	        });

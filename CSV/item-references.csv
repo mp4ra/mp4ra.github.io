@@ -1,0 +1,3 @@
+code,description,type,specification
+fdel,File delivery reference,item ref.,ISO
+iloc,Item data location,item ref.,ISO

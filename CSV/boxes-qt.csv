@@ -1,0 +1,16 @@
+code,description,specification
+albm,Album title and track number (user-data),3GPP
+auth,Media author name (user-data),3GPP
+clip,Visual clipping region container,QT
+clsf,Media classification (user-data),3GPP
+cprt,copyright etc. (user-data),ISO
+crgn,Visual clipping region definition,QT
+ctab,Track color-table,QT
+dcfD,"Marlin DCF Duration, user-data atom type",OMArlin
+elng,Extended Language Tag,QT
+imap,Track input map definition,QT
+kmat,Compressed visual track matte,QT
+load,Track pre-load definitions,QT
+matt,Visual track matte for compositing,QT
+pnot,Preview container,QT
+wide,Expansion space reservation,QT

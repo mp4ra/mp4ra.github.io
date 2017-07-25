@@ -10,18 +10,18 @@
     <script type="text/javascript" src="helper.js"></script> 
     <script type="text/javascript">
       window.onload = function() {
-        loadJSON('JSON/specifications.json', function (specs) {
-          loadJSON('JSON/handlers.json', function (handlers) {
-            loadJSON('JSON/sample-entries.json', function (boxes) {
+        loadCSV('CSV/specifications.csv', function (specs) {
+          loadCSV('CSV/handlers.csv', function (handlers) {
+            loadCSV('CSV/sample-entries.csv', function (boxes) {
               buildTable(boxes, specs, document.getElementById('sampleEntriesTable'), handlers);
             });
-            loadJSON('JSON/item-types.json', function (boxes) {
+            loadCSV('CSV/item-types.csv', function (boxes) {
               buildTable(boxes, specs, document.getElementById('itemTypesTable'));
             });
-            loadJSON('JSON/sample-entries-boxes.json', function (boxes) {
+            loadCSV('CSV/sample-entries-boxes.csv', function (boxes) {
               buildTable(boxes, specs, document.getElementById('sampleEntryBoxes'), handlers);
             });
-            loadJSON('JSON/sample-entries-qt.json', function (boxes) {
+            loadCSV('CSV/sample-entries-qt.csv', function (boxes) {
               buildTable(boxes, specs, document.getElementById('sampleEntriesQt'), handlers);
             });
           });

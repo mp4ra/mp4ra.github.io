@@ -10,14 +10,14 @@
 		<script type="text/javascript" src="helper.js"></script>
 		<script type="text/javascript">
 			window.onload = function() {
-				loadJSON('JSON/specifications.json', function (specs) {
-					loadJSON('JSON/boxes.json', function (boxes) {
+				loadCSV('CSV/specifications.csv', function (specs) {
+					loadCSV('CSV/boxes.csv', function (boxes) {
 						buildTable(boxes, specs, document.getElementById('boxesTable'));
 					});
-					loadJSON('JSON/boxes-udta.json', function (boxes) {
+					loadCSV('CSV/boxes-udta.csv', function (boxes) {
 						buildTable(boxes, specs, document.getElementById('udtaBoxesTable'));
 					});
-					loadJSON('JSON/boxes-qt.json', function (boxes) {
+					loadCSV('CSV/boxes-qt.csv', function (boxes) {
 						buildTable(boxes, specs, document.getElementById('qtBoxesTable'));
 					});
 				});

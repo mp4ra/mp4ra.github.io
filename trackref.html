@@ -10,11 +10,11 @@
 	    <script type="text/javascript" src="helper.js"></script> 
 	    <script type="text/javascript">
 	      window.onload = function() {
-	        loadJSON('JSON/specifications.json', function (specs) {
-	          loadJSON('JSON/track-references.json', function (boxes) {
+	        loadCSV('CSV/specifications.csv', function (specs) {
+	          loadCSV('CSV/track-references.csv', function (boxes) {
 	            buildTable(boxes, specs, document.getElementById('trackReferencesTable'));
 	          });
-	          loadJSON('JSON/track-references-qt.json', function (boxes) {
+	          loadCSV('CSV/track-references-qt.csv', function (boxes) {
 	            buildTable(boxes, specs, document.getElementById('trackReferencesQtTable'));
 	          });
 	        });

@@ -1,0 +1,93 @@
+code,description,handler,specification,ObjectType
+2dcc,2D Cartesian coordinates,Metadata,Metrics,
+3gvo,3GPP Video Orientation,Metadata,3GPP,
+a3ds,Auro-Cx 3D audio,Audio,Auro,
+ac-3,AC-3 audio,Audio,ETSI AC-3,0xA5
+ac-4,AC-4 audio,Audio,ETSI AC-4,0xAE
+alac,Apple lossless audio codec,Audio,Apple,
+alaw,a-Law,Audio,QT,
+avc1,Advanced Video Coding,Video,NALu Video,0x21
+avc2,Advanced Video Coding,Video,NALu Video,0x21
+avc3,Advanced Video Coding,Video,NALu Video,0x21
+avc4,Advanced Video Coding,Video,NALu Video,0x21
+avcp,Advanced Video Coding Parameters,Video,NALu Video,0x22
+dra1,DRA Audio,Audio,DRA,0xA7
+drac,Dirac Video Coder,Video,Dirac,0xA4
+dts+,Enhancement layer for DTS layered audio,Audio,DTS,
+dts-,Dependent base layer for DTS layered audio,Audio,DTS,
+dtsc,DTS Coherent Acoustics audio,Audio,DTS,0xA9
+dtse,"DTS Express low bit rate audio, also known as DTS LBR",Audio,DTS,0xAC
+dtsh,DTS-HD High Resolution Audio,Audio,DTS,0xAA
+dtsl,DTS-HD Master Audio,Audio,DTS,0xAB
+dtsx,DTS:X,Audio,DTS,
+dvav,AVC-based “Dolby Vision”,Video,Dolby Vision,
+dvhe,HEVC-based “Dolby Vision”,Video,Dolby Vision,
+ec-3,Enhanced AC-3 audio,Audio,ETSI AC-3,0xA6
+enca,Encrypted/Protected audio,Audio,ISO,
+encf,Encrypted/Protected font,Font,ISO,
+encm,Encrypted/Protected metadata,Metadata,ISO,
+encs,Encrypted Systems stream,(various),ISO,
+enct,Encrypted Text,Text,ISO,
+encv,Encrypted/protected video,Video,ISO,
+fdp$20,File delivery hints,Hint,ISO,
+g719,ITU-T Recommendation G.719 (2008),Audio,ITU G.719,0xA8
+g726,ITU-T Recommendation G.726 (1990),Audio,SDV,
+hev1,High Efficiency Video Coding,Video,NALu Video,0x23
+hvc1,High Efficiency Video Coding,Video,NALu Video,0x23
+ixse,DVB Track Level Index Track,Metadata,DVB,
+m2ts,MPEG-2 transport stream for DMB,Hint,DMB-MAF,
+m4ae,MPEG-4 Audio Enhancement,Audio,MP4v2,"0x40, others"
+m4ae,MPEG-4 Audio Enhancement,Audio,MP4v1,
+mett,Text timed metadata that is not XML,Metadata,ISO,
+metx,XML timed metadata,Metadata,ISO,
+mha1,"MPEG-H Audio (single stream, unencapsulated)",Audio,MPEG-H,
+mha2,"MPEG-H Audio (multi-stream, unencapsulated)",Audio,MPEG-H,
+mhm1,"MPEG-H Audio (single stream, MHAS encapsulated)",Audio,MPEG-H,
+mhm2,"MPEG-H Audio (multi-stream, MHAS encapsulated)",Audio,MPEG-H,
+mjp2,Motion JPEG 2000,Video,MJ2,
+mlix,DVB Movie level index track,Metadata,DVB,
+mlpa,MLP Audio,Audio,Dolby MLP,
+mp4a,MPEG-4 Audio,Audio,MP4v1,"0x40, others"
+mp4s,MPEG-4 Systems,(various),MP4v1,various
+mp4v,MPEG-4 Visual,Video,MP4v1,"0x20, others"
+mvc1,Multiview coding,Video,NALu Video,
+mvc2,Multiview coding,Video,NALu Video,
+mvc3,Multiview coding,Video,NALu Video,
+mvc4,Multiview coding,Video,NALu Video,
+oksd,OMA Keys,Metadata,OMA DRM XBS,
+Opus,Opus audio coding,Audio,Opus,0xAD
+pm2t,Protected MPEG-2 Transport,Hint,ISO,
+prtp,Protected RTP Reception,Hint,ISO,
+raw$20,Uncompressed audio,Audio,MJ2,
+resv,Restricted Video,Video,NALu Video,
+rm2t,MPEG-2 Transport Reception,Hint,ISO,
+rrtp,RTP reception,Hint,ISO,
+rsrp,SRTP Reception,Hint,ISO,
+rtmd,Real Time Metadata Sample Entry(XAVC Format),Metadata,Sony,
+rv60,RealVideo Codec 11,Video,RealHD,n/a
+rtp$20,RTP Hints,Hint,ISO,n/a
+s263,ITU H.263 video (3GPP format),Video,3GPP,
+samr,Narrowband AMR voice,Audio,3GPP,
+sawb,Wideband AMR voice,Audio,3GPP,
+sawp,Extended AMR-WB (AMR-WB+),Audio,3GPP,
+sevc,EVRC Voice,Audio,3GPP2,0xA0
+sm2t,MPEG-2 Transport Server,Hint,ISO,
+sqcp,13K Voice,Audio,3GPP2,0xE1
+srtp,SRTP Hints,Hint,ISO,n/a
+ssmv,SMV Voice,Audio,3GPP2,0xA1
+STGS,Subtitle Sample Entry (HMMP),Subtitle Graphics,Sony,
+stpp,Subtitles (Timed Text),Subtitles,ISO,
+svc1,Scalable Video Coding,Video,NALu Video,
+svc2,Scalable Video Coding,Video,NALu Video,
+svcM,SVC metadata,Metadata,NALu Video,
+tc64,64 bit timecode samples,Timecode,Apple,
+tmcd,32 bit timecode samples,Timecode,Apple,
+twos,Uncompressed 16-bit audio,Audio,MJ2,
+tx3g,Timed Text stream,Text,3GPP,
+ulaw,Samples have been compressed using uLaw 2:1.,Audio,QT,
+unid,Dynamic Range Control (DRC) data,Metadata,DRC,
+urim,Binary timed metadata identified by URI,Metadata,ISO,
+vc-1,SMPTE VC-1,Video,SMPTE,0xA3
+vp08,VP8 video,Video,VPxx,
+vp09,VP9 video,Video,VPxx,
+wvtt,WebVTT data,Text,ISO-Text,

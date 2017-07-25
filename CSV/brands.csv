@@ -1,0 +1,103 @@
+code,description,specification
+3g2a,3GPP2,3GPP2
+3ge6,3GPP Release 6 extended-presentation Profile,3GPP
+3ge9,3GPP Release 9 Extended Presentation Profile,3GPP
+3gf9,3GPP Release 9 File-delivery Server Profile,3GPP
+3gg6,3GPP Release 6 General Profile,3GPP
+3gg9,3GPP Release 9 General Profile,3GPP
+3gh9,3GPP Release 9 Adaptive Streaming Profile,3GPP
+3gm9,3GPP Release 9 Media Segment Profile,3GPP
+3gp4,3GPP Release 4,3GPP
+3gp5,3GPP Release 5,3GPP
+3gp6,3GPP Release 6 basic Profile,3GPP
+3gp7,3GPP Release 7,3GPP
+3gp8,3GPP Release 8,3GPP
+3gp9,3GPP Release 9 Basic Profile,3GPP
+3gr6,3GPP Release 6 progressive-download Profile,3GPP
+3gr9,3GPP Release 9 Progressive DownloadProfile,3GPP
+3gs6,3GPP Release 6 streaming-server Profile,3GPP
+3gs9,3GPP Release 9 Streaming ServerProfile,3GPP
+3gt9,3GPP Release 9 Media Stream Recording Profile,3GPP
+ARRI,ARRI Digital Camera,ARRI
+avc1,Advanced Video Coding extensions,ISO
+bbxm,Blinkbox Master File: H.264 video and 16-bit little-endian LPCM audio,Blinkbox
+CAEP,Canon Digital Camera,Canon
+caqv,Casio Digital Camera,Casio
+ccff,Common container file format,DECE
+CDes,Convergent Designs,Convergent
+da0a,"DMB AF audio with MPEG Layer II audio, MOT slide show, DLS, JPG/PNG/MNG images",DMB-MAF
+da0b,"DMB AF, extending da0a , with 3GPP timed text, DID, TVA, REL, IPMP",DMB-MAF
+da1a,"DMB AF audio with ER-BSAC audio, JPG/PNG/MNG images",DMB-MAF
+da1b,"DMB AF, extending da1a, with 3GPP timed text, DID, TVA, REL, IPMP",DMB-MAF
+da2a,"DMB AF audio with HE-AAC v2 audio, MOT slide show, DLS, JPG/PNG/MNG images",DMB-MAF
+da2b,"DMB AF extending da2a, with 3GPP timed text, DID, TVA, REL, IPMP",DMB-MAF
+da3a,"DMB AF audio with HE-AAC, JPG/PNG/MNG images",DMB-MAF
+da3b,"DMB AF extending da3a with BIFS, 3GPP timed text, DID, TVA, REL, IPMP",DMB-MAF
+dash,ISO base media file format file specifically designed for DASH including movie fragments and Segment Index.,DASH
+dby1,"MP4 files with Dolby content (e.g. Dolby AC-4, Dolby Digital Plus, Dolby TrueHD (Dolby MLP))",Dolby
+dmb1,DMB AF supporting all the components defined in the specification,DMB-MAF
+dsms,Media Segment conforming to the DASH Self-Initializing Media Segment format type for ISO base media file format,DASH
+dv1a,"DMB AF video with AVC video, ER-BSAC audio, BIFS, JPG/PNG/MNG images, TS",DMB-MAF
+dv1b,"DMB AF, extending dv1a, with 3GPP timed text, DID, TVA, REL, IPMP",DMB-MAF
+dv2a,"DMB AF video with AVC video, HE-AACv2 audio, BIFS, JPG/PNG/MNG images, TS",DMB-MAF
+dv2b,"DMB AF extending dv2a, with 3GPP timed text, DID, TVA, REL, IPMP",DMB-MAF
+dv3a,"DMB AF video with AVC video, HE-AAC audio, BIFS, JPG/PNG/MNG images, TS",DMB-MAF
+dv3b,"DMB AF extending dv3a with 3GPP timed text, DID, TVA, REL, IPMP",DMB-MAF
+dvr1,DVB RTP,DVB
+dvt1,DVB Transport Stream,DVB
+dxo$20,DxO ONE camera,DxO
+emsg,Event message box present,DASH
+ifrm,"Apple iFrame Specification, Version 8.1 Jan 2013",Apple
+isc2,Files encrypted according to ISMACryp 2.0,ISMACryp2
+iso2,All files based on the 2004 edition of the ISO file format,ISO
+iso3,Version of the ISO file format,ISO
+iso4,Version of the ISO file format,ISO
+iso5,Version of the ISO file format,ISO
+iso6,Version of the ISO file format,ISO
+isom,All files based on the ISO Base Media File Format,ISO
+J2P0,JPEG2000 Profile 0,JPEG2000
+J2P1,JPEG2000 Profile 1,JPEG2000
+jp2$20,JPEG2000 Part 1,JPEG2000
+jpm$20,JPEG 2000 Part 6 Compound Images,JPM
+jpsi,"The JPSearch data interchange format, for the exchange of image collections and respective metadata",JPSearch
+jpx$20,JPEG2000 Part 2,JPX
+jpxb,JPEG XR,JPXR
+LCAG,Leica digital camera,Leica
+lmsg,last Media Segment indicator for ISO base media file format.,DASH
+M4A$20,"iTunes MPEG-4 audio protected or not,",iTunes
+,can contain audio + video + 3g text track + chapter track,
+M4B$20,iTunes AudioBook protected or not,iTunes
+,can contain audio + video + 3g text track + chapter track,
+M4P$20,MPEG-4 protected audio,iTunes
+M4V$20,MPEG-4 protected audio+video,iTunes
+MFSM,Media File for Samsung video Metadata,Samsung
+MGSV,Home and Mobile Multimedia Platform (HMMP),Sony
+mj2s,Motion JPEG 2000 simple profile,MJ2
+mjp2,"Motion JPEG 2000, general profile",MJ2
+mp21,MPEG-21,MPEG-21
+mp41,MP4 version 1,MP4v2
+mp42,MP4 version 2,MP4v2
+mp71,MPEG-7 file-level metadata,ISO
+MPPI,Photo Player Multimedia Application Format,ISO-MAF
+msdh,Media Segment conforming to the general format type for ISO base media file format.,DASH
+msix,Media Segment conforming to the Indexed Media Segment format type for ISO base media file format.,DASH
+MSNV,Portable multimedia CE products using MP4 file format with AVC video codec and AAC audio codec,IEC 62592
+niko,Nikon Digital Camera,Nikon
+odcf,OMA DCF (DRM Content Format),OMA DRM 2.0
+opf2,OMA PDCF (DRM Content Format),OMA DRM 2.1
+opx2,OMA Adapted PDCF,OMA DRM XBS
+pana,Panasonic Digital Camera,Panasonic
+piff,Protected Interoperable File Format,PIFF
+pnvi,Panasonic Video Intercom,Panasonic Video Intercom
+qt$20$20,QuickTime,QT
+risx,Representation Index Segment used to index MPEG-2 TS based Media Segments.,DASH
+ROSS,Ross Video,Ross
+sdv$20,SD Video,SDV
+SEAU,Home and Mobile Multimedia Platform (HMMP),Sony
+SEBK,Home and Mobile Multimedia Platform (HMMP),Sony
+senv,Video contents Sony Entertainment Network provides by using MP4 file format,Sony
+sims,Media Segment conforming to the Sub-Indexed Media Segment format type for ISO base media file format.,DASH
+sisx,Single Index Segment used to index MPEG-2 TS based Media Segments.,DASH
+ssss,Subsegment Index Segment used to index MPEG-2 TS based Media Segments.,DASH
+uvvu,"UltraViolet file brand – conforming to the DECE Common File Format spec, Annex E.",DECE
+XAVC,XAVC File Format,Sony

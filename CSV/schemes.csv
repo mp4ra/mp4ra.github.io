@@ -1,0 +1,6 @@
+code,description,type,specification
+aSEI,SEI-restricted video,protection scheme,NALu Video
+cenc,Common Encryption,protection scheme,ISO Common Encryption
+cpcm,CPCM (DVB BlueBook A094) protected content,protection scheme,DVB
+odkm,OMA DRM KMS protection scheme,protection scheme,OMA DRM 2.0
+stvi,Stereo video restricted scheme,protection scheme,ISO

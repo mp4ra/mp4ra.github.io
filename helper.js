@@ -1,3 +1,26 @@
+function loadScript(url)
+{
+    var head = document.getElementsByTagName('head')[0];
+    var script = document.createElement('script');
+    script.type = 'text/javascript';
+    script.src = url;
+    head.appendChild(script);
+}
+
+function loadCSS(url) {
+    var head = document.getElementsByTagName('head')[0];
+	var newSS=document.createElement('link');
+	newSS.rel='stylesheet';
+	newSS.href=url;
+	head.appendChild(newSS);
+}
+
+function loadLibs() {
+	loadScript("lib/papaparse.min.js");
+}
+
+loadLibs();
+
 function loadJSON(url, callback) {
 	var xhr = new XMLHttpRequest;
 	xhr.open('GET', url);
@@ -5,6 +28,22 @@ function loadJSON(url, callback) {
 		if (this.status == 200 || this.status == 0) {
 			var o = JSON.parse(this.responseText);
 			callback(o);
+			/* Used to convert JSON to CSV */
+			//console.log(url);
+			//var csv = Papa.unparse(o);
+			//console.log(csv);
+		}
+	}
+	xhr.send();
+}
+
+function loadCSV(url, callback) {
+	var xhr = new XMLHttpRequest;
+	xhr.open('GET', url);
+	xhr.onload = function() {
+		if (this.status == 200 || this.status == 0) {
+			var o = Papa.parse(this.responseText, { header: true });
+			callback(o.data);
 		}
 	}
 	xhr.send();

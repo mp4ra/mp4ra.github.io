@@ -1,5 +1,0 @@
-[
-	{ "code": "nclx", "description": "Normal color information", "type": "Color info", "specification": "ISO" },
-	{ "code": "prof", "description": "Full ICC color profile", "type": "Color info", "specification": "ISO" },
-	{ "code": "rICC", "description": "Restricted ICC color profile", "type": "Color info", "specification": "ISO" }
-]

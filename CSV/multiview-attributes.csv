@@ -1,0 +1,15 @@
+code,description,type,specification
+bitr,Bitrate,Multiview Reln. Attribute,NALu Video
+ecam,Extrinsic camera parameters,Multiview Reln. Attribute,NALu Video
+elvi,Elliptical view array,Multiview Reln. Attribute,NALu Video
+frar,Frame rate,Multiview Reln. Attribute,NALu Video
+geom,Geometry,Multiview Reln. Attribute,NALu Video
+icam,Intrinsic camera parameters,Multiview Reln. Attribute,NALu Video
+ilvi,Inline view array,Multiview Reln. Attribute,NALu Video
+levl,Level,Multiview Reln. Attribute,NALu Video
+nvws,Number of output views,Multiview Reln. Attribute,NALu Video
+plvi,Planar view array,Multiview Reln. Attribute,NALu Video
+prfl,Profile,Multiview Reln. Attribute,NALu Video
+rtvi,Rectangular view array,Multiview Reln. Attribute,NALu Video
+spvi,Spherical view array,Multiview Reln. Attribute,NALu Video
+stvi,Stereo view array,Multiview Reln. Attribute,NALu Video

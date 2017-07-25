@@ -1,0 +1,3 @@
+code,description,type,specification
+url$20,URL data location,Data reference,ISO
+urn$20,URN data location,Data reference,ISO
