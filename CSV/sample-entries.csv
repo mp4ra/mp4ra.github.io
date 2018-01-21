@@ -64,8 +64,8 @@ rm2t,MPEG-2 Transport Reception,Hint,ISO,
 rrtp,RTP reception,Hint,ISO,
 rsrp,SRTP Reception,Hint,ISO,
 rtmd,Real Time Metadata Sample Entry(XAVC Format),Metadata,Sony,
-rv60,RealVideo Codec 11,Video,RealHD,0xB0
 rtp$20,RTP Hints,Hint,ISO,n/a
+rv60,RealVideo Codec 11,Video,RealHD,0xB0
 s263,ITU H.263 video (3GPP format),Video,3GPP,
 samr,Narrowband AMR voice,Audio,3GPP,
 sawb,Wideband AMR voice,Audio,3GPP,
