@@ -44,9 +44,16 @@ function loadCSV(url, callback) {
 		if (this.status == 200 || this.status == 0) {
 			var o = Papa.parse(this.responseText, { header: true });
 			callback(o.data);
+			reloadHash();
 		}
 	}
 	xhr.send();
+}
+
+function reloadHash() {
+	var loc = location.hash;
+	location.hash = "";
+	location.hash = loc;
 }
 
 function buildTable(array, specs, div, handlers, linkField) {	
