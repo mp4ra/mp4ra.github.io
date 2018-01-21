@@ -1,7 +1,7 @@
 code,description,handler,specification,ObjectType
 2dcc,2D Cartesian coordinates,Metadata,Metrics,
 3gvo,3GPP Video Orientation,Metadata,3GPP,
-a3ds,Auro-Cx 3D audio,Audio,Auro,
+a3ds,Auro-Cx 3D audio,Audio,Auro,0xAF
 ac-3,AC-3 audio,Audio,ETSI AC-3,0xA5
 ac-4,AC-4 audio,Audio,ETSI AC-4,0xAE
 alac,Apple lossless audio codec,Audio,Apple,
@@ -64,8 +64,8 @@ rm2t,MPEG-2 Transport Reception,Hint,ISO,
 rrtp,RTP reception,Hint,ISO,
 rsrp,SRTP Reception,Hint,ISO,
 rtmd,Real Time Metadata Sample Entry(XAVC Format),Metadata,Sony,
-rv60,RealVideo Codec 11,Video,RealHD,n/a
 rtp$20,RTP Hints,Hint,ISO,n/a
+rv60,RealVideo Codec 11,Video,RealHD,0xB0
 s263,ITU H.263 video (3GPP format),Video,3GPP,
 samr,Narrowband AMR voice,Audio,3GPP,
 sawb,Wideband AMR voice,Audio,3GPP,
@@ -89,5 +89,5 @@ unid,Dynamic Range Control (DRC) data,Metadata,DRC,
 urim,Binary timed metadata identified by URI,Metadata,ISO,
 vc-1,SMPTE VC-1,Video,SMPTE,0xA3
 vp08,VP8 video,Video,VPxx,
-vp09,VP9 video,Video,VPxx,
+vp09,VP9 video,Video,VPxx,0xB1
 wvtt,WebVTT data,Text,ISO-Text,
