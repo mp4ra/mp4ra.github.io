@@ -1,5 +1,4 @@
-function loadScript(url)
-{
+const loadScript = url => {
     var head = document.getElementsByTagName('head')[0];
     var script = document.createElement('script');
     script.type = 'text/javascript';
@@ -7,7 +6,7 @@ function loadScript(url)
     head.appendChild(script);
 }
 
-function loadCSS(url) {
+export const loadCSS = url => {
     var head = document.getElementsByTagName('head')[0];
 	var newSS=document.createElement('link');
 	newSS.rel='stylesheet';
@@ -15,29 +14,13 @@ function loadCSS(url) {
 	head.appendChild(newSS);
 }
 
-function loadLibs() {
+const loadLibs = () => {
 	loadScript("lib/papaparse.min.js");
 }
 
 loadLibs();
 
-function loadJSON(url, callback) {
-	var xhr = new XMLHttpRequest;
-	xhr.open('GET', url);
-	xhr.onload = function() {
-		if (this.status == 200 || this.status == 0) {
-			var o = JSON.parse(this.responseText);
-			callback(o);
-			/* Used to convert JSON to CSV */
-			//console.log(url);
-			//var csv = Papa.unparse(o);
-			//console.log(csv);
-		}
-	}
-	xhr.send();
-}
-
-function loadCSV(url, callback) {
+export const loadCSV = (url, callback) => {
 	var xhr = new XMLHttpRequest;
 	xhr.open('GET', url);
 	xhr.onload = function() {
@@ -50,13 +33,13 @@ function loadCSV(url, callback) {
 	xhr.send();
 }
 
-function reloadHash() {
+const reloadHash = () => {
 	var loc = location.hash;
 	location.hash = "";
 	location.hash = loc;
 }
 
-function buildTable(array, specs, div, handlers, linkField) {	
+export const buildTable = (array, specs, div, handlers, linkField) => {	
 	var i;
 	var s = "<table class='codes' border=4 cellpadding=0 cellspacing=2>";
 	s += "<thead>";
@@ -110,7 +93,7 @@ function buildTable(array, specs, div, handlers, linkField) {
 	div.innerHTML = s;
 }
 
-function buildSpecsTable(array, div) {	
+export const buildSpecsTable = (array, div) => {	
 	var i;
 	var s = "<table border=4 cellpadding=0 cellspacing=2>";
 	s += "<thead>";

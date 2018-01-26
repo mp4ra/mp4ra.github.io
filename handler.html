@@ -7,33 +7,33 @@
 		<meta name="generator" content="Adobe GoLive 6">
 		<title>The 'MP4' Registration Authority</title>
     <link rel="stylesheet" type="text/css" href="style.css">
-    <script type="text/javascript" src="helper.js"></script> 
+    <script type="text/javascript" src="dist/bundle.js"></script>
     <script type="text/javascript">
       window.onload = function() {
-        loadCSV('CSV/specifications.csv', function (specs) {
-          loadCSV('CSV/handlers.csv', function (boxes) {
-            buildTable(boxes, specs, document.getElementById('handlersTable'), null, "code");
+        helper.loadCSV('CSV/specifications.csv', function (specs) {
+          helper.loadCSV('CSV/handlers.csv', function (boxes) {
+            helper.buildTable(boxes, specs, document.getElementById('handlersTable'), null, "code");
           });
-          loadCSV('CSV/data-references.csv', function (boxes) {
-            buildTable(boxes, specs, document.getElementById('dataReferencesTable'));
+          helper.loadCSV('CSV/data-references.csv', function (boxes) {
+            helper.buildTable(boxes, specs, document.getElementById('dataReferencesTable'));
           });
-          loadCSV('CSV/item-references.csv', function (boxes) {
-            buildTable(boxes, specs, document.getElementById('itemReferencesTable'));
+          helper.loadCSV('CSV/item-references.csv', function (boxes) {
+            helper.buildTable(boxes, specs, document.getElementById('itemReferencesTable'));
           });
-          loadCSV('CSV/multiview-attributes.csv', function (boxes) {
-            buildTable(boxes, specs, document.getElementById('multiviewAttributesTable'));
+          helper.loadCSV('CSV/multiview-attributes.csv', function (boxes) {
+            helper.buildTable(boxes, specs, document.getElementById('multiviewAttributesTable'));
           });
-          loadCSV('CSV/schemes.csv', function (boxes) {
-            buildTable(boxes, specs, document.getElementById('schemesTable'));
+          helper.loadCSV('CSV/schemes.csv', function (boxes) {
+            helper.buildTable(boxes, specs, document.getElementById('schemesTable'));
           });
-          loadCSV('CSV/sample-groups.csv', function (boxes) {
-            buildTable(boxes, specs, document.getElementById('sampleGroupsTable'));
+          helper.loadCSV('CSV/sample-groups.csv', function (boxes) {
+            helper.buildTable(boxes, specs, document.getElementById('sampleGroupsTable'));
           });
-          loadCSV('CSV/track-selection.csv', function (boxes) {
-            buildTable(boxes, specs, document.getElementById('trackSelectionTypesTable'));
+          helper.loadCSV('CSV/track-selection.csv', function (boxes) {
+            helper.buildTable(boxes, specs, document.getElementById('trackSelectionTypesTable'));
           });
-          loadCSV('CSV/color-types.csv', function (boxes) {
-            buildTable(boxes, specs, document.getElementById('colorsTable'));
+          helper.loadCSV('CSV/color-types.csv', function (boxes) {
+            helper.buildTable(boxes, specs, document.getElementById('colorsTable'));
           });
         });
       }
