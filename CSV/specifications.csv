@@ -29,7 +29,7 @@ MLP,Dolby MLP,"MLP (<a href='http://www.dolby.com/professional/technology/licens
 DRC,DRC,"<a href='http://www.iso.ch/' target='_blank'>ISO</a>/IEC 23003-4, Dynamic Range Control"
 etsi-ac3,ETSI AC-3,"<a href='http://www.etsi.org/'>ETSI</a> TS 102 366 v1.2.1 - Digital Audio Compression (AC-3, Enhanced AC-3) Standard, Annex F"
 etsi-ac4,ETSI AC-4,"<a href='http://www.etsi.org/'>ETSI</a> TS 103 190 v1.1.1 - Digital Audio Compression (AC-4) Standard, Annex E and TS 103 190-2 v1.1.1 - Digital Audio Compression (AC-4) Standard Part 2: Immersive and personalized audio, Annex E"
-etsi-eac3+,ETSI EAC-3+JOC,"<a href='http://www.etsi.org/'>ETSI</a> TS 103 420 v1.1.1 - Backwards-compatible object audio carriage using Enhanced AC-3"
+etsi-eac3+,ETSI E-AC-3+JOC,"<a href='http://www.etsi.org/'>ETSI</a> TS 103 420 v1.1.1 - Backwards-compatible object audio carriage using Enhanced AC-3"
 hum-mon,Hipix,Rich Picture Format from <a href='http://www.hipixpro.com/pdf/What_is_hipix_OCT_2010.pdf'>Human Monitoring</a>
 IEC62592,IEC 62592,"<a href='https://webstore.iec.ch/publication/7232'>IEC</a> TS 62592, Encoding guidelines for portable multimedia CE products using MP4 file format with AVC video codec and AAC audio codec"
 ISMAc,ISMAc,<a href='http://www.isma.tv/' target='_blank'>ISMA</a> 1.0 Encryption and Authentication
