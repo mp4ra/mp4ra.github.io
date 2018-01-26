@@ -23,6 +23,7 @@ dtsx,DTS:X,Audio,DTS,
 dvav,AVC-based “Dolby Vision”,Video,Dolby Vision,
 dvhe,HEVC-based “Dolby Vision”,Video,Dolby Vision,
 ec-3,Enhanced AC-3 audio,Audio,ETSI AC-3,0xA6
+ec+3,Enhanced AC-3 audio w JOC,Audio,ETSI EAC-3+JOC,
 enca,Encrypted/Protected audio,Audio,ISO,
 encf,Encrypted/Protected font,Font,ISO,
 encm,Encrypted/Protected metadata,Metadata,ISO,
