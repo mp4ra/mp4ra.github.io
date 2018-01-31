@@ -39,17 +39,17 @@ A5,AC-3 Audio,ETSI AC-3
 A6,Enhanced AC-3 audio,ETSI AC-3
 A7,DRA Audio,DRA
 A8,ITU G.719 Audio,ITU G.719
-A9,DTS Coherent Acoustics audio,DTS-HD
-AA,DTS-HD High Resolution Audio,DTS-HD
-AB,DTS-HD Master Audio,DTS-HD
-AC,"DTS-HD LBR",DTS-HD
+A9,DTS Core Substream,DTS-HD
+AA,DTS Core Substream + DTS Extension Substream,DTS-HD
+AB,DTS Extension Substream containing only XLL,DTS-HD
+AC,DTS Extension Substream Containing only LBR,DTS-HD
 AD,Opus audio,Opus
 AE,AC-4 Audio,ETSI AC-4
 AF,Auro-Cx 3D audio,Auro
 B0,RealVideo Codec 11,RealHD
 B1,VP9 Video,VPxx
-B2,DTS:X Audio,DTS-UHD
-B3,DTS:X Object Based Audio,DTS-UHD
+B2,DTS-UHD profile 2,DTS-UHD
+B3,DTS-UHD profile 3 or higher,DTS-UHD
 C0 - E0,user private,
 E1,13K Voice,3GPP2
 E2 - FE,user private,
