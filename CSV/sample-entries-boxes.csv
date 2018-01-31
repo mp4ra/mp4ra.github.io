@@ -5,6 +5,8 @@ chnl,Channel layout,Audio,ISO
 clap,Clean aperture,Video,ISO
 colr,Color information (see 1 below),Video,ISO
 dmix,Downmix instructions,Audio,ISO
+dvcC,Dolby Vision Configuration,Video,Dolby Vision
+dvvC,Dolby Vision Extended Configuration,Video,Dolby Vision
 ecam,Extrinsic camera parameters,Video,NALu Video
 esds,Elementary stream descriptor,General,MP4v2
 hvcC,HEVC Configuration,Video,NALu Video
