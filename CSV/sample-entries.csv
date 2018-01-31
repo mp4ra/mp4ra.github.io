@@ -20,7 +20,7 @@ dtse,DTS Extension Substream containing only LBR,Audio,DTS-HD,0xAC
 dtsh,DTS Core Substream + DTS Extension Substream,Audio,DTS-HD,0xAA
 dtsl,DTS Extension Substream containing only XLL,Audio,DTS-HD,0xAB
 dtsx,DTS-UHD profile 2,Audio,DTS-UHD,0xB2
-dtsy,DTS-UHD profile 3 or later,Audio,DTS-UHD,0xB3
+dtsy,DTS-UHD profile 3 or higher,Audio,DTS-UHD,0xB3
 dvav,AVC-based “Dolby Vision”,Video,Dolby Vision,
 dvhe,HEVC-based “Dolby Vision”,Video,Dolby Vision,
 ec-3,Enhanced AC-3 audio,Audio,ETSI AC-3,0xA6
