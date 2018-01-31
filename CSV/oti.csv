@@ -42,7 +42,7 @@ A8,ITU G.719 Audio,ITU G.719
 A9,DTS Core Substream,DTS-HD
 AA,DTS Core Substream + DTS Extension Substream,DTS-HD
 AB,DTS Extension Substream containing only XLL,DTS-HD
-AC,DTS Extension Substream Containing only LBR,DTS-HD
+AC,DTS Extension Substream containing only LBR,DTS-HD
 AD,Opus audio,Opus
 AE,AC-4 Audio,ETSI AC-4
 AF,Auro-Cx 3D audio,Auro
