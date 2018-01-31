@@ -15,10 +15,10 @@ dra1,DRA Audio,Audio,DRA,0xA7
 drac,Dirac Video Coder,Video,Dirac,0xA4
 dts+,Enhancement layer for DTS layered audio,Audio,DTS,""
 dts-,Dependent base layer for DTS layered audio,Audio,DTS,""
-dtsc,DTS Core Substream,Audio,DTS-HD,0xA9
-dtse,DTS Extension Substream containing only LBR,Audio,DTS-HD,0xAC
-dtsh,DTS Core Substream + DTS Extension Substream,Audio,DTS-HD,0xAA
-dtsl,DTS Extension Substream containing only XLL,Audio,DTS-HD,0xAB
+dtsc,Core Substream,Audio,DTS-HD,0xA9
+dtse,Extension Substream containing only LBR,Audio,DTS-HD,0xAC
+dtsh,Core Substream + Extension Substream,Audio,DTS-HD,0xAA
+dtsl,Extension Substream containing only XLL,Audio,DTS-HD,0xAB
 dtsx,DTS-UHD profile 2,Audio,DTS-UHD,0xB2
 dtsy,DTS-UHD profile 3 or higher,Audio,DTS-UHD,0xB3
 dvav,AVC-based “Dolby Vision”,Video,Dolby Vision,
