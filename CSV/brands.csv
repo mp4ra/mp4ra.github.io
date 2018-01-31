@@ -37,9 +37,9 @@ dash,ISO base media file format file specifically designed for DASH including mo
 dby1,"MP4 files with Dolby content (e.g. Dolby AC-4, Dolby Digital Plus, Dolby TrueHD (Dolby MLP))",Dolby
 dmb1,DMB AF supporting all the components defined in the specification,DMB-MAF
 dsms,Media Segment conforming to the DASH Self-Initializing Media Segment format type for ISO base media file format,DASH
-dts1, "MP4 track file with audio codecs dtsc or dtsh or dtse (DTS-HD and DTS:X p1)",DTS-HD
-dts2, "MP4 track file with audio codec dtsx (DTS:X Audio p2)",DTS-UHD
-dts3, "MP4 track file with audio codec dtsy (DTS:X Object Based Audio p3)",DTS-UHD
+dts1, "MP4 track file with audio codecs dtsc or dtsh or dtse",DTS-HD
+dts2, "MP4 track file with audio codec dtsx",DTS-UHD
+dts3, "MP4 track file with audio codec dtsy",DTS-UHD
 dv1a,"DMB AF video with AVC video, ER-BSAC audio, BIFS, JPG/PNG/MNG images, TS",DMB-MAF
 dv1b,"DMB AF, extending dv1a, with 3GPP timed text, DID, TVA, REL, IPMP",DMB-MAF
 dv2a,"DMB AF video with AVC video, HE-AACv2 audio, BIFS, JPG/PNG/MNG images, TS",DMB-MAF
