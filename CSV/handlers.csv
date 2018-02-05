@@ -1,6 +1,7 @@
 code,description,type,specification
 3gsd,3GPP Scene Description,handler,3GPP
 auxv,Auxiliary video,handler,ISO
+avmd,Avid Metadata,handler,Avid
 clcp,Closed Caption,handler,Apple
 cpad,CPCM Auxiliary Metadata,handler,DVB
 crsm,ClockReferenceStream,handler,MPEG-4

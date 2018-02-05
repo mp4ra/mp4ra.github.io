@@ -79,6 +79,7 @@ mp41,MP4 version 1,MP4v2
 mp42,MP4 version 2,MP4v2
 mp71,MPEG-7 file-level metadata,ISO
 MPPI,Photo Player Multimedia Application Format,ISO-MAF
+mpuf,Compliance with the MMT Processing Unit format,MMT
 msdh,Media Segment conforming to the general format type for ISO base media file format.,DASH
 msix,Media Segment conforming to the Indexed Media Segment format type for ISO base media file format.,DASH
 MSNV,Portable multimedia CE products using MP4 file format with AVC video codec and AAC audio codec,IEC 62592

@@ -61,6 +61,7 @@ jp2i,intellectual property information,JPEG2000
 kmat,Reserved,ISO
 leva,Leval assignment,ISO
 load,Reserved,ISO
+loop,Looping behavior,WhatsApp
 lrcu,OMA DRM Lyrics URI,OMA DRM 2.1
 m7hd,reserved for MPEG7Stream header,MP4v1
 matt,Reserved,ISO

@@ -46,6 +46,8 @@ AC,"DTS Express low bit rate audio, also known as DTS LBR",DTSE
 AD,Opus audio,Opus
 AE,AC-4 Audio,ETSI AC-4
 AF,Auro-Cx 3D audio,Auro
+B0,RealVideo Codec 11,RealHD
+B1,VP9 Video,VPxx
 C0 - E0,user private,
 E1,13K Voice,3GPP2
 E2 - FE,user private,
