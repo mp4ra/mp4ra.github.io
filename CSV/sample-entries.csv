@@ -20,12 +20,12 @@ dtse,"DTS Express low bit rate audio, also known as DTS LBR",Audio,DTS,0xAC
 dtsh,DTS-HD High Resolution Audio,Audio,DTS,0xAA
 dtsl,DTS-HD Master Audio,Audio,DTS,0xAB
 dtsx,DTS:X,Audio,DTS,
-dva1,AVC-based Dolby Vision derived from avc1,Video,Dolby Vision,
-dvav,AVC-based Dolby Vision derived from avc3,Video,Dolby Vision,
-dvh1,HEVC-based Dolby Vision derived from hvc1,Video,Dolby Vision,
-dvhe,HEVC-based Dolby Vision derived from hev1,Video,Dolby Vision,
-ec-3,Enhanced AC-3 audio,Audio,ETSI AC-3,0xA6
-ec+3,Enhanced AC-3 audio with JOC,Audio,ETSI E-AC-3+JOC,
+dva1,AVC-based Dolby Vision derived from avc1,Video,dolbyvision,
+dvav,AVC-based Dolby Vision derived from avc3,Video,dolbyvision,
+dvh1,HEVC-based Dolby Vision derived from hvc1,Video,dolbyvision,
+dvhe,HEVC-based Dolby Vision derived from hev1,Video,dolbyvision,
+ec-3,Enhanced AC-3 audio,Audio,etsi-ac3,0xA6
+ec+3,Enhanced AC-3 audio with JOC,Audio,etsi-eac3+,
 enca,Encrypted/Protected audio,Audio,ISO,
 encf,Encrypted/Protected font,Font,ISO,
 encm,Encrypted/Protected metadata,Metadata,ISO,
