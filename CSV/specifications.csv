@@ -25,7 +25,7 @@ DTSX,DTS:X,"3rd generation of DTS audio compression technologies, also referred 
 DVBa121,DVB,DVB <a href='http://www.dvb.org/technology/standards/a121.tm3904r3.ff0020r12.DVB_File_Format_Specification.pdf'>Blue Book A121</a>
 voodoo,Digital Voodoo,<a href='http://www.digitalvoodoo.net/'>Digital Voodoo</a>
 dirac,Dirac,<a href='http://www.diracvideo.org/download/mapping-specs/dirac-mapping-isom-latest.pdf'>Encapsulation</a> of <a href='http://www.bbc.co.uk/rd/projects/dirac/index.shtml'>Dirac</a> in ISO/IEC 14496-12 derivatives
-MLP,Dolby MLP,"MLP (<a href='http://www.dolby.com/professional/technology/licensing/apply-license-consumer.html'>Dolby</a> TrueHD) streams within the ISO Base Media File Format, version 1.0, September 2009"
+MLP,Dolby MLP,"MLP (<a href='https://www.dolby.com/us/en/professional/licensing/apply-license-consumer.aspx'>Dolby</a> TrueHD) streams within the ISO Base Media File Format, version 1.0, September 2009"
 DRC,DRC,"<a href='http://www.iso.ch/' target='_blank'>ISO</a>/IEC 23003-4, Dynamic Range Control"
 etsi-ac3,ETSI AC-3,"<a href='http://www.etsi.org/'>ETSI</a> TS 102 366 v1.2.1 - Digital Audio Compression (AC-3, Enhanced AC-3) Standard, Annex F"
 etsi-ac4,ETSI AC-4,"<a href='http://www.etsi.org/'>ETSI</a> TS 103 190 v1.1.1 - Digital Audio Compression (AC-4) Standard, Annex E and TS 103 190-2 v1.1.1 - Digital Audio Compression (AC-4) Standard Part 2: Immersive and personalized audio, Annex E"
