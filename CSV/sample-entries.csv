@@ -1,5 +1,7 @@
 code,description,handler,specification,ObjectType
 2dcc,2D Cartesian coordinates,Metadata,Metrics,
+3glo,3GPP Location,Metadata,3GPP,
+3gor,3GPP Orientation,Metadata,3GPP,
 3gvo,3GPP Video Orientation,Metadata,3GPP,
 a3ds,Auro-Cx 3D audio,Audio,Auro,0xAF
 ac-3,AC-3 audio,Audio,ETSI AC-3,0xA5
@@ -71,6 +73,7 @@ samr,Narrowband AMR voice,Audio,3GPP,
 sawb,Wideband AMR voice,Audio,3GPP,
 sawp,Extended AMR-WB (AMR-WB+),Audio,3GPP,
 sevc,EVRC Voice,Audio,3GPP2,0xA0
+sevs,Enhanced Voice Services (EVS),Audio,3GPP,
 sm2t,MPEG-2 Transport Server,Hint,ISO,
 sqcp,13K Voice,Audio,3GPP2,0xE1
 srtp,SRTP Hints,Hint,ISO,n/a
