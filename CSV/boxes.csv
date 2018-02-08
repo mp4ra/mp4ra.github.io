@@ -25,6 +25,7 @@ dstg,DVB Sample to Group Box,DVB
 edts,edit list container,ISO
 elst,an edit list,ISO
 emsg,event message,DASH
+evti,Event information,ATSC 3.0
 fdel,File delivery information (item info extension),ISO
 feci,FEC Informatiom,ISO
 fecr,FEC Reservoir,ISO
