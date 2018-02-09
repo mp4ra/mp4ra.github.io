@@ -1,5 +1,7 @@
 code,description,handler,specification,ObjectType
 2dcc,2D Cartesian coordinates,Metadata,Metrics,
+3glo,3GPP Location,Metadata,3GPP,
+3gor,3GPP Orientation,Metadata,3GPP,
 3gvo,3GPP Video Orientation,Metadata,3GPP,
 a3ds,Auro-Cx 3D audio,Audio,Auro,0xAF
 ac-3,AC-3 audio,Audio,ETSI AC-3,0xA5
@@ -15,14 +17,18 @@ dra1,DRA Audio,Audio,DRA,0xA7
 drac,Dirac Video Coder,Video,Dirac,0xA4
 dts+,Enhancement layer for DTS layered audio,Audio,DTS,
 dts-,Dependent base layer for DTS layered audio,Audio,DTS,
-dtsc,DTS Coherent Acoustics audio,Audio,DTS,0xA9
-dtse,"DTS Express low bit rate audio, also known as DTS LBR",Audio,DTS,0xAC
-dtsh,DTS-HD High Resolution Audio,Audio,DTS,0xAA
-dtsl,DTS-HD Master Audio,Audio,DTS,0xAB
-dtsx,DTS:X,Audio,DTS,
-dvav,AVC-based “Dolby Vision”,Video,Dolby Vision,
-dvhe,HEVC-based “Dolby Vision”,Video,Dolby Vision,
+dtsc,Core Substream,Audio,DTS-HD,0xA9
+dtse,Extension Substream containing only LBR,Audio,DTS-HD,0xAC
+dtsh,Core Substream + Extension Substream,Audio,DTS-HD,0xAA
+dtsl,Extension Substream containing only XLL,Audio,DTS-HD,0xAB
+dtsx,DTS-UHD profile 2,Audio,DTS-UHD,0xB2
+dtsy,DTS-UHD profile 3 or higher,Audio,DTS-UHD,0xB3
+dva1,AVC-based Dolby Vision derived from avc1,Video,Dolby Vision,
+dvav,AVC-based Dolby Vision derived from avc3,Video,Dolby Vision,
+dvh1,HEVC-based Dolby Vision derived from hvc1,Video,Dolby Vision,
+dvhe,HEVC-based Dolby Vision derived from hev1,Video,Dolby Vision,
 ec-3,Enhanced AC-3 audio,Audio,ETSI AC-3,0xA6
+ec+3,Enhanced AC-3 audio with JOC,Audio,ETSI E-AC-3+JOC,
 enca,Encrypted/Protected audio,Audio,ISO,
 encf,Encrypted/Protected font,Font,ISO,
 encm,Encrypted/Protected metadata,Metadata,ISO,
@@ -71,6 +77,7 @@ samr,Narrowband AMR voice,Audio,3GPP,
 sawb,Wideband AMR voice,Audio,3GPP,
 sawp,Extended AMR-WB (AMR-WB+),Audio,3GPP,
 sevc,EVRC Voice,Audio,3GPP2,0xA0
+sevs,Enhanced Voice Services (EVS),Audio,3GPP,
 sm2t,MPEG-2 Transport Server,Hint,ISO,
 sqcp,13K Voice,Audio,3GPP2,0xE1
 srtp,SRTP Hints,Hint,ISO,n/a

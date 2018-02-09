@@ -1,6 +1,7 @@
 code,description,specification
 3g2a,3GPP2,3GPP2
 3ge6,3GPP Release 6 extended-presentation Profile,3GPP
+3ge7,3GPP Release 7 extended-presentation Profile,3GPP
 3ge9,3GPP Release 9 Extended Presentation Profile,3GPP
 3gf9,3GPP Release 9 File-delivery Server Profile,3GPP
 3gg6,3GPP Release 6 General Profile,3GPP
@@ -17,6 +18,7 @@ code,description,specification
 3gr9,3GPP Release 9 Progressive DownloadProfile,3GPP
 3gs6,3GPP Release 6 streaming-server Profile,3GPP
 3gs9,3GPP Release 9 Streaming ServerProfile,3GPP
+3gt8,3GPP Release 8 Media Stream Recording Profile,3GPP
 3gt9,3GPP Release 9 Media Stream Recording Profile,3GPP
 ARRI,ARRI Digital Camera,ARRI
 avc1,Advanced Video Coding extensions,ISO
@@ -37,6 +39,9 @@ dash,ISO base media file format file specifically designed for DASH including mo
 dby1,"MP4 files with Dolby content (e.g. Dolby AC-4, Dolby Digital Plus, Dolby TrueHD (Dolby MLP))",Dolby
 dmb1,DMB AF supporting all the components defined in the specification,DMB-MAF
 dsms,Media Segment conforming to the DASH Self-Initializing Media Segment format type for ISO base media file format,DASH
+dts1, MP4 track file with audio codecs dtsc dtsh or dtse,DTS-HD
+dts2, MP4 track file with audio codec dtsx,DTS-UHD
+dts3, MP4 track file with audio codec dtsy,DTS-UHD
 dv1a,"DMB AF video with AVC video, ER-BSAC audio, BIFS, JPG/PNG/MNG images, TS",DMB-MAF
 dv1b,"DMB AF, extending dv1a, with 3GPP timed text, DID, TVA, REL, IPMP",DMB-MAF
 dv2a,"DMB AF video with AVC video, HE-AACv2 audio, BIFS, JPG/PNG/MNG images, TS",DMB-MAF

@@ -3,8 +3,8 @@ linkname,specification,description
 3GPP2,3GPP2,"<a href='http://www.3gpp2.org/' target='_blank'>3GPP2</a> C.S0050-A, File Formats for Multimedia Services"
 ARRI,ARRI,<a href='http://www.arri.com/'>The ARRI Group</a>
 Avid,Avid,<a href='http://www.avid.com/'>Avid</a>
-AVC,NALu Video,"<a href='http://www.iso.ch/' target='_blank'>ISO</a>/IEC 14496-15, Carriage of NAL unit structured video in the ISO Base Media File Format"
 apple,Apple,<a href='http://www.apple.com/'>Apple</a> Inc.
+atsc30,ATSC 3.0,<a href='https://www.atsc.org/standards/atsc-3-0-standards/'>ATSC 3.0</a> A337 Application Signaling
 Auro,Auro,<a href='http://www.auro-3d.com/'>Auro Technologies</a>
 bitjazz,BitJazz,<a href='http://www.bitjazz.com/'>BitJazz</a>
 blinkbox,Blinkbox,<a href='http://www.blinkbox.com/'>Blinkbox</a>
@@ -18,17 +18,19 @@ ISO-CENC,ISO Common Encryption,<a href='http://www.iso.ch/' target='_blank'>ISO<
 DECE10,DECE,Digital Entertainment Content Ecosystem (<a href='http://www.uvvu.com/'>DECE</a>) <a href='http://www.uvvu.com/uv-for-business.php'>Common File Format &amp; Media Formats Specification</a>
 DMB-MAF,DMB-MAF,"<a href='http://www.iso.ch/' target='_blank'>ISO</a>/IEC 23000-9 Information technology - Multimedia application format (MPEG-A) - Part 9: Digital Multimedia Broadcasting application format "
 dolby,Dolby,<a href='http://www.dolby.com/'>Dolby</a>
-dolbyvision,Dolby Vision,<a href='http://www.dolby.com/professional/technology/licensing/apply-license-consumer.html'>Dolby Vision</a>
+dolbyvision,Dolby Vision,<a href='https://www.dolby.com/us/en/professional/licensing/apply-license-consumer.aspx'>Dolby Vision</a>
 dra-spec,DRA,"Specification for multichannel digital audio coding technology, SJ/T 11368-2006 (Electronics Industrial Standardization of the People's Republic of China)"
-DTS,DTS,"<a href='http://www.dts.com/Licensees/Apply_For_A_License.aspx'>DTS</a> Document #9302J81100, Implementation of DTS Audio in Media Files Based on ISO/IEC 14496, <a href='http://www.dts.com/Licensees/Apply_For_A_License.aspx'>DTS, Inc.</a> 2013"
-DTSX,DTS:X,"3rd generation of DTS audio compression technologies, also referred to as DTS-UHD, marketed as “DTS:X”. See <a href='http://www.etsi.org/'>ETSI</a> TS 102 114."
+dts,DTS,<a href='http://dts.com/get-licensed'>DTS</a>
+dtshd,DTS-HD,<a href='http://www.etsi.org/'>ETSI</a> TS 102 114 Coherent Acoustics; Core and Extensions with Additional Profiles (Annex E)
+dtsuhd,DTS-UHD,"<a href='http://www.etsi.org/'>ETSI</a> TS 103 491 DTS-UHD Audio Format; Delivery of Channels, Objects and Ambisonic Sound Fields"
 DVBa121,DVB,DVB <a href='http://www.dvb.org/technology/standards/a121.tm3904r3.ff0020r12.DVB_File_Format_Specification.pdf'>Blue Book A121</a>
 voodoo,Digital Voodoo,<a href='http://www.digitalvoodoo.net/'>Digital Voodoo</a>
 dirac,Dirac,<a href='http://www.diracvideo.org/download/mapping-specs/dirac-mapping-isom-latest.pdf'>Encapsulation</a> of <a href='http://www.bbc.co.uk/rd/projects/dirac/index.shtml'>Dirac</a> in ISO/IEC 14496-12 derivatives
-MLP,Dolby MLP,"MLP (<a href='http://www.dolby.com/professional/technology/licensing/apply-license-consumer.html'>Dolby</a> TrueHD) streams within the ISO Base Media File Format, version 1.0, September 2009"
+MLP,Dolby MLP,"MLP (<a href='https://www.dolby.com/us/en/professional/licensing/apply-license-consumer.aspx'>Dolby</a> TrueHD) streams within the ISO Base Media File Format, version 1.0, September 2009"
 DRC,DRC,"<a href='http://www.iso.ch/' target='_blank'>ISO</a>/IEC 23003-4, Dynamic Range Control"
 etsi-ac3,ETSI AC-3,"<a href='http://www.etsi.org/'>ETSI</a> TS 102 366 v1.2.1 - Digital Audio Compression (AC-3, Enhanced AC-3) Standard, Annex F"
 etsi-ac4,ETSI AC-4,"<a href='http://www.etsi.org/'>ETSI</a> TS 103 190 v1.1.1 - Digital Audio Compression (AC-4) Standard, Annex E and TS 103 190-2 v1.1.1 - Digital Audio Compression (AC-4) Standard Part 2: Immersive and personalized audio, Annex E"
+etsi-eac3+,ETSI E-AC-3+JOC,"<a href='http://www.etsi.org/'>ETSI</a> TS 103 420 v1.1.1 - Backwards-compatible object audio carriage using Enhanced AC-3"
 hum-mon,Hipix,Rich Picture Format from <a href='http://www.hipixpro.com/pdf/What_is_hipix_OCT_2010.pdf'>Human Monitoring</a>
 IEC62592,IEC 62592,"<a href='https://webstore.iec.ch/publication/7232'>IEC</a> TS 62592, Encoding guidelines for portable multimedia CE products using MP4 file format with AVC video codec and AAC audio codec"
 ISMAc,ISMAc,<a href='http://www.isma.tv/' target='_blank'>ISMA</a> 1.0 Encryption and Authentication
@@ -36,6 +38,7 @@ ISMAc2,ISMACryp2,<a href='http://www.isma.tv/' target='_blank'>ISMA</a> 2.0 Encr
 ISO,ISO,"<a href='http://www.iso.ch/' target='_blank'>ISO</a>/IEC 14496-12:2004 &amp; 15444-12:2004, ISO base media file format. Available as a <a href='http://isotc.iso.org/livelink/livelink/fetch/2000/2489/Ittf_Home/PubliclyAvailableStandards.htm'>publicly available standard</a> from ISO."
 ISOtext,ISO-Text,"<a href='http://www.iso.ch/' target='_blank'>ISO</a>/IEC 14496-30, Timed text and other visual overlays in ISO base media file format."
 ITUG719,ITU G.719,"<a href='http://www.itu.int/ITU-T/'>ITU-T</a> Recommendation G.719 (2008) Amendment 1 (2008): 'New Annex A on storage format definitions for G.719, and new Annex B on a reference floating-point implementation for G.719'"
+itunes,iTunes,General documentation can be found on Apple's <a href='http://developer.apple.com/quicktime/'>developer</a> site
 JPEG2000,JPEG2000,"<a href='http://www.iso.ch/' target='_blank'>ISO</a>/IEC 15444-1, The JPEG 2000 Image Coding System: Core coding system"
 JPX,JPX,"<a href='http://www.iso.ch/' target='_blank'>ISO</a>/IEC 15444-2, The JPEG 2000 Image Coding System: Extensions"
 JPXR,JPXR,"<a href='http://www.iso.ch/' target='_blank'>ISO</a>/IEC 29199-2, JPEG XR image coding system: Image coding specification"
@@ -52,6 +55,7 @@ MPEGHAudio,MPEG-H,"<a href='http://www.iso.ch/' target='_blank'>ISO</a>/IEC 2300
 MMT,MMT,<a href='http://www.iso.ch/' target='_blank'>ISO</a>/IEC 23008-1 MPEG Media Transport
 matrox,Matrox,<a href='http://www.matrox.com/'>Matrox</a>
 Metrics,Metrics,<a href='http://www.iso.ch/' target='_blank'>ISO</a>/IEC 23001-10 Carriage of timed metadata metrics of media in ISO base media file format
+AVC,NALu Video,"<a href='http://www.iso.ch/' target='_blank'>ISO</a>/IEC 14496-15, Carriage of NAL unit structured video in the ISO Base Media File Format"
 nikon,Nikon,<a href='http://www.nikon.com/'>Nikon</a>
 OMADCF,OMA DRM 2.0,"OMA DRM; <a href='http://www.openmobilealliance.org/'>Open Mobile Alliance </a>Digital Rights Management, DRM Content Format 2.0 (OMA-TS-DRM_DCF-V2_0_1-20080226-A)"
 omadcf21,OMA DRM 2.1,"OMA DRM; <a href='http://www.openmobilealliance.org/'>Open Mobile Alliance </a>Digital Rights Management, DRM Content Format 2.1 (OMA-TS-DRM-DCF-V2_1-20070724-C)"
