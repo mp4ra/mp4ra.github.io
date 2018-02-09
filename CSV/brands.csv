@@ -23,10 +23,27 @@ code,description,specification
 ARRI,ARRI Digital Camera,ARRI
 avc1,Advanced Video Coding extensions,ISO
 bbxm,Blinkbox Master File: H.264 video and 16-bit little-endian LPCM audio,Blinkbox
+caaa,AAC Adaptive Audio CMAF Media profile,CMAF
+caac,AAC Core CMAF Media Profile,CMAF
 CAEP,Canon Digital Camera,Canon
 caqv,Casio Digital Camera,Casio
+ccea, CEA-608/708 supplemental data in CMAF track,CMAF
 ccff,Common container file format,DECE
 CDes,Convergent Designs,Convergent
+cfhd,AVC HD CMAF Media Profile,CMAF
+cfsd,AVC SD CMAF Media Profile,CMAF
+chd1,HEVC HDR10 CMAF Media Profile,CMAF
+chdf,AVC HDHF CMAF Media Profile,CMAF
+chhd,HEVC HHD8 CMAF Media Profile,CMAF
+chh1,HEVC HHD10 CMAF Media Profile,CMAF
+clg1,HEVC HLG10 CMAF Media Profile,CMAF
+cmfc,CMAF Track Format,CMAF
+cmff,CMAF Fragment Format,CMAF
+cmfc,CMAF Chunk Format,CMAF
+cmfc,CMAF Segment Format,CMAF
+cud1,HEVC UHD10 CMAF Media Profile,CMAF
+cud8,HEVC UHD8 CMAF Media Profile,CMAF
+cwvt,WebVTT CMAF Media Profile,CMAF
 da0a,"DMB AF audio with MPEG Layer II audio, MOT slide show, DLS, JPG/PNG/MNG images",DMB-MAF
 da0b,"DMB AF, extending da0a , with 3GPP timed text, DID, TVA, REL, IPMP",DMB-MAF
 da1a,"DMB AF audio with ER-BSAC audio, JPG/PNG/MNG images",DMB-MAF
@@ -53,6 +70,8 @@ dvt1,DVB Transport Stream,DVB
 dxo$20,DxO ONE camera,DxO
 emsg,Event message box present,DASH
 ifrm,"Apple iFrame Specification, Version 8.1 Jan 2013",Apple
+im1i, IMSC1 Image CMAF Media Profile,CMAF
+im1i, IMSC1 Text CMAF Media Profile,CMAF
 isc2,Files encrypted according to ISMACryp 2.0,ISMACryp2
 iso2,All files based on the 2004 edition of the ISO file format,ISO
 iso3,Version of the ISO file format,ISO
