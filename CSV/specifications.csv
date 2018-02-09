@@ -18,7 +18,7 @@ ISO-CENC,ISO Common Encryption,<a href='http://www.iso.ch/' target='_blank'>ISO<
 DECE10,DECE,Digital Entertainment Content Ecosystem (<a href='http://www.uvvu.com/'>DECE</a>) <a href='http://www.uvvu.com/uv-for-business.php'>Common File Format &amp; Media Formats Specification</a>
 DMB-MAF,DMB-MAF,"<a href='http://www.iso.ch/' target='_blank'>ISO</a>/IEC 23000-9 Information technology - Multimedia application format (MPEG-A) - Part 9: Digital Multimedia Broadcasting application format "
 dolby,Dolby,<a href='http://www.dolby.com/'>Dolby</a>
-dolbyvision,Dolby Vision,<a href='http://www.dolby.com/professional/technology/licensing/apply-license-consumer.html'>Dolby Vision</a>
+dolbyvision,Dolby Vision,<a href='https://www.dolby.com/us/en/professional/licensing/apply-license-consumer.aspx'>Dolby Vision</a>
 dra-spec,DRA,"Specification for multichannel digital audio coding technology, SJ/T 11368-2006 (Electronics Industrial Standardization of the People's Republic of China)"
 DTS,DTS,"<a href='http://www.dts.com/Licensees/Apply_For_A_License.aspx'>DTS</a> Document #9302J81100, Implementation of DTS Audio in Media Files Based on ISO/IEC 14496, <a href='http://www.dts.com/Licensees/Apply_For_A_License.aspx'>DTS, Inc.</a> 2013"
 DTSX,DTS:X,"3rd generation of DTS audio compression technologies, also referred to as DTS-UHD, marketed as “DTS:X”. See <a href='http://www.etsi.org/'>ETSI</a> TS 102 114."
@@ -29,6 +29,7 @@ MLP,Dolby MLP,"MLP (<a href='https://www.dolby.com/us/en/professional/licensing/
 DRC,DRC,"<a href='http://www.iso.ch/' target='_blank'>ISO</a>/IEC 23003-4, Dynamic Range Control"
 etsi-ac3,ETSI AC-3,"<a href='http://www.etsi.org/'>ETSI</a> TS 102 366 v1.2.1 - Digital Audio Compression (AC-3, Enhanced AC-3) Standard, Annex F"
 etsi-ac4,ETSI AC-4,"<a href='http://www.etsi.org/'>ETSI</a> TS 103 190 v1.1.1 - Digital Audio Compression (AC-4) Standard, Annex E and TS 103 190-2 v1.1.1 - Digital Audio Compression (AC-4) Standard Part 2: Immersive and personalized audio, Annex E"
+etsi-eac3+,ETSI E-AC-3+JOC,"<a href='http://www.etsi.org/'>ETSI</a> TS 103 420 v1.1.1 - Backwards-compatible object audio carriage using Enhanced AC-3"
 hum-mon,Hipix,Rich Picture Format from <a href='http://www.hipixpro.com/pdf/What_is_hipix_OCT_2010.pdf'>Human Monitoring</a>
 IEC62592,IEC 62592,"<a href='https://webstore.iec.ch/publication/7232'>IEC</a> TS 62592, Encoding guidelines for portable multimedia CE products using MP4 file format with AVC video codec and AAC audio codec"
 ISMAc,ISMAc,<a href='http://www.isma.tv/' target='_blank'>ISMA</a> 1.0 Encryption and Authentication
