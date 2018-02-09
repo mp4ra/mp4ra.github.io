@@ -4,6 +4,7 @@ btrt,Bit-rate information,General,ISO
 chnl,Channel layout,Audio,ISO
 clap,Clean aperture,Video,ISO
 colr,Color information (see 1 below),Video,ISO
+CoLL,Content Light Level Box,Video,VPxx
 dac3,Decoder specific info for AC-3 audio,Audio,ETSI AC-3
 dac4,Decoder specific info for AC-4 audio,Audio,ETSI AC-4
 dec3,Decoder specific info for Enhanced AC-3 audio,Audio,ETSI AC-3
@@ -24,6 +25,7 @@ pdc1,Parametric DRC coefficients,Audio,DRC
 pdi1,Parametric DRC instructions,Audio,DRC
 qlif,Layer quality assignments,Video,NALu Video
 seib,Scalability information,Video,NALu Video
+SmDm,Mastering Display Metadata Box,Video,VPxx
 svcC,SVC configuration,Video,NALu Video
 svcP,SVC priority assignments,Video,NALu Video
 svmC,SVC information configuration,Metadata,NALu Video
@@ -35,5 +37,6 @@ udi2,Unified DRC instructions,Audio,ISO
 ueqc,Equalization coefficients,Audio,DRC
 ueqi,Equalization instructions,Audio,DRC
 uriI,URI Information,Metadata,ISO
+vpcC,VP9 Codec Configuration,VPxx
 vsib,View scalability information,Video,NALu Video
 vwid,View identifier,Video,NALu Video
