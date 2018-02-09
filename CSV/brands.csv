@@ -1,6 +1,7 @@
 code,description,specification
 3g2a,3GPP2,3GPP2
 3ge6,3GPP Release 6 extended-presentation Profile,3GPP
+3ge7,3GPP Release 7 extended-presentation Profile,3GPP
 3ge9,3GPP Release 9 Extended Presentation Profile,3GPP
 3gf9,3GPP Release 9 File-delivery Server Profile,3GPP
 3gg6,3GPP Release 6 General Profile,3GPP
@@ -17,6 +18,7 @@ code,description,specification
 3gr9,3GPP Release 9 Progressive DownloadProfile,3GPP
 3gs6,3GPP Release 6 streaming-server Profile,3GPP
 3gs9,3GPP Release 9 Streaming ServerProfile,3GPP
+3gt8,3GPP Release 8 Media Stream Recording Profile,3GPP
 3gt9,3GPP Release 9 Media Stream Recording Profile,3GPP
 ARRI,ARRI Digital Camera,ARRI
 avc1,Advanced Video Coding extensions,ISO

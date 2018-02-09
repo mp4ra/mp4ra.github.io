@@ -4,7 +4,13 @@ btrt,Bit-rate information,General,ISO
 chnl,Channel layout,Audio,ISO
 clap,Clean aperture,Video,ISO
 colr,Color information (see 1 below),Video,ISO
+dac3,Decoder specific info for AC-3 audio,Audio,ETSI AC-3
+dac4,Decoder specific info for AC-4 audio,Audio,ETSI AC-4
+dec3,Decoder specific info for Enhanced AC-3 audio,Audio,ETSI AC-3
 dmix,Downmix instructions,Audio,ISO
+dmlp,Decoder specific info for MLP audio,Audio,Dolby MLP
+dvcC,Dolby Vision Configuration,Video,Dolby Vision
+dvvC,Dolby Vision Extended Configuration,Video,Dolby Vision
 ecam,Extrinsic camera parameters,Video,NALu Video
 esds,Elementary stream descriptor,General,MP4v2
 hvcC,HEVC Configuration,Video,NALu Video

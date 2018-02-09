@@ -21,6 +21,7 @@ loci,Media location information,3GPP
 ludt,Track loudness container,ISO
 manu,Manufacturer name of the camera,Apple
 modl,Model name of the camera,Apple
+orie,Orientation information,3GPP
 perf,Media performer name,3GPP
 reel,Name of the tape reel,Apple
 rtng,Media rating,3GPP
