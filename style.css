@@ -1,19 +1,11 @@
 table.codes {
 	border-collapse: collapse;
 	width: 50%;	
+	border: 2px solid black;
 }
 
 th {
 	font-weight: bold;
-}
-
-table {
-    	border-collapse: collapse;
-	border: 2px solid black;
-}
-
-th, td {
-    border: 1px solid black;
 }
 
 td.code {
