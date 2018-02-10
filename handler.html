@@ -32,6 +32,9 @@
           loadCSV('CSV/track-selection.csv', function (boxes) {
             buildTable(boxes, specs, document.getElementById('trackSelectionTypesTable'));
           });
+          loadCSV('CSV/track-groups.csv', function (boxes) {
+            buildTable(boxes, specs, document.getElementById('trackGroupTypesTable'));
+          });
           loadCSV('CSV/color-types.csv', function (boxes) {
             buildTable(boxes, specs, document.getElementById('colorsTable'));
           });
@@ -108,6 +111,11 @@
 
     <p><a name="tracksel" id="tracksel"></a><b>Track Selection Types</b></p>
     <div id="trackSelectionTypesTable">
+    </div>
+    <br>
+
+    <p><a name="trackgroup" id="trackgroup"></a><b>Track Group Types</b></p>
+    <div id="trackGroupTypesTable">
     </div>
     <br>
 
