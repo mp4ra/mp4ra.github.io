@@ -1,0 +1,31 @@
+{
+  "name": "mp4ra",
+  "version": "1.0.0",
+  "description": "",
+  "dependencies": {
+    "jquery": "^3.3.1",
+    "papaparse": "^4.3.6",
+    "requirejs": "^2.3.5",
+    "underscore": "^1.8.3",
+    "vue": "^2.5.13"
+  },
+  "devDependencies": {
+    "browserify": "^15.2.0"
+  },
+  "browser": {
+    "vue": "vue/dist/vue.common.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/edrthomas/mp4ra.git"
+  },
+  "keywords": [],
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/edrthomas/mp4ra/issues"
+  },
+  "homepage": "https://github.com/edrthomas/mp4ra#readme"
+}
