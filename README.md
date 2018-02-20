@@ -1,7 +1,8 @@
 # mp4ra
 MPEG-4 Registration Authority Web Site
 
-This site contains the master copy of the official MP4RA. Registration requests are formally sent to the email address documented on the site. These can be supported by a Pull Request here, which can reduce the possibility of error or confusion on the part of the maintainers.
+This site contains the master copy of the official MP4RA.
+Registration requests are formally sent to the email address documented on the site. These can be supported by a Pull Request here, which can reduce the possibility of error or confusion on the part of the maintainers.
 The simplest way to submit a pull request is probably as follows:
 * Fork the repository into your own area at GitHub
 * Go to that fork, and edit the GitHub.io link from mp4ra.github.io/mp4ra to change the first mp4ra to your area name
