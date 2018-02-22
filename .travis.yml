@@ -2,6 +2,12 @@ language: node_js
 node_js:
   - "iojs"
   - "7"
+
+branches:
+  only:
+  - gh-pages
+  - master
+
 script:
   - npm install
   - browserify -t brfs src/app.js -o dist/js/bundle.js
