@@ -33507,7 +33507,7 @@ var NotFound = {
 Vue.use(VueRouter);
 
 var router = new VueRouter({
-  mode: 'history',
+  mode: 'hash',
   routes: [
     { path: '/', component: Home },
     { path: '/atoms', component: Atoms}
