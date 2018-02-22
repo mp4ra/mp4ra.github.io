@@ -1,0 +1,10 @@
+language: node_js
+node_js:
+  - "iojs"
+  - "7"
+script:
+  - npm install
+  - browserify -t brfs src/app.js -o dist/js/bundle.js
+cache:
+  directories:
+    - "node_modules"
