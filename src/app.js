@@ -16,10 +16,6 @@ Vue.component('mp4ra-table', require('./components/table.js'));
 var Home = require('./pages/home.js');
 var Atoms = require('./pages/atoms.js');
 
-var NotFound = {
-  template: '<p>Not found</p>'
-};
-
 Vue.use(VueRouter);
 
 var router = new VueRouter({

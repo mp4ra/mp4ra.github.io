@@ -1,10 +1,9 @@
 language: node_js
 node_js:
-  - "iojs"
+  - "7"
 
 branches:
   only:
-  - gh-pages
   - master
 
 script:
@@ -18,7 +17,7 @@ cache:
 deploy:
   provider: pages
   skip-cleanup: true
-  github-token: $GITHUB_TOKEN  # Set in travis-ci.org dashboard, marked secure
+  github-token: $GITHUB_TOKEN
   keep-history: true
   on:
     branch: gh-pages
