@@ -1,11 +1,25 @@
 <main role="main" class="container">
+  <h1>Atoms</h1>
+  <p>
+    This sub-section documents the structural <em>atom or box type</em>s for
+    the file formats. All files in this family are structured as a series of
+    boxes (also known as atoms). Each box has a size and a four-character-code
+    type. Boxes may contain other boxes.
+  </p>
+  <p>
+    User-data types are in a separate table <a href="#userdata">below</a>.
+  </p>
+  <p>
+    <h2>ISO family codes</h2>
+    See <a href="#qtatom">below</a> for additional QuickTime codes.
+  </p>
   <table is="mp4ra-table" v-bind:columns="['code', 'description', 'specification']" v-bind:data="boxes"></table>
   <p>
-    <b>User-data Codes</b>
+    <div id="userdata"><h2>User-data Codes</h2></div>
   </p>
   <table is="mp4ra-table" v-bind:columns="['code', 'description', 'specification']" v-bind:data="boxes_udta"></table>
   <p>
-    <b>QuickTime Codes</b>
+    <div id="qtatom"><h2>QuickTime Codes</h2></div>
   </p>
   <table is="mp4ra-table" v-bind:columns="['code', 'description', 'specification']" v-bind:data="boxes_qt"></table>
 </main>

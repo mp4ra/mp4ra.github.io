@@ -1,7 +1,14 @@
 body {
   padding-top: 5rem;
 }
+
 .starter-template {
   padding: 3rem 1.5rem;
   text-align: center;
 }
+
+td.code {
+	font-family: 'Courier New', 'Courier', 'Monaco', monospace;
+	padding: 6px;
+}
+

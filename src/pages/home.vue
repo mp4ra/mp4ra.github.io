@@ -1,6 +1,6 @@
 <main role="main" class="container">
   <div class="starter-template">
-    <h1>Welcome to MP4RA</h1>
+    <h1 class="display-1">MP4RA</h1>
     This site is the registration authority for code-points in "MP4 Family" files.
     Within the documentation on this site are code-points from specifications
     both using and related to the ISO specifications for which this is the formal

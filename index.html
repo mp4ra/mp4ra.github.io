@@ -22,24 +22,37 @@
               References
             </router-link>
           </li>
-          <li class="nav-item">
-            <router-link class="nav-link" to="/atoms">
+          <li class="nav-item dropdown">
+            <router-link class="nav-link dropdown-toggle" to="#"
+                         id="navbarDropdownMenuLink" data-toggle="dropdown"
+                         aria-haspopup="true" aria-expanded="false">
               Registered Types
             </router-link>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <router-link class="dropdown-item" to="/atoms">Atoms</router-link>
+              <router-link class="dropdown-item" to="/brands">Brands</router-link>
+              <router-link class="dropdown-item" to="/codecs">Codecs</router-link>
+              <router-link class="dropdown-item" to="/track_ref">Track References</router-link>
+              <router-link class="dropdown-item" to="/misc">Misc</router-link>
+              <router-link class="dropdown-item" to="/object_type">Object Type</router-link>
+            </div>
           </li>
           <li class="nav-item">
             <router-link class="nav-link" to="/request">
               Request Registration
             </router-link>
           </li>
+          <li class="nav-item">
+            <router-link class="nav-link" to="/search">
+              Search
+            </router-link>
+          </li>
         </ul>
-        <form class="form-inline mt-2 mt-md-0">
-          <input class="form-control mr-sm-2" type="text"
-                 placeholder="Search a code-point" aria-label="Search">
-            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
-              <i class="fa fa-search">&nbsp;</i>
-            </button>
-        </form>
+        <ul class="navbar-nav my-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" href="//github.com/mp4ra/mp4ra.github.io" aria-label="GitHub" target="_blank"><i class="fa fa-2x fa-github" aria-hidden="true"></i></a>
+          </li>
+        </ul>
       </div>
     </nav>
     <router-view v-bind="$data"></router-view>

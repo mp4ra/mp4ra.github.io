@@ -1,12 +1,12 @@
-<table class="codes" border=4 cellpadding=0 cellspacing=2>
+<table class="table table-sm">
   <thead>
     <tr>
-      <th v-for="col in columns">{{ col }}</th>
+      <th scope="col" v-for="col in columns">{{ col }}</th>
     </tr>
   </thead>
   <tbody>
     <tr v-for="item in data">
-      <td v-if="columns.indexOf('name') !== -1">
+      <td class="codes" v-if="columns.indexOf('name') !== -1">
         <a v-bind:id="item.linkname" v-bind:name="item.linkname"></a>
         {{ item.specification }}
       </td>
