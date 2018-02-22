@@ -1,7 +1,6 @@
 language: node_js
 node_js:
   - "iojs"
-  - "7"
 
 branches:
   only:
@@ -11,6 +10,22 @@ branches:
 script:
   - npm install
   - browserify -t brfs src/app.js -o dist/js/bundle.js
+
 cache:
   directories:
     - "node_modules"
+
+before_deploy:
+  - sudo apt-get update -qq
+  - sudo apt-get install -qq ruby
+  - gem install dpl
+
+deploy:
+  provider: pages
+  skip-cleanup: true
+  github-token: $GITHUB_TOKEN  # Set in travis-ci.org dashboard, marked secure
+  keep-history: true
+  on:
+    branch: gh-pages
+  local-dir: dist/js
+
