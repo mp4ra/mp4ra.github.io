@@ -17,9 +17,9 @@ The simplest way to submit a pull request is probably as follows:
 The dependencies of the project are tracked in `package.json`. To install them,
 run the following command.
 
-'''
+```
 npm install
-'''
+```
 
 ### Building
 
