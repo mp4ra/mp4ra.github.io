@@ -13,13 +13,13 @@
     <h2>ISO family codes</h2>
     See <a href="#qtatom">below</a> for additional QuickTime codes.
   </p>
-  <table is="mp4ra-table" v-bind:columns="['code', 'description', 'specification']" v-bind:data="boxes"></table>
+  <table is="mp4ra-table" v-bind:columns="['code', 'description', 'specification']" v-bind:data="db.boxes"></table>
   <p>
     <div id="userdata"><h2>User-data Codes</h2></div>
   </p>
-  <table is="mp4ra-table" v-bind:columns="['code', 'description', 'specification']" v-bind:data="boxes_udta"></table>
+  <table is="mp4ra-table" v-bind:columns="['code', 'description', 'specification']" v-bind:data="db.boxes_udta"></table>
   <p>
     <div id="qtatom"><h2>QuickTime Codes</h2></div>
   </p>
-  <table is="mp4ra-table" v-bind:columns="['code', 'description', 'specification']" v-bind:data="boxes_qt"></table>
+  <table is="mp4ra-table" v-bind:columns="['code', 'description', 'specification']" v-bind:data="db.boxes_qt"></table>
 </main>
