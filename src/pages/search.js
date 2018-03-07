@@ -12,7 +12,7 @@ module.exports = {
       var self = this;
       var match = false;
       self.searchedFields.forEach( function(field) {
-        match = match || ((field in item) && (item[field].indexOf(self.query) !== -1));
+        match = match || ((field in item) && (item[field].toLowerCase().indexOf(self.lowerQuery) !== -1));
       });
       return match;
     }
@@ -25,6 +25,10 @@ module.exports = {
         results = results.concat(self.db[table].filter(self.isAMatch));
       }
       return results;
+    },
+    lowerQuery: function () {
+      var self = this;
+      return self.query.toLowerCase();
     }
   },
   template: fs.readFileSync(__dirname + '/search.vue', 'utf8')
