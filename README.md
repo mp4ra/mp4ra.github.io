@@ -12,6 +12,10 @@ The simplest way to submit a pull request is probably as follows:
 
 ## Development
 
+This part is only relevant for developers of the web site showing the registration authority.
+Owners of specifications wanting to submit a pull request to register some code points do not
+need to be concerned about this section.
+
 ### Install dependencies
 
 The dependencies of the project are tracked in `package.json`. To install them,
