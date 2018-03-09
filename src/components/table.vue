@@ -7,10 +7,11 @@
   <tbody>
     <tr v-for="item in data">
       <td class="codes" v-if="columns.indexOf('name') !== -1">
-        <a v-bind:id="item.linkname" v-bind:name="item.linkname"></a>
+        <a v-bind:name="item.linkname"/>
         {{ item.specification }}
       </td>
       <td v-if="columns.indexOf('code') !== -1" class="code">
+        <a v-bind:name="item.code"/>
         {{ item.code }}
       </td>
       <td v-if="columns.indexOf('description') !== -1">
@@ -46,6 +47,9 @@
       </td>
       <td v-if="columns.indexOf('ObjectType') !== -1">
         {{ item.ObjectType }}
+      </td>
+      <td v-if="columns.indexOf('category') !== -1">
+        <router-link v-bind:to="'/' + item.category">{{ item.category | capitalize }}</router-link>
       </td>
     </tr>
   </tbody>

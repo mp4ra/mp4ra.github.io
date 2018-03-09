@@ -4,5 +4,5 @@ module.exports = {
   props: {
     mp4ra: { type: Object }
   },
-  template: fs.readFileSync(__dirname + '/atoms.vue', 'utf8')
+  template: fs.readFileSync(__dirname + '/track_references.vue', 'utf8')
 };

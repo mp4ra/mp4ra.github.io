@@ -15,6 +15,9 @@ Vue.component('mp4ra-table', require('./components/table.js'));
 // Load pages
 var Home = require('./pages/home.js');
 var Atoms = require('./pages/atoms.js');
+var Brands = require('./pages/brands.js');
+var Codecs = require('./pages/codecs.js');
+var TrackReferences = require('./pages/track_references.js');
 var Search = require('./pages/search.js');
 
 Vue.use(VueRouter);
@@ -24,63 +27,159 @@ var router = new VueRouter({
   routes: [
     { path: '/', component: Home },
     { path: '/atoms', component: Atoms},
+    { path: '/brands', component: Brands},
+    { path: '/codecs', component: Codecs},
+    { path: '/track_references', component: TrackReferences},
     { path: '/search', component: Search}
   ]
+});
+
+// Filters
+Vue.filter('capitalize', function (value) {
+  if (!value) return '';
+  value = value.toString();
+  return value.charAt(0).toUpperCase() + value.slice(1);
 });
 
 var app = new Vue({
   el: '#app',
   data: {
-    db: {
-      boxes: null,
-      boxes_udta: null,
-      boxes_qt: null,
-      brands: null,
-      color_types: null,
-      data_references: null,
-      handlers: null,
-      item_references: null,
-      item_types: null,
-      multiview_attributes: null,
-      oti: null,
-      sample_entries: null,
-      sample_entries_boxes: null,
-      sample_entries_qt: null,
-      sample_groups: null,
-      schemes: null,
-      specifications: null,
-      stream_types: null,
-      track_groups: null,
-      track_references: null,
-      track_references_qt: null,
-      track_selection: null
-    },
-    urls: {
-      boxes: 'CSV/boxes.csv',
-      boxes_udta: 'CSV/boxes-udta.csv',
-      boxes_qt: 'CSV/boxes-qt.csv',
-      brands: 'CSV/brands.csv',
-      color_types: 'CSV/color-types.csv',
-      data_references: 'CSV/data-references.csv',
-      handlers: 'CSV/handlers.csv',
-      item_references: 'CSV/item-references.csv',
-      item_types: 'CSV/item-types.csv',
-      multiview_attributes: 'CSV/multiview-attributes.csv',
-      oti: 'CSV/oti.csv',
-      sample_entries: 'CSV/sample-entries.csv',
-      sample_entries_boxes: 'CSV/sample-entries-boxes.csv',
-      sample_entries_qt: 'CSV/sample-entries-qt.csv',
-      sample_groups: 'CSV/sample-groups.csv',
-      schemes: 'CSV/schemes.csv',
-      specifications: 'CSV/specifications.csv',
-      stream_types: 'CSV/stream-types.csv',
-      track_groups: 'CSV/track-groups.csv',
-      track_references: 'CSV/track-references.csv',
-      track_references_qt: 'CSV/track-references-qt.csv',
-      track_selection: 'CSV/track-selection.csv'
+    mp4ra: {
+      boxes: {
+        db: null,
+        url: 'CSV/boxes.csv',
+        category: 'atoms',
+        name: 'ISO family codes'
+      },
+      boxes_udta: {
+        db: null,
+        url: 'CSV/boxes-udta.csv',
+        category: 'atoms',
+        name: 'User-data codes'
+      },
+      boxes_qt: {
+        db: null,
+        url: 'CSV/boxes-qt.csv',
+        category: 'atoms',
+        name: 'QuickTime codes'
+      },
+      brands: {
+        db: null,
+        url: 'CSV/brands.csv',
+        category: 'brands' ,
+        name: 'Brands'
+      },
+      color_types: {
+        db: null,
+        url: 'CSV/color-types.csv',
+        category: 'color types',
+        name: 'Color types'
+      },
+      data_references: {
+        db: null,
+        url: 'CSV/data-references.csv',
+        category: 'data references',
+        name: 'Data references'
+      },
+      handlers: {
+        db: null,
+        url: 'CSV/handlers.csv',
+        category: 'handlers',
+        name: 'Handlers'
+      },
+      item_references: {
+        db: null,
+        url: 'CSV/item-references.csv',
+        category: 'item references',
+        name: 'Item references'
+      },
+      item_types: {
+        db: null,
+        url: 'CSV/item-types.csv',
+        category: 'item types',
+        name: 'Item types'
+      },
+      multiview_attributes: {
+        db: null,
+        url: 'CSV/multiview-attributes.csv',
+        category: 'multiview attributes',
+        name: 'Multiview attributes'
+      },
+      oti: {
+        db: null,
+        url: 'CSV/oti.csv',
+        category: 'oti',
+        name: 'Oti'
+      },
+      sample_entries: {
+        db: null,
+        url: 'CSV/sample-entries.csv',
+        category: 'codecs',
+        name: 'Sample entries'
+      },
+      sample_entries_boxes: {
+        db: null,
+        url: 'CSV/sample-entries-boxes.csv',
+        category: 'codecs',
+        name: 'Sample entries boxes'
+      },
+      sample_entries_qt: {
+        db: null,
+        url: 'CSV/sample-entries-qt.csv',
+        category: 'codecs',
+        name: 'Sample entries QuickTime'
+      },
+      sample_groups: {
+        db: null,
+        url: 'CSV/sample-groups.csv',
+        category: 'sample groups',
+        name: 'Sample groups'
+      },
+      schemes: {
+        db: null,
+        url: 'CSV/schemes.csv',
+        category: 'schemes',
+        name: 'Protected and restricted schemes'
+      },
+      specifications: {
+        db: null,
+        url: 'CSV/specifications.csv',
+        category: 'specifications',
+        name: 'Specifications'
+      },
+      stream_types: {
+        db: null,
+        url: 'CSV/stream-types.csv',
+        category: 'object type',
+        name: 'Stream types'
+      },
+      track_groups: {
+        db: null,
+        url: 'CSV/track-groups.csv',
+        category: 'track groups',
+        name: 'Track groups'
+      },
+      track_references: {
+        db: null,
+        url: 'CSV/track-references.csv',
+        category: 'track_references',
+        name: 'Track references'
+      },
+      track_references_qt: {
+        db: null,
+        url: 'CSV/track-references-qt.csv',
+        category: 'track_references',
+        name: 'Track references QuickTime'
+      },
+      track_selection: {
+        db: null,
+        url: 'CSV/track-selection.csv',
+        category: 'track selection',
+        name: 'Track selection'
+      }
     }
   },
-  created: function() {
+  created: function () {
     var self = this;
     self.loadMP4RAData();
   },
@@ -89,7 +188,7 @@ var app = new Vue({
       var self = this;
       if ('specification' in item) {
         var spec = und.find(
-          self.db.specifications, function (e) {
+          self.mp4ra.specifications.db, function (e) {
             return e.specification == item.specification;
           }
         );
@@ -97,24 +196,24 @@ var app = new Vue({
       }
       if ('handler' in item) {
         var handler = und.find(
-          self.db.handlers, function (e) {
+          self.mp4ra.handlers.db, function (e) {
             return e.description == item.handler;
           }
         );
         if(handler !== undefined) item.handlerAnchor = handler.code;
       }
     },
-    loadData: function(data) {
+    loadData: function(table) {
       var self = this;
-      $.get(self.urls[data], function(response) {
-        self.db[data] = Papa.parse(response, { header: true }).data;
-        self.db[data].forEach( function(item) { self.addAnchor(item); });
+      $.get(self.mp4ra[table].url, function(response) {
+        self.mp4ra[table].db = Papa.parse(response, { header: true }).data;
+        self.mp4ra[table].db.forEach( function(item) { self.addAnchor(item); });
       });
     },
     loadMP4RAData: function() {
       var self = this;
-      $.get(self.urls.specifications, function(response) {
-        self.db.specifications = Papa.parse(response, { header: true }).data;
+      $.get(self.mp4ra.specifications.url, function(response) {
+        self.mp4ra.specifications.db = Papa.parse(response, { header: true }).data;
         self.loadData('boxes');
         self.loadData('boxes_udta');
         self.loadData('boxes_qt');
@@ -131,9 +230,9 @@ var app = new Vue({
         self.loadData('track_references');
         self.loadData('track_references_qt');
         self.loadData('track_selection');
-        $.get(self.urls.handlers, function(response) {
-          self.db.handlers = Papa.parse(response, { header: true }).data;
-          self.db.handlers.forEach( function(item) { self.addAnchor(item); });
+        $.get(self.mp4ra.handlers.url, function(response) {
+          self.mp4ra.handlers.db = Papa.parse(response, { header: true }).data;
+          self.mp4ra.handlers.db.forEach( function(item) { self.addAnchor(item); });
           self.loadData('sample_entries');
           self.loadData('item_types');
           self.loadData('sample_entries_boxes');
