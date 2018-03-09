@@ -13,6 +13,7 @@ script:
 cache:
   directories:
     - "node_modules"
+    - "src"
 
 deploy:
   provider: pages
