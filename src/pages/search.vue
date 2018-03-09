@@ -1,7 +1,7 @@
 <main role="main" class="container">
   <h1>Search</h1>
   <p>
-    Looking a 4cc, a specification, any information registered, just type
+    Trying to find a 4cc, a specification, any information registered, just type
     in below the keyword you are looking for.
   </p>
   <div class="input-group mb-3">
