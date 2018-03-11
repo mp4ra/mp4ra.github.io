@@ -18,6 +18,7 @@ var Atoms = require('./pages/atoms.js');
 var Brands = require('./pages/brands.js');
 var Codecs = require('./pages/codecs.js');
 var TrackReferences = require('./pages/track_references.js');
+var References = require('./pages/references.js');
 var Search = require('./pages/search.js');
 
 Vue.use(VueRouter);
@@ -30,6 +31,7 @@ var router = new VueRouter({
     { path: '/brands', component: Brands},
     { path: '/codecs', component: Codecs},
     { path: '/track_references', component: TrackReferences},
+    { path: '/references', component: References},
     { path: '/search', component: Search}
   ]
 });
