@@ -44,7 +44,7 @@
   <table is="mp4ra-table" v-bind:columns="['code', 'description', 'handler', 'specification']" v-bind:data="mp4ra.sample_entries_boxes.db"></table>
   <ol>
     <li>
-        See the color information in the <router-link to="/handler">'misc'</a> 
+        See the color information in the <router-link to="/handler">'misc'</router-link> 
         tables for the contents of the color information box.
     </li>
   </ol>
