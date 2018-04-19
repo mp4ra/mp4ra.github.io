@@ -12,7 +12,13 @@ td.code {
 }
 
 td {
-  padding-bottom: 0rem  !important;
-  padding-top: 0rem  !important;
+  padding: 0rem  !important;
   vertical-align: middle !important;
+}
+
+td .nav-link {
+  padding-top: 0.2rem !important;
+  padding-right: 1rem !important;
+  padding-bottom: 0.2rem !important;
+  padding-left: 1rem !important;
 }
