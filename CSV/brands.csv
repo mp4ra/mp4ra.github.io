@@ -88,8 +88,8 @@ jpx$20,JPEG2000 Part 2,JPX
 jpxb,JPEG XR,JPXR
 LCAG,Leica digital camera,Leica
 lmsg,last Media Segment indicator for ISO base media file format.,DASH
-M4A$20,"iTunes MPEG-4 audio protected or not,",iTunes, can contain audio + video + 3g text track + chapter track,
-M4B$20,iTunes AudioBook protected or not,iTunes, can contain audio + video + 3g text track + chapter track,
+M4A$20,"iTunes MPEG-4 audio protected or not, can contain audio + video + 3g text track + chapter track",iTunes
+M4B$20,"iTunes AudioBook protected or not, can contain audio + video + 3g text track + chapter track",iTunes
 M4P$20,MPEG-4 protected audio,iTunes
 M4V$20,MPEG-4 protected audio+video,iTunes
 MFSM,Media File for Samsung video Metadata,Samsung
