@@ -1,5 +1,5 @@
 <main role="main" class="container">
-  <h1>Atoms</h1>
+  <h1>Boxes (Atoms)</h1>
   <p>
     This sub-section documents the structural <em>atom or box type</em>s for
     the file formats. All files in this family are structured as a series of
