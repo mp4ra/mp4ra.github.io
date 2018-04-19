@@ -1,5 +1,5 @@
 <main role="main" class="container">
-  <h1>Object Type</h1>
+  <h1>Object Types</h1>
   <p>
     This section documents the ObjectTypeIndication used in MPEG-4
     systems to indicate the type of streams. Applications for a new
@@ -12,7 +12,7 @@
     definitive version.
   </p>
   <p>
-    There is also an informative table of the current StreamType allocations.
+    There is also an informative table of the current <a href="#streams">StreamType</a> allocations.
   </p>
   <p>
     The values in both these tables are notated here in <em>hexadecimal</em>.
@@ -72,5 +72,5 @@
       the AFXConfig; its use with other StreamTypes is reserved.
     </li>
   </ol>
-  <table is="mp4ra-table" v-bind:columns="['code', 'description']" v-bind:data="mp4ra.stream_types.db"></table>
+  <table id="streams" is="mp4ra-table" v-bind:columns="['code', 'description']" v-bind:data="mp4ra.stream_types.db"></table>
 </main>

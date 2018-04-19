@@ -21,7 +21,7 @@ var TrackReferences = require('./pages/track_references.js');
 var References = require('./pages/references.js');
 var Search = require('./pages/search.js');
 var Misc = require('./pages/misc.js');
-var ObjectType = require('./pages/object_type.js');
+var ObjectTypes = require('./pages/object_types.js');
 var Request = require('./pages/request.js');
 
 Vue.use(VueRouter);
@@ -37,7 +37,7 @@ var router = new VueRouter({
     { path: '/references', component: References },
     { path: '/search', component: Search },
     { path: '/misc', component: Misc },
-    { path: '/object_type', component: ObjectType },
+    { path: '/object_types', component: ObjectTypes },
     { path: '/request', component: Request }
   ]
 });
