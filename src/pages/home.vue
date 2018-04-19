@@ -1,6 +1,10 @@
 <main role="main" class="container">
   <div class="starter-template">
     <h1 class="display-1">MP4RA</h1>
+    Official Registration Authority for the ISOBMFF family of standards
+  </div>
+  <h2>What it is for</h2>
+  <p>
     This site is the registration authority for code-points in "MP4 Family" files.
     Within the documentation on this site are code-points from specifications
     both using and related to the ISO specifications for which this is the formal
@@ -8,10 +12,7 @@
 
     Some MPEG systems code-points are here, including MPEG-4 ObjectType and
     StreamType.
-
-  </div>
-  <h2>What it is for</h2>
-  <p>
+    
     This site also acts as the registration database for QuickTime files; you will
     find the information for the standards family and QuickTime here. However, the
     data is separated to reflect the fact that the standards registration is
