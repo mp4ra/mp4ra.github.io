@@ -27,9 +27,9 @@
       </td>
       <td v-if="columns.indexOf('handler') !== -1">
         <div v-if="item.handlerAnchor">
-          <a v-bind:href="'handler.html#' + item.handlerAnchor">
+          <router-link class="nav-link" to="/misc">
             {{ item.handler }}
-          </a>
+          </router-link>
         </div>
         <div v-else>
           {{ item.handler }}
@@ -37,9 +37,9 @@
       </td>
       <td v-if="columns.indexOf('specification') !== -1">
         <div v-if="item.specificationAnchor">
-          <a v-bind:href="'specs.html#' + item.specificationAnchor">
+          <router-link class="nav-link" to="/references">
             {{ item.specification }}
-          </a>
+          </router-link>
         </div>
         <div v-else>
           {{ item.specification }}
