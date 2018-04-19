@@ -9,6 +9,10 @@ body {
 
 td.code {
 	font-family: 'Courier New', 'Courier', 'Monaco', monospace;
-	padding: 6px;
 }
 
+td {
+  padding-bottom: 0.1rem  !important;
+  padding-top: 0.1rem  !important;
+  vertical-align: middle !important;
+}

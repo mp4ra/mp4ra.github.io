@@ -1,4 +1,4 @@
-<table class="table table-sm">
+<table class="table">
   <thead>
     <tr>
       <th scope="col" v-for="col in columns">{{ col }}</th>
