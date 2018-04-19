@@ -20,6 +20,9 @@ var Codecs = require('./pages/codecs.js');
 var TrackReferences = require('./pages/track_references.js');
 var References = require('./pages/references.js');
 var Search = require('./pages/search.js');
+var Misc = require('./pages/misc.js');
+var ObjectType = require('./pages/object_type.js');
+var Request = require('./pages/request.js');
 
 Vue.use(VueRouter);
 
@@ -27,12 +30,15 @@ var router = new VueRouter({
   mode: 'hash',
   routes: [
     { path: '/', component: Home },
-    { path: '/atoms', component: Atoms},
-    { path: '/brands', component: Brands},
-    { path: '/codecs', component: Codecs},
-    { path: '/track_references', component: TrackReferences},
-    { path: '/references', component: References},
-    { path: '/search', component: Search}
+    { path: '/atoms', component: Atoms },
+    { path: '/brands', component: Brands },
+    { path: '/codecs', component: Codecs },
+    { path: '/track_references', component: TrackReferences },
+    { path: '/references', component: References },
+    { path: '/search', component: Search },
+    { path: '/misc', component: Misc },
+    { path: '/object_type', component: ObjectType },
+    { path: '/request', component: Request }
   ]
 });
 
