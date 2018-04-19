@@ -24,7 +24,7 @@
   <h2>You can use it to</h2>
   <p>
     <ul>
-      <li type="disc">find information about the <router-link to="/specs">existing specifications</router-link> in this family;</li>
+      <li type="disc">find information about the <router-link to="/references">existing specifications</router-link> in this family;</li>
       <li type="disc">find the code points that have already been <router-link to="/atoms">registered</router-link>;</li>
       <li type="disc"><router-link to="/request">request</router-link> to register a code point;</li>
       <li type="disc">find information about <a href="#refsoft">reference software</a> for the file format.</li>
@@ -33,7 +33,7 @@
   <h2>About</h2>
   <p>
     This site is run on behalf of the International Organization for
-    Standardization, <a href="//www.iso.ch/">ISO</a>, and supports in
+    Standardization, <a href="//www.iso.org/">ISO</a>, and supports in
     particular the working groups WG11 
     (<a href="//mpeg.chiariglione.org/">MPEG</a>) and WG01 
     (<a href="//www.jpeg.org/">JPEG</a>). However, a number of other
