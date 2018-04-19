@@ -1,7 +1,9 @@
 <main role="main" class="container">
   <div class="starter-template">
     <h1 class="display-1">MP4RA</h1>
-    Official Registration Authority for the ISOBMFF family of standards
+    <p class="lead">
+      Official Registration Authority for the ISOBMFF family of standards
+    </p>
   </div>
   <h2>What it is for</h2>
   <p>
