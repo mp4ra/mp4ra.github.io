@@ -152,7 +152,7 @@ var app = new Vue({
       specifications: {
         db: null,
         url: 'CSV/specifications.csv',
-        category: 'specifications',
+        category: 'references',
         name: 'Specifications'
       },
       stream_types: {

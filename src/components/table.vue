@@ -49,7 +49,9 @@
         {{ item.ObjectType }}
       </td>
       <td v-if="columns.indexOf('category') !== -1">
-        <router-link v-bind:to="'/' + item.category">{{ item.category | capitalize }}</router-link>
+        <router-link class="nav-link" v-bind:to="'/' + item.category">
+          {{ item.category | capitalize }}
+        </router-link>
       </td>
     </tr>
   </tbody>
