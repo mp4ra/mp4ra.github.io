@@ -4,7 +4,7 @@ node_js:
 
 branches:
   only:
-  - master
+  - dev
 
 script:
   - npm install
@@ -23,4 +23,4 @@ deploy:
   keep-history: true
   target-branch: master
   on:
-    branch: master
+    branch: dev
