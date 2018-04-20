@@ -5,7 +5,7 @@ module.exports = {
     mp4ra: { type: Object }
   },
   data: function () {
-    return { query: null, searchedFields: ['code', 'description'] };
+    return { query: null, searchedFields: ['code', 'description', 'specification'] };
   },
   methods: {
     isAMatch: function (item) {
@@ -16,9 +16,6 @@ module.exports = {
       });
       return match;
     },
-    addCategory: function (entries, category) {
-      entries.forEach( function (item) { item.category = category; });
-    }
   },
   computed: {
     searchResult: function () {
@@ -26,7 +23,6 @@ module.exports = {
       var results = [];
       for (var table in self.mp4ra) {
         newResults = self.mp4ra[table].db.filter(self.isAMatch);
-        self.addCategory(newResults, self.mp4ra[table].category);
         results = results.concat(newResults);
       }
       return results;

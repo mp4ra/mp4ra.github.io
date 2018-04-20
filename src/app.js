@@ -211,11 +211,17 @@ var app = new Vue({
         if(handler !== undefined) item.handlerAnchor = handler.code;
       }
     },
+    addCategory: function (item, category) {
+      item.category = category;
+    },
     loadData: function(table) {
       var self = this;
       $.get(self.mp4ra[table].url, function(response) {
         self.mp4ra[table].db = Papa.parse(response, { header: true }).data;
-        self.mp4ra[table].db.forEach( function(item) { self.addAnchor(item); });
+        self.mp4ra[table].db.forEach( function(item) {
+            self.addAnchor(item);
+            self.addCategory(item, self.mp4ra[table].category);
+        });
       });
     },
     loadMP4RAData: function() {
