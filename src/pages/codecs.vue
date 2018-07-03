@@ -32,7 +32,7 @@
     <h2>Sample Entry Codes Registered to ISO</h2>
     <h5>(see <a href="#qtcodecs">below</a> for QuickTime code points)</h5>
   </p>
-  <table is="mp4ra-table" v-bind:columns="['code', 'description', 'specification', 'handler', 'ObjectType']" v-bind:data="mp4ra.sample_entries.db"></table>
+  <table is="mp4ra-table" v-bind:columns="['code', 'description', 'handler', 'specification', 'ObjectType']" v-bind:data="mp4ra.sample_entries.db"></table>
   <p>
     <h2>Metadata Item Type Codes Registered to ISO</h2>
   </p>
