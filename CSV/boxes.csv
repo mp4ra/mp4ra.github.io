@@ -1,5 +1,6 @@
 code,description,specification
 ainf,"Asset information to identify, license and play",DECE
+assp,alternative startup sequence properties,ISO
 avcn,AVC NAL Unit Storage Box,DECE
 bloc,Base location and purchase location for license acquisition,DECE
 bpcc,Bits per component,JPEG2000
@@ -156,6 +157,7 @@ tkhd,"Track header, overall information about the track",ISO
 traf,Track fragment,ISO
 trak,container for an individual track or stream,ISO
 tref,track reference container,ISO
+trep,track extension properties,ISO
 trex,track extends defaults,ISO
 trgr,Track grouping information,ISO
 trik,Facilitates random access and trick play modes,DECE
