@@ -67,8 +67,8 @@
   <h4><code>ID3v2data</code></h4>
   <p>
     A binary data that corresponds to ID3v2 tag
-    format (e.g. for v.2.4.0: <a href="http://www.id3.org/id3v2.4.0-structure.txt">http://www.id3.org/id3v2.4.0-structure.txt</a>)
-    and its native frames (e.g. for v.2.4.0: <a href="http://www.id3.org/id3v2.4.0-frames.txt">http://www.id3.org/id3v2.4.0-frames.txt</a>).
+    format (e.g. for v.2.4.0: <a href="http://www.id3.org/id3v2.4.0-structure">http://www.id3.org/id3v2.4.0-structure</a>)
+    and its native frames (e.g. for v.2.4.0: <a href="http://www.id3.org/id3v2.4.0-frames">http://www.id3.org/id3v2.4.0-frames</a>).
     ID3 tag must not contain any footer information, because it is never
     needed. Both, ID3v2 tag format and its native frames, must use the
     same version of the specification. Size of this field can be derived
