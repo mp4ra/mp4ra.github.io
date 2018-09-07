@@ -262,6 +262,7 @@ var app = new Vue({
           self.mp4ra.handlers.db.forEach( function(item) { self.addAnchor(item); });
           self.loadData('sample_entries');
           self.loadData('item_types');
+          self.loadData('item_properties');
           self.loadData('sample_entries_boxes');
           self.loadData('sample_entries_qt');
         });
