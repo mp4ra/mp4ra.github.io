@@ -107,6 +107,12 @@ var app = new Vue({
         category: 'item types',
         name: 'Item types'
       },
+      item_properties: {
+        db: null,
+        url: 'CSV/item-properties.csv',
+        category: 'item properties',
+        name: 'Item properties'
+      },
       multiview_attributes: {
         db: null,
         url: 'CSV/multiview-attributes.csv',
@@ -166,6 +172,12 @@ var app = new Vue({
         url: 'CSV/track-groups.csv',
         category: 'track groups',
         name: 'Track groups'
+      },
+      entity_groups: {
+        db: null,
+        url: 'CSV/entity-groups.csv',
+        category: 'entity groups',
+        name: 'Entity groups'
       },
       track_references: {
         db: null,
@@ -241,6 +253,7 @@ var app = new Vue({
         self.loadData('schemes');
         self.loadData('stream_types');
         self.loadData('track_groups');
+        self.loadData('entity_groups');
         self.loadData('track_references');
         self.loadData('track_references_qt');
         self.loadData('track_selection');

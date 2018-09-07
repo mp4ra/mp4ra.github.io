@@ -1,8 +1,10 @@
 code,description,handler,specification
 3sib,MVD Scalability Information SEI Message Box,Video,NALu Video
 a3dC,A3DConfigurationBox,Video,NALu Video
+auxi,AuxiliaryTypeInfoBox,Video,HEIF
 avcC,AVC Configuration,Video,NALu Video
 btrt,Bit-rate information,General,ISO
+ccst,Coding Constraints,Video,HEIF
 chnl,Channel layout,Audio,ISO
 clap,Clean aperture,Video,ISO
 colr,Color information (see 1 below),Video,ISO

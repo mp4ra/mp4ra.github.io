@@ -1,0 +1,18 @@
+code,description,specification
+auxC,Auxiliary type,HEIF
+avcC,AVC Image item configuration,HEIF
+clap,Clean aperture,HEIF
+colr,Colour information,HEIF
+hvcC,HEVC Image item configuration,HEIF
+imir,Image mirroring,HEIF
+irot,Image rotation,HEIF
+ispe,Image spatial extents,HEIF
+jpcC,JPEG image item configuration,HEIF
+lhvC,Layered HEVC Image item configuration,HEIF
+lsel,Layer selection,HEIF
+oinf,HEVC operating point,HEIF
+pasp,Pixel aspect ratio,HEIF
+pixi,Pixel information,HEIF
+rloc,Relative location,HEIF
+subs,Subsample information,HEIF
+tols,Layered HEVC Target output layer set property,HEIF

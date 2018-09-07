@@ -22,6 +22,8 @@ code,description,specification
 3gt9,3GPP Release 9 Media Stream Recording Profile,3GPP
 ARRI,ARRI Digital Camera,ARRI
 avc1,Advanced Video Coding extensions,ISO
+avci,AVC image and image collection brands,HEIF
+avcs,AVC image sequence brands,HEIF
 bbxm,Blinkbox Master File: H.264 video and 16-bit little-endian LPCM audio,Blinkbox
 CAEP,Canon Digital Camera,Canon
 CDes,Convergent Designs,Convergent
@@ -69,6 +71,14 @@ dvr1,DVB RTP,DVB
 dvt1,DVB Transport Stream,DVB
 dxo$20,DxO ONE camera,DxO
 emsg,Event message box present,DASH
+heic,HEVC image and image collection brands,HEIF
+heim,L-HEVC image and image collection brands,HEIF
+heis,L-HEVC image and image collection brands,HEIF
+heix,HEVC image and image collection brands,HEIF
+hevc,HEVC image sequence brands,HEIF
+hevm,L-HEVC image sequence brands,HEIF
+hevs,L-HEVC image sequence brands,HEIF
+hevx,HEVC image sequence brands,HEIF
 hvce,L-HEVC explicit reconstruction,NALu Video
 hvci,L-HEVC implicit reconstruction,NALu Video
 ifrm,"Apple iFrame Specification, Version 8.1 Jan 2013",Apple
@@ -84,6 +94,8 @@ isom,All files based on the ISO Base Media File Format,ISO
 J2P0,JPEG2000 Profile 0,JPEG2000
 J2P1,JPEG2000 Profile 1,JPEG2000
 jp2$20,JPEG2000 Part 1,JPEG2000
+jpeg,JPEG-specific still image brand,HEIF
+jpes,JPEG image sequence brands,HEIF
 jpm$20,JPEG 2000 Part 6 Compound Images,JPM
 jpsi,"The JPSearch data interchange format, for the exchange of image collections and respective metadata",JPSearch
 jpx$20,JPEG2000 Part 2,JPX
@@ -96,6 +108,7 @@ M4P$20,MPEG-4 protected audio,iTunes
 M4V$20,MPEG-4 protected audio+video,iTunes
 MFSM,Media File for Samsung video Metadata,Samsung
 MGSV,Home and Mobile Multimedia Platform (HMMP),Sony
+mif1,Image file format structural brand,HEIF
 mj2s,Motion JPEG 2000 simple profile,MJ2
 mjp2,"Motion JPEG 2000, general profile",MJ2
 mp21,MPEG-21,MPEG-21
@@ -104,6 +117,7 @@ mp42,MP4 version 2,MP4v2
 mp71,MPEG-7 file-level metadata,ISO
 MPPI,Photo Player Multimedia Application Format,ISO-MAF
 mpuf,Compliance with the MMT Processing Unit format,MMT
+msf1,Image file format structural brand,HEIF
 msdh,Media Segment conforming to the general format type for ISO base media file format.,DASH
 msix,Media Segment conforming to the Indexed Media Segment format type for ISO base media file format.,DASH
 MSNV,Portable multimedia CE products using MP4 file format with AVC video codec and AAC audio codec,IEC 62592

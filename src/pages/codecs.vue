@@ -38,6 +38,10 @@
   </p>
   <table is="mp4ra-table" v-bind:columns="['code', 'description', 'specification']" v-bind:data="mp4ra.item_types.db"></table>
   <p>
+    <h2>Metadata Item Properties Registered to ISO</h2>
+  </p>
+  <table is="mp4ra-table" v-bind:columns="['code', 'description', 'specification']" v-bind:data="mp4ra.item_properties.db"></table>
+  <p>
     <a name="seboxes"></a>
     <h2>Box types contained in specific Sample Entries</h2>
   </p>

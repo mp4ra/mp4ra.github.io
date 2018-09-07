@@ -28,6 +28,7 @@ nrtm,Non-Real Time Metadata (XAVC Format),handler,Sony
 null,No handling required (meta-data),handler,ISO
 ocsm,ObjectContentInfoStream,handler,MPEG-4
 odsm,ObjectDescriptorStream,handler,MPEG-4
+pict,Image Item and Image sequences,handler,HEIF
 qd3d,QuickTime QuickDraw 3D ttrack handler,handler,Apple
 sbtl,QuickTime Subtitle track handler,handler,Apple
 sdsm,SceneDescriptionStream,handler,MPEG-4

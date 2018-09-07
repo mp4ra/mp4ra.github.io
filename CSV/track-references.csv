@@ -1,6 +1,7 @@
 code,description,specification
 adda,Additional audio track,DRC
 adrc,DRC metadata track,DRC
+auxl,Auxiliary track reference,HEIF
 avcp,AVC parameter set stream link,NALu Video
 cdsc,this track describes the referenced track.,MPEG-4
 deps,track containing the depth view,NALu Video
@@ -19,6 +20,7 @@ swfr,AVC Switch from,NALu Video
 swto,AVC Switch to,NALu Video
 sync,this track uses the referenced track as its synchronization source.,MPEG-4
 tbas,HEVC Tile track base,NALu Video
+thmb,Thumbnail track,HEIF
 tmcd,Time code. Usually references a time code track.,Apple
 vdep,Auxiliary video depth,ISO
 vplx,Auxiliary video parallax,ISO
