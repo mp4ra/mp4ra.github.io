@@ -95,7 +95,7 @@ J2P0,JPEG2000 Profile 0,JPEG2000
 J2P1,JPEG2000 Profile 1,JPEG2000
 jp2$20,JPEG2000 Part 1,JPEG2000
 jpeg,JPEG-specific still image brand,HEIF
-jpes,JPEG image sequence brands,HEIF
+jpgs,JPEG image sequence brands,HEIF
 jpm$20,JPEG 2000 Part 6 Compound Images,JPM
 jpsi,"The JPSearch data interchange format, for the exchange of image collections and respective metadata",JPSearch
 jpx$20,JPEG2000 Part 2,JPX
