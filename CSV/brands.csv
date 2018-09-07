@@ -69,6 +69,8 @@ dvr1,DVB RTP,DVB
 dvt1,DVB Transport Stream,DVB
 dxo$20,DxO ONE camera,DxO
 emsg,Event message box present,DASH
+hvce,L-HEVC explicit reconstruction,NALu Video
+hvci,L-HEVC implicit reconstruction,NALu Video
 ifrm,"Apple iFrame Specification, Version 8.1 Jan 2013",Apple
 im1i,CMAF Media Profile - IMSC1 Image,CMAF
 im1t,CMAF Media Profile - IMSC1 Text,CMAF

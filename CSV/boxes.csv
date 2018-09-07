@@ -82,8 +82,10 @@ minf,media information container,ISO
 mjhd,reserved for MPEG-J Stream header,MP4v1
 moof,movie fragment,ISO
 moov,container for all the meta-data,ISO
+mstv,MVC sub track view box,NALu Video
 mvcg,Multiview group,NALu Video
 mvci,Multiview Information,NALu Video
+mvdr,MVDDepthResolutionBox,NALu Video
 mvex,movie extends box,ISO
 mvhd,"movie header, overall declarations",ISO
 mvra,Multiview Relation Attribute,NALu Video
@@ -119,6 +121,7 @@ sdhd,reserved for SceneDescriptionStream header,MP4v1
 sdtp,Independent and Disposable Samples Box,ISO
 sdvp,SD Profile Box,SDV
 segr,file delivery session group,ISO
+seii,SEI information box,NALu Video
 senc,Sample specific encryption data,ISO Common Encryption
 sgpd,Sample group definition box,ISO
 sidx,Segment Index Box,3GPP
@@ -129,10 +132,12 @@ srmb,System Renewability Message,DVB
 srmc,System Renewability Message container,DVB
 srpp,STRP Process,ISO
 ssix,Sub-sample index,ISO
+sstl,SVC sub track layer box,NALu Video
 stbl,"sample table box, container for the time/space map",ISO
 stco,"chunk offset, partial data-offset information",ISO
 stdp,sample degradation priority,ISO
 sthd,Subtitle Media Header Box,ISO
+stmg,MVC sub track multiview group box,NALu Video
 strd,Sub-track definition,ISO
 stri,Sub-track information,ISO
 stsc,"sample-to-chunk, partial data-offset information",ISO
@@ -141,6 +146,7 @@ stsg,Sub-track sample grouping,ISO
 stsh,shadow sync sample table,ISO
 stss,sync sample table (random access points),ISO
 stsz,sample sizes (framing),ISO
+stti,Sub track tier box,NALu Video
 stts,(decoding) time-to-sample,ISO
 styp,Segment Type Box,3GPP
 stz2,compact sample sizes (framing),ISO
@@ -162,6 +168,7 @@ trex,track extends defaults,ISO
 trgr,Track grouping information,ISO
 trik,Facilitates random access and trick play modes,DECE
 trun,track fragment run,ISO
+tstb,TileSubTrackGroupBox,NALu Video
 udta,user-data,ISO
 uinf,a tool by which a vendor may provide access to additional information associated with a UUID,JPEG2000
 UITS,Unique Identifier Technology Solution,Universal Music Group
