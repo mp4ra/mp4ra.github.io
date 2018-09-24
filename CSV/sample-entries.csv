@@ -61,6 +61,7 @@ mha2,"MPEG-H Audio (multi-stream, unencapsulated)",Audio,MPEG-H,
 mhm1,"MPEG-H Audio (single stream, MHAS encapsulated)",Audio,MPEG-H,
 mhm2,"MPEG-H Audio (multi-stream, MHAS encapsulated)",Audio,MPEG-H,
 mjp2,Motion JPEG 2000,Video,MJ2,
+mjpg,JPEG image sequences,Video,HEIF,
 mlix,DVB Movie level index track,Metadata,DVB,
 mlpa,MLP Audio,Audio,Dolby MLP,
 mp4a,MPEG-4 Audio,Audio,MP4v1,"0x40, others"

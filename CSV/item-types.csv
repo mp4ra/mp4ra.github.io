@@ -1,2 +1,13 @@
 code,description,specification
 auvd,Auxiliary Video descriptor,ISO
+avc1,AVC image item,HEIF
+Exif,EXIF item,HEIF
+grid,Image item grid derivation,HEIF
+hvc1,HEVC image item,HEIF
+hvt1,HEVC tile image item,HEIF
+iden,Image item identity derivation,HEIF
+iovl,Image item overlay derivation,HEIF
+jpeg,JPEG image item,HEIF
+lhv1,Layered HEVC image item,HEIF
+mint,Data integrity item,HEIF
+mime,Item identified by a MIME type,ISO

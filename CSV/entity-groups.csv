@@ -1,0 +1,4 @@
+code,description,specification
+altr,alternative entity grouping,HEIF
+eqiv,equivalent entity grouping,HEIF
+ster,Stereo entity grouping,HEIF

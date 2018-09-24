@@ -38,6 +38,7 @@ frma,original format box,ISO
 ftyp,file type and compatibility,ISO
 gitn,Group ID to name,ISO
 grpi,OMA DRM Group ID,OMA DRM 2.0
+grpl,Groups List box,HEIF
 hdlr,"handler, declares the media (handler) type",ISO
 hmhd,"hint media header, overall information (hint track only)",ISO
 hpix,Hipix Rich Picture (user-data or meta-data),Hipix
@@ -52,9 +53,12 @@ imif,IPMP Information box,ISO
 infe,Item information entry,ISO
 infu,OMA DRM Info URL,OMA DRM 2.0
 iods,Object Descriptor container box,MP4v1
+ipco,ItemPropertyContainerBox,HEIF
 iphd,reserved for IPMP Stream header,MP4v1
+ipma,ItemPropertyAssociation,HEIF
 ipmc,IPMP Control Box,ISO
 ipro,item protection,ISO
+iprp,Item Properties Box,HEIF
 iref,Item reference,ISO
 jP$20$20,JPEG 2000 Signature,JPEG2000
 jp2c,JPEG 2000 contiguous codestream,JPEG2000
@@ -67,6 +71,7 @@ loop,Looping behavior,WhatsApp
 lrcu,OMA DRM Lyrics URI,OMA DRM 2.1
 m7hd,reserved for MPEG7Stream header,MP4v1
 matt,Reserved,ISO
+md5i,MD5IntegrityBox,HEIF
 mdat,media data container,ISO
 mdhd,"media header, overall information about the media",ISO
 mdia,container for the media information in a track,ISO
