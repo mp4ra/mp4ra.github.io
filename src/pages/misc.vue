@@ -12,6 +12,7 @@
       <li><a href="#sample_groups">Sample Groups</a></li>
       <li><a href="#track_selection">Track Selection Types</a></li>
       <li><a href="#track_group">Track Group Types</a></li>
+      <li><a href="#entity_group">Entity Group Types</a></li>
       <li><a href="#color">Color Types</a></li>
     </ul>
   </p>
@@ -50,6 +51,10 @@
     <h2><a name="track_group"></a>Track Group Types</h2>
   </p>
   <table is="mp4ra-table" v-bind:columns="['code', 'description', 'specification']" v-bind:data="mp4ra.track_groups.db"></table>
+  <p>
+    <h2><a name="entity_group"></a>Entity Group Types</h2>
+  </p>
+  <table is="mp4ra-table" v-bind:columns="['code', 'description', 'specification']" v-bind:data="mp4ra.entity_groups.db"></table>
   <p>
     <h2><a name="color"></a>Color Types</h2>
   </p>
