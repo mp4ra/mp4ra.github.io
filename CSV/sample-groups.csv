@@ -1,6 +1,10 @@
 code,description,type,specification
 3gag,3GPP PSS Annex G video buffer parameters,sample group,3GPP
 alst,Alternative startup sequence,sample group,ISO
+av1f,AV1 Forward Key Frame,sample group,AV1-ISOBMFF
+av1m,AV1 Multi-Frame,sample group,AV1-ISOBMFF
+av1M,AV1 Metadata,sample group,AV1-ISOBMFF
+av1s,AV1 Switch Frame,sample group,AV1-ISOBMFF
 avcb,AVC HRD parameters,sample group,3GPP
 avll,AVC layer description group,sample group,NALu Video
 avss,AVC Sub-sequence group,sample group,NALu Video

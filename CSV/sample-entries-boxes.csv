@@ -1,6 +1,7 @@
 code,description,handler,specification
 3sib,MVD Scalability Information SEI Message Box,Video,NALu Video
 a3dC,A3DConfigurationBox,Video,NALu Video
+av1C,AOM Video Codec Configuration,Video,AV1-ISOBMFF
 avcC,AVC Configuration,Video,NALu Video
 btrt,Bit-rate information,General,ISO
 chnl,Channel layout,Audio,ISO
