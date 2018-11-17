@@ -21,6 +21,7 @@ code,description,specification
 3gt8,3GPP Release 8 Media Stream Recording Profile,3GPP
 3gt9,3GPP Release 9 Media Stream Recording Profile,3GPP
 ARRI,ARRI Digital Camera,ARRI
+av01,AOM Video Codec,AV1-ISOBMFF
 avc1,Advanced Video Coding extensions,ISO
 avci,AVC image and image collection brands,HEIF
 avcs,AVC image sequence brands,HEIF
