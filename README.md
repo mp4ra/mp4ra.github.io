@@ -1,5 +1,6 @@
 # mp4ra
-MPEG-4 Registration Authority Web Site
+
+## MPEG-4 Registration Authority Web Site
 
 This site contains the master copy of the official MP4RA.
 Registration requests are formally sent to the email address documented on the site. These can be supported by a Pull Request here, which can reduce the possibility of error or confusion on the part of the maintainers.
@@ -9,6 +10,15 @@ The simplest way to submit a pull request is probably as follows:
 * In your fork, make changes to the appropriate CSV files; start first by making sure that you have your specifications in specifications.csv, and then add/fix the code points in other tables (e.g. sample-entries for codec sample entry types). In those other tables, the visible specification name is used for cross-reference; the linkname you enter in  specifications.csv will be retrieved and used to make HTML fragment URLs to refer to that entry.
 * Preview that in your fork
 * When it is right, submit a Pull Request, supported by a formal email, to the Mp4RA.
+
+## Branches
+
+- ``dev`` branch (configured as default branch)
+  - All the commits to modify the registery or the website must be pushed the dev branch.
+  - Every commit in this branch triggers the compilation of the website on Travis CI.
+- ``master`` branch
+  - The compiled website is pushed by the Travis CI bot to this branch
+  - The Github Pages features picks up the changes to the master branch and republishes the website few seconds after a new commit in this branch
 
 ## Development
 
