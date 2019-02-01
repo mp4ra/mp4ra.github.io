@@ -22,17 +22,17 @@
       <div class="collapse navbar-collapse" id="navbarCollapse">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item">
-            <router-link class="nav-link" to="/references">
+            <router-link class="nav-link" data-target="#" to="/references">
               References
             </router-link>
           </li>
           <li class="nav-item dropdown">
             <router-link class="nav-link dropdown-toggle" to="#"
-                         id="navbarDropdownMenuLink" data-toggle="dropdown"
+                         data-target="#navbarDropdownMenuLink" data-toggle="dropdown"
                          aria-haspopup="true" aria-expanded="false">
               Registered Types
             </router-link>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <div class="dropdown-menu" id="navbarDropdownMenuLink" aria-labelledby="navbarDropdownMenuLink">
               <router-link class="dropdown-item" to="/atoms">Boxes (Atoms)</router-link>
               <router-link class="dropdown-item" to="/brands">Brands</router-link>
               <router-link class="dropdown-item" to="/codecs">Codecs</router-link>
