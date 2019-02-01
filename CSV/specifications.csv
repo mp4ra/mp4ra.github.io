@@ -44,6 +44,7 @@ itunes,iTunes,General documentation can be found on Apple's <a href='http://deve
 JPEG2000,JPEG2000,"<a href='http://www.iso.ch/' target='_blank'>ISO</a>/IEC 15444-1, The JPEG 2000 Image Coding System: Core coding system"
 JPX,JPX,"<a href='http://www.iso.ch/' target='_blank'>ISO</a>/IEC 15444-2, The JPEG 2000 Image Coding System: Extensions"
 JPXR,JPXR,"<a href='http://www.iso.ch/' target='_blank'>ISO</a>/IEC 29199-2, JPEG XR image coding system: Image coding specification"
+JPXS,JPXS,"<a href='http://www.iso.ch/' target='_blank'>ISO</a>/IEC ISO/IEC 21122-3 JPEG XS low-latency lightweight image coding system -- Part 3: Transport and container formats"
 JPM,JPM,"<a href='http://www.iso.ch/' target='_blank'>ISO</a>/IEC 15444-6, The JPEG 2000 Image Coding System: Compound image file format"
 JPSearch,JPSearch,"<a href='http://www.iso.ch/' target='_blank'>ISO</a>/IEC 24800-5, JPSearch - Data interchange format between image repositories"
 Leica,Leica,<a href='http://en.leica-camera.com/home/'>Leica</a> Camera AG
