@@ -8,6 +8,7 @@ branches:
 
 script:
   - npm install
+  - npm update
   - browserify -t brfs src/app.js -o dist/js/bundle.js
 
 cache:
