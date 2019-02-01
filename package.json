@@ -3,19 +3,19 @@
   "version": "1.0.0",
   "description": "",
   "dependencies": {
-    "bootstrap": "^4.0.0",
+    "bootstrap": "^4.2.1",
     "font-awesome": "^4.7.0",
     "jquery": "^3.3.1",
-    "papaparse": "^4.3.6",
-    "popper.js": "^1.12.9",
-    "requirejs": "^2.3.5",
-    "underscore": "^1.8.3",
-    "vue": "^2.5.13",
-    "vue-router": "^3.0.1"
+    "papaparse": "^4.6.3",
+    "popper.js": "^1.14.7",
+    "requirejs": "^2.3.6",
+    "underscore": "^1.9.1",
+    "vue": "^2.5.22",
+    "vue-router": "^3.0.2"
   },
   "devDependencies": {
     "brfs": "^1.4.4",
-    "browserify": "^15.2.0"
+    "browserify": "^16.2.3"
   },
   "browser": {
     "vue": "vue/dist/vue.common.js"
