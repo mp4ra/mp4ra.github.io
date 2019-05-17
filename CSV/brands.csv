@@ -101,6 +101,10 @@ jpm$20,JPEG 2000 Part 6 Compound Images,JPM
 jpsi,"The JPSearch data interchange format, for the exchange of image collections and respective metadata",JPSearch
 jpx$20,JPEG2000 Part 2,JPX
 jpxb,JPEG XR,JPXR
+jxs$20,Still Image FileFormat for JPEG XS,JPXS
+jxsc,Codestream for JPEG XS,JPXS
+jxsi,JPEG XS image and image collections for HEIF,JPXS
+jxss,JPEG XS image sequences for HEIF, JPXS
 LCAG,Leica digital camera,Leica
 lmsg,last Media Segment indicator for ISO base media file format.,DASH
 M4A$20,"iTunes MPEG-4 audio protected or not, can contain audio + video + 3g text track + chapter track",iTunes
