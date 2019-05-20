@@ -138,6 +138,8 @@ SEBK,Home and Mobile Multimedia Platform (HMMP),Sony
 senv,Video contents Sony Entertainment Network provides by using MP4 file format,Sony
 sims,Media Segment conforming to the Sub-Indexed Media Segment format type for ISO base media file format.,DASH
 sisx,Single Index Segment used to index MPEG-2 TS based Media Segments.,DASH
+slh1,Dynamic Metadata for single layer SDR-compatible HDR video streams,SL-HDR1
+slh2,Dynamic Metadata for single layer PQ-based HDR video streams,SL-HDR2
 ssss,Subsegment Index Segment used to index MPEG-2 TS based Media Segments.,DASH
 uvvu,"UltraViolet file brand – conforming to the DECE Common File Format spec, Annex E.",DECE
 XAVC,XAVC File Format,Sony
