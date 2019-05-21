@@ -17,8 +17,8 @@ CMAF,CMAF,<a href='http://www.iso.ch/' target='_blank'>ISO</a>/IEC 23000-19: Com
 DASH,DASH,<a href='http://www.iso.ch/' target='_blank'>ISO</a>/IEC 23009-1: Dynamic Adaptive Streaming over HTTP
 dxo,DxO,<a href='http://www.dxo.com/'>DxO</a>
 ISO-CENC,ISO Common Encryption,<a href='http://www.iso.ch/' target='_blank'>ISO</a>/IEC 23001-7: Common encryption format for ISO base media file format
-DECE10,DECE,Digital Entertainment Content Ecosystem (<a href='http://www.uvvu.com/'>DECE</a>) <a href='http://www.uvvu.com/uv-for-business.php'>Common File Format &amp; Media Formats Specification</a>
-DMB-MAF,DMB-MAF,"<a href='http://www.iso.ch/' target='_blank'>ISO</a>/IEC 23000-9 Information technology - Multimedia application format (MPEG-A) - Part 9: Digital Multimedia Broadcasting application format "
+10-Dec,DECE,Digital Entertainment Content Ecosystem (<a href='http://www.uvvu.com/'>DECE</a>) <a href='http://www.uvvu.com/uv-for-business.php'>Common File Format &amp; Media Formats Specification</a>
+DMB-MAF,DMB-MAF,<a href='http://www.iso.ch/' target='_blank'>ISO</a>/IEC 23000-9 Information technology - Multimedia application format (MPEG-A) - Part 9: Digital Multimedia Broadcasting application format 
 dolby,Dolby,<a href='http://www.dolby.com/'>Dolby</a>
 dolbyvision,Dolby Vision,<a href='https://www.dolby.com/us/en/professional/licensing/apply-license-consumer.aspx'>Dolby Vision</a>
 dra-spec,DRA,"Specification for multichannel digital audio coding technology, SJ/T 11368-2006 (Electronics Industrial Standardization of the People's Republic of China)"
@@ -32,7 +32,7 @@ MLP,Dolby MLP,"MLP (<a href='https://www.dolby.com/us/en/professional/licensing/
 DRC,DRC,"<a href='http://www.iso.ch/' target='_blank'>ISO</a>/IEC 23003-4, Dynamic Range Control"
 etsi-ac3,ETSI AC-3,"<a href='http://www.etsi.org/'>ETSI</a> TS 102 366 v1.2.1 - Digital Audio Compression (AC-3, Enhanced AC-3) Standard, Annex F"
 etsi-ac4,ETSI AC-4,"<a href='http://www.etsi.org/'>ETSI</a> TS 103 190 v1.1.1 - Digital Audio Compression (AC-4) Standard, Annex E and TS 103 190-2 v1.1.1 - Digital Audio Compression (AC-4) Standard Part 2: Immersive and personalized audio, Annex E"
-etsi-eac3+,ETSI E-AC-3+JOC,"<a href='http://www.etsi.org/'>ETSI</a> TS 103 420 v1.1.1 - Backwards-compatible object audio carriage using Enhanced AC-3"
+etsi-eac3+,ETSI E-AC-3+JOC,<a href='http://www.etsi.org/'>ETSI</a> TS 103 420 v1.1.1 - Backwards-compatible object audio carriage using Enhanced AC-3
 HEIF,HEIF,"<a href='http://www.iso.ch/' target='_blank'>ISO</a>/IEC 23008-12:2017, Image File Format. Available as a <a href='http://standards.iso.org/ittf/PubliclyAvailableStandards/index.html'>publicly available standard</a> from ISO."
 hum-mon,Hipix,Rich Picture Format from <a href='http://www.hipixpro.com/pdf/What_is_hipix_OCT_2010.pdf'>Human Monitoring</a>
 IEC62592,IEC 62592,"<a href='https://webstore.iec.ch/publication/7232'>IEC</a> TS 62592, Encoding guidelines for portable multimedia CE products using MP4 file format with AVC video codec and AAC audio codec"
@@ -45,7 +45,7 @@ itunes,iTunes,General documentation can be found on Apple's <a href='http://deve
 JPEG2000,JPEG2000,"<a href='http://www.iso.ch/' target='_blank'>ISO</a>/IEC 15444-1, The JPEG 2000 Image Coding System: Core coding system"
 JPX,JPX,"<a href='http://www.iso.ch/' target='_blank'>ISO</a>/IEC 15444-2, The JPEG 2000 Image Coding System: Extensions"
 JPXR,JPXR,"<a href='http://www.iso.ch/' target='_blank'>ISO</a>/IEC 29199-2, JPEG XR image coding system: Image coding specification"
-JPXS,JPXS,"<a href='http://www.iso.ch/' target='_blank'>ISO</a>/IEC ISO/IEC 21122-3 JPEG XS low-latency lightweight image coding system -- Part 3: Transport and container formats"
+JPXS,JPXS,<a href='http://www.iso.ch/' target='_blank'>ISO</a>/IEC ISO/IEC 21122-3 JPEG XS low-latency lightweight image coding system -- Part 3: Transport and container formats
 JPM,JPM,"<a href='http://www.iso.ch/' target='_blank'>ISO</a>/IEC 15444-6, The JPEG 2000 Image Coding System: Compound image file format"
 JPSearch,JPSearch,"<a href='http://www.iso.ch/' target='_blank'>ISO</a>/IEC 24800-5, JPSearch - Data interchange format between image repositories"
 Leica,Leica,<a href='http://en.leica-camera.com/home/'>Leica</a> Camera AG
@@ -74,7 +74,7 @@ ISO-MAF,ISO-MAF,<a href='http://www.iso.ch/' target='_blank'>ISO</a>/IEC 23000-3
 QT,QT,"The <a href='http://www.apple.com/quicktime/' target='_blank'>QuickTime</a> File format, Apple Computer Inc."
 RealHD,RealHD,<a href='http://www.realnetworks.com/realmediahd'>RealMedia™ HD</a>
 ross,Ross,<a href='http://www.rossvideo.com/'>Ross Video</a>
-samsung,Samsung,"<a href='http://www.samsung.com/'>Samsung</a> "
+samsung,Samsung,<a href='http://www.samsung.com/'>Samsung</a> 
 SDV,SDV,"<a href='http://www.sdcard.org/'>The SD Card Association</a>: SD Memory Card Specifications, Part 8, VIDEO SPECIFICATIONS"
 smptevc1,SMPTE,"<a href='http://www.smpte.org/'>SMPTE</a> RP2025:2007, VC-1 Bitstream Storage in the ISO Base Media File Format"
 Sony,Sony,<a href='http://www.sony.net'>Sony Corporation</a>
@@ -82,3 +82,4 @@ UMG,Universal Music Group,Specification is made available only under license; co
 VPxx,VPxx,<a href='https://www.webmproject.org/vp9/mp4/'>Specification</a> of VPxx codecs in ISO BMFF files
 WhatsApp,WhatsApp,<a href='https://www.whatsapp.com/'>WhatsApp Inc.</a>
 id3v2,id3v2,See below
+J2KHEIF,J2KHEIF,"<a href='https://www.iso.org/standard/76647.html'>ISO/IEC 15444-16, Information technology -- JPEG 2000 image coding system -- Part 16: Encapsulation of JPEG 2000 Images into ISO/IEC 23008-12</a>"
