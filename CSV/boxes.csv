@@ -158,7 +158,7 @@ styp,Segment Type Box,3GPP
 stz2,compact sample sizes (framing),ISO
 subs,Sub-sample information,ISO
 suep,signer identity information,ONVIF
-sumi,supplemental surveillance meta information,SurveyApp
+sumi,supplemental surveillance meta information,MPEG-VSAF
 swtc,Multiview Group Relation,NALu Video
 tfad,Track fragment adjustment box,3GPP
 tfdt,Track fragment decode time,ISO
