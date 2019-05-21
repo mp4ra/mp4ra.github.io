@@ -16,6 +16,7 @@ colr,specifies the colourspace of the image,JPEG2000
 crgn,Reserved,ISO
 crhd,reserved for ClockReferenceStream header,MP4v1
 cslg,composition to decode timeline mapping,ISO
+cstb,corrected wall clock start time,ONVIF
 ctab,Reserved,ISO
 ctts,(composition) time to sample,ISO
 cvru,OMA DRM Cover URI,OMA DRM 2.1
@@ -156,6 +157,8 @@ stts,(decoding) time-to-sample,ISO
 styp,Segment Type Box,3GPP
 stz2,compact sample sizes (framing),ISO
 subs,Sub-sample information,ISO
+suep,signer identity information,ONVIF
+sumi,supplemental surveillance meta information,SurveyApp
 swtc,Multiview Group Relation,NALu Video
 tfad,Track fragment adjustment box,3GPP
 tfdt,Track fragment decode time,ISO
