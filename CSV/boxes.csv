@@ -60,7 +60,6 @@ ipmc,IPMP Control Box,ISO
 ipro,item protection,ISO
 iprp,Item Properties Box,HEIF
 iref,Item reference,ISO
-j2kH,JPEG 2000 header item property,J2KHEIF
 jP$20$20,JPEG 2000 Signature,JPEG2000
 jp2c,JPEG 2000 contiguous codestream,JPEG2000
 jp2h,Header,JPEG2000
