@@ -11,3 +11,4 @@ jpeg,JPEG image item,HEIF
 lhv1,Layered HEVC image item,HEIF
 mint,Data integrity item,HEIF
 mime,Item identified by a MIME type,ISO
+j2k1,Contiguous Codestream box as specified in Rec. ITU-T T.800 | ISO/IEC 15444-1,J2KHEIF
