@@ -71,3 +71,6 @@ respective JavaScript files and then injects them in the Vue router as
 Vue components with an associated `path`, i.e. the relative URL of the given
 page.
 
+## 4CC_Automation/
+
+See the 4CC_Automation/readme.md file for more details about this addition.
