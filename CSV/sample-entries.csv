@@ -54,7 +54,6 @@ lht1,Layered HEVC tile tracks,Video,NALu Video,
 lhv1,Layered HEVC,Video,NALu Video,
 m2ts,MPEG-2 transport stream for DMB,Hint,DMB-MAF,
 m4ae,MPEG-4 Audio Enhancement,Audio,MP4v2,"0x40, others"
-m4ae,MPEG-4 Audio Enhancement,Audio,MP4v1,
 mett,Text timed metadata that is not XML,Metadata,ISO,
 metx,XML timed metadata,Metadata,ISO,
 mha1,"MPEG-H Audio (single stream, unencapsulated)",Audio,MPEG-H,
