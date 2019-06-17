@@ -15,4 +15,3 @@ scsz,Track differs in width and/or height,track sel.,ISO
 spsc,The track can be spatially scaled.,track sel.,ISO
 tesc,The track can be temporally scaled.,track sel.,ISO
 vwsc,Sub-track can be scaled in terms of number of views,track sel.,ISO
-jason,testing,,JAS
