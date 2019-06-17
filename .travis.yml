@@ -6,6 +6,9 @@ node_js:
 #   only:
 #   - dev
 
+before_install:
+  - chmod +x ./scripts/PRsanitycheck.py
+
 before_script:
   - ./scripts/PRsanitycheck.py
 
