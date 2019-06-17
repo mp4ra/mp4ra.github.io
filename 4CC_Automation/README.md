@@ -4,7 +4,7 @@ First uploaded to Github: 5/30/2019
 Last updated: 5/30/2019  
 
 ## Description
-The 4CCAutomationScript.py was created to automate finding unregistered or mistakenly registered specifications on the MP4RA website. The script takes a folder of specification files (4CC_Automation/specs/text/) and the folder of CSV files from the MP4RA (CSV/), finds all the four character codes (4CCs) in each, and compares what is in the specification files to what is registered in the MP4RA.
+The 4CCAutomationScript.py was created to automate finding unregistered or mistakenly registered specifications on the MP4RA website. The script takes a folder of specification files (4CC_Automation/specs/) and the folder of CSV files from the MP4RA (CSV/), finds all the four character codes (4CCs) in each, and compares what is in the specification files to what is registered in the MP4RA.
 
 ## unlisted.csv and textualcontent.csv
 We created two new MP4RA CSV files: CSV/unlisted.csv and CSV/textualcontent.csv.
@@ -25,16 +25,16 @@ The script outputs a CSV file (into 4CC_Automation/output/) for each specificati
 
 ## How to Run
 To run this script on your own specifications:
-- Export your specifications from Microsoft Word to the "specs" folder as text files, encoded as unicode (UTF-8).
+- Export your specifications from Microsoft Word to "4CC_Automation/specs/" folder as text files, encoded as unicode (UTF-8).
 - Run "MP4RA-Automate.py” in the terminal
-- For each spec in the “specs” folder, it will prompt you for the short code of that specification (as listed at mp4ra.org). For example:
+- For each spec in "/specs/" folder, it will prompt you for the short code of that specification (as listed at mp4ra.org). For example:
 ```
 $ Python3 4CCsAutomationScript.py
 -
-heif-w18310_23008-12_Ed2_FDIS+COR1_R1.txt
+w18310_23008-12_Ed2_FDIS+COR1_R1.txt
 Please enter a specification: heif
 -
-miaf-wXXXXX-FDIS-MIAF-RB-3.txt
+wXXXXX-FDIS-MIAF-RB-3.txt
 Please enter a specification: miaf
 ```
 - Note: You can also comment-out a loop at the bottom of the script and un-comment the code below it to test one specification at a time.

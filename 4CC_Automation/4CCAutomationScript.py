@@ -176,29 +176,26 @@ outputDirectory = "output/" + datetime.now().strftime("%Y-%m-%d_%H-%M-%S/")
 os.mkdir(outputDirectory)
 
 # Start Loop to check the entire CodecFileDirectory------------------------------------------
-for fileName1 in os.listdir(CodecFileDirectory):
-    if fileName1.startswith(("~",".")):
-        print("%s is not an acceptable file format: " % fileName1)
-    elif fileName1.endswith(".txt"):
-        codecFile = CodecFileDirectory+fileName1
-        newFileName = outputDirectory + fileName1.strip(".txt") + "-missing.csv"
-        while True:
-            print(fileName1)
-            userSpec = input("Please enter a specification: ")
-            userSpec = userSpec.lower()
-            if userSpec == "":
-                print("You didn't type anything.")
-            else:
-                break
-        check4CCs(codecFile, newFileName, userSpec)
+# for fileName1 in os.listdir(CodecFileDirectory):
+#     if fileName1.endswith(".txt"):
+#         codecFile = CodecFileDirectory+fileName1
+#         newFileName = outputDirectory + fileName1.strip(".txt") + "-missing.csv"
+#         while True:
+#             print(fileName1)
+#             userSpec = input("Please enter the shortname of the specification: ")
+#             userSpec = userSpec.lower()
+#             if userSpec == "":
+#                 print("You didn't type anything.")
+#             else:
+#                 break
+#         check4CCs(codecFile, newFileName, userSpec)
 # End Loop to check the entire CodecFileDirectory------------------------------------------
 
 
 # Comment out the above loop and use this code to run only one specification from the specs/ folder at a time:
-# specification_to_test = "ISO-IEC_FDIS_14496-12-2018.txt"
-#
-# codecFile = CodecFileDirectory + specification_to_test
-# newFileName = outputDirectory + specification_to_test.strip(".txt") + "-missing.csv"
-# print(specification_to_test)
-# userSpec = input("Please enter a specification: ")
-# check4CCs(codecFile, newFileName, userSpec)
+
+specification_to_test = input('Please enter the filename of the specification to test (must be located in "4CC_Automation/specs/"): ')
+codecFile = CodecFileDirectory + specification_to_test
+newFileName = outputDirectory + specification_to_test.strip(".txt") + "-missing.csv"
+userSpec = input("Please enter the shortname of the specification: ")
+check4CCs(codecFile, newFileName, userSpec)
