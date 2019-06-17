@@ -2,9 +2,9 @@ language: node_js
 node_js:
   - "7"
 
-branches:
-  only:
-  - dev
+# branches:
+#   only:
+#   - dev
 
 before_script:
   - ./scripts/PRsanitycheck.py
