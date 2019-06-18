@@ -17,12 +17,12 @@ mvif,MVC Scalability Information,sample group,NALu Video
 nalm,NAL unit map entry,sample group,NALu Video
 oinf,L-HEVC operating points information,sample group,NALu Video
 linf,L-HEVC layer information,sample group,NALu Video
-"rap ",Random access point,sample group,ISO
+rap$20,Random access point,sample group,ISO
 rash,Rate share,sample group,ISO
 refs,Direct reference samples list,sample group,HEIF
 roll,Pre/Post roll group,sample group,ISO
 rrgn,SVC rect region box,sample group,NALu Video
-"sap ",Stream access point,sample group,ISO
+sap$20,Stream access point,sample group,ISO
 scif,SVC Scalability Information,sample group,NALu Video
 scnm,AVC/SVC/MVC map groups,sample group,NALu Video
 stsa,Step-wise Temporal Layer,sample group,NALu Video
