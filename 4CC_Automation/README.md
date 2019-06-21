@@ -1,4 +1,4 @@
-# 4CC Automation script
+# 4CC Automation Script
 Created by Jason Kopp for David Singer of Apple Inc.  
 First uploaded to Github: 5/30/2019  
 Last updated: 5/30/2019  
@@ -21,15 +21,15 @@ python3 4CCAutomationScript.py [path/to/specificationFilename] [specification sh
 1. [path/to/specificationFilename] = specification file, exported from Microsoft Word as a text file, encoded as unicode (UTF-8).
 2. [specification shortname] = the short code of that specification (as listed at mp4ra.org). For example:
 ```
-$ Python3 4CCsAutomationScript.py w18310_23008-12_Ed2_FDIS+COR1_R1.txt heif
+$ python3 4CCAutomationScript.py w18310_23008-12_Ed2_FDIS+COR1_R1.txt heif
 ```
 OR
 ```
-$ Python3 4CCsAutomationScript.py wXXXXX-FDIS-MIAF-RB-3.txt miaf
+$ python3 4CCAutomationScript.py wXXXXX-FDIS-MIAF-RB-3.txt miaf
 ```
 3. [\*optional\* path/to/outputFilename] = the name of the csv file produced by this script. If you do not provide this argument, shortname + "-check.csv" will be used.
 ```
-$ Python3 4CCsAutomationScript.py wXXXXX-FDIS-MIAF-RB-3.txt miaf newfile.csv
+$ python3 4CCAutomationScript.py wXXXXX-FDIS-MIAF-RB-3.txt miaf newfile.csv
 ```
 
 ## Output
