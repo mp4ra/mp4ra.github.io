@@ -14,9 +14,9 @@ We created two new MP4RA CSV files: CSV/unlisted.csv and CSV/textualcontent.csv.
 ## How to Run
 To run this script on your own specifications type in terminal:
 ```
-python(3) 4CCAutomationScript.py [path/to/specificationFilename] [specification shortname] [*optional* path/to/outputFilename]"'
+python3 4CCAutomationScript.py [path/to/specificationFilename] [specification shortname] [*optional* path/to/outputFilename]"'
 ```
-*All paths are relative to "MP4RArepo/4CC_Automation/4CCAutomationScript.py"*
+*All paths are relative to the script: "MP4RArepo/4CC_Automation/4CCAutomationScript.py"*
 
 1. [path/to/specificationFilename] = specification file, exported from Microsoft Word as a text file, encoded as unicode (UTF-8).
 2. [specification shortname] = the short code of that specification (as listed at mp4ra.org). For example:
