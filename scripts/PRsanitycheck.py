@@ -1,17 +1,19 @@
 #!/usr/bin/env python3
 import csv, re, os
 
+# Cycles through the CSV files in the MP4RA repo and returns a tuple contatining 1.)list of all the 4CCs and the associated columns and 2.) list of the specifications and their associtated columns
 def getCSV4CCs(directory):
     codesInCSV = []
     speclist = []
-    handlelist = []
     for fileName in os.listdir(directory):
+        #Ignores some files in the CSV directory that don't have 4CCs or aren't needed
         if fileName.endswith(".csv") and fileName != "oti.csv" and fileName != "stream-types.csv" and fileName != "unlisted.csv" and fileName != "textualcontent.csv" and fileName != "knownduplicates.csv":
             with open(directory+fileName, 'r') as csvfile:
                 csvReader = csv.DictReader(csvfile)
                 headers = csvReader.fieldnames
                 if 'code' in headers:
                     for row in csvReader:
+                        #Replaces spaces with underscores and then $20 with spaces.
                         csvCode = row['code'].replace(' ', '_').replace('$20', ' ')
                         if 'description' in headers:
                             csvDesc = row['description'].lower()
@@ -35,14 +37,16 @@ def getCSV4CCs(directory):
                         else:
                             csvType = "n/a"
                         codesInCSV.append([csvCode, csvDesc, csvSpec, csvFile, csvHandle, csvObjectType, csvType])
+                #Build speclist
                 if fileName == "specifications.csv":
                     for row in csvReader:
                         linkname = row['linkname']
                         spec = row['specification']
                         desc = row['description']
                         speclist.append([linkname, spec, desc])
-    return (codesInCSV, speclist, handlelist)
+    return (codesInCSV, speclist)
 
+#Check to ensure all 4ccs are actually four characters matching the regex below
 def notfourcharacters(codes, exceptions=[]):
     pattern = re.compile("^[A-Za-z0-9 +-]{4}$")
     mistakeCodes = []
@@ -60,8 +64,11 @@ def notfourcharacters(codes, exceptions=[]):
         print("\tAll 4ccs are not four characters - FAIL")
         return 1
 
+#Finds duplitcated codes. Only fails the check if the duplicates are in the same CSV File
 def duplicatecodes(codes, exceptions=[]):
+    #First build a list of just the 4CCs excluding any you want to exclude
     allcodes = [code[0] for code in codes if code[0] not in exceptions]
+    #Build a list of codes that occur more than once, these are duplicates.
     dups = []
     for i in range(len(codes)):
         if allcodes.count(codes[i][0]) > 1:
@@ -72,12 +79,15 @@ def duplicatecodes(codes, exceptions=[]):
     if dupssorted == []:
         print("\tNo duplicates found - PASS")
         return 0
+    #If duplicates are found. Then:
     else:
         dupstest = []
         dupsame = []
         dupdiff = []
+        # build a list of the duplicate codes and their associated file names
         for i in range(len(dupssorted)):
             dupstest.append([dupssorted[i][0], dupssorted[i][3]])
+        # If a duplicate + filename occurs more than once, then you know if occurs in the same file. Print that result and fail the test.
         for i in range(len(dupssorted)):
             if dupstest.count([dupssorted[i][0], dupssorted[i][3]]) == 1:
                 print("\t%s" % (dupssorted[i][0:7]))
@@ -92,6 +102,13 @@ def duplicatecodes(codes, exceptions=[]):
             print("\tNo duplicates found in the same CSV - PASS")
             return 0
 
+# Create and return the known duplicates file
+def knownduplicates(filename):
+    with open(filename, 'r') as file:
+        knownduplicatescsv = [row.replace('$20', ' ').replace('\n', '') for row in file]
+    return knownduplicatescsv
+
+#Check to make sure all the codes that have specexceptions are registered in the specifications.csv file
 def registerspecs(codesInCSV, speclist, specexceptions=[]):
     unregisteredspecs = []
     allspecs = [spec[1].lower() for spec in speclist]+specexceptions
@@ -108,6 +125,7 @@ def registerspecs(codesInCSV, speclist, specexceptions=[]):
         print("\tThere are unregistered specs - FAIL")
         return 1
 
+#Find CSV Rows that have missing columns
 def filledcolumns(codesInCSV):
     missingcols=[]
     for row in codesInCSV:
@@ -132,11 +150,7 @@ def filledcolumns(codesInCSV):
         print("\tThese specs have missing columns - FAIL")
         return 1
 
-def knownduplicates(filename):
-    with open(filename, 'r') as file:
-        knownduplicatescsv = [row.replace('$20', ' ').replace('\n', '') for row in file]
-    return knownduplicatescsv
-
+# Like the specification check, check to ensure all handlers that are used are registered in handlers.csv
 def registerhandle(codesInCSV, handleexceptions):
     unregisteredhandles = []
     allhandles = [handle[1].lower() for handle in codesInCSV if handle[3] == "handlers.csv"]+handleexceptions
@@ -153,11 +167,12 @@ def registerhandle(codesInCSV, handleexceptions):
         print("\tThere are unregistered handles - FAIL")
         return 1
 
+# Start and perform the sanity check
 def prsanitycheck():
-    #GET CODES
+    # The location of the CSV Folder changes between the travis repo and when you clone and run the check on your local machine. When uploading to github ensure repo = github
     # repo = "local"
-    repo = "travis"
-    if repo == "travis":
+    repo = "github"
+    if repo == "github":
         repo = "CSV/"
     elif repo == "local":
         repo = "../CSV/"
