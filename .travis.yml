@@ -6,6 +6,12 @@ branches:
   only:
   - dev
 
+before_install:
+  - chmod +x ./scripts/PRsanitycheck.py
+
+before_script:
+  - ./scripts/PRsanitycheck.py
+
 script:
   - npm install
   - browserify -t brfs src/app.js -o dist/js/bundle.js
