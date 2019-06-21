@@ -1,9 +1,7 @@
-import csv, re, os
+import csv, re, os, sys
 from datetime import datetime
 
 def check4CCs(codecFile, newFileName, userSpec):
-    print("-----------------------------------------------------------")
-
     # Find 4CCs in Codec File----------------------------------------------------------
     with open(codecFile, 'r') as file:
         codesStripped = []
@@ -37,7 +35,7 @@ def check4CCs(codecFile, newFileName, userSpec):
 
         fileCodes = sorted(set(codesStripped))
 
-    # Find Identifiers CSV Files----------------------------------------------------------
+    # Find 4ccs in the repo CSV Files----------------------------------------------------------
     csvCodes = []
     codesInCSV = []
     for fileName in os.listdir(CSVFileDirectory):
@@ -48,7 +46,7 @@ def check4CCs(codecFile, newFileName, userSpec):
                 if 'code' in headers:
                     for row in csvReader:
                         csvCode = row['code']
-                        csvFile = fileName.lower()
+                        csvFile = fileName
                         csvLine = str(list(row.values()))
                         if 'specification' in headers:
                             csvSpec = row['specification'].lower()
@@ -157,48 +155,61 @@ def check4CCs(codecFile, newFileName, userSpec):
                 csvWriter.writerow([i[0], i[1], "", "", "", i[2]])
 
     # Test-------------------------------------------------------------------------------
-    missingCodes = set(fileCodes) - set(csvCodes)
-    print("Codes in file: %d" % len(codesStripped))
-    print("Sentences in file: %d" % len(sentenceList))
-    print("Unique codes in file: %d" % len(fileCodes))
-    print("Curly quotes: %d" % len(curlySpecs))
-    print("In CSV files: %d" % len(codesInCSV))
-    print("Missing: %d" % len(missingCodes))
-
-    print("-----------------------------------------------------------")
+    # missingCodes = set(fileCodes) - set(csvCodes)
+    # print("Codes in file: %d" % len(codesStripped))
+    # print("Sentences in file: %d" % len(sentenceList))
+    # print("Unique codes in file: %d" % len(fileCodes))
+    # print("Curly quotes: %d" % len(curlySpecs))
+    # print("In CSV files: %d" % len(codesInCSV))
+    # print("Missing: %d" % len(missingCodes))
+    #
+    # print("-----------------------------------------------------------")
     return
 # End check4CCs Function----------------------------------------------------------
 
-
-CodecFileDirectory = "specs/"
-CSVFileDirectory = "../CSV/"
-outputDirectory = "output/" + datetime.now().strftime("%Y-%m-%d_%H-%M-%S/")
-os.mkdir(outputDirectory)
-
 # Start Loop to check the entire CodecFileDirectory------------------------------------------
-for fileName1 in os.listdir(CodecFileDirectory):
-    if fileName1.startswith(("~",".")):
-        print("%s is not an acceptable file format: " % fileName1)
-    elif fileName1.endswith(".txt"):
-        codecFile = CodecFileDirectory+fileName1
-        newFileName = outputDirectory + fileName1.strip(".txt") + "-missing.csv"
-        while True:
-            print(fileName1)
-            userSpec = input("Please enter a specification: ")
-            userSpec = userSpec.lower()
-            if userSpec == "":
-                print("You didn't type anything.")
-            else:
-                break
-        check4CCs(codecFile, newFileName, userSpec)
+# CodecFileDirectory = "specs/"
+# CSVFileDirectory = "../CSV/"
+# outputDirectory = "output/" + datetime.now().strftime("%Y%m%d%H%M%S/")
+# os.mkdir(outputDirectory)
+# for fileName1 in os.listdir(CodecFileDirectory):
+#     if fileName1.endswith(".txt"):
+#         codecFile = CodecFileDirectory+fileName1
+#         while True:
+#             print(fileName1)
+#             userSpec = input("Please enter the shortname of the specification: ")
+#             userSpec = userSpec.lower()
+#             if userSpec == "":
+#                 print("You didn't type anything.")
+#             else:
+#                 break
+#         newFileName = outputDirectory + userSpec + "-check.csv"
+#         check4CCs(codecFile, newFileName, userSpec)
 # End Loop to check the entire CodecFileDirectory------------------------------------------
 
+# Runs only one specification from the specs/ folder at a time using arguments from the command line:
+CSVFileDirectory = "../CSV/"
+warning = 'You need to type "python(3) 4CCAutomationScript.py [path/to/specificationFilename] [specification shortname] [*optional* path/to/outputFilename]"'
 
-# Comment out the above loop and use this code to run only one specification from the specs/ folder at a time:
-# specification_to_test = "ISO-IEC_FDIS_14496-12-2018.txt"
-#
-# codecFile = CodecFileDirectory + specification_to_test
-# newFileName = outputDirectory + specification_to_test.strip(".txt") + "-missing.csv"
-# print(specification_to_test)
-# userSpec = input("Please enter a specification: ")
-# check4CCs(codecFile, newFileName, userSpec)
+if len(sys.argv) < 3:
+    print("You didn't provide enough arguments.")
+    print(warning)
+elif len(sys.argv) == 3:
+    scriptname = sys.argv[0]
+    codecFile = sys.argv[1]
+    userSpec = sys.argv[2]
+    newFileName = userSpec + "-check.csv"
+
+    print("Running %s on %s with shortname %s > %s" % (scriptname, codecFile, userSpec, newFileName))
+    check4CCs(codecFile, newFileName, userSpec)
+elif len(sys.argv) == 4:
+    scriptname = sys.argv[0]
+    codecFile = sys.argv[1]
+    userSpec = sys.argv[2]
+    newFileName = sys.argv[3]
+
+    print("Running %s on %s with shortname %s > %s" % (scriptname, codecFile, userSpec, newFileName))
+    check4CCs(codecFile, newFileName, userSpec)
+elif len(sys.argv) > 4:
+    print("You provided too many arguments.")
+    print(warning)
