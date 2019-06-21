@@ -167,13 +167,11 @@ def check4CCs(codecFile, newFileName, userSpec):
     return
 # End check4CCs Function----------------------------------------------------------
 
-
-CodecFileDirectory = "specs/"
-CSVFileDirectory = "../CSV/"
-outputDirectory = "output/" + datetime.now().strftime("%Y%m%d%H%M%S/")
-os.mkdir(outputDirectory)
-
 # Start Loop to check the entire CodecFileDirectory------------------------------------------
+# CodecFileDirectory = "specs/"
+# CSVFileDirectory = "../CSV/"
+# outputDirectory = "output/" + datetime.now().strftime("%Y%m%d%H%M%S/")
+# os.mkdir(outputDirectory)
 # for fileName1 in os.listdir(CodecFileDirectory):
 #     if fileName1.endswith(".txt"):
 #         codecFile = CodecFileDirectory+fileName1
@@ -189,23 +187,29 @@ os.mkdir(outputDirectory)
 #         check4CCs(codecFile, newFileName, userSpec)
 # End Loop to check the entire CodecFileDirectory------------------------------------------
 
-# Comment out the above loop and use this code to run only one specification from the specs/ folder at a time:
-scriptname = ""
-specification_to_test = ""
-userSpec = ""
+# Runs only one specification from the specs/ folder at a time using arguments from the command line:
+CSVFileDirectory = "../CSV/"
+warning = 'You need to type "python(3) 4CCAutomationScript.py [path/to/specificationFilename] [specification shortname] [*optional* path/to/outputFilename]"'
 
-for arg in sys.argv:
-    if arg.endswith(".py"):
-        scriptname = arg
-    elif arg.endswith(".txt"):
-        specification_to_test = arg
-    else:
-        userSpec = arg.lower()
+if len(sys.argv) < 3:
+    print("You didn't provide enough arguments.")
+    print(warning)
+elif len(sys.argv) == 3:
+    scriptname = sys.argv[0]
+    codecFile = sys.argv[1]
+    userSpec = sys.argv[2]
+    newFileName = userSpec + "-check.csv"
 
-if scriptname == "" or specification_to_test == "" or userSpec == "":
-    print('You need to type "python(3) 4CCAutomationScript.py [specification filename] [specification shortname]"')
-else:
-    codecFile = CodecFileDirectory + specification_to_test
-    newFileName = outputDirectory + userSpec + "-check.csv"
-    print("Running %s on %s with shortname %s > %s" % (scriptname, specification_to_test, userSpec, newFileName))
+    print("Running %s on %s with shortname %s > %s" % (scriptname, codecFile, userSpec, newFileName))
     check4CCs(codecFile, newFileName, userSpec)
+elif len(sys.argv) == 4:
+    scriptname = sys.argv[0]
+    codecFile = sys.argv[1]
+    userSpec = sys.argv[2]
+    newFileName = sys.argv[3]
+
+    print("Running %s on %s with shortname %s > %s" % (scriptname, codecFile, userSpec, newFileName))
+    check4CCs(codecFile, newFileName, userSpec)
+elif len(sys.argv) > 4:
+    print("You provided too many arguments.")
+    print(warning)
