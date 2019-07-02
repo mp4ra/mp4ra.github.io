@@ -54,7 +54,7 @@ MJ2,MJ2,"<a href='http://www.iso.ch/' target='_blank'>ISO</a>/IEC 15444-3:2003, 
 MP4V1,MP4v1,"<a href='http://www.iso.ch/' target='_blank'>ISO</a>/IEC 14496-1, Information technology – Coding of audio-visual objects – Part 1: Systems, (Various versions to 2001), Chapter 13, The MP4 File Format"
 MP4V2,MP4v2,"<a href='http://www.iso.ch/' target='_blank'>ISO</a>/IEC 14496-14, The MP4 File Format"
 MPEG-4,MPEG-4,"<a href='http://www.iso.ch/' target='_blank'>ISO</a>/IEC 14496-1, Information technology – Coding of audio-visual objects – Part 1: Systems"
-MPEG-VSAF, ISO/IEC 23000-10, ISO Surveillance application format
+MPEG-VSAF, MPEG-VSAF, ISO Surveillance application format
 MPEG21,MPEG-21,"<a href='http://www.iso.ch/' target='_blank'>ISO</a>/IEC 21000-9, Information technology – MPEG-21 File Format"
 MPEGHAudio,MPEG-H,"<a href='http://www.iso.ch/' target='_blank'>ISO</a>/IEC 23008-3, Information technology – High efficiency coding and media delivery in heterogeneous environments – Part 3: 3D audio"
 MMT,MMT,<a href='http://www.iso.ch/' target='_blank'>ISO</a>/IEC 23008-1 MPEG Media Transport
