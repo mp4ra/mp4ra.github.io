@@ -1,3 +1,8 @@
 code,description,specification
 3gLZ,For files with brand '3gLZ' where L is a letter and Z a digit and conforming to version Z.x.y of this specification,3GPP
+3gau,extra information in a hint sample, specific to the SRTP format,3GPP
+d263,codec-specific box in, and owned by, a specific sample entry,3GPP
+damr,odec-specific box in, and owned by, a specific sample entry,3GPP
+dawp,codec-specific box in, and owned by, a specific sample entry,3GPP
+spdb,ServiceProtectionDescription scoped to the SRTP hint track Scheme Information,3GPP
 isoX,The 'isoX' brand (where “X” represents a number or letter) specified in each new edition,CMAF
