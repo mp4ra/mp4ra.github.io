@@ -33,7 +33,7 @@ dvav,AVC-based Dolby Vision derived from avc3,Video,Dolby Vision,
 dvh1,HEVC-based Dolby Vision derived from hvc1,Video,Dolby Vision,
 dvhe,HEVC-based Dolby Vision derived from hev1,Video,Dolby Vision,
 ec-3,Enhanced AC-3 audio,Audio,ETSI AC-3,0xA6
-ec+3,"withdrawn, unused, do not use (was enhanced AC-3 audio with JOC)", ,
+ec+3,"withdrawn, unused, do not use (was enhanced AC-3 audio with JOC)",Audio,Deprecated,
 enca,Encrypted/Protected audio,Audio,ISO,
 encf,Encrypted/Protected font,Font,ISO,
 encm,Encrypted/Protected metadata,Metadata,ISO,
