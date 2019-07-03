@@ -41,7 +41,7 @@ encs,Encrypted Systems stream,(various),ISO,
 enct,Encrypted Text,Text,ISO,
 encv,Encrypted/protected video,Video,ISO,
 fdp$20,File delivery hints,Hint,ISO,
-FFV1, An open lossless intra-frame video codec, Video, FF Video Codec, 
+FFV1,An open lossless intra-frame video codec,Video,FF Video Codec,
 g719,ITU-T Recommendation G.719 (2008),Audio,ITU G.719,0xA8
 g726,ITU-T Recommendation G.726 (1990),Audio,SDV,
 hev1,High Efficiency Video Coding,Video,NALu Video,0x23
