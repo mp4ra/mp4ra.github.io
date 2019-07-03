@@ -9,7 +9,7 @@ atsc30,ATSC 3.0,<a href='https://www.atsc.org/standards/atsc-3-0-standards/'>ATS
 Auro,Auro,<a href='http://www.auro-3d.com/'>Auro Technologies</a>
 bitjazz,BitJazz,<a href='http://www.bitjazz.com/'>BitJazz</a>
 blinkbox,Blinkbox,<a href='http://www.blinkbox.com/'>Blinkbox</a>
-CamMotion,CamMotion,<a href='https://developers.google.com/streetview/publish/camm-spec' target='_blank'>Camera Motion Metadata Track, Google Inc.</a>, embed various metadata about camera motion including orientation, gyroscope reading, accelerometer reading, positions, etc.
+CamMotion,CamMotion,"<a href='https://developers.google.com/streetview/publish/camm-spec' target='_blank'>Camera Motion Metadata Track, Google Inc.</a>, embed various metadata about camera motion including orientation, gyroscope reading, accelerometer reading, positions, etc."
 canon,Canon,<a href='http://www.canon.com/'>Canon</a>
 casio,Casio,<a href='http://world.casio.com/'>Casio</a>
 cineform,CineForm,<a href='http://www.cineform.com/'>Cineform</a>
