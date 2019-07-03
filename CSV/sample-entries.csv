@@ -49,7 +49,7 @@ hvc1,High Efficiency Video Coding,Video,NALu Video,0x23
 hvc2,High Efficiency Video Coding,Video,NALu Video,0x23
 hvt1,HEVC tile tracks,Video,NALu Video,
 ixse,DVB Track Level Index Track,Metadata,DVB,
-jxsm,Video and image sequences coded to the JPEG-XS coding format,Video,JPXS
+jxsm,Video and image sequences coded to the JPEG-XS coding format,Video,JPXS,
 lhe1,Layered HEVC,Video,NALu Video,
 lht1,Layered HEVC tile tracks,Video,NALu Video,
 lhv1,Layered HEVC,Video,NALu Video,
