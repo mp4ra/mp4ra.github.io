@@ -8,6 +8,7 @@ code,description,specification
 3gg9,3GPP Release 9 General Profile,3GPP
 3gh9,3GPP Release 9 Adaptive Streaming Profile,3GPP
 3gm9,3GPP Release 9 Media Segment Profile,3GPP
+3gmA,3GPP Media Segment conforming to the Media Segment Format for 3GP DASH,3GPP-DASH
 3gp4,3GPP Release 4,3GPP
 3gp5,3GPP Release 5,3GPP
 3gp6,3GPP Release 6 basic Profile,3GPP
