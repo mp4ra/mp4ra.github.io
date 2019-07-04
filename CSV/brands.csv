@@ -20,6 +20,11 @@ code,description,specification
 3gs9,3GPP Release 9 Streaming ServerProfile,3GPP
 3gt8,3GPP Release 8 Media Stream Recording Profile,3GPP
 3gt9,3GPP Release 9 Media Stream Recording Profile,3GPP
+3gtv,3GPP TV over 3GPP services,3GPP-TVP
+3gvr,3GPP VR Presentation,3GPP-VR
+3vra,3GPP VR Advanced Video Media Profile,3GPP-VR
+3vrb,3GPP VR Basic Video Media Profile,3GPP-VR
+3vrm,3GPP VR Main Video Media Profile,3GPP-VR
 ARRI,ARRI Digital Camera,ARRI
 av01,AOM Video Codec,AV1-ISOBMFF
 avc1,Advanced Video Coding extensions,ISO
