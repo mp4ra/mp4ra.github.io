@@ -104,7 +104,7 @@ jpxb,JPEG XR,JPXR
 jxs$20,Still Image File Format for JPEG XS,JPXS
 jxsc,Codestream for JPEG XS,JPXS
 jxsi,JPEG XS image and image collections for HEIF,JPXS
-jxss,JPEG XS image sequences for HEIF, JPXS
+jxss,JPEG XS image sequences for HEIF,JPXS
 LCAG,Leica digital camera,Leica
 lmsg,last Media Segment indicator for ISO base media file format.,DASH
 M4A$20,"iTunes MPEG-4 audio protected or not, can contain audio + video + 3g text track + chapter track",iTunes
