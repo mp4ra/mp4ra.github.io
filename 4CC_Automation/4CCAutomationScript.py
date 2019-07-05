@@ -49,7 +49,7 @@ def check4CCs(codecFile, newFileName, userSpec):
                         csvFile = fileName
                         csvLine = str(list(row.values()))
                         if 'specification' in headers:
-                            csvSpec = row['specification'].lower()
+                            csvSpec = row['specification']
                         else:
                             csvSpec = "No spec"
 
@@ -178,7 +178,7 @@ def check4CCs(codecFile, newFileName, userSpec):
 #         while True:
 #             print(fileName1)
 #             userSpec = input("Please enter the shortname of the specification: ")
-#             userSpec = userSpec.lower()
+#             userSpec = userSpec
 #             if userSpec == "":
 #                 print("You didn't type anything.")
 #             else:
