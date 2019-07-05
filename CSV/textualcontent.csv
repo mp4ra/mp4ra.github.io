@@ -17,10 +17,10 @@ warp,ask the server to ‘warp’ the actual transmission,iso
 sync,hat constitutes a valid ‘sync’,iso
 1111,tbit(4) reserved = '1111'b,nalu video
 size,The ‘size’ field of the container box,nalu video
-$20or$20,indexed in a 'hierarchical' or 'daisy-chain',3gpp
-3gpp,File extension(s):\t'3gp' and '3gpp' are both declared,3gpp
-Name,'Name' should express a high-level location,3gpp
-PG13,the corresponding rating entity e.g. 'PG13',3gpp
-star,user 'star' rating of the media,3gpp
-VXYZ,four character code of the manufacturer of the codec e.g. 'VXYZ',3gpp
+$20or$20,indexed in a 'hierarchical' or 'daisy-chain',3GPP
+3gpp,File extension(s):\t'3gp' and '3gpp' are both declared,3GPP
+Name,'Name' should express a high-level location,3GPP
+PG13,the corresponding rating entity e.g. 'PG13',3GPP
+star,user 'star' rating of the media,3GPP
+VXYZ,four character code of the manufacturer of the codec e.g. 'VXYZ',3GPP
 subs,sub-sample index “j” in the ‘subs’,iso-text
