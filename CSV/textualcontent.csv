@@ -1,21 +1,21 @@
 code,sentence,specification
-file,are indicated as being at ‘file’ level,partial
-heif,MIME subtype name SHALL be 'heif',heif
-$20or$20,may be indexed in a ‘hierarchical’ or ‘daisy-chain’,iso
-$20to$20,change from ‘incomplete’ to ‘complete’,iso
-also,Y is also required because the ‘also’ has,iso
-atom,entry Called ‘atom’ in some specifications,iso
-file,are indicated as being at ‘file’ level,iso
-font,type 'font' may be used to indicate,iso
-name,arbitrary integer ‘name’ for this resource,iso
-walk,It must be possible to ‘walk’ the,iso
-true,must be ‘true’ for the entire movie,iso
-type,speak of a single ‘type’ or ‘brand’ for the file,iso
-wrap,in this format do not ‘wrap’ to 0,iso
-hint,Protocol ‘hint’ tracks	19,iso
-warp,ask the server to ‘warp’ the actual transmission,iso
-sync,hat constitutes a valid ‘sync’,iso
-1111,tbit(4) reserved = '1111'b,nalu video
+file,are indicated as being at ‘file’ level,Partial
+heif,MIME subtype name SHALL be 'heif',HEIF
+$20or$20,may be indexed in a ‘hierarchical’ or ‘daisy-chain’,ISO
+$20to$20,change from ‘incomplete’ to ‘complete’,ISO
+also,Y is also required because the ‘also’ has,ISO
+atom,entry Called ‘atom’ in some specifications,ISO
+file,are indicated as being at ‘file’ level,ISO
+font,type 'font' may be used to indicate,ISO
+name,arbitrary integer ‘name’ for this resource,ISO
+walk,It must be possible to ‘walk’ the,ISO
+true,must be ‘true’ for the entire movie,ISO
+type,speak of a single ‘type’ or ‘brand’ for the file,ISO
+wrap,in this format do not ‘wrap’ to 0,ISO
+hint,Protocol ‘hint’ tracks	19,ISO
+warp,ask the server to ‘warp’ the actual transmission,ISO
+sync,hat constitutes a valid ‘sync’,ISO
+1111,tbit(4) reserved = '1111'b,NALu Video
 size,The ‘size’ field of the container box,nalu video
 $20or$20,indexed in a 'hierarchical' or 'daisy-chain',3GPP
 3gpp,File extension(s):\t'3gp' and '3gpp' are both declared,3GPP
@@ -23,4 +23,4 @@ Name,'Name' should express a high-level location,3GPP
 PG13,the corresponding rating entity e.g. 'PG13',3GPP
 star,user 'star' rating of the media,3GPP
 VXYZ,four character code of the manufacturer of the codec e.g. 'VXYZ',3GPP
-subs,sub-sample index “j” in the ‘subs’,iso-text
+subs,sub-sample index “j” in the ‘subs’,ISO-Text
