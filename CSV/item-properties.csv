@@ -1,6 +1,7 @@
 code,description,specification
 auxC,Auxiliary type,HEIF
 avcC,AVC Image item configuration,HEIF
+brnd,Item brand (type),ISO
 clap,Clean aperture,HEIF
 colr,Colour information,HEIF
 hvcC,HEVC Image item configuration,HEIF
