@@ -8,6 +8,7 @@ buff,Buffering information,NALu Video
 bxml,binary XML container,ISO
 ccid,OMA DRM Content ID,OMA DRM 2.1
 cdef,type and ordering of the components within the codestream,JPEG2000
+cinf,complete track information,ISO
 clip,Reserved,ISO
 cmap,mapping between a palette and codestream components,JPEG2000
 co64,64-bit chunk offset,ISO
@@ -15,6 +16,7 @@ coin,Content Information Box,DECE
 colr,specifies the colourspace of the image,JPEG2000
 crgn,Reserved,ISO
 crhd,reserved for ClockReferenceStream header,MP4v1
+csgp,compact sample to group,ISO
 cslg,composition to decode timeline mapping,ISO
 ctab,Reserved,ISO
 ctts,(composition) time to sample,ISO
@@ -27,6 +29,7 @@ edts,edit list container,ISO
 elst,an edit list,ISO
 emsg,event message,DASH
 evti,Event information,ATSC 3.0
+etyp,extended type and type combination,ISO
 fdel,File delivery information (item info extension),ISO
 feci,FEC Informatiom,ISO
 fecr,FEC Reservoir,ISO
@@ -49,6 +52,7 @@ ihdr,Image Header,JPEG2000
 iinf,item information,ISO
 iloc,item location,ISO
 imap,Reserved,ISO
+imda,Identified media data,ISO
 imif,IPMP Information box,ISO
 infe,Item information entry,ISO
 infu,OMA DRM Info URL,OMA DRM 2.0
@@ -174,6 +178,8 @@ trgr,Track grouping information,ISO
 trik,Facilitates random access and trick play modes,DECE
 trun,track fragment run,ISO
 tstb,TileSubTrackGroupBox,NALu Video
+ttyp,track type and compatibility,ISO
+tyco,type and-combination,SO
 udta,user-data,ISO
 uinf,a tool by which a vendor may provide access to additional information associated with a UUID,JPEG2000
 UITS,Unique Identifier Technology Solution,Universal Music Group
