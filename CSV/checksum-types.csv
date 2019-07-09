@@ -1,0 +1,3 @@
+code,description,specification
+md5$20,MD5 checksum as specified in RFC 6151,ISO-Partial
+sha1,SHA-1 checksum as specified in RFC 3174,ISO-Partial
