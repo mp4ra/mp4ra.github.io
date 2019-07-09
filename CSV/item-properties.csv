@@ -4,6 +4,8 @@ avcC,AVC Image item configuration,HEIF
 clap,Clean aperture,HEIF
 colr,Colour information,HEIF
 hvcC,HEVC Image item configuration,HEIF
+iaux,Item Auxiliary Information,ISO Common Encryption
+ienc,Item Encryption,ISO Common Encryption
 imir,Image mirroring,HEIF
 irot,Image rotation,HEIF
 ispe,Image spatial extents,HEIF

@@ -7,3 +7,4 @@ cens,AES-CTR subsample pattern encryption scheme,protection scheme,ISO Common En
 cpcm,CPCM (DVB BlueBook A094) protected content,protection scheme,DVB
 odkm,OMA DRM KMS protection scheme,protection scheme,OMA DRM 2.0
 stvi,Stereo video restricted scheme,protection scheme,ISO
+sve1,AES-CTR content sensitive encryption,protection scheme,ISO Common Encryption
