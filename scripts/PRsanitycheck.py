@@ -48,7 +48,7 @@ def getCSV4CCs(directory):
 
 #Check to ensure all 4ccs are actually four characters matching the regex below
 def notfourcharacters(codes, exceptions=[]):
-    pattern = re.compile("^[A-Za-z0-9 +-]{4}$")
+    pattern = re.compile(u'^[\u0020-\u007E]{4}$', re.UNICODE)
     mistakeCodes = []
     for code in codes:
         if pattern.match(code[0]) == None:
@@ -61,7 +61,7 @@ def notfourcharacters(codes, exceptions=[]):
     elif mistakeCodes != []:
         for i in mistakeCodes:
             print("\t'%s' from '%s'" % (i[0], i[1]))
-        print("\tAll 4ccs are not four characters - FAIL")
+        print("\tAll 4ccs are either longer than four characters or not valid - FAIL")
         return 1
 
 #Finds duplitcated codes. Only fails the check if the duplicates are in the same CSV File
