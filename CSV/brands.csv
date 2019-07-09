@@ -146,3 +146,4 @@ sisx,Single Index Segment used to index MPEG-2 TS based Media Segments.,DASH
 ssss,Subsegment Index Segment used to index MPEG-2 TS based Media Segments.,DASH
 uvvu,"UltraViolet file brand – conforming to the DECE Common File Format spec, Annex E.",DECE
 XAVC,XAVC File Format,Sony
+yt4$20,Google specification for use by YouTube apps,Youtube
