@@ -38,7 +38,7 @@ SmDm,Mastering Display Metadata Box,Video,VPxx
 srat,Sampling rate,Audio,ISO
 svcC,SVC configuration,Video,NALu Video
 svcP,SVC priority assignments,Video,NALu Video
-svmC,SVC information configuration,Metadata,NALu Video
+svmC,SVC information configuration,Metadata,NALu Video,
 txtC,Text stream configuration,ISO
 udc1,Basic DRC coefficients,Audio,ISO
 udc2,Unified DRC coefficients,Audio,ISO
