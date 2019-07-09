@@ -1,4 +1,5 @@
 code,description,specification
+3dpr,MVDDepthResolutionBox only present in the mvdC box in a codec-specific sample entry,NALu Video
 3gLZ,For files with brand '3gLZ' where L is a letter and Z a digit and conforming to version Z.x.y of this specification,3GPP
 3gau,extra information in a hint sample specific to the SRTP format,3GPP
 d263,codec-specific box in and owned by a specific sample entry,3GPP
