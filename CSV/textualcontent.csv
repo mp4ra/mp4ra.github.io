@@ -25,3 +25,4 @@ star,user 'star' rating of the media,3GPP
 VXYZ,four character code of the manufacturer of the codec e.g. 'VXYZ',3GPP
 subs,sub-sample index “j” in the ‘subs’,ISO-Text
 size,The ’size’ field of the container box ScalabilityInformationSEIBox,NALu Video
+ttml,used in the codecs parameter,ISO-Text
