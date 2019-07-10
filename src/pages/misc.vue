@@ -32,6 +32,10 @@
   </p>
   <table is="mp4ra-table" v-bind:columns="['code', 'description', 'specification']" v-bind:data="mp4ra.item_references.db"></table>
   <p>
+    <h2><a name="item_properties"></a>Item Properties</h2>
+  </p>
+  <table is="mp4ra-table" v-bind:columns="['code', 'description', 'specification']" v-bind:data="mp4ra.item_properties.db"></table>
+  <p>
     <h2><a name="multiview_attributes"></a>Multiview Attributes</h2>
   </p>
   <table is="mp4ra-table" v-bind:columns="['code', 'description', 'specification']" v-bind:data="mp4ra.multiview_attributes.db"></table>
