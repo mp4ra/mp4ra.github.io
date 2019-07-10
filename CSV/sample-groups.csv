@@ -26,6 +26,7 @@ refs,Direct reference samples list,sample group,HEIF
 roll,Pre/Post roll group,sample group,ISO
 rrgn,SVC rect region box,sample group,NALu Video
 sap$20,Stream access point,sample group,ISO
+seig,Sample Encryption Information,sample group,ISO Common Encryption
 scif,SVC Scalability Information,sample group,NALu Video
 scnm,AVC/SVC/MVC map groups,sample group,NALu Video
 stsa,Step-wise Temporal Layer,sample group,NALu Video
