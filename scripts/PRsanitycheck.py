@@ -195,7 +195,7 @@ def prsanitycheck():
     #Test for Filled in Columns
     emptycols = filledcolumns(codesspecs[0])
 
-    #Test for registered handle types
+    #Test for registered handle types. Must leave "n/a" as a handleexceptions because that is introduced by the script.
     handleexceptions = ["n/a", "(various)", "General"]
     unregisteredhandles = registerhandle(codesspecs[0], handleexceptions)
 
