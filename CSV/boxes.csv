@@ -9,7 +9,7 @@ bxml,binary XML container,ISO
 ccid,OMA DRM Content ID,OMA DRM 2.1
 cdef,type and ordering of the components within the codestream,JPEG2000
 clip,Reserved,ISO
-clii,Content Light Level,MIAF
+clli,Content Light Level,MIAF
 cmap,mapping between a palette and codestream components,JPEG2000
 co64,64-bit chunk offset,ISO
 coin,Content Information Box,DECE
