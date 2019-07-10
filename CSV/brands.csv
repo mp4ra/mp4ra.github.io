@@ -123,7 +123,17 @@ M4P$20,MPEG-4 protected audio,iTunes
 M4V$20,MPEG-4 protected audio+video,iTunes
 MFSM,Media File for Samsung video Metadata,Samsung
 MGSV,Home and Mobile Multimedia Platform (HMMP),Sony
+MiAB,Multi-Image Application format brand for MIAF AVC Basic Profile,MIAF
+MiAC,Multi-Image Application format brand for fragmented alpha video,MIAF
+miaf,Multi-Image Application format brand for general MIAF requirements,MIAF
+MiAn,Mutli-Image Application format brand for animation,MIAF
+MiBu,Multi-Image Application format brand for burst capture,MIAF
+MiCm,Multi-Image Application format brand for CMAF compatibility,MIAF
 mif1,Image file format structural brand,HEIF
+MiHA,Multi-Image Application format brand for MIAF HEVC Advanced Profile,MIAF
+MiHB,Multi-Image Application format brand for MIAF HEVC Basic Profile,MIAF
+MiHE,Multi-Image Application format brand for MIAF HEVC Extended Profile,MIAF
+MiPr,Multi-Image Application format brand for progressive decoding and rendering,MIAF
 mj2s,Motion JPEG 2000 simple profile,MJ2
 mjp2,"Motion JPEG 2000, general profile",MJ2
 mp21,MPEG-21,MPEG-21
@@ -158,3 +168,5 @@ ssss,Subsegment Index Segment used to index MPEG-2 TS based Media Segments.,DASH
 uvvu,"UltraViolet file brand – conforming to the DECE Common File Format spec, Annex E.",DECE
 XAVC,XAVC File Format,Sony
 yt4$20,Google specification for use by YouTube apps,Youtube
+paff,"Generic Partial File",ISO-Partial
+pmff,"Mixed Partial File",ISO-Partial

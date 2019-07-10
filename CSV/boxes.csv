@@ -191,3 +191,16 @@ vmhd,"video media header, overall information (video track only)",ISO
 vwdi,Multiview Scene Information,NALu Video
 xml$20,XML container,ISO
 xml$20,a tool by which vendors can add XML formatted information,JPEG2000
+bidx,Box Index,ISO-Partial
+dihd,Data Integrity Hash,ISO-Partial
+dint,Data Integrity,ISO-Partial
+fidx,Box File Index,ISO-Partial
+frpa,Front Part,ISO-Partial
+pdat,Partial Data,ISO-Partial
+pfhd,Partial File Header,ISO-Partial
+pfil,Partial File,ISO-Partial
+ploc,Partial Segment Location,ISO-Partial
+pseg,Partial Segment,ISO-Partial
+pshd,Partial Segment Header,ISO-Partial
+ptle,Partial Top Level Entry,ISO-Partial
+surl,Source URL,ISO-Partial

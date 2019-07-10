@@ -22,6 +22,7 @@ var References = require('./pages/references.js');
 var Search = require('./pages/search.js');
 var Misc = require('./pages/misc.js');
 var ObjectTypes = require('./pages/object_types.js');
+var ChecksumTypes = require('./pages/checksum_types.js');
 var Request = require('./pages/request.js');
 
 Vue.use(VueRouter);
@@ -38,6 +39,7 @@ var router = new VueRouter({
     { path: '/search', component: Search },
     { path: '/misc', component: Misc },
     { path: '/object_types', component: ObjectTypes },
+    { path: '/checksum_types', component: ChecksumTypes },
     { path: '/request', component: Request }
   ]
 });
@@ -155,6 +157,12 @@ var app = new Vue({
         category: 'schemes',
         name: 'Protected and restricted schemes'
       },
+      checksum_types: {
+        db: null,
+        url: 'CSV/checksum-types.csv',
+        category: 'checksum types',
+        name: 'Checksum types'
+      },
       specifications: {
         db: null,
         url: 'CSV/specifications.csv',
@@ -257,6 +265,7 @@ var app = new Vue({
         self.loadData('track_references');
         self.loadData('track_references_qt');
         self.loadData('track_selection');
+        self.loadData('checksum_types');
         $.get(self.mp4ra.handlers.url, function(response) {
           self.mp4ra.handlers.db = Papa.parse(response, { header: true }).data;
           self.mp4ra.handlers.db.forEach( function(item) { self.addAnchor(item); });
