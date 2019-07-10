@@ -6,3 +6,45 @@ damr,odec-specific box in and owned by a specific sample entry,3GPP
 dawp,codec-specific box in and owned by a specific sample entry,3GPP
 spdb,ServiceProtectionDescription scoped to the SRTP hint track Scheme Information,3GPP
 isoX,The 'isoX' brand (where “X” represents a number or letter) specified in each new edition,CMAF
+csch,compatible scheme type for restricted schemes,ISO
+dimm,hintimmediateBytesSent,ISO
+dmax,hintlongestpacket,ISO
+dmed,hintmediaBytesSent,ISO
+drep,hintrepeatedBytesSent,ISO
+encX,template for encrypted entries wheer X is a character,ISO
+extr,hint extra data,ISO
+fdpa,FD packet,ISO
+fdsa,FD sample,ISO
+istm,hint initial sample time,ISO
+keyd,metadata key declaration,ISO
+keys,metadata key table,ISO
+loca,metadata locale,ISO
+maxr,hint maximum rate,ISO
+me4c,metadata key namespace,ISO
+npck,hintPacketsSent,ISO
+nump,hintPacketsSent,ISO
+payt,hintpayloadID,ISO
+pmax,hintlargestpacket,ISO
+rcsr,receivedCSRC,ISO
+rssr,ReceivedSsrcBox,ISO
+rtpo,rtpoffsetTLV,ISO
+rtpx,rtphdrextTLV,ISO
+sdp$20,Hint track SDP information,ISO
+setu,metadata setup,ISO
+snro,RTP sequence number offset,ISO
+sroc,SRTP rollover counter,ISO
+stuf,metadata example space,ISO
+tims,hint timescale,ISO
+tmax,hintmaxrelativetime,ISO
+tmin,hintminrelativetime,ISO
+tOD$20,MPEG-2 OD information,ISO
+totl,hintBytesSent,ISO
+tPAT,MPEG-2 PAT,ISO
+tpay,hintBytesSent,ISO
+tPMT,MPEG-2 PMT,ISO
+tpyl,hintBytesSent,ISO
+trpy,hintBytesSent,ISO
+tsro,hint timestamp offset,ISO
+tssy,hint timestamp synchronu,ISO
+tsti,MPEG-2 hint timing,ISO
+uiso,metadata key space,ISO

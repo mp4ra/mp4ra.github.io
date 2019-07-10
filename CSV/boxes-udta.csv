@@ -16,6 +16,7 @@ gnre,Media genre,3GPP
 hinf,hint information,ISO
 hnti,Hint information,ISO
 hpix,Hipix Rich Picture (user-data or meta-data),Hipix
+kind,Track kind,ISO
 kywd,Media keywords,3GPP
 loci,Media location information,3GPP
 ludt,Track loudness container,ISO
