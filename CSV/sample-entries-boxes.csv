@@ -8,6 +8,7 @@ btrt,Bit-rate information,General,ISO
 ccst,Coding Constraints,Video,HEIF
 chnl,Channel layout,Audio,ISO
 clap,Clean aperture,Video,ISO
+clli,Content Light Level,Video,MIAF
 colr,Color information (see 1 below),Video,ISO
 CoLL,Content Light Level Box,Video,VPxx
 dac3,Decoder specific info for AC-3 audio,Audio,ETSI AC-3
@@ -26,6 +27,7 @@ jpgC,JPEG Configuration,Image Item and Image sequences,HEIF
 leqi,Loudness equalization instructions,Audio,DRC
 lhvC,Layered HEVC Configuration,Video,NALu Video
 m4ds,MPEG-4 descriptors,General,NALu Video
+mdcv,mastering display colour volume,Video,MIAF
 mvcC,MVC configuration,Video,NALu Video
 mvcP,MVC priority assignment,Video,NALu Video
 mvdC,MVCDConfigurationBox,Video,NALu Video
