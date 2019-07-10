@@ -50,4 +50,5 @@ ueqi,Equalization instructions,Audio,DRC
 uriI,URI Information,Metadata,ISO
 vpcC,VP9 Codec Configuration,Video,VPxx
 vsib,View scalability information,Video,NALu Video
+vttC,WebVTTConfigurationBox,Text,ISO-Text
 vwid,View identifier,Video,NALu Video
