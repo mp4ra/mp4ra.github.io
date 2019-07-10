@@ -14,26 +14,27 @@ def getCSV4CCs(directory):
                 if 'code' in headers:
                     for row in csvReader:
                         #Replaces spaces with underscores and then $20 with spaces.
+                        #I needed to build the CSV files into python using "n/a" because otherwise the travis check would rearranged the columns. So including all the information I needed in every line of the python csv object was my only solution for solving that issue.
                         csvCode = row['code'].replace(' ', '_').replace('$20', ' ')
                         if 'description' in headers:
-                            csvDesc = row['description'].lower()
+                            csvDesc = row['description']
                         else:
                             csvDesc = "n/a"
                         if 'specification' in headers:
-                            csvSpec = row['specification'].lower()
+                            csvSpec = row['specification']
                         else:
                             csvSpec = "n/a"
-                        csvFile = fileName.lower()
+                        csvFile = fileName
                         if 'handler' in headers:
-                            csvHandle = row['handler'].lower()
+                            csvHandle = row['handler']
                         else:
                             csvHandle = "n/a"
                         if 'ObjectType' in headers:
-                            csvObjectType = row['ObjectType'].lower()
+                            csvObjectType = row['ObjectType']
                         else:
                             csvObjectType = "n/a"
                         if 'type' in headers:
-                            csvType = row['type'].lower()
+                            csvType = row['type']
                         else:
                             csvType = "n/a"
                         codesInCSV.append([csvCode, csvDesc, csvSpec, csvFile, csvHandle, csvObjectType, csvType])
@@ -111,9 +112,9 @@ def knownduplicates(filename):
 #Check to make sure all the codes that have specexceptions are registered in the specifications.csv file
 def registerspecs(codesInCSV, speclist, specexceptions=[]):
     unregisteredspecs = []
-    allspecs = [spec[1].lower() for spec in speclist]+specexceptions
+    allspecs = [spec[1] for spec in speclist]+specexceptions
     for a in range(len(codesInCSV)):
-        if codesInCSV[a][2].lower() not in allspecs:
+        if codesInCSV[a][2] not in allspecs:
             unregisteredspecs.append(codesInCSV[a])
     print("\nRegistered Specs Test:")
     if unregisteredspecs == []:
@@ -153,9 +154,9 @@ def filledcolumns(codesInCSV):
 # Like the specification check, check to ensure all handlers that are used are registered in handlers.csv
 def registerhandle(codesInCSV, handleexceptions):
     unregisteredhandles = []
-    allhandles = [handle[1].lower() for handle in codesInCSV if handle[3] == "handlers.csv"]+handleexceptions
+    allhandles = [handle[1] for handle in codesInCSV if handle[3] == "handlers.csv"]+handleexceptions
     for a in range(len(codesInCSV)):
-        if codesInCSV[a][4].lower() not in allhandles:
+        if codesInCSV[a][4] not in allhandles:
             unregisteredhandles.append(codesInCSV[a])
     print("\nRegistered Handles Test:")
     if unregisteredhandles == []:
@@ -195,7 +196,7 @@ def prsanitycheck():
     emptycols = filledcolumns(codesspecs[0])
 
     #Test for registered handle types
-    handleexceptions = ["n/a", "(various)", "general"]
+    handleexceptions = ["n/a", "(various)", "General"]
     unregisteredhandles = registerhandle(codesspecs[0], handleexceptions)
 
     # Exit Codes
