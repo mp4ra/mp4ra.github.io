@@ -7,6 +7,6 @@ exbl,Scalable image item reference, item ref.,HEIF
 fdel,File delivery reference,item ref.,ISO
 grid,Image item grid reference,item ref.,HEIF
 iloc,Item data location,item ref.,ISO
-prem,Pre-Mulitplied item reference,MIAF
+prem,Pre-Mulitplied item,item ref.,MIAF
 thmb,Thumbnail image item reference,item ref.,HEIF
 
