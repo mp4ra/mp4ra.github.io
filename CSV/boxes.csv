@@ -161,6 +161,7 @@ styp,Segment Type Box,3GPP
 stz2,compact sample sizes (framing),ISO
 subs,Sub-sample information,ISO
 swtc,Multiview Group Relation,NALu Video
+tenc,Track Encryption,ISO Common Encryption
 tfad,Track fragment adjustment box,3GPP
 tfdt,Track fragment decode time,ISO
 tfhd,Track fragment header,ISO
