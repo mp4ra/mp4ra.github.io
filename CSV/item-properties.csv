@@ -10,7 +10,7 @@ ienc,Item Encryption,ISO Common Encryption
 imir,Image mirroring,HEIF
 irot,Image rotation,HEIF
 ispe,Image spatial extents,HEIF
-jpcC,JPEG image item configuration,HEIF
+jpgC,JPEG image item configuration,HEIF
 lhvC,Layered HEVC Image item configuration,HEIF
 lsel,Layer selection,HEIF
 oinf,HEVC operating point,HEIF
