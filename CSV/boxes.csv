@@ -9,6 +9,7 @@ bxml,binary XML container,ISO
 ccid,OMA DRM Content ID,OMA DRM 2.1
 cdef,type and ordering of the components within the codestream,JPEG2000
 clip,Reserved,ISO
+clii,Content Light Level,MIAF
 cmap,mapping between a palette and codestream components,JPEG2000
 co64,64-bit chunk offset,ISO
 coin,Content Information Box,DECE
@@ -73,6 +74,7 @@ m7hd,reserved for MPEG7Stream header,MP4v1
 matt,Reserved,ISO
 md5i,MD5IntegrityBox,HEIF
 mdat,media data container,ISO
+mdcv,mastering display colour volume,MIAF
 mdhd,"media header, overall information about the media",ISO
 mdia,container for the media information in a track,ISO
 mdri,Mutable DRM information,OMA DRM 2.0
