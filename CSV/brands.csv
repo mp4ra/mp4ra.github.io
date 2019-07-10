@@ -88,6 +88,7 @@ hevs,L-HEVC image sequence brands,HEIF
 hevx,HEVC image sequence brands,HEIF
 hvce,L-HEVC explicit reconstruction,NALu Video
 hvci,L-HEVC implicit reconstruction,NALu Video
+hvti,HEVC Tile Track,NALu Video
 ifrm,"Apple iFrame Specification, Version 8.1 Jan 2013",Apple
 im1i,CMAF Media Profile - IMSC1 Image,CMAF
 im1t,CMAF Media Profile - IMSC1 Text,CMAF
@@ -113,6 +114,8 @@ jpsi,"The JPSearch data interchange format, for the exchange of image collection
 jpx$20,JPEG2000 Part 2,JPX
 jpxb,JPEG XR,JPXR
 LCAG,Leica digital camera,Leica
+lhte,L-HEVC Tile Track Explicit brand,NALu Video
+lhti,L-HEVC Tile Track Implicit brand,NALu Video
 lmsg,last Media Segment indicator for ISO base media file format.,DASH
 M4A$20,"iTunes MPEG-4 audio protected or not, can contain audio + video + 3g text track + chapter track",iTunes
 M4B$20,"iTunes AudioBook protected or not, can contain audio + video + 3g text track + chapter track",iTunes
@@ -134,6 +137,7 @@ msdh,Media Segment conforming to the general format type for ISO base media file
 msix,Media Segment conforming to the Indexed Media Segment format type for ISO base media file format.,DASH
 MSNV,Portable multimedia CE products using MP4 file format with AVC video codec and AAC audio codec,IEC 62592
 niko,Nikon Digital Camera,Nikon
+nras,No Leading Picture Sync Brand,NALu Video
 odcf,OMA DCF (DRM Content Format),OMA DRM 2.0
 opf2,OMA PDCF (DRM Content Format),OMA DRM 2.1
 opx2,OMA Adapted PDCF,OMA DRM XBS

@@ -17,6 +17,7 @@ ldep,Tier dependency box,sample group,NALu Video
 mvif,MVC Scalability Information,sample group,NALu Video
 nalm,NAL unit map entry,sample group,NALu Video
 oinf,L-HEVC operating points information,sample group,NALu Video
+opth,L-HEVC Operating Point Decode Time Hint,sample group,NALu Video
 linf,L-HEVC layer information,sample group,NALu Video
 prol,Audio pre-roll,sample group,ISO
 rap$20,Random access point,sample group,ISO
