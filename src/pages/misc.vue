@@ -7,6 +7,7 @@
       <li><a href="#handlers">Handlers</a></li>
       <li><a href="#data_references">Data References</a></li>
       <li><a href="#item_references">Item References</a></li>
+      <li><a href="#item_properties">Item Properties</a></li>
       <li><a href="#multiview_attributes">Multiview Attributes</a></li>
       <li><a href="#schemes">Protection and Restricted Schemes</a></li>
       <li><a href="#sample_groups">Sample Groups</a></li>
