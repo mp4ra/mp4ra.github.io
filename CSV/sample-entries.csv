@@ -48,12 +48,14 @@ hev2,High Efficiency Video Coding,Video,NALu Video,0x23
 hvc1,High Efficiency Video Coding,Video,NALu Video,0x23
 hvc2,High Efficiency Video Coding,Video,NALu Video,0x23
 hvt1,HEVC tile tracks,Video,NALu Video,
+icpv,Incomplete video,Video,ISO,
 ixse,DVB Track Level Index Track,Metadata,DVB,
 lhe1,Layered HEVC,Video,NALu Video,
 lht1,Layered HEVC tile tracks,Video,NALu Video,
 lhv1,Layered HEVC,Video,NALu Video,
 m2ts,MPEG-2 transport stream for DMB,Hint,DMB-MAF,
 m4ae,MPEG-4 Audio Enhancement,Audio,MP4v2,"0x40, others"
+mebx,Timed metadata multiplex,Metadata,ISO,
 mett,Text timed metadata that is not XML,Metadata,ISO,
 metx,XML timed metadata,Metadata,ISO,
 mha1,"MPEG-H Audio (single stream, unencapsulated)",Audio,MPEG-H,
@@ -84,6 +86,7 @@ resv,Restricted Video,Video,NALu Video,
 rm2t,MPEG-2 Transport Reception,Hint,ISO,
 rrtp,RTP reception,Hint,ISO,
 rsrp,SRTP Reception,Hint,ISO,
+rtcp,RTCP reception hint track,Hint,ISO,
 rtmd,Real Time Metadata Sample Entry(XAVC Format),Metadata,Sony,
 rtp$20,RTP Hints,Hint,ISO,n/a
 rv60,RealVideo Codec 11,Video,RealHD,0xB0
@@ -91,14 +94,17 @@ s263,ITU H.263 video (3GPP format),Video,3GPP,
 samr,Narrowband AMR voice,Audio,3GPP,
 sawb,Wideband AMR voice,Audio,3GPP,
 sawp,Extended AMR-WB (AMR-WB+),Audio,3GPP,
+sbtt,Text subtitles,Subtitles,ISO,
 sevc,EVRC Voice,Audio,3GPP2,0xA0
 sevs,Enhanced Voice Services (EVS),Audio,3GPP,
 sm2t,MPEG-2 Transport Server,Hint,ISO,
 sqcp,13K Voice,Audio,3GPP2,0xE1
 srtp,SRTP Hints,Hint,ISO,n/a
 ssmv,SMV Voice,Audio,3GPP2,0xA1
+stcp,SRTCP reception hint track,Hint,ISO,
 STGS,Subtitle Sample Entry (HMMP),Subtitle Graphics,Sony,
 stpp,Subtitles (Timed Text),Subtitles,ISO,
+stxt,Simple timed text,Text,ISO,
 svc1,Scalable Video Coding,Video,NALu Video,
 svc2,Scalable Video Coding,Video,NALu Video,
 svcM,SVC metadata,Metadata,NALu Video,

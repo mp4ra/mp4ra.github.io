@@ -32,11 +32,14 @@ pasp,Pixel aspect ratio,Video,ISO
 pdc1,Parametric DRC coefficients,Audio,DRC
 pdi1,Parametric DRC instructions,Audio,DRC
 qlif,Layer quality assignments,Video,NALu Video
+scrb,Scramble scheme information,Video,ISO
 seib,Scalability information,Video,NALu Video
 SmDm,Mastering Display Metadata Box,Video,VPxx
+srat,Sampling rate,Audio,ISO
 svcC,SVC configuration,Video,NALu Video
 svcP,SVC priority assignments,Video,NALu Video
 svmC,SVC information configuration,Metadata,NALu Video
+txtC,Text stream configuration,Text,ISO
 udc1,Basic DRC coefficients,Audio,ISO
 udc2,Unified DRC coefficients,Audio,ISO
 udex,Unified DRC configuration extension,Audio,DRC
