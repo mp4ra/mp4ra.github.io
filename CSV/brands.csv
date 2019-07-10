@@ -97,6 +97,11 @@ iso3,Version of the ISO file format,ISO
 iso4,Version of the ISO file format,ISO
 iso5,Version of the ISO file format,ISO
 iso6,Version of the ISO file format,ISO
+iso7,Version of the ISO file format,ISO
+iso8,Version of the ISO file format,ISO
+iso9,Version of the ISO file format,ISO
+isoa,Version of the ISO file format,ISO
+isob,Version of the ISO file format,ISO
 isom,All files based on the ISO Base Media File Format,ISO
 J2P0,JPEG2000 Profile 0,JPEG2000
 J2P1,JPEG2000 Profile 1,JPEG2000
@@ -136,6 +141,7 @@ pana,Panasonic Digital Camera,Panasonic
 piff,Protected Interoperable File Format,PIFF
 pnvi,Panasonic Video Intercom,Panasonic Video Intercom
 qt$20$20,QuickTime,QT
+relo,combination brand to indicate relative addressing,ISO
 risx,Representation Index Segment used to index MPEG-2 TS based Media Segments.,DASH
 ROSS,Ross Video,Ross
 sdv$20,SD Video,SDV
