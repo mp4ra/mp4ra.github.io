@@ -1,4 +1,4 @@
-4CC#!/usr/bin/env python3
+#!/usr/bin/env python3
 import csv, re, os
 
 # Cycles through the CSV files in the MP4RA repo and returns a tuple contatining 1.)list of all the 4CCs and the associated columns and 2.) list of the specifications and their associtated columns
