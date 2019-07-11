@@ -12,11 +12,11 @@ def check4CCs(codecFile, newFileName, userSpec):
         f = file.readlines()
 
         for line in f:
-            #stip spaces/tabs and hyphens out of lines.
-            strippedLine = re.sub('\s+\-', ' ', line)
+            #convert multiple spaces/tabs/etc into single spaces to print better in the CSV file.
+            strippedLine = re.sub('\s+', ' ', line)
 
-            regex = "[\'\‘\’][A-Za-z0-9 +-]{4}[\'\‘\’]"
-            codesQuotes = re.findall(regex, strippedLine)
+            regex = "[\'\‘\’].{4}[\'\‘\’]"
+            codesQuotes = re.findall(regex, line)
             if codesQuotes:
                 for i in codesQuotes:
                     codeNoSpaces = i.replace(' ', '$20')
@@ -24,8 +24,8 @@ def check4CCs(codecFile, newFileName, userSpec):
                     codesStripped.append(codeNoQuotes)
                     sentenceList.append(codeNoQuotes + " - " + strippedLine)
 
-            regexCurly = "[\‘\’][A-Za-z0-9 +-]{4}[\‘\’]"
-            codesBad = re.findall(regexCurly, strippedLine)
+            regexCurly = "[\‘\’].{4}[\‘\’]"
+            codesBad = re.findall(regexCurly, line)
             if codesBad:
                 for i in codesBad:
                     codeBadNoSpaces = i.replace(' ', '$20')
