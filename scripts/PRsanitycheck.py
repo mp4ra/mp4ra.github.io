@@ -13,9 +13,9 @@ def getCSV4CCs(directory):
                 headers = csvReader.fieldnames
                 if 'code' in headers:
                     for row in csvReader:
-                        #Replaces spaces with underscores and then $20 with spaces.
-                        #I needed to build the CSV files into python using "n/a" because otherwise the travis check would rearranged the columns. So including all the information I needed in every line of the python csv object was my only solution for solving that issue.
-                        csvCode = row['code'].replace(' ', '_').replace('$20', ' ')
+                        # Replaces spaces with ✀ and then $20 with spaces. Spaces are a valid unicode character that can be used but on the MP4RA site, they are displayed as "$20". So there should not be any space characters in the repo. The script converts spaces into invalid unicode characters, so they fail the test. I then convert $20 into single space characters to simplify the regex being used.
+                        csvCode = row['code'].replace(' ', '✀').replace('$20', ' ')
+                        #I needed to build the CSV files into python using "n/a" because otherwise the travis check would rearranged the columns. So including all the information I needed in every line of the python csv list was my only solution for solving that issue.
                         if 'description' in headers:
                             csvDesc = row['description']
                         else:
@@ -157,9 +157,9 @@ def filledcolumns(codesInCSV):
 
 # 5. Registered Handlers Check
 # Like the specification check, check to ensure all handlers that are used are registered in handlers.csv
-def registerhandle(codesInCSV, handleexceptions):
+def registerhandle(codesInCSV, handlerexceptions):
     unregisteredhandles = []
-    allhandles = [handle[1] for handle in codesInCSV if handle[3] == "handlers.csv"]+handleexceptions
+    allhandles = [handle[1] for handle in codesInCSV if handle[3] == "handlers.csv"]+handlerexceptions
     for a in range(len(codesInCSV)):
         if codesInCSV[a][4] not in allhandles:
             unregisteredhandles.append(codesInCSV[a])
@@ -201,9 +201,9 @@ def prsanitycheck():
     emptycols = filledcolumns(codesspecs[0])
 
     # 5. Registered Handlers Check
-    # Must leave "n/a" in handleexceptions because that is introduced by the script.
-    handleexceptions = ["n/a", "(various)", "General"]
-    unregisteredhandles = registerhandle(codesspecs[0], handleexceptions)
+    # Must leave "n/a" in handlerexceptions because that is introduced by the script.
+    handlerexceptions = ["n/a", "(various)", "General"]
+    unregisteredhandles = registerhandle(codesspecs[0], handlerexceptions)
 
     # Exit Codes
     returnvalue = (not4CCs + duplicates + unregisteredspecs + emptycols + unregisteredhandles)

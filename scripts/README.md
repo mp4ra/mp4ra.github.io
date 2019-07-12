@@ -34,10 +34,14 @@ You may need to provide exceptions to these checks to force them to pass manuall
 4. Missing Columns Check
     - No exceptions allowed
 5. Registered Handlers Check
-    - Python list of handlers at the bottom of the script: `handleexceptions = ["n/a", "(various)", "General"]`
+    - Python list of handlers at the bottom of the script: `handlerexceptions = ["n/a", "(various)", "General"]`
+    - "n/a" must remain in handlerexceptions because it is introduced by this script. See "Note" below.
 
 ## Running Locally
 The folder hierarchy changes between Travis and when you clone the MP4RA repo to your local machine and run the check. Because of that, you need to change where the script searches for the CSV files when you run it locally. At the bottom of the script, comment out `repo = "github"` and comment in `repo = "local"`. And vice-versa when pushing back up to Github.
+
+## Note
+Travis CI seems to read CSV files differently than when running the script locally. So I couldn't rely on the column index or other normal means when building variables. I needed to convert all the CSV rows/columns into a single Python nested list: "codesInCSV". So every 4CC in my script needed a description, specification, handler, ObjectType, and Type despite not every 4CC actually having all of those attributes. That is why I introduced "n/a" into many of the indices of those nested lists. For instance, I needed every 4CC to have a handler index so I could refer to them later. Those without a Handler, were given the Handler "n/a".
 
 ## Output
 On the Travis CI website, you will see the following when the PR passes all checks. You may need to expand the `$ ./scripts/PRsanitycheck.py` line.
