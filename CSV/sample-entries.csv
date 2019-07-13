@@ -18,6 +18,7 @@ avc2,Advanced Video Coding,Video,NALu Video,0x21
 avc3,Advanced Video Coding,Video,NALu Video,0x21
 avc4,Advanced Video Coding,Video,NALu Video,0x21
 avcp,Advanced Video Coding Parameters,Video,NALu Video,0x22
+camm,Camera motion metadata track,Video,CamMotion,
 dra1,DRA Audio,Audio,DRA,0xA7
 drac,Dirac Video Coder,Video,Dirac,0xA4
 dts+,Enhancement layer for DTS layered audio,Audio,DTS,
