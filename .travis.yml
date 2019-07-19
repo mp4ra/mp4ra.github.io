@@ -14,7 +14,7 @@ before_script:
 
 script:
   - npm install
-  - browserify -t brfs src/app.js -o dist/js/bundle.js
+  - NODE_ENV=production browserify -t brfs src/app.js -o dist/js/bundle.js
 
 cache:
   directories:
