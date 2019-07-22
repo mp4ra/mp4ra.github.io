@@ -155,8 +155,10 @@ nras,No Leading Picture Sync Brand,NALu Video
 odcf,OMA DCF (DRM Content Format),OMA DRM 2.0
 opf2,OMA PDCF (DRM Content Format),OMA DRM 2.1
 opx2,OMA Adapted PDCF,OMA DRM XBS
+paff,"Generic Partial File",ISO-Partial
 pana,Panasonic Digital Camera,Panasonic
 piff,Protected Interoperable File Format,PIFF
+pmff,"Mixed Partial File",ISO-Partial
 pnvi,Panasonic Video Intercom,Panasonic Video Intercom
 qt$20$20,QuickTime,QT
 relo,combination brand to indicate relative addressing,ISO
@@ -172,5 +174,3 @@ ssss,Subsegment Index Segment used to index MPEG-2 TS based Media Segments.,DASH
 uvvu,"UltraViolet file brand – conforming to the DECE Common File Format spec, Annex E.",DECE
 XAVC,XAVC File Format,Sony
 yt4$20,Google specification for use by YouTube apps,Youtube
-paff,"Generic Partial File",ISO-Partial
-pmff,"Mixed Partial File",ISO-Partial
