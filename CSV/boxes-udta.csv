@@ -16,6 +16,7 @@ gnre,Media genre,3GPP
 hinf,hint information,ISO
 hnti,Hint information,ISO
 hpix,Hipix Rich Picture (user-data or meta-data),Hipix
+kind,Track kind,ISO
 kywd,Media keywords,3GPP
 loci,Media location information,3GPP
 ludt,Track loudness container,ISO
@@ -33,6 +34,5 @@ thmb,Thumbnail image of the media,3GPP
 titl,Media title,3GPP
 tlou,Track loudness base,ISO
 tsel,Track selection,ISO
-tsel,Track selection,3GPP
 urat,User 'star' rating of the media,3GPP
 yrrc,Year when media was recorded,3GPP

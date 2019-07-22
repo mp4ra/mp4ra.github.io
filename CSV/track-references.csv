@@ -12,7 +12,7 @@ iloc,Item data location (item reference),ISO
 ipir,this track contains IPI declarations for the referenced track,MPEG-4
 lyra,Audio layer track dependency,DTS
 mpod,this track is an OD track which uses the referenced track as an included elementary stream track,MPEG-4
-oref,track that contains an 'oref' sample group, NALu Video
+oref,track that contains an 'oref' sample group,NALu Video
 sabt,HEVC Tile Track,NALu Video
 sbas,Scalable base,NALu Video
 scal,Scalable extraction,NALu Video

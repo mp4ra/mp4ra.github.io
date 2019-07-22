@@ -18,7 +18,7 @@ DVVT,Digital Voodoo intermediate v210,Video,Digital Voodoo
 fl32,32 bit float,Audio,QT
 fl64,64 bit float,Audio,QT
 flic,Autodesk FLIC animation format,Video,QT
-gif,GIF image format,Video,QT
+gif$20,GIF image format,Video,QT
 h261,ITU H.261 video,Video,QT
 h263,ITU H.263 video (QuickTime format),Video,QT
 HD10,Digital Voodoo 10 bit Uncompressed 4:2:2 HD codec,Video,Digital Voodoo
@@ -31,7 +31,7 @@ M105,Internal format of video data supported by Matrox hardware; pixel organizat
 mjpa,Motion-JPEG (format A),Video,QT
 mjpb,Motion-JPEG (format B),Video,QT
 Opus,Opus audio coding,Audio,Opus
-png,W3C Portable Network Graphics (PNG),Video,QT
+png$20,W3C Portable Network Graphics (PNG),Video,QT
 PNTG,Apple MacPaint image format,Video,QT
 Qclp,Qualcomm PureVoice,Audio,QT
 QDM2,Qdesign music 2,Audio,QT
@@ -45,7 +45,7 @@ Shr3,"SheerVideo Y'CbCr 8bv 4:2:2 - 2:1 chroma subsampling, at 8 bits/channel, i
 Shr4,"SheerVideo Y'CbCr 8bw 4:2:2 - 2:1 chroma subsampling, at 8 bits/channel, with full-range luma and wide-range two's-complement chroma",Video,BitJazz
 SVQ1,Sorenson Video 1 video,Video,QT
 SVQ3,Sorenson Video 3 video,Video,QT
-tga,Truvision Targa video format,Video,QT
+tga$20,Truvision Targa video format,Video,QT
 tiff,Tagged Image File Format (Adobe),Video,QT
 ulaw,Samples have been compressed using uLaw 2:1.,Audio,QT
 vdva,DV audio (variable duration per video frame),Audio,QT

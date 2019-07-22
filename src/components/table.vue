@@ -37,7 +37,7 @@
       </td>
       <td v-if="columns.indexOf('specification') !== -1">
         <div v-if="item.specificationAnchor">
-          <router-link class="nav-link" to="/references">
+          <router-link class="nav-link" to="/references" @click.native="scrollFix(item.specificationAnchor)"">
             {{ item.specification }}
           </router-link>
         </div>

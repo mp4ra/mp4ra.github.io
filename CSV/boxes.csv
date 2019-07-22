@@ -2,12 +2,14 @@ code,description,specification
 ainf,"Asset information to identify, license and play",DECE
 assp,alternative startup sequence properties,ISO
 avcn,AVC NAL Unit Storage Box,DECE
+bidx,Box Index,ISO-Partial
 bloc,Base location and purchase location for license acquisition,DECE
 bpcc,Bits per component,JPEG2000
 buff,Buffering information,NALu Video
 bxml,binary XML container,ISO
 ccid,OMA DRM Content ID,OMA DRM 2.1
 cdef,type and ordering of the components within the codestream,JPEG2000
+cinf,complete track information,ISO
 clip,Reserved,ISO
 cmap,mapping between a palette and codestream components,JPEG2000
 co64,64-bit chunk offset,ISO
@@ -15,11 +17,14 @@ coin,Content Information Box,DECE
 colr,specifies the colourspace of the image,JPEG2000
 crgn,Reserved,ISO
 crhd,reserved for ClockReferenceStream header,MP4v1
+csgp,compact sample to group,ISO
 cslg,composition to decode timeline mapping,ISO
 ctab,Reserved,ISO
 ctts,(composition) time to sample,ISO
 cvru,OMA DRM Cover URI,OMA DRM 2.1
+dihd,Data Integrity Hash,ISO-Partial
 dinf,"data information box, container",ISO
+dint,Data Integrity,ISO-Partial
 dref,"data reference box, declares source(s) of media data in track",ISO
 dsgd,DVB Sample Group Description Box,DVB
 dstg,DVB Sample to Group Box,DVB
@@ -27,14 +32,17 @@ edts,edit list container,ISO
 elst,an edit list,ISO
 emsg,event message,DASH
 evti,Event information,ATSC 3.0
+etyp,extended type and type combination,ISO
 fdel,File delivery information (item info extension),ISO
 feci,FEC Informatiom,ISO
 fecr,FEC Reservoir,ISO
+fidx,Box File Index,ISO-Partial
 fiin,FD Item Information,ISO
 fire,File Reservoir,ISO
 fpar,File Partition,ISO
 free,free space,ISO
 frma,original format box,ISO
+frpa,Front Part,ISO-Partial
 ftyp,file type and compatibility,ISO
 gitn,Group ID to name,ISO
 grpi,OMA DRM Group ID,OMA DRM 2.0
@@ -49,6 +57,7 @@ ihdr,Image Header,JPEG2000
 iinf,item information,ISO
 iloc,item location,ISO
 imap,Reserved,ISO
+imda,Identified media data,ISO
 imif,IPMP Information box,ISO
 infe,Item information entry,ISO
 infu,OMA DRM Info URL,OMA DRM 2.0
@@ -107,11 +116,18 @@ ohdr,OMA DRM Common headers,OMA DRM 2.0
 padb,sample padding bits,ISO
 paen,Partition Entry,ISO
 pclr,palette which maps a single component in index space to a multiple- component image,JPEG2000
+pdat,Partial Data,ISO-Partial
 pdin,Progressive download information,ISO
+pfhd,Partial File Header,ISO-Partial
+pfil,Partial File,ISO-Partial
 pitm,primary item reference,ISO
+ploc,Partial Segment Location,ISO-Partial
 pnot,Reserved,ISO
 prft,Producer reference time,ISO
+pseg,Partial Segment,ISO-Partial
+pshd,Partial Segment Header,ISO-Partial
 pssh,Protection system specific header,ISO Common Encryption
+ptle,Partial Top Level Entry,ISO-Partial
 res$20,grid resolution,JPEG2000
 resc,grid resolution at which the image was captured,JPEG2000
 resd,default grid resolution at which the image should be displayed,JPEG2000
@@ -156,7 +172,9 @@ stts,(decoding) time-to-sample,ISO
 styp,Segment Type Box,3GPP
 stz2,compact sample sizes (framing),ISO
 subs,Sub-sample information,ISO
+surl,Source URL,ISO-Partial
 swtc,Multiview Group Relation,NALu Video
+tenc,Track Encryption,ISO Common Encryption
 tfad,Track fragment adjustment box,3GPP
 tfdt,Track fragment decode time,ISO
 tfhd,Track fragment header,ISO
@@ -174,6 +192,8 @@ trgr,Track grouping information,ISO
 trik,Facilitates random access and trick play modes,DECE
 trun,track fragment run,ISO
 tstb,TileSubTrackGroupBox,NALu Video
+ttyp,track type and compatibility,ISO
+tyco,type and-combination,ISO
 udta,user-data,ISO
 uinf,a tool by which a vendor may provide access to additional information associated with a UUID,JPEG2000
 UITS,Unique Identifier Technology Solution,Universal Music Group

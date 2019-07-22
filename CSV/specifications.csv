@@ -1,5 +1,8 @@
 linkname,specification,description
-3GPP,3GPP,"<a href='http://www.3gpp.org/' target='_blank'>3GPP</a> 26.234 (Release 4,5)Transparent end-to-end packet switched streaming service (PSS); Protocols and codecs, Annex D;<br><a href='http://www.3gpp.org/' target='_blank'>3GPP</a> 26.244 Transparent end-to-end packet switched streaming service (PSS); 3GPP file format (3GP)"
+3GPP,3GPP,"<a href='http://www.3gpp.org/' target='_blank'>3GPP</a> 26.234 Transparent end-to-end packet switched streaming service (PSS); Protocols and codecs, Annex D;<br><a href='http://www.3gpp.org/' target='_blank'>3GPP</a> 26.244 Transparent end-to-end packet switched streaming service (PSS); 3GPP file format (3GP)"
+3GPP-DASH,3GPP-DASH,"<a href='http://www.3gpp.org/' target='_blank'>3GPP</a> 26.247 Progressive Download and Dynamic Adaptive Streaming over HTTP"
+3GPP-VR,3GPP-VR,"<a href='http://www.3gpp.org/' target='_blank'>3GPP</a> 26.118 3GPP Virtual reality profiles for streaming applications"
+3GPP-TVP,3GPP-TVP,"<a href='http://www.3gpp.org/' target='_blank'>3GPP</a> 26.116 Television (TV) over 3GPP services; Video profiles"
 3GPP2,3GPP2,"<a href='http://www.3gpp2.org/' target='_blank'>3GPP2</a> C.S0050-A, File Formats for Multimedia Services"
 ARRI,ARRI,<a href='http://www.arri.com/'>The ARRI Group</a>
 AV1-ISOBMFF,AV1-ISOBMFF,<a href='https://aomediacodec.github.io/av1-isobmff/'>AV1-ISOBMFF</a>
@@ -9,6 +12,7 @@ atsc30,ATSC 3.0,<a href='https://www.atsc.org/standards/atsc-3-0-standards/'>ATS
 Auro,Auro,<a href='http://www.auro-3d.com/'>Auro Technologies</a>
 bitjazz,BitJazz,<a href='http://www.bitjazz.com/'>BitJazz</a>
 blinkbox,Blinkbox,<a href='http://www.blinkbox.com/'>Blinkbox</a>
+CamMotion,CamMotion,"<a href='https://developers.google.com/streetview/publish/camm-spec' target='_blank'>Camera Motion Metadata Track, Google Inc.</a>, embed various metadata about camera motion including orientation, gyroscope reading, accelerometer reading, positions, etc."
 canon,Canon,<a href='http://www.canon.com/'>Canon</a>
 casio,Casio,<a href='http://world.casio.com/'>Casio</a>
 cineform,CineForm,<a href='http://www.cineform.com/'>Cineform</a>
@@ -39,9 +43,12 @@ IEC62592,IEC 62592,"<a href='https://webstore.iec.ch/publication/7232'>IEC</a> T
 ISMAc,ISMAc,<a href='http://www.isma.tv/' target='_blank'>ISMA</a> 1.0 Encryption and Authentication
 ISMAc2,ISMACryp2,<a href='http://www.isma.tv/' target='_blank'>ISMA</a> 2.0 Encryption and Authentication
 ISO,ISO,"<a href='http://www.iso.ch/' target='_blank'>ISO</a>/IEC 14496-12:2004 &amp; 15444-12:2004, ISO base media file format. Available as a <a href='http://standards.iso.org/ittf/PubliclyAvailableStandards/index.html'>publicly available standard</a> from ISO."
+ISO-Partial,ISO-Partial,"<a href='http://www.iso.ch/' target='_blank'>ISO</a>/IEC 23001-14:2019, Partial File Format"
 ISOtext,ISO-Text,"<a href='http://www.iso.ch/' target='_blank'>ISO</a>/IEC 14496-30, Timed text and other visual overlays in ISO base media file format."
+ISO Variants,ISO Variants,"<a href='http://www.iso.ch/' target='_blank'>ISO</a>/IEC 23001-12, Sample Variants."
 ITUG719,ITU G.719,"<a href='http://www.itu.int/ITU-T/'>ITU-T</a> Recommendation G.719 (2008) Amendment 1 (2008): 'New Annex A on storage format definitions for G.719, and new Annex B on a reference floating-point implementation for G.719'"
 itunes,iTunes,General documentation can be found on Apple's <a href='http://developer.apple.com/quicktime/'>developer</a> site
+J2KHEIF,J2KHEIF,"<a href='https://www.iso.org/standard/76647.html'>ISO/IEC 15444-16, Information technology -- JPEG 2000 image coding system -- Part 16: Encapsulation of JPEG 2000 Images into ISO/IEC 23008-12</a>"
 JPEG2000,JPEG2000,"<a href='http://www.iso.ch/' target='_blank'>ISO</a>/IEC 15444-1, The JPEG 2000 Image Coding System: Core coding system"
 JPX,JPX,"<a href='http://www.iso.ch/' target='_blank'>ISO</a>/IEC 15444-2, The JPEG 2000 Image Coding System: Extensions"
 JPXR,JPXR,"<a href='http://www.iso.ch/' target='_blank'>ISO</a>/IEC 29199-2, JPEG XR image coding system: Image coding specification"
@@ -50,6 +57,7 @@ JPM,JPM,"<a href='http://www.iso.ch/' target='_blank'>ISO</a>/IEC 15444-6, The J
 JPSearch,JPSearch,"<a href='http://www.iso.ch/' target='_blank'>ISO</a>/IEC 24800-5, JPSearch - Data interchange format between image repositories"
 Leica,Leica,<a href='http://en.leica-camera.com/home/'>Leica</a> Camera AG
 Metrics,Metrics,"<a href='http://www.iso.ch/' target='_blank'>ISO</a>/IEC 23001-10, Carriage of timed metadata metrics of media in ISO base media file format"
+MIAF,MIAF,"<a href='http://www.iso.ch/' target='_blank'>ISO</a>/IEC 23000-22:2019, Multi-Image Application Format."
 MJ2,MJ2,"<a href='http://www.iso.ch/' target='_blank'>ISO</a>/IEC 15444-3:2003, Motion JPEG 2000"
 MP4V1,MP4v1,"<a href='http://www.iso.ch/' target='_blank'>ISO</a>/IEC 14496-1, Information technology – Coding of audio-visual objects – Part 1: Systems, (Various versions to 2001), Chapter 13, The MP4 File Format"
 MP4V2,MP4v2,"<a href='http://www.iso.ch/' target='_blank'>ISO</a>/IEC 14496-14, The MP4 File Format"
@@ -81,5 +89,5 @@ Sony,Sony,<a href='http://www.sony.net'>Sony Corporation</a>
 UMG,Universal Music Group,Specification is made available only under license; contact <a href='mailto:uits-%20legal@umusic.com'>Universal Music Group</a>.
 VPxx,VPxx,<a href='https://www.webmproject.org/vp9/mp4/'>Specification</a> of VPxx codecs in ISO BMFF files
 WhatsApp,WhatsApp,<a href='https://www.whatsapp.com/'>WhatsApp Inc.</a>
+Youtube,Youtube,<a href='mailto:ytb-external@google.com'>Google LLC</a>
 id3v2,id3v2,See below
-J2KHEIF,J2KHEIF,"<a href='https://www.iso.org/standard/76647.html'>ISO/IEC 15444-16, Information technology -- JPEG 2000 image coding system -- Part 16: Encapsulation of JPEG 2000 Images into ISO/IEC 23008-12</a>"
