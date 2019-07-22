@@ -7,6 +7,7 @@ hvc1,HEVC image item,HEIF
 hvt1,HEVC tile image item,HEIF
 iden,Image item identity derivation,HEIF
 iovl,Image item overlay derivation,HEIF
+j2k1,Contiguous Codestream box as specified in Rec. ITU-T T.800 | ISO/IEC 15444-1,J2KHEIF
 jpeg,JPEG image item,HEIF
 jxs1,Images coded to the JPEG-XS coding format,JPXS
 lhv1,Layered HEVC image item,HEIF
