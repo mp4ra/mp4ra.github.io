@@ -1,13 +1,16 @@
 code,description,specification
 auxC,Auxiliary type,HEIF
 avcC,AVC Image item configuration,HEIF
+brnd,Item brand (type),ISO
 clap,Clean aperture,HEIF
 colr,Colour information,HEIF
 hvcC,HEVC Image item configuration,HEIF
+iaux,Item Auxiliary Information,ISO Common Encryption
+ienc,Item Encryption,ISO Common Encryption
 imir,Image mirroring,HEIF
 irot,Image rotation,HEIF
 ispe,Image spatial extents,HEIF
-jpcC,JPEG image item configuration,HEIF
+jpgC,JPEG image item configuration,HEIF
 lhvC,Layered HEVC Image item configuration,HEIF
 lsel,Layer selection,HEIF
 oinf,HEVC operating point,HEIF

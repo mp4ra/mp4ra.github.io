@@ -8,6 +8,7 @@ av1s,AV1 Switch Frame,sample group,AV1-ISOBMFF
 avcb,AVC HRD parameters,sample group,3GPP
 avll,AVC layer description group,sample group,NALu Video
 avss,AVC Sub-sequence group,sample group,NALu Video
+drap,Dependent random access point,sample group,ISO
 dtrt,SVC decode re-timing,sample group,NALu Video
 eqiv,equivalent samples,sample group,HEIF
 iroi,SVC region of interest box,sample group,NALu Video
@@ -16,13 +17,16 @@ ldep,Tier dependency box,sample group,NALu Video
 mvif,MVC Scalability Information,sample group,NALu Video
 nalm,NAL unit map entry,sample group,NALu Video
 oinf,L-HEVC operating points information,sample group,NALu Video
+opth,L-HEVC Operating Point Decode Time Hint,sample group,NALu Video
 linf,L-HEVC layer information,sample group,NALu Video
+prol,Audio pre-roll,sample group,ISO
 rap$20,Random access point,sample group,ISO
 rash,Rate share,sample group,ISO
 refs,Direct reference samples list,sample group,HEIF
 roll,Pre/Post roll group,sample group,ISO
 rrgn,SVC rect region box,sample group,NALu Video
 sap$20,Stream access point,sample group,ISO
+seig,Sample Encryption Information,sample group,ISO Common Encryption
 scif,SVC Scalability Information,sample group,NALu Video
 scnm,AVC/SVC/MVC map groups,sample group,NALu Video
 stsa,Step-wise Temporal Layer,sample group,NALu Video

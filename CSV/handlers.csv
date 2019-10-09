@@ -22,6 +22,8 @@ mjsm,MPEG-J Stream,handler,MPEG-4
 mp21,MPEG-21 Digital item,handler,MPEG-21
 mp7b,MPEG-7 (binary meta-data),handler,ISO
 mp7t,MPEG-7 (textual meta-data),handler,ISO
+mpd$20,MPD contained in a metabox,handler,3GPP
+mpdl,MPD link contained in a metabox,handler,3GPP
 MPEG,QuickTime MPEG track handler,handler,Apple
 musi,QuickTime Music track handler,handler,Apple
 nrtm,Non-Real Time Metadata (XAVC Format),handler,Sony

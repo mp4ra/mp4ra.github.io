@@ -8,6 +8,7 @@ code,description,specification
 3gg9,3GPP Release 9 General Profile,3GPP
 3gh9,3GPP Release 9 Adaptive Streaming Profile,3GPP
 3gm9,3GPP Release 9 Media Segment Profile,3GPP
+3gmA,3GPP Media Segment conforming to the Media Segment Format for 3GP DASH,3GPP-DASH
 3gp4,3GPP Release 4,3GPP
 3gp5,3GPP Release 5,3GPP
 3gp6,3GPP Release 6 basic Profile,3GPP
@@ -20,6 +21,11 @@ code,description,specification
 3gs9,3GPP Release 9 Streaming ServerProfile,3GPP
 3gt8,3GPP Release 8 Media Stream Recording Profile,3GPP
 3gt9,3GPP Release 9 Media Stream Recording Profile,3GPP
+3gtv,3GPP TV over 3GPP services,3GPP-TVP
+3gvr,3GPP VR Presentation,3GPP-VR
+3vra,3GPP VR Advanced Video Media Profile,3GPP-VR
+3vrb,3GPP VR Basic Video Media Profile,3GPP-VR
+3vrm,3GPP VR Main Video Media Profile,3GPP-VR
 ARRI,ARRI Digital Camera,ARRI
 av01,AOM Video Codec,AV1-ISOBMFF
 avc1,Advanced Video Coding extensions,ISO
@@ -82,6 +88,7 @@ hevs,L-HEVC image sequence brands,HEIF
 hevx,HEVC image sequence brands,HEIF
 hvce,L-HEVC explicit reconstruction,NALu Video
 hvci,L-HEVC implicit reconstruction,NALu Video
+hvti,HEVC Tile Track,NALu Video
 ifrm,"Apple iFrame Specification, Version 8.1 Jan 2013",Apple
 im1i,CMAF Media Profile - IMSC1 Image,CMAF
 im1t,CMAF Media Profile - IMSC1 Text,CMAF
@@ -91,7 +98,14 @@ iso3,Version of the ISO file format,ISO
 iso4,Version of the ISO file format,ISO
 iso5,Version of the ISO file format,ISO
 iso6,Version of the ISO file format,ISO
+iso7,Version of the ISO file format,ISO
+iso8,Version of the ISO file format,ISO
+iso9,Version of the ISO file format,ISO
+isoa,Version of the ISO file format,ISO
+isob,Version of the ISO file format,ISO
 isom,All files based on the ISO Base Media File Format,ISO
+j2ki,JPEG 2000 image and image collections in ISO/IEC 23008-12 files,J2KHEIF
+j2ks,Motion JPEG 2000 in ISO/IEC 23008-12 files,J2KHEIF
 J2P0,JPEG2000 Profile 0,JPEG2000
 J2P1,JPEG2000 Profile 1,JPEG2000
 jp2$20,JPEG2000 Part 1,JPEG2000
@@ -101,7 +115,13 @@ jpm$20,JPEG 2000 Part 6 Compound Images,JPM
 jpsi,"The JPSearch data interchange format, for the exchange of image collections and respective metadata",JPSearch
 jpx$20,JPEG2000 Part 2,JPX
 jpxb,JPEG XR,JPXR
+jxs$20,Still Image File Format for JPEG XS,JPXS
+jxsc,Codestream for JPEG XS,JPXS
+jxsi,JPEG XS image and image collections for HEIF,JPXS
+jxss,JPEG XS image sequences for HEIF,JPXS
 LCAG,Leica digital camera,Leica
+lhte,L-HEVC Tile Track Explicit brand,NALu Video
+lhti,L-HEVC Tile Track Implicit brand,NALu Video
 lmsg,last Media Segment indicator for ISO base media file format.,DASH
 M4A$20,"iTunes MPEG-4 audio protected or not, can contain audio + video + 3g text track + chapter track",iTunes
 M4B$20,"iTunes AudioBook protected or not, can contain audio + video + 3g text track + chapter track",iTunes
@@ -109,7 +129,17 @@ M4P$20,MPEG-4 protected audio,iTunes
 M4V$20,MPEG-4 protected audio+video,iTunes
 MFSM,Media File for Samsung video Metadata,Samsung
 MGSV,Home and Mobile Multimedia Platform (HMMP),Sony
+MiAB,Multi-Image Application format brand for MIAF AVC Basic Profile,MIAF
+MiAC,Multi-Image Application format brand for fragmented alpha video,MIAF
+miaf,Multi-Image Application format brand for general MIAF requirements,MIAF
+MiAn,Mutli-Image Application format brand for animation,MIAF
+MiBu,Multi-Image Application format brand for burst capture,MIAF
+MiCm,Multi-Image Application format brand for CMAF compatibility,MIAF
 mif1,Image file format structural brand,HEIF
+MiHA,Multi-Image Application format brand for MIAF HEVC Advanced Profile,MIAF
+MiHB,Multi-Image Application format brand for MIAF HEVC Basic Profile,MIAF
+MiHE,Multi-Image Application format brand for MIAF HEVC Extended Profile,MIAF
+MiPr,Multi-Image Application format brand for progressive decoding and rendering,MIAF
 mj2s,Motion JPEG 2000 simple profile,MJ2
 mjp2,"Motion JPEG 2000, general profile",MJ2
 mp21,MPEG-21,MPEG-21
@@ -123,13 +153,17 @@ msdh,Media Segment conforming to the general format type for ISO base media file
 msix,Media Segment conforming to the Indexed Media Segment format type for ISO base media file format.,DASH
 MSNV,Portable multimedia CE products using MP4 file format with AVC video codec and AAC audio codec,IEC 62592
 niko,Nikon Digital Camera,Nikon
+nras,No Leading Picture Sync Brand,NALu Video
 odcf,OMA DCF (DRM Content Format),OMA DRM 2.0
 opf2,OMA PDCF (DRM Content Format),OMA DRM 2.1
 opx2,OMA Adapted PDCF,OMA DRM XBS
+paff,"Generic Partial File",ISO-Partial
 pana,Panasonic Digital Camera,Panasonic
 piff,Protected Interoperable File Format,PIFF
+pmff,"Mixed Partial File",ISO-Partial
 pnvi,Panasonic Video Intercom,Panasonic Video Intercom
 qt$20$20,QuickTime,QT
+relo,combination brand to indicate relative addressing,ISO
 risx,Representation Index Segment used to index MPEG-2 TS based Media Segments.,DASH
 ROSS,Ross Video,Ross
 sdv$20,SD Video,SDV
@@ -141,3 +175,4 @@ sisx,Single Index Segment used to index MPEG-2 TS based Media Segments.,DASH
 ssss,Subsegment Index Segment used to index MPEG-2 TS based Media Segments.,DASH
 uvvu,"UltraViolet file brand – conforming to the DECE Common File Format spec, Annex E.",DECE
 XAVC,XAVC File Format,Sony
+yt4$20,Google specification for use by YouTube apps,Youtube
