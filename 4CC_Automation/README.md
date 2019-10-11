@@ -1,7 +1,7 @@
 # 4CC Automation Script
 Created by Jason Kopp for David Singer of Apple Inc.  
 First uploaded to Github: 5/30/2019  
-Last updated: 5/30/2019  
+Last updated: 7/11/2019  
 
 ## Description
 The 4CCAutomationScript.py was created to automate finding unregistered or mistakenly registered specifications on the MP4RA website. The script takes a specification file, the folder of CSV files from the MP4RA (CSV/), finds all the four character codes (4CCs) in each, and compares what is in the specification file to what is registered in the MP4RA.
@@ -9,7 +9,7 @@ The 4CCAutomationScript.py was created to automate finding unregistered or mista
 ## unlisted.csv and textualcontent.csv
 We created two new MP4RA CSV files: CSV/unlisted.csv and CSV/textualcontent.csv.
 - unlisted.csv should store 4CCs that are purposely unlisted/unregistered. Meaning, we know they are missing from the MP4RA and they should stay that way, at least for now.
-- textualcontent.csv should store four character long strings that are mistakenly found by this script but are not 4CCs. This script finds any four character long strings that are between single quotes (The regex being used is: `[\'\‘\’][A-Za-z0-9 +-]{4}[\'\‘\’]`) so mistakes happen (i.e. " to ", "also", etc.).
+- textualcontent.csv should store four character long strings that are mistakenly found by this script but are not 4CCs. This script finds any four character long strings that are between single quotes (The regex being used is: `[\'\‘\’].{4}[\'\‘\’]`) so mistakes happen (i.e. " to ", "also", etc.).
 
 ## How to Run
 To run this script on your own specifications type in terminal:
