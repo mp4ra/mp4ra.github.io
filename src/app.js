@@ -268,7 +268,10 @@ var app = new Vue({
         self.loadData('checksum_types');
         $.get(self.mp4ra.handlers.url, function(response) {
           self.mp4ra.handlers.db = Papa.parse(response, { header: true }).data;
-          self.mp4ra.handlers.db.forEach( function(item) { self.addAnchor(item); });
+          self.mp4ra.handlers.db.forEach( function(item) {
+            self.addAnchor(item);
+            self.addCategory(item, self.mp4ra.handlers.category);
+          });
           self.loadData('sample_entries');
           self.loadData('item_types');
           self.loadData('item_properties');
