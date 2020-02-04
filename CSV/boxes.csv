@@ -19,6 +19,7 @@ crgn,Reserved,ISO
 crhd,reserved for ClockReferenceStream header,MP4v1
 csgp,compact sample to group,ISO
 cslg,composition to decode timeline mapping,ISO
+cstb,corrected wall clock start time,ONVIF
 ctab,Reserved,ISO
 ctts,(composition) time to sample,ISO
 cvru,OMA DRM Cover URI,OMA DRM 2.1
@@ -172,6 +173,8 @@ stts,(decoding) time-to-sample,ISO
 styp,Segment Type Box,3GPP
 stz2,compact sample sizes (framing),ISO
 subs,Sub-sample information,ISO
+suep,signer identity information,ONVIF
+sumi,supplemental surveillance meta information,MPEG-VSAF
 surl,Source URL,ISO-Partial
 swtc,Multiview Group Relation,NALu Video
 tenc,Track Encryption,ISO Common Encryption
