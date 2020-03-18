@@ -1,4 +1,5 @@
 code,description,specification
+ades,"description of the content for accessibility purposes (similar to the HTML alt attribute); formatted as for the cprt user-data item",Apple
 albm,Album title and track number for media,3GPP
 alou,Album loudness base,ISO
 angl,Name of the camera angle through which the clip was shot,Apple
