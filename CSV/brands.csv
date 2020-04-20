@@ -34,6 +34,8 @@ avcs,AVC image sequence brands,HEIF
 bbxm,Blinkbox Master File: H.264 video and 16-bit little-endian LPCM audio,Blinkbox
 CAEP,Canon Digital Camera,Canon
 CDes,Convergent Designs,Convergent
+ca4m,CMAF Media Profile - AC-4 Main,ETSI AC-4
+ca4s,CMAF Media Profile - AC-4 Single Stream,ETSI AC-4
 caaa,CMAF Media Profile - AAC Adaptive Audio,CMAF
 caac,CMAF Media Profile - AAC Core,CMAF
 cama,CMAF Media Profile - AAC multichannel adaptive audio,CMAF
@@ -42,6 +44,7 @@ caqv,Casio Digital Camera,Casio
 casu,CMAF Media Profile - MPEG-D USAC audio,CMAF
 ccea,CMAF Supplemental Data - CEA-608/708,CMAF
 ccff,Common container file format,DECE
+ceac,CMAF Media Profile - Enhanced AC-3,ETSI AC-3
 cfhd,CMAF Media Profile - AVC HD,CMAF
 cfsd,CMAF Media Profile - AVC SD,CMAF
 chd1,CMAF Media Profile - HEVC HDR10,CMAF
