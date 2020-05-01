@@ -185,6 +185,7 @@ senv,Video contents Sony Entertainment Network provides by using MP4 file format
 sims,Media Segment conforming to the Sub-Indexed Media Segment format type for ISO base media file format.,DASH
 sisx,Single Index Segment used to index MPEG-2 TS based Media Segments.,DASH
 slh1,Dynamic metadata for Single Layer SDR-compatible HDR video streams,SL-HDR
+slh2,Dynamic metadata for Single Layer PQ-based HDR video streams,SL-HDR
 slh3,Dynamic metadata for Single Layer HLG-based HDR video streams,SL-HDR
 ssss,Subsegment Index Segment used to index MPEG-2 TS based Media Segments.,DASH
 uvvu,"UltraViolet file brand – conforming to the DECE Common File Format spec, Annex E.",DECE
