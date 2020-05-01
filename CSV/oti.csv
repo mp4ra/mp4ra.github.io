@@ -35,8 +35,8 @@ A1,SMV Voice,3GPP2
 A2,3GPP2 Compact Multimedia Format (CMF),3GPP2
 A3,SMPTE VC-1 Video,SMPTE
 A4,Dirac Video Coder,Dirac
-A5,AC-3 Audio,ETSI AC-3
-A6,Enhanced AC-3 audio,ETSI AC-3
+A5,withdrawn, unused, do not use (was AC-3),Deprecated
+A6,withdrawn, unused, do not use (was Enhanced AC-3),Deprecated
 A7,DRA Audio,DRA
 A8,ITU G.719 Audio,ITU G.719
 A9,Core Substream,DTS-HD
@@ -44,7 +44,7 @@ AA,Core Substream + Extension Substream,DTS-HD
 AB,Extension Substream containing only XLL,DTS-HD
 AC,Extension Substream containing only LBR,DTS-HD
 AD,Opus audio,Opus
-AE,AC-4 Audio,ETSI AC-4
+AE,withdrawn, unused, do not use (was AC-4),Deprecated
 AF,Auro-Cx 3D audio,Auro
 B0,RealVideo Codec 11,RealHD
 B1,VP9 Video,VPxx
