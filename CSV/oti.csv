@@ -44,7 +44,7 @@ AA,Core Substream + Extension Substream,DTS-HD
 AB,Extension Substream containing only XLL,DTS-HD
 AC,Extension Substream containing only LBR,DTS-HD
 AD,Opus audio,Opus
-AE,withdrawn, unused, do not use (was AC-4),Deprecated
+AE,"withdrawn, unused, do not use (was AC-4)",Deprecated
 AF,Auro-Cx 3D audio,Auro
 B0,RealVideo Codec 11,RealHD
 B1,VP9 Video,VPxx
