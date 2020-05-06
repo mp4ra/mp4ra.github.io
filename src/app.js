@@ -51,6 +51,13 @@ Vue.filter('capitalize', function (value) {
   return value.charAt(0).toUpperCase() + value.slice(1);
 });
 
+// Directives
+Vue.directive('focus', {
+  inserted: function (el) {
+    el.focus()
+  }
+});
+
 var app = new Vue({
   el: '#app',
   data: {
