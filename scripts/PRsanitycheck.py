@@ -13,9 +13,9 @@ def getCSV4CCs(directory):
                 headers = csvReader.fieldnames
                 if 'code' in headers:
                     for row in csvReader:
-                        #Replaces spaces with underscores and then $20 with spaces.
-                        #I needed to build the CSV files into python using "n/a" because otherwise the travis check would rearranged the columns. So including all the information I needed in every line of the python csv object was my only solution for solving that issue.
-                        csvCode = row['code'].replace(' ', '_').replace('$20', ' ')
+                        # Replaces spaces with ✀ and then $20 with spaces. Spaces are a valid unicode character that can be used but on the MP4RA site, they are displayed as "$20". So there should not be any space characters in the repo. The script converts spaces into invalid unicode characters, so they fail the test. I then convert $20 into single space characters to simplify the regex being used.
+                        csvCode = row['code'].replace(' ', '✀').replace('$20', ' ')
+                        #I needed to build the CSV files into python using "n/a" because otherwise the travis check would rearranged the columns. So including all the information I needed in every line of the python csv list was my only solution for solving that issue.
                         if 'description' in headers:
                             csvDesc = row['description']
                         else:
@@ -47,7 +47,8 @@ def getCSV4CCs(directory):
                         speclist.append([linkname, spec, desc])
     return (codesInCSV, speclist)
 
-#Check to ensure all 4ccs are actually four characters matching the regex below
+# 1. Valid, Four Characters Check
+# Check to ensure all 4CCs are actually four characters long and valid characters matching the regex below
 def notfourcharacters(codes, exceptions=[]):
     pattern = re.compile(u'^[\u0020-\u007E]{4}$', re.UNICODE)
     mistakeCodes = []
@@ -55,16 +56,17 @@ def notfourcharacters(codes, exceptions=[]):
         if pattern.match(code[0]) == None:
             if code[0] not in exceptions:
                 mistakeCodes.append([code[0], code[3]])
-    print("\nFour Character Codes Test:")
+    print("\n1. Valid, Four Characters Check:")
     if mistakeCodes == []:
-        print("\tAll 4ccs are four characters - PASS")
+        print("\tAll 4CCs are valid, four characters - PASS")
         return 0
     elif mistakeCodes != []:
         for i in mistakeCodes:
             print("\t'%s' from '%s'" % (i[0], i[1]))
-        print("\tAll 4ccs are either longer than four characters or not valid - FAIL")
+        print("\tAll 4CCs are either longer than four characters or not valid - FAIL")
         return 1
 
+# 2. Duplicate 4CC Check
 #Finds duplitcated codes. Only fails the check if the duplicates are in the same CSV File
 def duplicatecodes(codes, exceptions=[]):
     #First build a list of just the 4CCs excluding any you want to exclude
@@ -76,7 +78,7 @@ def duplicatecodes(codes, exceptions=[]):
             dups.append(codes[i])
     dupssorted = sorted(dups)
 
-    print("\nDuplicate 4CCs Test:")
+    print("\n2. Duplicate 4CC Check:")
     if dupssorted == []:
         print("\tNo duplicates found - PASS")
         return 0
@@ -103,20 +105,21 @@ def duplicatecodes(codes, exceptions=[]):
             print("\tNo duplicates found in the same CSV - PASS")
             return 0
 
-# Create and return the known duplicates file
+# Create and return the known duplicates file for exceptions to the duplicatecodes check
 def knownduplicates(filename):
     with open(filename, 'r') as file:
         knownduplicatescsv = [row.replace('$20', ' ').replace('\n', '') for row in file]
     return knownduplicatescsv
 
-#Check to make sure all the codes that have specexceptions are registered in the specifications.csv file
+# 3. Registered Specification Check
+# Check to make sure all the codes that have Specifications are registered in the specifications.csv file
 def registerspecs(codesInCSV, speclist, specexceptions=[]):
     unregisteredspecs = []
     allspecs = [spec[1] for spec in speclist]+specexceptions
     for a in range(len(codesInCSV)):
         if codesInCSV[a][2] not in allspecs:
             unregisteredspecs.append(codesInCSV[a])
-    print("\nRegistered Specs Test:")
+    print("\n3. Registered Specification Check:")
     if unregisteredspecs == []:
         print("\tAll specs are registered - PASS")
         return 0
@@ -126,7 +129,8 @@ def registerspecs(codesInCSV, speclist, specexceptions=[]):
         print("\tThere are unregistered specs - FAIL")
         return 1
 
-#Find CSV Rows that have missing columns
+# 4. Missing Columns Check
+# Find CSV Rows that have missing columns
 def filledcolumns(codesInCSV):
     missingcols=[]
     for row in codesInCSV:
@@ -141,7 +145,7 @@ def filledcolumns(codesInCSV):
     # removes duplicates that arise from rows that have multiple blank cols
     newmissingcols = set(notsamplemissing)
     # return value
-    print("\nMissing Columns Test:")
+    print("\n4. Missing Columns Check:")
     if newmissingcols == set():
         print("\tNo missing columns - PASS")
         return 0
@@ -151,14 +155,15 @@ def filledcolumns(codesInCSV):
         print("\tThese specs have missing columns - FAIL")
         return 1
 
+# 5. Registered Handlers Check
 # Like the specification check, check to ensure all handlers that are used are registered in handlers.csv
-def registerhandle(codesInCSV, handleexceptions):
+def registerhandle(codesInCSV, handlerexceptions):
     unregisteredhandles = []
-    allhandles = [handle[1] for handle in codesInCSV if handle[3] == "handlers.csv"]+handleexceptions
+    allhandles = [handle[1] for handle in codesInCSV if handle[3] == "handlers.csv"]+handlerexceptions
     for a in range(len(codesInCSV)):
         if codesInCSV[a][4] not in allhandles:
             unregisteredhandles.append(codesInCSV[a])
-    print("\nRegistered Handles Test:")
+    print("\n5. Registered Handlers Check:")
     if unregisteredhandles == []:
         print("\tAll handles are registered - PASS")
         return 0
@@ -180,27 +185,28 @@ def prsanitycheck():
 
     codesspecs = getCSV4CCs(repo)
 
-    #TEST for four characters
+    # 1. Valid, Four Characters Check
     codeExceptions = [] #Type in exceptions if you need to
-    not4ccs = notfourcharacters(codesspecs[0], codeExceptions)
+    not4CCs = notfourcharacters(codesspecs[0], codeExceptions)
 
-    #Test for Duplicates
+    # 2. Duplicate 4CC Check
     knownduplicateslist = knownduplicates(repo+"knownduplicates.csv")
     duplicates = duplicatecodes(codesspecs[0], knownduplicateslist)
 
-    #Test for Specifications
+    # 3. Registered Specification Check
     specexceptions = ["see (1) below"]
     unregisteredspecs = registerspecs(codesspecs[0], codesspecs[1], specexceptions)
 
-    #Test for Filled in Columns
+    # 4. Missing Columns Check
     emptycols = filledcolumns(codesspecs[0])
 
-    #Test for registered handle types. Must leave "n/a" as a handleexceptions because that is introduced by the script.
-    handleexceptions = ["n/a", "(various)", "General"]
-    unregisteredhandles = registerhandle(codesspecs[0], handleexceptions)
+    # 5. Registered Handlers Check
+    # Must leave "n/a" in handlerexceptions because that is introduced by the script.
+    handlerexceptions = ["n/a", "(various)", "General"]
+    unregisteredhandles = registerhandle(codesspecs[0], handlerexceptions)
 
     # Exit Codes
-    returnvalue = (not4ccs + duplicates + unregisteredspecs + emptycols + unregisteredhandles)
+    returnvalue = (not4CCs + duplicates + unregisteredspecs + emptycols + unregisteredhandles)
     if returnvalue == 0:
         print("\nPR passed all checks")
         exit(0)
