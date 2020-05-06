@@ -35087,6 +35087,13 @@ Vue.filter('capitalize', function (value) {
   return value.charAt(0).toUpperCase() + value.slice(1);
 });
 
+// Directives
+Vue.directive('focus', {
+  inserted: function (el) {
+    el.focus()
+  }
+});
+
 var app = new Vue({
   el: '#app',
   data: {
@@ -35471,7 +35478,7 @@ module.exports = {
       return self.query.toLowerCase();
     }
   },
-  template: "<main role=\"main\" class=\"container\">\n  <h1>Search</h1>\n  <p>\n    Trying to find a 4cc, a specification, any information registered, just type\n    in below the keyword you are looking for.\n  </p>\n  <div class=\"input-group mb-3\">\n    <input v-model=\"query\" type=\"text\" class=\"form-control\" placeholder=\"Search ...\" aria-label=\"Search\">\n</div>\n  <table is=\"mp4ra-table\" v-bind:columns=\"['code', 'description', 'specification', 'category']\" v-bind:data=\"searchResult\" v-if=\"query && query.length > 1\"></table>\n</main>\n"
+  template: "<main role=\"main\" class=\"container\">\n  <h1>Search</h1>\n  <p>\n    Trying to find a 4cc, a specification, any information registered, just type\n    in below the keyword you are looking for.\n  </p>\n  <div class=\"input-group mb-3\">\n    <input v-focus v-model=\"query\" type=\"text\" class=\"form-control\" placeholder=\"Search ...\" aria-label=\"Search\">\n  </div>\n  <table is=\"mp4ra-table\" v-bind:columns=\"['code', 'description', 'specification', 'category']\" v-bind:data=\"searchResult\" v-if=\"query && query.length > 1\"></table>\n</main>\n"
 };
 
 },{}],24:[function(require,module,exports){
