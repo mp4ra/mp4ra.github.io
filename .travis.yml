@@ -28,3 +28,4 @@ deploy:
   target-branch: master
   on:
     branch: dev
+    repo: mp4ra/mp4ra.github.io
