@@ -53,6 +53,7 @@ hvc2,High Efficiency Video Coding,Video,NALu Video,0x23
 hvt1,HEVC tile tracks,Video,NALu Video,
 icpv,Incomplete video,Video,ISO,
 ixse,DVB Track Level Index Track,Metadata,DVB,
+j2ki,Sequence of JPEG 2000 Contiguous Codestream boxes as defined in Rec. ITU-T T.800 | ISO/IEC 15444-1,Video,J2KHEIF,
 jxsm,Video and image sequences coded to the JPEG-XS coding format,Video,JPXS,
 lhe1,Layered HEVC,Video,NALu Video,
 lht1,Layered HEVC tile tracks,Video,NALu Video,

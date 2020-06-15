@@ -118,6 +118,7 @@ isob,Version of the ISO file format,ISO
 isom,All files based on the ISO Base Media File Format,ISO
 j2ki,JPEG 2000 image and image collections in ISO/IEC 23008-12 files,J2KHEIF
 j2ks,Motion JPEG 2000 in ISO/IEC 23008-12 files,J2KHEIF
+j2is,JPEG 2000 image sequence in ISO/IEC 23008-12 files,J2KHEIF
 J2P0,JPEG2000 Profile 0,JPEG2000
 J2P1,JPEG2000 Profile 1,JPEG2000
 jp2$20,JPEG2000 Part 1,JPEG2000
