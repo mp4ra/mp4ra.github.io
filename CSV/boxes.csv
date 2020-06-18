@@ -36,7 +36,7 @@ elst,an edit list,ISO
 emsg,event message,DASH
 evti,Event information,ATSC 3.0
 etyp,extended type and type combination,ISO
-Exif,Exif,JPXS
+Exif,Exif Metadata,JPXS
 fdel,File delivery information (item info extension),ISO
 feci,FEC Informatiom,ISO
 fecr,FEC Reservoir,ISO
