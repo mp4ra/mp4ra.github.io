@@ -74,6 +74,10 @@ jP$20$20,JPEG 2000 Signature,JPEG2000
 jp2c,JPEG 2000 contiguous codestream,JPEG2000
 jp2h,Header,JPEG2000
 jp2i,intellectual property information,JPEG2000
+JXL$20,JPEG XL Signature,JPEG XL
+jxlc,JPEG XL Codestream,JPEG XL
+jxli,JPEG XL Frame Index,JPEG XL
+jxlp,JPEG XL Partial Codestream,JPEG XL
 kmat,Reserved,ISO
 leva,Leval assignment,ISO
 load,Reserved,ISO
