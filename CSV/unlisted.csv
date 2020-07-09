@@ -27,6 +27,7 @@ nump,hintPacketsSent,ISO
 payl,inner CuePayloadBox in the VTTCueBox,ISO-Text
 payt,hintpayloadID,ISO
 pmax,hintlargestpacket,ISO
+qvXt,example brand,ISO
 rcsr,receivedCSRC,ISO
 rssr,ReceivedSsrcBox,ISO
 rtpo,rtpoffsetTLV,ISO
