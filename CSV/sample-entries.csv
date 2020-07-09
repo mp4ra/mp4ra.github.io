@@ -1,5 +1,5 @@
 code,description,handler,specification,ObjectType
-2dcc,2D Cartesian coordinates,Metadata,Metrics,
+2dcc,2D cartesian coordinates,Metadata,Metrics,
 3glo,3GPP Location,Metadata,3GPP,
 3gor,3GPP Orientation,Metadata,3GPP,
 3gvo,3GPP Video Orientation,Metadata,3GPP,
