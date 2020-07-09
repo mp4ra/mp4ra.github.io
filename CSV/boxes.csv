@@ -73,6 +73,8 @@ ipmc,IPMP Control Box,ISO
 ipro,item protection,ISO
 iprp,Item Properties Box,HEIF
 iref,Item reference,ISO
+j2kH,JPEG 2000 header info,J2KHEIF
+j2kP,JPEG 2000 prefix,J2KHEIF
 jP$20$20,JPEG 2000 Signature,JPEG2000
 jp2c,JPEG 2000 contiguous codestream,JPEG2000
 jp2h,Header,JPEG2000
@@ -126,6 +128,7 @@ odrb,OMA DRM Rights Object,OMA DRM 2.0
 odrm,OMA DRM Container,OMA DRM 2.0
 odtt,OMA DRM Transaction Tracking,OMA DRM 2.0
 ohdr,OMA DRM Common headers,OMA DRM 2.0
+otyp,Original file type,ISO
 padb,sample padding bits,ISO
 paen,Partition Entry,ISO
 pclr,palette which maps a single component in index space to a multiple- component image,JPEG2000
@@ -158,7 +161,7 @@ segr,file delivery session group,ISO
 seii,SEI information box,NALu Video
 senc,Sample specific encryption data,ISO Common Encryption
 sgpd,Sample group definition box,ISO
-sidx,Segment Index Box,3GPP
+sidx,Segment Index Box,ISO
 sinf,protection scheme information box,ISO
 skip,free space,ISO
 smhd,"sound media header, overall information (sound track only)",ISO
@@ -182,7 +185,7 @@ stss,sync sample table (random access points),ISO
 stsz,sample sizes (framing),ISO
 stti,Sub track tier box,NALu Video
 stts,(decoding) time-to-sample,ISO
-styp,Segment Type Box,3GPP
+styp,Segment Type Box,ISO
 stz2,compact sample sizes (framing),ISO
 subs,Sub-sample information,ISO
 suep,signer identity information,ONVIF
@@ -219,4 +222,8 @@ vmhd,"video media header, overall information (video track only)",ISO
 vwdi,Multiview Scene Information,NALu Video
 xml$20,XML container,ISO
 xml$20,a tool by which vendors can add XML formatted information,JPEG2000
-j2kH,JPEG 2000 header item property,J2KHEIF
+!mof,Compressed movie fragment,ISO
+!mov,Compressed movie,ISO
+!six,Compressed segment index,ISO
+!ssx,Compressed subsegment index,ISO
+

@@ -1,5 +1,5 @@
 code,description,handler,specification,ObjectType
-2dcc,2D Cartesian coordinates,Metadata,Metrics,
+2dcc,2D cartesian coordinates,Metadata,Metrics,
 3glo,3GPP Location,Metadata,3GPP,
 3gor,3GPP Orientation,Metadata,3GPP,
 3gvo,3GPP Video Orientation,Metadata,3GPP,
@@ -21,6 +21,7 @@ avcp,Advanced Video Coding Parameters,Video,NALu Video,0x22
 avst,2nd Generation Audio Video Coding Standard of China (AVS Two),Video,Avs2,
 avs3,3nd Generation Audio Video Coding Standard of China,Video,Avs3,
 camm,Camera motion metadata track,Video,CamMotion,
+dav1,AV1-related Dolby Vision consistent with av01,Video,Dolby Vision,
 dra1,DRA Audio,Audio,DRA,0xA7
 drac,Dirac Video Coder,Video,Dirac,0xA4
 dts+,Enhancement layer for DTS layered audio,Audio,DTS,
@@ -53,6 +54,7 @@ hvc2,High Efficiency Video Coding,Video,NALu Video,0x23
 hvt1,HEVC tile tracks,Video,NALu Video,
 icpv,Incomplete video,Video,ISO,
 ixse,DVB Track Level Index Track,Metadata,DVB,
+j2ki,Sequence of JPEG 2000 Contiguous Codestream boxes as defined in Rec. ITU-T T.800 | ISO/IEC 15444-1,Video,J2KHEIF,
 jxsm,Video and image sequences coded to the JPEG-XS coding format,Video,JPXS,
 lhe1,Layered HEVC,Video,NALu Video,
 lht1,Layered HEVC tile tracks,Video,NALu Video,
