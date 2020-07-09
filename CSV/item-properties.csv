@@ -11,6 +11,7 @@ imir,Image mirroring,HEIF
 irot,Image rotation,HEIF
 ispe,Image spatial extents,HEIF
 jpgC,JPEG image item configuration,HEIF
+jxsH,JPEG XS Header,JPXS
 lhvC,Layered HEVC Image item configuration,HEIF
 lsel,Layer selection,HEIF
 oinf,HEVC operating point,HEIF

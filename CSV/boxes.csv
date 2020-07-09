@@ -4,6 +4,7 @@ assp,alternative startup sequence properties,ISO
 avcn,AVC NAL Unit Storage Box,DECE
 bidx,Box Index,ISO-Partial
 bloc,Base location and purchase location for license acquisition,DECE
+bmdm,Buffer Model Description,JPXS
 bpcc,Bits per component,JPEG2000
 buff,Buffering information,NALu Video
 bxml,binary XML container,ISO
@@ -26,6 +27,7 @@ cvru,OMA DRM Cover URI,OMA DRM 2.1
 dihd,Data Integrity Hash,ISO-Partial
 dinf,"data information box, container",ISO
 dint,Data Integrity,ISO-Partial
+dmon,Mastering Display Metadata,JPXS
 dref,"data reference box, declares source(s) of media data in track",ISO
 dsgd,DVB Sample Group Description Box,DVB
 dstg,DVB Sample to Group Box,DVB
@@ -34,6 +36,7 @@ elst,an edit list,ISO
 emsg,event message,DASH
 evti,Event information,ATSC 3.0
 etyp,extended type and type combination,ISO
+Exif,Exif Metadata,JPXS
 fdel,File delivery information (item info extension),ISO
 feci,FEC Informatiom,ISO
 fecr,FEC Reservoir,ISO
@@ -74,6 +77,11 @@ jP$20$20,JPEG 2000 Signature,JPEG2000
 jp2c,JPEG 2000 contiguous codestream,JPEG2000
 jp2h,Header,JPEG2000
 jp2i,intellectual property information,JPEG2000
+jpvi,JPEG XS Video Information,JPXS
+jpvs,JPEG XS Video Support,JPXS
+jptp,JPEG XS Video Transport Parameter,JPXS
+JXS$20,JPEG XS Signature,JPXS
+jxpl,JPEG XS Profile and Level,JPXS
 kmat,Reserved,ISO
 leva,Leval assignment,ISO
 load,Reserved,ISO
