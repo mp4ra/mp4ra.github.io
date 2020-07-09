@@ -222,7 +222,6 @@ vmhd,"video media header, overall information (video track only)",ISO
 vwdi,Multiview Scene Information,NALu Video
 xml$20,XML container,ISO
 xml$20,a tool by which vendors can add XML formatted information,JPEG2000
-j2kH,JPEG 2000 header item property,J2KHEIF
 !mof,Compressed movie fragment,ISO
 !mov,Compressed movie,ISO
 !six,Compressed segment index,ISO
