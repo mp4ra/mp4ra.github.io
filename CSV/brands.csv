@@ -99,7 +99,7 @@ hevs,L-HEVC image sequence brands,HEIF
 hevx,HEVC image sequence brands,HEIF
 hvce,L-HEVC explicit reconstruction,NALu Video
 hvci,L-HEVC implicit reconstruction,NALu Video
-hvcx,D.4.6	L-HEVC extended explicit reconstruction brand,NALu Video
+hvcx,L-HEVC extended explicit reconstruction brand,NALu Video
 hvti,HEVC Tile Track,NALu Video
 ifrm,"Apple iFrame Specification, Version 8.1 Jan 2013",Apple
 im1i,CMAF Media Profile - IMSC1 Image,CMAF
