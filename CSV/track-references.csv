@@ -24,3 +24,5 @@ thmb,Thumbnail track reference,ISO
 tmcd,Time code. Usually references a time code track.,Apple
 vdep,Auxiliary video depth,ISO
 vplx,Auxiliary video parallax,ISO
+font,this track uses fonts carried/defined in the referenced track,ISO
+subt,subtitle or timed text or overlay graphical information,ISO
