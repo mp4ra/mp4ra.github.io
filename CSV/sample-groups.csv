@@ -30,7 +30,7 @@ seig,Sample Encryption Information,sample group,ISO Common Encryption
 scif,SVC Scalability Information,sample group,NALu Video
 scnm,AVC/SVC/MVC map groups,sample group,NALu Video
 stsa,Step-wise Temporal Layer,sample group,NALu Video
-stmi,SampleToMetadataItemEntry,sample group,HEIF
+stmi,SampleToMetadataItemEntry,sample group,ISO
 svdr,SVC dependency range,sample group,NALu Video
 svip,Initial parameter sets box for tiers, sample group,NALu Video
 svpr,Priority range,sample group,NALu Video

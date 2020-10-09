@@ -50,7 +50,7 @@ frpa,Front Part,ISO-Partial
 ftyp,file type and compatibility,ISO
 gitn,Group ID to name,ISO
 grpi,OMA DRM Group ID,OMA DRM 2.0
-grpl,Groups List box,HEIF
+grpl,Groups list box,ISO
 hdlr,"handler, declares the media (handler) type",ISO
 hmhd,"hint media header, overall information (hint track only)",ISO
 hpix,Hipix Rich Picture (user-data or meta-data),Hipix
