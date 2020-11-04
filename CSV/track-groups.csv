@@ -1,3 +1,4 @@
 code,description,specification
+alte,alternative extraction source track grouping,NALu Video
 msrc,multi-source presentation track grouping,ISO
 cstg,complete subset track grouping,NALu Video

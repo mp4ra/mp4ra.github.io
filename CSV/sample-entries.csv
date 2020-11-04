@@ -49,9 +49,13 @@ g719,ITU-T Recommendation G.719 (2008),Audio,ITU G.719,0xA8
 g726,ITU-T Recommendation G.726 (1990),Audio,SDV,
 hev1,High Efficiency Video Coding,Video,NALu Video,0x23
 hev2,High Efficiency Video Coding,Video,NALu Video,0x23
+hev3,High Efficiency Video Coding,Video,NALu Video,0x23
 hvc1,High Efficiency Video Coding,Video,NALu Video,0x23
 hvc2,High Efficiency Video Coding,Video,NALu Video,0x23
+hvc3,High Efficiency Video Coding,Video,NALu Video,0x23
 hvt1,HEVC tile tracks,Video,NALu Video,
+hvt2,HEVC slice segment data track,Video,NALu Video,
+hvt3,HEVC Tile Track with Slice Segment Header Info,Video,NALu Video,
 icpv,Incomplete video,Video,ISO,
 ixse,DVB Track Level Index Track,Metadata,DVB,
 j2ki,Sequence of JPEG 2000 Contiguous Codestream boxes as defined in Rec. ITU-T T.800 | ISO/IEC 15444-1,Video,J2KHEIF,
