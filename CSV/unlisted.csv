@@ -58,3 +58,4 @@ vsid,inner CueSourceIDBox in the VTTCueBox,ISO-Text
 vtta,VTTAdditionalTextBox only present in WebVTT sample payload,ISO-Text
 vttc,VTTCueBox only present in WebVTT sample payload,ISO-Text
 vtte,VTTEmptyCueBox only present in WebVTT sample payload,ISO-Text
+?vc?,Pattern for sample-entry codes,NALu Video
