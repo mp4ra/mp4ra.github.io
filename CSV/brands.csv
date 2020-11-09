@@ -101,6 +101,14 @@ hvce,L-HEVC explicit reconstruction,NALu Video
 hvci,L-HEVC implicit reconstruction,NALu Video
 hvcx,L-HEVC extended explicit reconstruction brand,NALu Video
 hvti,HEVC Tile Track,NALu Video
+ifsd,IFE-SD Media Profile,IFE
+ifhs,IFE-HSD Media Profile,IFE
+ifhd,IFE-HD Media Profile,IFE
+ifhx,IFE-HHD10 Media Profile,IFE
+ifhh,IFE-HDHDR Media Profile,IFE
+ifhu,IFE-UHD10 Media Profile,IFE
+ifhr,IFE-HDR10 Media Profile,IFE
+ifaa,IFE-AAC Core Media Profile,IFE
 ifrm,"Apple iFrame Specification, Version 8.1 Jan 2013",Apple
 im1i,CMAF Media Profile - IMSC1 Image,CMAF
 im1t,CMAF Media Profile - IMSC1 Text,CMAF
