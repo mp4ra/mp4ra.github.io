@@ -1,4 +1,5 @@
 code,description,type,specification
+2dsr,Two dimensional spatial relationship sample grouping,sample group,OMAF
 3gag,3GPP PSS Annex G video buffer parameters,sample group,3GPP
 alst,Alternative startup sequence,sample group,ISO
 av1f,AV1 Forward Key Frame,sample group,AV1-ISOBMFF
@@ -36,6 +37,7 @@ svip,Initial parameter sets box for tiers, sample group,NALu Video
 svpr,Priority range,sample group,NALu Video
 sync,Sync sample groups,sample group,NALu Video
 tele,Temporal Level,sample group,ISO
+tmsh,Tile mesh sample grouping,sample group,OMAF
 tran,SVC lightweight transcoding,sample group,NALu Video
 trif,HEVC Tile Region,sample group,NALu Video
 tsas,Temporal Sub-Layer,sample group,NALu Video
