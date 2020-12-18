@@ -1,4 +1,7 @@
 code,description,specification
 altr,alternative entity grouping,HEIF
 eqiv,equivalent entity grouping,HEIF
+oval,Grouping of overlays that are alternatives for switching,OMAF
+ovbg,Grouping of overlays and background visual media that are intended to be presented together,OMAF
 ster,Stereo entity grouping,HEIF
+vipo,Viewpoint entity grouping,OMAF
