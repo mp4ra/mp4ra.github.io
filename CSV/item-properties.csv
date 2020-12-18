@@ -4,9 +4,13 @@ avcC,AVC Image item configuration,HEIF
 brnd,Item brand (type),ISO
 clap,Clean aperture,HEIF
 colr,Colour information,HEIF
+covi,Coverage information,OMAF
+fovi,Essential fisheye information,OMAF
+fvsi,Supplemental fisheye information,OMAF
 hvcC,HEVC Image item configuration,HEIF
 iaux,Item Auxiliary Information,ISO Common Encryption
 ienc,Item Encryption,ISO Common Encryption
+iivo,Initial viewing orientation,OMAF
 imir,Image mirroring,HEIF
 irot,Image rotation,HEIF
 ispe,Image spatial extents,HEIF
@@ -15,8 +19,14 @@ jxsH,JPEG XS Header,JPXS
 lhvC,Layered HEVC Image item configuration,HEIF
 lsel,Layer selection,HEIF
 oinf,HEVC operating point,HEIF
+ovly,Overlay configuration,OMAF
 pasp,Pixel aspect ratio,HEIF
 pixi,Pixel information,HEIF
+prfr,Projection format,OMAF
 rloc,Relative location,HEIF
+rotn,Rotation,OMAF
+rwpk,Region-wise packing,OMAF
+stvi,Frame packing,OMAF
 subs,Subsample information,HEIF
 tols,Layered HEVC Target output layer set property,HEIF
+vssn,Viewing space,OMAF
