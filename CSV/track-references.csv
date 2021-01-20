@@ -1,9 +1,10 @@
 code,description,specification
 adda,Additional audio track,DRC
 adrc,DRC metadata track,DRC
-auxl,Auxiliary track reference,HEIF
+auxl,Auxiliary track reference,ISO
 avcp,AVC parameter set stream link,NALu Video
 cdsc,this track describes the referenced track.,MPEG-4
+cdtg,this track describes the referenced tracks and track groups collectively,OMAF
 deps,track containing the depth view,NALu Video
 dpnd,this track has an MPEG-4 dependency on the referenced track,MPEG-4
 hind,Hint dependency,ISO
@@ -16,11 +17,14 @@ oref,track that contains an 'oref' sample group,NALu Video
 sabt,HEVC Tile Track,NALu Video
 sbas,Scalable base,NALu Video
 scal,Scalable extraction,NALu Video
+shsc,reference to a shadow sync sample track,OMAF
 swfr,AVC Switch from,NALu Video
 swto,AVC Switch to,NALu Video
 sync,this track uses the referenced track as its synchronization source.,MPEG-4
 tbas,HEVC Tile track base,NALu Video
-thmb,Thumbnail track,HEIF
+thmb,Thumbnail track reference,ISO
 tmcd,Time code. Usually references a time code track.,Apple
 vdep,Auxiliary video depth,ISO
 vplx,Auxiliary video parallax,ISO
+font,this track uses fonts carried/defined in the referenced track,ISO
+subt,subtitle or timed text or overlay graphical information,ISO

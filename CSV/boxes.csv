@@ -1,4 +1,6 @@
 code,description,specification
+2dqr,2D region quality ranking,OMAF
+2dss,spatial relationship 2D source,OMAF
 ainf,"Asset information to identify, license and play",DECE
 assp,alternative startup sequence properties,ISO
 avcn,AVC NAL Unit Storage Box,DECE
@@ -14,8 +16,10 @@ cinf,complete track information,ISO
 clip,Reserved,ISO
 cmap,mapping between a palette and codestream components,JPEG2000
 co64,64-bit chunk offset,ISO
+coif,composition information,OMAF
 coin,Content Information Box,DECE
 colr,specifies the colourspace of the image,JPEG2000
+covi,coverage information,OMAF
 crgn,Reserved,ISO
 crhd,reserved for ClockReferenceStream header,MP4v1
 csgp,compact sample to group,ISO
@@ -43,14 +47,17 @@ fecr,FEC Reservoir,ISO
 fidx,Box File Index,ISO-Partial
 fiin,FD Item Information,ISO
 fire,File Reservoir,ISO
+fovd,fisheye omnidirectional video,OMAF
+fovi,fisheye video essential info,OMAF
 fpar,File Partition,ISO
 free,free space,ISO
 frma,original format box,ISO
 frpa,Front Part,ISO-Partial
 ftyp,file type and compatibility,ISO
+fvsi,fisheye video supplemental info,OMAF
 gitn,Group ID to name,ISO
 grpi,OMA DRM Group ID,OMA DRM 2.0
-grpl,Groups List box,HEIF
+grpl,Groups list box,ISO
 hdlr,"handler, declares the media (handler) type",ISO
 hmhd,"hint media header, overall information (hint track only)",ISO
 hpix,Hipix Rich Picture (user-data or meta-data),Hipix
@@ -102,7 +109,9 @@ mdia,container for the media information in a track,ISO
 mdri,Mutable DRM information,OMA DRM 2.0
 meco,additional metadata container,ISO
 mehd,movie extends header box,ISO
+meof,media offset,OMAF
 mere,metabox relation,ISO
+mesh,mesh box,OMAF
 meta,Metadata container,ISO
 mfhd,movie fragment header,ISO
 mfra,Movie fragment random access,ISO
@@ -111,6 +120,7 @@ minf,media information container,ISO
 mjhd,reserved for MPEG-J Stream header,MP4v1
 moof,movie fragment,ISO
 moov,container for all the meta-data,ISO
+movd,mesh omnidirectional video,OMAF
 mstv,MVC sub track view box,NALu Video
 mvcg,Multiview group,NALu Video
 mvci,Multiview Information,NALu Video
@@ -128,7 +138,9 @@ odrb,OMA DRM Rights Object,OMA DRM 2.0
 odrm,OMA DRM Container,OMA DRM 2.0
 odtt,OMA DRM Transaction Tracking,OMA DRM 2.0
 ohdr,OMA DRM Common headers,OMA DRM 2.0
+otcf,OMAF timed text configuration,OMAF
 otyp,Original file type,ISO
+ovly,overlay configuration,OMAF
 padb,sample padding bits,ISO
 paen,Partition Entry,ISO
 pclr,palette which maps a single component in index space to a multiple- component image,JPEG2000
@@ -139,6 +151,8 @@ pfil,Partial File,ISO-Partial
 pitm,primary item reference,ISO
 ploc,Partial Segment Location,ISO-Partial
 pnot,Reserved,ISO
+povd,projected omnidirectional video,OMAF
+prfr,projection format,OMAF
 prft,Producer reference time,ISO
 pseg,Partial Segment,ISO-Partial
 pshd,Partial Segment Header,ISO-Partial
@@ -148,6 +162,10 @@ res$20,grid resolution,JPEG2000
 resc,grid resolution at which the image was captured,JPEG2000
 resd,default grid resolution at which the image should be displayed,JPEG2000
 rinf,restricted scheme information box,ISO
+rotn,rotation box,OMAF
+rosc,sphere region configuration,OMAF
+rvif,recommended viewport information,OMAF
+rwpk,region-wise packing,OMAF
 saio,Sample auxiliary information offsets,ISO
 saiz,Sample auxiliary information sizes,ISO
 sbgp,Sample to Group box,ISO
@@ -165,9 +183,11 @@ sidx,Segment Index Box,ISO
 sinf,protection scheme information box,ISO
 skip,free space,ISO
 smhd,"sound media header, overall information (sound track only)",ISO
+sprg,sub-picture region,OMAF
 srmb,System Renewability Message,DVB
 srmc,System Renewability Message container,DVB
 srpp,STRP Process,ISO
+srqr,sphere region quality ranking,OMAF
 ssix,Sub-sample index,ISO
 sstl,SVC sub track layer box,NALu Video
 stbl,"sample table box, container for the time/space map",ISO
@@ -219,6 +239,7 @@ ulst,a list of UUID’s,JPEG2000
 url$20,a URL,JPEG2000
 uuid,user-extension box,ISO
 vmhd,"video media header, overall information (video track only)",ISO
+vssn,viewing space,OMAF
 vwdi,Multiview Scene Information,NALu Video
 xml$20,XML container,ISO
 xml$20,a tool by which vendors can add XML formatted information,JPEG2000

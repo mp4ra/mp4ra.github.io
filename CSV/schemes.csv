@@ -8,6 +8,14 @@ cpcm,CPCM (DVB BlueBook A094) protected content,protection scheme,DVB
 cva1,AES-CBC-128 sample variant,protection scheme,ISO Variants
 cva2,AES-CTR sample variant - supercedes cvar,protection scheme,ISO Variants
 cvar,AES-CTR sample variant,protection scheme,ISO Variants
+ecov,Like 'ercm' but overlays may additionally be present,restricted video scheme,OMAF
+erc2,Equirectangular or cubemap projected video with derived region-wise packing,restricted video scheme,OMAF
+ercm,Equirectangular or cubemap projected video with indicated region-wise packing,restricted video scheme,OMAF
+erpv,Equirectangular projected video (essentially without region-wise packing),restricted video scheme,OMAF
+fodv,Open-ended scheme type for fisheye omnidirectional video,restricted video scheme,OMAF
+meov,Closed scheme type for mesh omnidirectional video,restricted video scheme,OMAF
+modv,Open-ended scheme type for mesh omnidirectional video,restricted video scheme,OMAF
 odkm,OMA DRM KMS protection scheme,protection scheme,OMA DRM 2.0
-stvi,Stereo video restricted scheme,protection scheme,ISO
+podv,Open-ended scheme type for omnidirectional video based on a projection,restricted video scheme,OMAF
+stvi,Stereo video restricted scheme,restricted video scheme,ISO
 sve1,AES-CTR content sensitive encryption,protection scheme,ISO Common Encryption
