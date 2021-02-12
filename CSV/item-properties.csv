@@ -42,3 +42,5 @@ pano,Panorama information,HEIF
 rref,Required reference types,HEIF
 udes,User description,HEIF
 wbbr,White balance information,HEIF
+cclv,Content colour volume,HEIF
+mdcv,Mastering display colour volume,HEIF
