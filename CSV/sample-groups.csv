@@ -33,7 +33,7 @@ scnm,AVC/SVC/MVC map groups,sample group,NALu Video
 stsa,Step-wise Temporal Layer,sample group,NALu Video
 stmi,SampleToMetadataItemEntry,sample group,ISO
 svdr,SVC dependency range,sample group,NALu Video
-svip,Initial parameter sets box for tiers, sample group,NALu Video
+svip,Initial parameter sets box for tiers,sample group,NALu Video
 svpr,Priority range,sample group,NALu Video
 sync,Sync sample groups,sample group,NALu Video
 tele,Temporal Level,sample group,ISO
@@ -43,3 +43,9 @@ trif,HEVC Tile Region,sample group,NALu Video
 tsas,Temporal Sub-Layer,sample group,NALu Video
 tscl,Temporal Layer,sample group,NALu Video
 vipr,View priority,sample group,NALu Video
+aebr,Auto exposure bracketing,sample group,HEIF
+afbr,Flash exposure bracketing,sample group,HEIF
+dobr,Depth of field bracketing,sample group,HEIF
+fobr,Focus bracketing exposure bracketing,sample group,HEIF
+pano,Panorama sample group,sample group,HEIF
+wbbr,White balance bracketing,sample group,HEIF
