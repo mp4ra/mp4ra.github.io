@@ -247,4 +247,4 @@ xml$20,a tool by which vendors can add XML formatted information,JPEG2000
 !mov,Compressed movie,ISO
 !six,Compressed segment index,ISO
 !ssx,Compressed subsegment index,ISO
-
+vlab,WebVTT Source Label,ISO-Text

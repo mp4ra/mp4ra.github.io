@@ -71,7 +71,6 @@ MPEGHAudio,MPEG-H,"<a href='http://www.iso.ch/' target='_blank'>ISO</a>/IEC 2300
 MPEG-VSAF,MPEG-VSAF,"<a href='http://www.iso.ch/' target='_blank'>ISO</a>/IEC 23000-10 Video surveillance application format"
 MMT,MMT,<a href='http://www.iso.ch/' target='_blank'>ISO</a>/IEC 23008-1 MPEG Media Transport
 matrox,Matrox,<a href='http://www.matrox.com/'>Matrox</a>
-Metrics,Metrics,<a href='http://www.iso.ch/' target='_blank'>ISO</a>/IEC 23001-10 Carriage of timed metadata metrics of media in ISO base media file format
 AVC,NALu Video,"<a href='http://www.iso.ch/' target='_blank'>ISO</a>/IEC 14496-15, Carriage of NAL unit structured video in the ISO Base Media File Format"
 nikon,Nikon,<a href='http://www.nikon.com/'>Nikon</a>
 OMADCF,OMA DRM 2.0,"OMA DRM; <a href='http://www.openmobilealliance.org/'>Open Mobile Alliance </a>Digital Rights Management, DRM Content Format 2.0 (OMA-TS-DRM_DCF-V2_0_1-20080226-A)"
