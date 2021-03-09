@@ -33,6 +33,9 @@ avc1,Advanced Video Coding extensions,ISO
 avci,AVC image and image collection brands,HEIF
 avcs,AVC image sequence brands,HEIF
 avde,AVC-based viewport-dependent OMAF video profile,OMAF
+avif,AV1 image format brand,AVIF
+avio,AV1 intra-only brand,AVIF
+avis,AV1 image sequence brand,AVIF
 bbxm,Blinkbox Master File: H.264 video and 16-bit little-endian LPCM audio,Blinkbox
 CAEP,Canon Digital Camera,Canon
 CDes,Convergent Designs,Convergent
@@ -162,6 +165,8 @@ M4A$20,"iTunes MPEG-4 audio protected or not, can contain audio + video + 3g tex
 M4B$20,"iTunes AudioBook protected or not, can contain audio + video + 3g text track + chapter track",iTunes
 M4P$20,MPEG-4 protected audio,iTunes
 M4V$20,MPEG-4 protected audio+video,iTunes
+MA1B,AVIF Baseline Profile,AVIF
+MA1A,AVIF Advanced Profile,AVIF
 MFSM,Media File for Samsung video Metadata,Samsung
 MGSV,Home and Mobile Multimedia Platform (HMMP),Sony
 MiAB,Multi-Image Application format brand for MIAF AVC Basic Profile,MIAF
