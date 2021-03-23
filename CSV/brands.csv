@@ -53,7 +53,7 @@ ccff,Common container file format,DECE
 ceac,CMAF Media Profile - Enhanced AC-3,ETSI AC-3
 cfhd,CMAF Media Profile - AVC HD,CMAF
 cfsd,CMAF Media Profile - AVC SD,CMAF
-cdm4,CMAF Media Profile compatibility to HDR10+ (ST2094-40) - SCTE 215-1-1b
+cdm4,CMAF Media Profile compatibility to HDR10+ (ST2094-40), SCTE 215-1-1b
 chd1,CMAF Media Profile - HEVC HDR10,CMAF
 chdf,CMAF Media Profile - AVC HDHF,CMAF
 chev,CMAF Media Profile for the HEVC-based viewport-dependent OMAF video profile,OMAF
