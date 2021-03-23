@@ -91,10 +91,11 @@ QT,QT,"The <a href='http://www.apple.com/quicktime/' target='_blank'>QuickTime</
 RealHD,RealHD,<a href='http://www.realnetworks.com/realmediahd'>RealMedia™ HD</a>
 ross,Ross,<a href='http://www.rossvideo.com/'>Ross Video</a>
 samsung,Samsung,"<a href='http://www.samsung.com/'>Samsung</a> "
-SCTE, SCTE 215-1-1b,"<a href='https://www.scte.org/download-scteisbe-standards/'>SCTE Specifications</a>
+SCTE, SCTE 215-1-1b,"<a href='https://www.scte.org/download-scteisbe-standards/'>SCTE Specifications</a>"
 SDV,SDV,"<a href='http://www.sdcard.org/'>The SD Card Association</a>: SD Memory Card Specifications, Part 8, VIDEO SPECIFICATIONS"
 SL-HDR,SL-HDR,"<a href='http://www.etsi.org/'>ETSI</a> TS 103 433 - High-Performance Single Layer High Dynamic Range System"
 smptevc1,SMPTE,"<a href='http://www.smpte.org/'>SMPTE</a> RP2025:2007, VC-1 Bitstream Storage in the ISO Base Media File Format"
+SMPTE, ST 2094-40:2020, "<a href='https://ieeexplore.ieee.org/document/9095450/'>SMPTE ST 2094-40:2020</a>"
 Sony,Sony,<a href='http://www.sony.net'>Sony Corporation</a>
 UMG,Universal Music Group,Specification is made available only under license; contact <a href='mailto:uits-%20legal@umusic.com'>Universal Music Group</a>.
 VPxx,VPxx,<a href='https://www.webmproject.org/vp9/mp4/'>Specification</a> of VPxx codecs in ISO BMFF files
