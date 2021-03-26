@@ -232,5 +232,10 @@ uvvu,"UltraViolet file brand – conforming to the DECE Common File Format spec,
 vwpt,Viewpoint toolset brand,OMAF
 XAVC,XAVC File Format,Sony
 yt4$20,Google specification for use by YouTube apps,Youtube
+chd2,CMAF High frame rate Media Profile - HEVC HDR10H,CMAF
+cint,CMAF Interlaced Media Profile - INT10,CMAF
+clg2,CMAF High frame rate Media Profile - HEVC HLG10H,CMAF
+cud2,CMAF High frame rate Media Profile - HEVC UHD10H,CMAF
+cud9,CMAF High frame rate Media Profile - HEVC UHD8H,CMAF
 mif2,Image file format structural brand CICP alpha and depth,HEIF
 pred,Image file format brand for predictively coded image items,HEIF
