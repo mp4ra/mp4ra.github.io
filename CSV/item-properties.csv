@@ -1,5 +1,6 @@
 code,description,specification
 auxC,Auxiliary type,HEIF
+av1C,AVIF Image item configuration,AVIF
 avcC,AVC Image item configuration,HEIF
 brnd,Item brand (type),ISO
 clap,Clean aperture,HEIF
@@ -30,3 +31,18 @@ stvi,Frame packing,OMAF
 subs,Subsample information,HEIF
 tols,Layered HEVC Target output layer set property,HEIF
 vssn,Viewing space,OMAF
+aebr,Auto Exposure Information,HEIF
+afbr,Flash exposure information,HEIF
+altt,Accessibility text,HEIF
+crtt,Creation time information,HEIF
+dobr,Depth of field information,HEIF
+fobr,Focus information,HEIF
+iscl,Image scaling,HEIF
+mdft,Modification time information,HEIF
+pano,Panorama information,HEIF
+rref,Required reference types,HEIF
+udes,User description,HEIF
+wbbr,White balance information,HEIF
+cclv,Content colour volume,HEIF
+mdcv,Mastering display colour volume,HEIF
+clli,Content light level,HEIF

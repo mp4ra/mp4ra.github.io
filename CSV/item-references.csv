@@ -9,4 +9,4 @@ grid,Image item grid reference,item ref.,HEIF
 iloc,Item data location,item ref.,ISO
 prem,Pre-Multiplied item,item ref.,MIAF
 thmb,Thumbnail image item reference,item ref.,HEIF
-
+pred,Predictively coded item reference,item ref.,HEIF

@@ -1,7 +1,5 @@
 *~
-
 *swp
-
 node_modules
-
 dist/js
+.DS_Store

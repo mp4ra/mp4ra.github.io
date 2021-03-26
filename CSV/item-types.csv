@@ -1,5 +1,6 @@
 code,description,specification
 auvd,Auxiliary Video descriptor,ISO
+av01,AVIF image item,AVIF
 avc1,AVC image item,HEIF
 Exif,EXIF item,HEIF
 grid,Image item grid derivation,HEIF
