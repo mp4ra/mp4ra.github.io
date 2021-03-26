@@ -91,6 +91,7 @@ QT,QT,"The <a href='http://www.apple.com/quicktime/' target='_blank'>QuickTime</
 RealHD,RealHD,<a href='http://www.realnetworks.com/realmediahd'>RealMedia™ HD</a>
 ross,Ross,<a href='http://www.rossvideo.com/'>Ross Video</a>
 samsung,Samsung,"<a href='http://www.samsung.com/'>Samsung</a> "
+SCTE-215-1-1b,SCTE-215-1-1b,"<a href='https://www.scte.org/download-scteisbe-standards/'>SCTE</a> HEVC Video Constraints for Cable Television Part 1-1 HDR10 Coding"
 SDV,SDV,"<a href='http://www.sdcard.org/'>The SD Card Association</a>: SD Memory Card Specifications, Part 8, VIDEO SPECIFICATIONS"
 SL-HDR,SL-HDR,"<a href='http://www.etsi.org/'>ETSI</a> TS 103 433 - High-Performance Single Layer High Dynamic Range System"
 smptevc1,SMPTE,"<a href='http://www.smpte.org/'>SMPTE</a> RP2025:2007, VC-1 Bitstream Storage in the ISO Base Media File Format"
