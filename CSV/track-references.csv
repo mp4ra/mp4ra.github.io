@@ -7,6 +7,7 @@ cdsc,this track describes the referenced track.,MPEG-4
 cdtg,this track describes the referenced tracks and track groups collectively,OMAF
 deps,track containing the depth view,NALu Video
 dpnd,this track has an MPEG-4 dependency on the referenced track,MPEG-4
+evcr,the referenced track contains non-VCL NAL units for an EVC track,NALu Video
 font,this track uses fonts carried/defined in the referenced track,ISO
 hind,Hint dependency,ISO
 hint,links hint track to original media track,ISO
