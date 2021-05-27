@@ -10,7 +10,7 @@ av1s,AV1 Switch Frame,sample group,AV1-ISOBMFF
 avcb,AVC HRD parameters,sample group,3GPP
 avll,AVC layer description group,sample group,NALu Video
 avss,AVC Sub-sequence group,sample group,NALu Video
-dcfi,VVC decoder capability information,sample group,NALu Video
+dcfi,VVC decoding capability information,sample group,NALu Video
 drap,Dependent random access point,sample group,ISO
 dtrt,SVC decode re-timing,sample group,NALu Video
 eob$20,End of bitstream,sample group,NALu Video
