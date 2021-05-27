@@ -32,5 +32,6 @@ thmb,Thumbnail track reference,ISO
 tmcd,Time code. Usually references a time code track.,Apple
 vdep,Auxiliary video depth,ISO
 vplx,Auxiliary video parallax,ISO
-vref,track that contains a 'vopi' sample group for VVC video,NALu Video
+vref,reference to a track that contains a 'vopi' sample group for VVC video,NALu Video
+vreg,reference to a VVC operating point entity group,NALu Video
 vvcN,the referenced track is a non video coding layer track of VVC,NALu Video
