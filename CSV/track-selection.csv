@@ -13,6 +13,7 @@ nvws,Number of views in the sub track,track sel.,ISO
 resc,The track can be region-of-interest scaled.,track sel.,ISO
 scsz,Track differs in width and/or height,track sel.,ISO
 spsc,The track can be spatially scaled.,track sel.,ISO
+swtk,The track differs in switchable tracks hierarchy ID defined in the VVC switchable tracks entity group,track sel.,NALu Video
 tesc,The track can be temporally scaled.,track sel.,ISO
 tile,The sub-track is spatial part or tile of the track.,track sel.,NALu Video
 vwsc,Sub-track can be scaled in terms of number of views,track sel.,ISO
