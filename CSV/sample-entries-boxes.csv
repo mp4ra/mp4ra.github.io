@@ -22,6 +22,7 @@ dvcC,Dolby Vision Configuration,Video,Dolby Vision
 dvvC,Dolby Vision Extended Configuration,Video,Dolby Vision
 ecam,Extrinsic camera parameters,Video,NALu Video
 esds,Elementary stream descriptor,General,MP4v2
+evcC,EVC configuration,Video,NALu Video
 fiel,Field Coding,Video,MJ2
 hvcC,HEVC Configuration,Video,NALu Video
 hvtC,HEVC Tile Configuration,Video,NALu Video
