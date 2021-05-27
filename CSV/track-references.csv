@@ -7,17 +7,22 @@ cdsc,this track describes the referenced track.,MPEG-4
 cdtg,this track describes the referenced tracks and track groups collectively,OMAF
 deps,track containing the depth view,NALu Video
 dpnd,this track has an MPEG-4 dependency on the referenced track,MPEG-4
+font,this track uses fonts carried/defined in the referenced track,ISO
 hind,Hint dependency,ISO
 hint,links hint track to original media track,ISO
 iloc,Item data location (item reference),ISO
 ipir,this track contains IPI declarations for the referenced track,MPEG-4
 lyra,Audio layer track dependency,DTS
+mixn,used in indicating combinations that result into mixed network abstraction layer unit types in a coded picture of VVC,NALu Video
 mpod,this track is an OD track which uses the referenced track as an included elementary stream track,MPEG-4
 oref,track that contains an 'oref' sample group,NALu Video
+recr,resolved by extracting an indicated subset of the referenced VVC track to reconstruct a VVC bitstream,NALu Video
 sabt,HEVC Tile Track,NALu Video
 sbas,Scalable base,NALu Video
 scal,Scalable extraction,NALu Video
 shsc,reference to a shadow sync sample track,OMAF
+subp,the referenced VVC subpicture tracks or 'alte' track groups of VVC subpicture tracks are used to reconstruct a VVC bitstream,NALu Video
+subt,subtitle or timed text or overlay graphical information,ISO
 swfr,AVC Switch from,NALu Video
 swto,AVC Switch to,NALu Video
 sync,this track uses the referenced track as its synchronization source.,MPEG-4
@@ -26,5 +31,5 @@ thmb,Thumbnail track reference,ISO
 tmcd,Time code. Usually references a time code track.,Apple
 vdep,Auxiliary video depth,ISO
 vplx,Auxiliary video parallax,ISO
-font,this track uses fonts carried/defined in the referenced track,ISO
-subt,subtitle or timed text or overlay graphical information,ISO
+vref,track that contains a 'vopi' sample group for VVC video,NALu Video
+vvcN,the referenced track is a non video coding layer track of VVC,NALu Video
