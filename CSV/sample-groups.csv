@@ -27,6 +27,7 @@ oinf,L-HEVC operating points information,sample group,NALu Video
 opth,L-HEVC and VVC Operating Point Decode Time Hint,sample group,NALu Video
 pase,Parameter set,sample group,NALu Video
 prol,Audio pre-roll,sample group,ISO
+pss1,In-band parameter set indication,sample group,NALu Video
 rap$20,Random access point,sample group,ISO
 rash,Rate share,sample group,ISO
 refs,Direct reference samples list,sample group,HEIF
