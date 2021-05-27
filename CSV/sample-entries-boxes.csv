@@ -57,5 +57,7 @@ uriI,URI Information,Metadata,ISO
 vpcC,VP9 Codec Configuration,Video,VPxx
 vsib,View scalability information,Video,NALu Video
 vttC,WebVTTConfigurationBox,Text,ISO-Text
+vvnC,VVC Network Abstraction Layer unit configuration,Video,NALu Video  
+vvcC,VVC video configuration,Video,NALu Video
 vwid,View identifier,Video,NALu Video
 vlab,WebVTT Source Label,Text,ISO-Text
