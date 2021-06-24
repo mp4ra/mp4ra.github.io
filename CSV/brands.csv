@@ -50,10 +50,11 @@ caqv,Casio Digital Camera,Casio
 casu,CMAF Media Profile - MPEG-D USAC audio,CMAF
 ccea,CMAF Supplemental Data - CEA-608/708,CMAF
 ccff,Common container file format,DECE
+cdm1,CMAF Media Profile - HEVC HDR10 (chd1) with SCTE Dynamic Metadata app #1 (ST2094-10),SCTE-215-1-1b
+cdm4,CMAF Media Profile compatibility to HDR10+ (ST2094-40),SCTE-215-1-1b
 ceac,CMAF Media Profile - Enhanced AC-3,ETSI AC-3
 cfhd,CMAF Media Profile - AVC HD,CMAF
 cfsd,CMAF Media Profile - AVC SD,CMAF
-cdm4,CMAF Media Profile compatibility to HDR10+ (ST2094-40),SCTE-215-1-1b
 chd1,CMAF Media Profile - HEVC HDR10,CMAF
 chdf,CMAF Media Profile - AVC HDHF,CMAF
 chev,CMAF Media Profile for the HEVC-based viewport-dependent OMAF video profile,OMAF
