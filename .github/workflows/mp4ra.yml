@@ -12,8 +12,11 @@ jobs:
   build-test-and-deploy:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout 🛎️
-        uses: actions/checkout@v2.3.1
+      - uses: actions/checkout@v2
+      - name: Setup node 🛎️
+        uses: actions/setup-node@v2
+        with:
+          node-version: '14'
 
       - name: Test ⚙️
         run: |
@@ -23,8 +26,7 @@ jobs:
       - name: Install and Build 🔧 
         run: |
           npm install
-          npm install browserify -g
-          browserify -t brfs src/app.js -o dist/js/bundle.js
+          NODE_ENV=production browserify -t brfs src/app.js -o dist/js/bundle.js
 
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@4.1.4
