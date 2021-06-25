@@ -23,6 +23,7 @@ jobs:
       - name: Install and Build 🔧 
         run: |
           npm install
+          npm install browserify -g
           browserify -t brfs src/app.js -o dist/js/bundle.js
 
       - name: Deploy 🚀
