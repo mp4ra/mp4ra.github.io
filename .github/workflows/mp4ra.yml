@@ -1,0 +1,30 @@
+name: Build, Test and Deploy
+
+on:
+  push:
+    branches: [ dev ]
+  pull_request:
+    branches: [ dev ]
+
+jobs:
+  build-test-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout 🛎️
+        uses: actions/checkout@v2.3.1
+
+      - name: Test ⚙️
+        run: |
+          chmod +x ./scripts/PRsanitycheck.py
+          ./scripts/PRsanitycheck.py
+
+      - name: Install and Build 🔧 
+        run: |
+          npm install
+          browserify -t brfs src/app.js -o dist/js/bundle.js
+
+      - name: Deploy 🚀
+        uses: JamesIves/github-pages-deploy-action@4.1.4
+        with:
+          branch: master
+          folder: .
