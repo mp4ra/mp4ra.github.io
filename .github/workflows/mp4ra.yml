@@ -26,6 +26,7 @@ jobs:
       - name: Install and Build 🔧 
         run: |
           npm install
+          sudo npm install -g browserify
           NODE_ENV=production browserify -t brfs src/app.js -o dist/js/bundle.js
 
       - name: Deploy 🚀
