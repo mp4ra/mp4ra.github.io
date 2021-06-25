@@ -21,6 +21,7 @@ casio,Casio,<a href='http://world.casio.com/'>Casio</a>
 cineform,CineForm,<a href='http://www.cineform.com/'>Cineform</a>
 convergent,Convergent,<a href='http://www.convergent-design.com/'>Convergent Design</a>
 CMAF,CMAF,<a href='http://www.iso.ch/' target='_blank'>ISO</a>/IEC 23000-19: Common Media Application Format
+CMAF-ID3,CMAF-ID3,<a href='https://aomediacodec.github.io/id3-emsg/' target='_blank'>Carriage of ID3 Timed Metadata in the Common Media Application Format (CMAF)</a>
 DASH,DASH,<a href='http://www.iso.ch/' target='_blank'>ISO</a>/IEC 23009-1: Dynamic Adaptive Streaming over HTTP
 dxo,DxO,<a href='http://www.dxo.com/'>DxO</a>
 ISO-CENC,ISO Common Encryption,<a href='http://www.iso.ch/' target='_blank'>ISO</a>/IEC 23001-7: Common encryption format for ISO base media file format
