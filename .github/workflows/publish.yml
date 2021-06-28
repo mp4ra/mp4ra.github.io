@@ -25,10 +25,8 @@ jobs:
     - name: Deploy to GitHub Pages
       #Note: if the repository name changes, the condition has to change 
       if: ${{ github.repository == 'mp4ra/mp4ra.github.io' }} 
-      uses: peaceiris/actions-gh-pages@v3
+      uses: JamesIves/github-pages-deploy-action@4.1.4
       with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
-        publish_dir: .
-        publish_branch: master  # deploying branch
-        user_name: 'github-actions[bot]'
-        user_email: 'github-actions[bot]@users.noreply.github.com'
+        folder: .
+        branch: master  # deploying branch
+        dry-run: True
