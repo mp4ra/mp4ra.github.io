@@ -18,7 +18,7 @@ jobs:
       with:
         node-version: '8'
 
-    - run: npm install --only=dev
+    - run: npm install -g browserify
     - run: npm install
     - run: NODE_ENV=production browserify -t brfs src/app.js -o dist/js/bundle.js
 
