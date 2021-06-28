@@ -10,8 +10,6 @@ jobs:
     - name: Git checkout
       uses: actions/checkout@v2
 
-    - name: Make test script executable
     - run: chmod +x ./scripts/PRsanitycheck.py
     
-    - name: Execute sanity check script
     - run: ./scripts/PRsanitycheck.py
