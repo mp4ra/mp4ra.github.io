@@ -29,4 +29,5 @@ jobs:
       with:
         folder: .
         branch: master  # deploying branch
-        dry-run: True
+        git-config-name: 'github-actions[bot]'
+        git-config-email: 'github-actions[bot]@users.noreply.github.com'
