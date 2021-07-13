@@ -16,9 +16,9 @@ The simplest way to submit a pull request is probably as follows:
 
 * `dev` branch (configured as default branch)
   * All the commits to modify the registry or the website must be pushed the dev branch.
-  * Every commit in this branch triggers the compilation of the website on Travis CI ([build log](https://travis-ci.org/github/mp4ra/mp4ra.github.io)).
+  * Every pull request and commit in this branch triggers the compilation of the website using [GitHub Actions](https://github.com/mp4ra/mp4ra.github.io/actions).
 * ``master`` branch
-  * The compiled website is pushed by the Travis CI bot to this branch
+  * The compiled website is pushed by the GitHub Actions workflow to this branch
   * The Github Pages feature picks up the changes made to the master branch and republishes the website few seconds after a new commit in this branch
 
 ## Development
