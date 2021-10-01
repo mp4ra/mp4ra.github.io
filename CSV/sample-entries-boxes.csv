@@ -33,7 +33,12 @@ jpgC,JPEG Configuration,Image Item and Image sequences,HEIF
 leqi,Loudness equalization instructions,Audio,DRC
 lhvC,Layered HEVC Configuration,Video,NALu Video
 m4ds,MPEG-4 descriptors,General,NALu Video
+maeI,MPEG-H Audio scene information,Audio,MPEG-H
+maeM,MPEG-H Audio multi-stream signalling,Audio,MPEG-H
 mdcv,mastering display colour volume,Video,ISO
+mhaC,MPEG-H Audio Decoder Configuration,Audio,MPEG-H
+mhaD,MPEG-H Audio dynamic range control and loudness,Audio,MPEG-H
+mhaP,MPEG-H Audio profile and level compatibility set,Audio,MPEG-H
 mvcC,MVC configuration,Video,NALu Video
 mvcP,MVC priority assignment,Video,NALu Video
 mvdC,MVCDConfigurationBox,Video,NALu Video
