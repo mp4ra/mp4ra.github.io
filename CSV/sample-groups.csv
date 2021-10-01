@@ -51,8 +51,8 @@ sync,Sync sample groups,sample group,NALu Video
 tele,Temporal Level,sample group,ISO
 tmsh,Tile mesh sample grouping,sample group,OMAF
 tran,SVC lightweight transcoding,sample group,NALu Video
-trif,HEVC Tile Region,sample group,NALu Video
-tsas,Temporal Sub-Layer,sample group,NALu Video
+trif,Rectangular region group,sample group,NALu Video
+tsas,Temporal Sub-Layer access,sample group,NALu Video
 tscl,Temporal Layer,sample group,NALu Video
 vipr,View priority,sample group,NALu Video
 vopi,VVC operating points information,sample group,NALu Video
