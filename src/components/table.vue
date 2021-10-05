@@ -7,7 +7,6 @@
   <tbody>
     <tr v-for="item in data">
       <td class="codes" v-if="columns.indexOf('name') !== -1">
-        <a v-bind:name="item.linkname"/>
         {{ item.specification }}
       </td>
       <td v-if="columns.indexOf('code') !== -1" class="code">
