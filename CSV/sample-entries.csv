@@ -54,12 +54,12 @@ evs2,Essential Video Coding slice component track that may contain parameter set
 fdp$20,File delivery hints,Hint,ISO,
 g719,ITU-T Recommendation G.719 (2008),Audio,ITU G.719,0xA8
 g726,ITU-T Recommendation G.726 (1990),Audio,SDV,
-hev1,High Efficiency Video Coding,Video,NALu Video,0x23
-hev2,High Efficiency Video Coding,Video,NALu Video,0x23
-hev3,High Efficiency Video Coding,Video,NALu Video,0x23
-hvc1,High Efficiency Video Coding,Video,NALu Video,0x23
-hvc2,High Efficiency Video Coding,Video,NALu Video,0x23
-hvc3,High Efficiency Video Coding,Video,NALu Video,0x23
+hev1,HEVC video with parameter sets in the Sample Entry or samples,Video,NALu Video,0x23
+hev2,HEVC video with constrained extractors and/or aggregators and parameter sets in the Sample Entry or samples,Video,NALu Video,0x23
+hev3,HEVC video with extractors and/or aggregators and parameter sets in the Sample Entry or samples,Video,NALu Video,0x23
+hvc1,HEVC video with parameter sets only in the Sample Entry,Video,NALu Video,0x23
+hvc2,HEVC video with constrained extractors and/or aggregators and parameter sets only in the Sample Entry,Video,NALu Video,0x23
+hvc3,HEVC video with extractors and/or aggregators and parameter sets only in the Sample Entry,Video,NALu Video,0x23
 hvt1,HEVC tile tracks,Video,NALu Video,
 hvt2,HEVC slice segment data track,Video,NALu Video,
 hvt3,HEVC Tile Track with Slice Segment Header Info,Video,NALu Video,
