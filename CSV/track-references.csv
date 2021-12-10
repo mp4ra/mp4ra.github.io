@@ -3,7 +3,7 @@ adda,Additional audio track,DRC
 adrc,DRC metadata track,DRC
 auxl,Auxiliary track reference,ISO
 avcp,AVC parameter set stream link,NALu Video
-cdsc,this track describes the referenced track.,MPEG-4
+cdsc,this track describes the referenced track.,ISO
 cdtg,this track describes the referenced tracks and track groups collectively,OMAF
 deps,track containing the depth view,NALu Video
 dpnd,this track has an MPEG-4 dependency on the referenced track,MPEG-4
