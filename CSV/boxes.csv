@@ -247,3 +247,10 @@ xml$20,a tool by which vendors can add XML formatted information,JPEG2000
 !mov,Compressed movie,ISO
 !six,Compressed segment index,ISO
 !ssx,Compressed subsegment index,ISO
+iroi,SVC region of interest box,NALu Video
+ldep,Tier dependency box,NALu Video
+rrgn,SVC rect region box,NALu Video
+svdr,SVC dependency range,NALu Video
+svip,Initial parameter sets box for tiers,NALu Video
+svpr,Priority range,NALu Video
+tran,SVC lightweight transcoding,NALu Video
