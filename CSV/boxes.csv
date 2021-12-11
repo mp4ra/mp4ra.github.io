@@ -73,12 +73,12 @@ imif,IPMP Information box,ISO
 infe,Item information entry,ISO
 infu,OMA DRM Info URL,OMA DRM 2.0
 iods,Object Descriptor container box,MP4v1
-ipco,ItemPropertyContainerBox,HEIF
+ipco,ItemPropertyContainerBox,ISO
 iphd,reserved for IPMP Stream header,MP4v1
-ipma,ItemPropertyAssociation,HEIF
+ipma,ItemPropertyAssociation,ISO
 ipmc,IPMP Control Box,ISO
 ipro,item protection,ISO
-iprp,Item Properties Box,HEIF
+iprp,Item Properties Box,ISO
 iref,Item reference,ISO
 j2kH,JPEG 2000 header info,J2KHEIF
 j2kP,JPEG 2000 prefix,J2KHEIF
