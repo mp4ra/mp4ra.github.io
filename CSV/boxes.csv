@@ -124,7 +124,7 @@ movd,mesh omnidirectional video,OMAF
 mstv,MVC sub track view box,NALu Video
 mvcg,Multiview group,NALu Video
 mvci,Multiview Information,NALu Video
-mvdr,MVDDepthResolutionBox,NALu Video
+3dpr,MVDDepthResolutionBox,NALu Video
 mvex,movie extends box,ISO
 mvhd,"movie header, overall declarations",ISO
 mvra,Multiview Relation Attribute,NALu Video
