@@ -255,3 +255,4 @@ svip,Initial parameter sets box for tiers,NALu Video
 svpr,Priority range,NALu Video
 tran,SVC lightweight transcoding,NALu Video
 vipr,View priority Box,NALu Video
+sdp$20,SDP information,ISO
