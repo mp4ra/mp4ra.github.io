@@ -1,6 +1,6 @@
 code,description,specification
-adda,Additional audio track,DRC
-adrc,DRC metadata track,DRC
+adda,Additional audio track,ISO
+adrc,DRC metadata track,ISO
 auxl,Auxiliary track reference,ISO
 avcp,AVC parameter set stream link,NALu Video
 cdsc,this track describes the referenced track.,ISO
