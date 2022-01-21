@@ -1,5 +1,6 @@
 code,description,handler,specification
 3sib,MVD Scalability Information SEI Message Box,Video,NALu Video
+6vpC,Viewport Configuration,Volumetric visual media,V3C-SYS
 a3dC,A3DConfigurationBox,Video,NALu Video
 auxi,AuxiliaryTypeInfoBox,Video,HEIF
 av1C,AOM Video Codec Configuration,Video,AV1-ISOBMFF
@@ -56,6 +57,8 @@ udi2,Unified DRC instructions,Audio,ISO
 ueqc,Equalization coefficients,Audio,DRC
 ueqi,Equalization instructions,Audio,DRC
 uriI,URI Information,Metadata,ISO
+v3cC,V3C Configuration,Volumetric visual media,V3C-SYS
+v3tC,V3C Tile Configuration,Volumetric visual media,V3C-SYS
 vpcC,VP9 Codec Configuration,Video,VPxx
 vsib,View scalability information,Video,NALu Video
 vttC,WebVTTConfigurationBox,Text,ISO-Text

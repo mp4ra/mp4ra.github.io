@@ -30,6 +30,11 @@ sync,this track uses the referenced track as its synchronization source.,MPEG-4
 tbas,HEVC Tile track base,NALu Video
 thmb,Thumbnail track reference,ISO
 tmcd,Time code. Usually references a time code track.,Apple
+v3cs,V3C atlas track,V3C-SYS
+v3ct,V3C atlas tile track,V3C-SYS
+v3va,V3C attribute video track,V3C-SYS
+v3vg,V3C geometry video track,V3C-SYS
+v3vo,V3C occupancy video track,V3C-SYS
 vdep,Auxiliary video depth,ISO
 vplx,Auxiliary video parallax,ISO
 vref,reference to a track that contains a 'vopi' sample group for VVC video,NALu Video

@@ -54,6 +54,7 @@ tran,SVC lightweight transcoding,sample group,NALu Video
 trif,HEVC Tile Region,sample group,NALu Video
 tsas,Temporal Sub-Layer,sample group,NALu Video
 tscl,Temporal Layer,sample group,NALu Video
+vaps,V3C atlas parameter sampe grouping,sample group,V3C-SYS
 vipr,View priority,sample group,NALu Video
 vopi,VVC operating points information,sample group,NALu Video
 aebr,Auto exposure bracketing,sample group,HEIF
