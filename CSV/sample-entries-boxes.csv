@@ -5,26 +5,39 @@ auxi,AuxiliaryTypeInfoBox,Video,HEIF
 av1C,AOM Video Codec Configuration,Video,AV1-ISOBMFF
 avcC,AVC Configuration,Video,NALu Video
 btrt,Bit-rate information,General,ISO
+cclv,Content colour volume,Video,ISO
 ccst,Coding Constraints,Video,HEIF
 chnl,Channel layout,Audio,ISO
 clap,Clean aperture,Video,ISO
+clli,Content Light Level,Video,ISO
 colr,Color information (see 1 below),Video,ISO
 CoLL,Content Light Level Box,Video,VPxx
 dac3,Decoder specific info for AC-3 audio,Audio,ETSI AC-3
 dac4,Decoder specific info for AC-4 audio,Audio,ETSI AC-4
 dec3,Decoder specific info for Enhanced AC-3 audio,Audio,ETSI AC-3
+dhec,Default HEVC extractor constructor box,Video,NALu Video
 dmix,Downmix instructions,Audio,ISO
 dmlp,Decoder specific info for MLP audio,Audio,Dolby MLP
 dvcC,Dolby Vision Configuration,Video,Dolby Vision
 dvvC,Dolby Vision Extended Configuration,Video,Dolby Vision
 ecam,Extrinsic camera parameters,Video,NALu Video
 esds,Elementary stream descriptor,General,MP4v2
+evcC,EVC configuration,Video,NALu Video
+evsC,Configuration for EVC slice component track,Video,NALu Video
+fiel,Field Coding,Video,MJ2
 hvcC,HEVC Configuration,Video,NALu Video
 hvtC,HEVC Tile Configuration,Video,NALu Video
 icam,Intrinsic camera parameters,Video,NALu Video
+jpgC,JPEG Configuration,Image Item and Image sequences,HEIF
 leqi,Loudness equalization instructions,Audio,DRC
 lhvC,Layered HEVC Configuration,Video,NALu Video
 m4ds,MPEG-4 descriptors,General,NALu Video
+maeI,MPEG-H Audio scene information,Audio,MPEG-H
+maeM,MPEG-H Audio multi-stream signalling,Audio,MPEG-H
+mdcv,mastering display colour volume,Video,ISO
+mhaC,MPEG-H Audio Decoder Configuration,Audio,MPEG-H
+mhaD,MPEG-H Audio dynamic range control and loudness,Audio,MPEG-H
+mhaP,MPEG-H Audio profile and level compatibility set,Audio,MPEG-H
 mvcC,MVC configuration,Video,NALu Video
 mvcP,MVC priority assignment,Video,NALu Video
 mvdC,MVCDConfigurationBox,Video,NALu Video
@@ -32,19 +45,26 @@ pasp,Pixel aspect ratio,Video,ISO
 pdc1,Parametric DRC coefficients,Audio,DRC
 pdi1,Parametric DRC instructions,Audio,DRC
 qlif,Layer quality assignments,Video,NALu Video
+scrb,Scramble scheme information,Video,ISO
 seib,Scalability information,Video,NALu Video
 SmDm,Mastering Display Metadata Box,Video,VPxx
+srat,Sampling rate,Audio,ISO
 svcC,SVC configuration,Video,NALu Video
 svcP,SVC priority assignments,Video,NALu Video
 svmC,SVC information configuration,Metadata,NALu Video
-udc1,Basic DRC coefficients,Audio,ISO
-udc2,Unified DRC coefficients,Audio,ISO
+txtC,Text stream configuration,Text,ISO
+udc1,Basic DRC coefficients,Audio,DRC
+udc2,Unified DRC coefficients,Audio,DRC
 udex,Unified DRC configuration extension,Audio,DRC
-udi1,Basic DRC instructions,Audio,ISO
-udi2,Unified DRC instructions,Audio,ISO
+udi1,Basic DRC instructions,Audio,DRC
+udi2,Unified DRC instructions,Audio,DRC
 ueqc,Equalization coefficients,Audio,DRC
 ueqi,Equalization instructions,Audio,DRC
 uriI,URI Information,Metadata,ISO
 vpcC,VP9 Codec Configuration,Video,VPxx
 vsib,View scalability information,Video,NALu Video
+vttC,WebVTTConfigurationBox,Text,ISO-Text
+vvnC,VVC Network Abstraction Layer unit configuration,Video,NALu Video
+vvcC,VVC video configuration,Video,NALu Video
 vwid,View identifier,Video,NALu Video
+vlab,WebVTT Source Label,Text,ISO-Text

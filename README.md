@@ -1,10 +1,11 @@
-# mp4ra
+# MP4RA
 
 ## MPEG-4 Registration Authority Web Site
 
 This site contains the master copy of the official MP4RA.
 Registration requests are formally sent to the email address documented on the site. These can be supported by a Pull Request here, which can reduce the possibility of error or confusion on the part of the maintainers.
 The simplest way to submit a pull request is probably as follows:
+
 * Fork the repository into your own area at GitHub
 * Go to that fork, and edit the GitHub.io link from mp4ra.github.io/mp4ra to change the first mp4ra to your area name
 * In your fork, make changes to the appropriate CSV files; start first by making sure that you have your specifications in specifications.csv, and then add/fix the code points in other tables (e.g. sample-entries for codec sample entry types). In those other tables, the visible specification name is used for cross-reference; the linkname you enter in  specifications.csv will be retrieved and used to make HTML fragment URLs to refer to that entry.
@@ -13,12 +14,12 @@ The simplest way to submit a pull request is probably as follows:
 
 ## Branches
 
-- ``dev`` branch (configured as default branch)
-  - All the commits to modify the registry or the website must be pushed the dev branch.
-  - Every commit in this branch triggers the compilation of the website on Travis CI.
-- ``master`` branch
-  - The compiled website is pushed by the Travis CI bot to this branch
-  - The Github Pages feature picks up the changes made to the master branch and republishes the website few seconds after a new commit in this branch
+* `dev` branch (configured as default branch)
+  * All the commits to modify the registry or the website must be pushed the dev branch.
+  * Every pull request and commit in this branch triggers the compilation of the website using [GitHub Actions](https://github.com/mp4ra/mp4ra.github.io/actions).
+* ``master`` branch
+  * The compiled website is pushed by the GitHub Actions workflow to this branch
+  * The Github Pages feature picks up the changes made to the master branch and republishes the website few seconds after a new commit in this branch
 
 ## Development
 
@@ -31,7 +32,7 @@ need to be concerned about this section.
 The dependencies of the project are tracked in `package.json`. To install them,
 run the following command.
 
-```
+```shell
 npm install
 ```
 
@@ -41,7 +42,7 @@ npm install
 JavaScript, including dependencies, into one target file. The following
 command performs this operation.
 
-```
+```shell
 browserify -t brfs src/app.js -o dist/js/bundle.js
 ```
 
@@ -71,3 +72,6 @@ respective JavaScript files and then injects them in the Vue router as
 Vue components with an associated `path`, i.e. the relative URL of the given
 page.
 
+## 4CC_Automation/
+
+See the 4CC_Automation/readme.md file for more details about this addition.

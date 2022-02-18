@@ -22,6 +22,7 @@ var References = require('./pages/references.js');
 var Search = require('./pages/search.js');
 var Misc = require('./pages/misc.js');
 var ObjectTypes = require('./pages/object_types.js');
+var ChecksumTypes = require('./pages/checksum_types.js');
 var Request = require('./pages/request.js');
 
 Vue.use(VueRouter);
@@ -38,6 +39,7 @@ var router = new VueRouter({
     { path: '/search', component: Search },
     { path: '/misc', component: Misc },
     { path: '/object_types', component: ObjectTypes },
+    { path: '/checksum_types', component: ChecksumTypes },
     { path: '/request', component: Request }
   ]
 });
@@ -47,6 +49,13 @@ Vue.filter('capitalize', function (value) {
   if (!value) return '';
   value = value.toString();
   return value.charAt(0).toUpperCase() + value.slice(1);
+});
+
+// Directives
+Vue.directive('focus', {
+  inserted: function (el) {
+    el.focus()
+  }
 });
 
 var app = new Vue({
@@ -155,6 +164,12 @@ var app = new Vue({
         category: 'schemes',
         name: 'Protected and restricted schemes'
       },
+      checksum_types: {
+        db: null,
+        url: 'CSV/checksum-types.csv',
+        category: 'checksum types',
+        name: 'Checksum types'
+      },
       specifications: {
         db: null,
         url: 'CSV/specifications.csv',
@@ -212,7 +227,7 @@ var app = new Vue({
             return e.specification == item.specification;
           }
         );
-        if(spec !== undefined) item.specificationAnchor = spec.linkname;
+        if(spec !== undefined) item.specificationAnchor = spec.specification;
       }
       if ('handler' in item) {
         var handler = und.find(
@@ -257,9 +272,13 @@ var app = new Vue({
         self.loadData('track_references');
         self.loadData('track_references_qt');
         self.loadData('track_selection');
+        self.loadData('checksum_types');
         $.get(self.mp4ra.handlers.url, function(response) {
           self.mp4ra.handlers.db = Papa.parse(response, { header: true }).data;
-          self.mp4ra.handlers.db.forEach( function(item) { self.addAnchor(item); });
+          self.mp4ra.handlers.db.forEach( function(item) {
+            self.addAnchor(item);
+            self.addCategory(item, self.mp4ra.handlers.category);
+          });
           self.loadData('sample_entries');
           self.loadData('item_types');
           self.loadData('item_properties');

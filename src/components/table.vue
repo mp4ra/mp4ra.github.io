@@ -7,7 +7,7 @@
   <tbody>
     <tr v-for="item in data">
       <td class="codes" v-if="columns.indexOf('name') !== -1">
-        <a v-bind:name="item.linkname"/>
+        <a v-bind:name="item.specification"/>
         {{ item.specification }}
       </td>
       <td v-if="columns.indexOf('code') !== -1" class="code">
@@ -37,7 +37,7 @@
       </td>
       <td v-if="columns.indexOf('specification') !== -1">
         <div v-if="item.specificationAnchor">
-          <router-link class="nav-link" to="/references">
+          <router-link class="nav-link" to="/references" @click.native="scrollFix(item.specificationAnchor)"">
             {{ item.specification }}
           </router-link>
         </div>

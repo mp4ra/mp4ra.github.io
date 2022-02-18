@@ -1,3 +1,7 @@
 code,description,specification
-msrc,multi-source presentation track grouping,ISO
+2dsr,two dimensional spatial relationship track grouping,OMAF
+alte,alternative extraction source track grouping,NALu Video
 cstg,complete subset track grouping,NALu Video
+msrc,multi-source presentation track grouping,ISO
+snut,a group of VVC subpicture tracks where the VCL NAL units of the time-aligned samples have the same NAL unit type,NALu Video
+ster,stereo pair track grouping,ISO

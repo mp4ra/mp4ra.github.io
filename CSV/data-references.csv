@@ -1,3 +1,5 @@
 code,description,type,specification
+imdt,identified media data,Data reference,ISO
+snim,sequence number identified media data,Data reference,ISO
 url$20,URL data location,Data reference,ISO
 urn$20,URN data location,Data reference,ISO

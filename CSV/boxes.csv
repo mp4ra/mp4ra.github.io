@@ -1,25 +1,37 @@
 code,description,specification
+2dqr,2D region quality ranking,OMAF
+2dss,spatial relationship 2D source,OMAF
 ainf,"Asset information to identify, license and play",DECE
 assp,alternative startup sequence properties,ISO
 avcn,AVC NAL Unit Storage Box,DECE
+bidx,Box Index,ISO-Partial
 bloc,Base location and purchase location for license acquisition,DECE
+bmdm,Buffer Model Description,JPXS
 bpcc,Bits per component,JPEG2000
 buff,Buffering information,NALu Video
 bxml,binary XML container,ISO
 ccid,OMA DRM Content ID,OMA DRM 2.1
 cdef,type and ordering of the components within the codestream,JPEG2000
+cinf,complete track information,ISO
 clip,Reserved,ISO
 cmap,mapping between a palette and codestream components,JPEG2000
 co64,64-bit chunk offset,ISO
+coif,composition information,OMAF
 coin,Content Information Box,DECE
 colr,specifies the colourspace of the image,JPEG2000
+covi,coverage information,OMAF
 crgn,Reserved,ISO
 crhd,reserved for ClockReferenceStream header,MP4v1
+csgp,compact sample to group,ISO
 cslg,composition to decode timeline mapping,ISO
+cstb,corrected wall clock start time,ONVIF
 ctab,Reserved,ISO
 ctts,(composition) time to sample,ISO
 cvru,OMA DRM Cover URI,OMA DRM 2.1
+dihd,Data Integrity Hash,ISO-Partial
 dinf,"data information box, container",ISO
+dint,Data Integrity,ISO-Partial
+dmon,Mastering Display Metadata,JPXS
 dref,"data reference box, declares source(s) of media data in track",ISO
 dsgd,DVB Sample Group Description Box,DVB
 dstg,DVB Sample to Group Box,DVB
@@ -27,18 +39,25 @@ edts,edit list container,ISO
 elst,an edit list,ISO
 emsg,event message,DASH
 evti,Event information,ATSC 3.0
+etyp,extended type and type combination,ISO
+Exif,Exif Metadata,JPXS
 fdel,File delivery information (item info extension),ISO
 feci,FEC Informatiom,ISO
 fecr,FEC Reservoir,ISO
+fidx,Box File Index,ISO-Partial
 fiin,FD Item Information,ISO
 fire,File Reservoir,ISO
+fovd,fisheye omnidirectional video,OMAF
+fovi,fisheye video essential info,OMAF
 fpar,File Partition,ISO
 free,free space,ISO
 frma,original format box,ISO
+frpa,Front Part,ISO-Partial
 ftyp,file type and compatibility,ISO
+fvsi,fisheye video supplemental info,OMAF
 gitn,Group ID to name,ISO
 grpi,OMA DRM Group ID,OMA DRM 2.0
-grpl,Groups List box,HEIF
+grpl,Groups list box,ISO
 hdlr,"handler, declares the media (handler) type",ISO
 hmhd,"hint media header, overall information (hint track only)",ISO
 hpix,Hipix Rich Picture (user-data or meta-data),Hipix
@@ -49,21 +68,33 @@ ihdr,Image Header,JPEG2000
 iinf,item information,ISO
 iloc,item location,ISO
 imap,Reserved,ISO
+imda,Identified media data,ISO
 imif,IPMP Information box,ISO
 infe,Item information entry,ISO
 infu,OMA DRM Info URL,OMA DRM 2.0
 iods,Object Descriptor container box,MP4v1
-ipco,ItemPropertyContainerBox,HEIF
+ipco,ItemPropertyContainerBox,ISO
 iphd,reserved for IPMP Stream header,MP4v1
-ipma,ItemPropertyAssociation,HEIF
+ipma,ItemPropertyAssociation,ISO
 ipmc,IPMP Control Box,ISO
 ipro,item protection,ISO
-iprp,Item Properties Box,HEIF
+iprp,Item Properties Box,ISO
 iref,Item reference,ISO
+j2kH,JPEG 2000 header info,J2KHEIF
+j2kP,JPEG 2000 prefix,J2KHEIF
 jP$20$20,JPEG 2000 Signature,JPEG2000
 jp2c,JPEG 2000 contiguous codestream,JPEG2000
 jp2h,Header,JPEG2000
 jp2i,intellectual property information,JPEG2000
+JXL$20,JPEG XL Signature,JPEG XL
+jxlc,JPEG XL Codestream,JPEG XL
+jxli,JPEG XL Frame Index,JPEG XL
+jxlp,JPEG XL Partial Codestream,JPEG XL
+jpvi,JPEG XS Video Information,JPXS
+jpvs,JPEG XS Video Support,JPXS
+jptp,JPEG XS Video Transport Parameter,JPXS
+JXS$20,JPEG XS Signature,JPXS
+jxpl,JPEG XS Profile and Level,JPXS
 kmat,Reserved,ISO
 leva,Leval assignment,ISO
 load,Reserved,ISO
@@ -78,7 +109,9 @@ mdia,container for the media information in a track,ISO
 mdri,Mutable DRM information,OMA DRM 2.0
 meco,additional metadata container,ISO
 mehd,movie extends header box,ISO
+meof,media offset,OMAF
 mere,metabox relation,ISO
+mesh,mesh box,OMAF
 meta,Metadata container,ISO
 mfhd,movie fragment header,ISO
 mfra,Movie fragment random access,ISO
@@ -87,10 +120,11 @@ minf,media information container,ISO
 mjhd,reserved for MPEG-J Stream header,MP4v1
 moof,movie fragment,ISO
 moov,container for all the meta-data,ISO
+movd,mesh omnidirectional video,OMAF
 mstv,MVC sub track view box,NALu Video
 mvcg,Multiview group,NALu Video
 mvci,Multiview Information,NALu Video
-mvdr,MVDDepthResolutionBox,NALu Video
+3dpr,MVDDepthResolutionBox,NALu Video
 mvex,movie extends box,ISO
 mvhd,"movie header, overall declarations",ISO
 mvra,Multiview Relation Attribute,NALu Video
@@ -104,18 +138,34 @@ odrb,OMA DRM Rights Object,OMA DRM 2.0
 odrm,OMA DRM Container,OMA DRM 2.0
 odtt,OMA DRM Transaction Tracking,OMA DRM 2.0
 ohdr,OMA DRM Common headers,OMA DRM 2.0
+otcf,OMAF timed text configuration,OMAF
+otyp,Original file type,ISO
+ovly,overlay configuration,OMAF
 padb,sample padding bits,ISO
 paen,Partition Entry,ISO
 pclr,palette which maps a single component in index space to a multiple- component image,JPEG2000
+pdat,Partial Data,ISO-Partial
 pdin,Progressive download information,ISO
+pfhd,Partial File Header,ISO-Partial
+pfil,Partial File,ISO-Partial
 pitm,primary item reference,ISO
+ploc,Partial Segment Location,ISO-Partial
 pnot,Reserved,ISO
+povd,projected omnidirectional video,OMAF
+prfr,projection format,OMAF
 prft,Producer reference time,ISO
+pseg,Partial Segment,ISO-Partial
+pshd,Partial Segment Header,ISO-Partial
 pssh,Protection system specific header,ISO Common Encryption
+ptle,Partial Top Level Entry,ISO-Partial
 res$20,grid resolution,JPEG2000
 resc,grid resolution at which the image was captured,JPEG2000
 resd,default grid resolution at which the image should be displayed,JPEG2000
 rinf,restricted scheme information box,ISO
+rotn,rotation box,OMAF
+rosc,sphere region configuration,OMAF
+rvif,recommended viewport information,OMAF
+rwpk,region-wise packing,OMAF
 saio,Sample auxiliary information offsets,ISO
 saiz,Sample auxiliary information sizes,ISO
 sbgp,Sample to Group box,ISO
@@ -129,13 +179,15 @@ segr,file delivery session group,ISO
 seii,SEI information box,NALu Video
 senc,Sample specific encryption data,ISO Common Encryption
 sgpd,Sample group definition box,ISO
-sidx,Segment Index Box,3GPP
+sidx,Segment Index Box,ISO
 sinf,protection scheme information box,ISO
 skip,free space,ISO
 smhd,"sound media header, overall information (sound track only)",ISO
+sprg,sub-picture region,OMAF
 srmb,System Renewability Message,DVB
 srmc,System Renewability Message container,DVB
 srpp,STRP Process,ISO
+srqr,sphere region quality ranking,OMAF
 ssix,Sub-sample index,ISO
 sstl,SVC sub track layer box,NALu Video
 stbl,"sample table box, container for the time/space map",ISO
@@ -153,10 +205,14 @@ stss,sync sample table (random access points),ISO
 stsz,sample sizes (framing),ISO
 stti,Sub track tier box,NALu Video
 stts,(decoding) time-to-sample,ISO
-styp,Segment Type Box,3GPP
+styp,Segment Type Box,ISO
 stz2,compact sample sizes (framing),ISO
 subs,Sub-sample information,ISO
+suep,signer identity information,ONVIF
+sumi,supplemental surveillance meta information,MPEG-VSAF
+surl,Source URL,ISO-Partial
 swtc,Multiview Group Relation,NALu Video
+tenc,Track Encryption,ISO Common Encryption
 tfad,Track fragment adjustment box,3GPP
 tfdt,Track fragment decode time,ISO
 tfhd,Track fragment header,ISO
@@ -174,6 +230,8 @@ trgr,Track grouping information,ISO
 trik,Facilitates random access and trick play modes,DECE
 trun,track fragment run,ISO
 tstb,TileSubTrackGroupBox,NALu Video
+ttyp,track type and compatibility,ISO
+tyco,type and-combination,ISO
 udta,user-data,ISO
 uinf,a tool by which a vendor may provide access to additional information associated with a UUID,JPEG2000
 UITS,Unique Identifier Technology Solution,Universal Music Group
@@ -181,6 +239,21 @@ ulst,a list of UUID’s,JPEG2000
 url$20,a URL,JPEG2000
 uuid,user-extension box,ISO
 vmhd,"video media header, overall information (video track only)",ISO
+vssn,viewing space,OMAF
 vwdi,Multiview Scene Information,NALu Video
 xml$20,XML container,ISO
 xml$20,a tool by which vendors can add XML formatted information,JPEG2000
+!mof,Compressed movie fragment,ISO
+!mov,Compressed movie,ISO
+!six,Compressed segment index,ISO
+!ssx,Compressed subsegment index,ISO
+iroi,SVC region of interest box,NALu Video
+ldep,Tier dependency box,NALu Video
+rrgn,SVC rect region box,NALu Video
+svdr,SVC dependency range,NALu Video
+svip,Initial parameter sets box for tiers,NALu Video
+svpr,Priority range,NALu Video
+tran,SVC lightweight transcoding,NALu Video
+vipr,View priority Box,NALu Video
+sdp$20,SDP information,ISO
+stvi,Stereo Video Box,ISO

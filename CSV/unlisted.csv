@@ -1,0 +1,63 @@
+code,description,specification
+3dpr,MVDDepthResolutionBox only present in the mvdC box in a codec-specific sample entry,NALu Video
+3gLZ,For files with brand '3gLZ' where L is a letter and Z a digit and conforming to version Z.x.y of this specification,3GPP
+3gau,extra information in a hint sample specific to the SRTP format,3GPP
+ctim,inner CueTimeBox in the VTTCueBox,ISO-Text
+d263,codec-specific box in and owned by a specific sample entry,3GPP
+damr,odec-specific box in and owned by a specific sample entry,3GPP
+dawp,codec-specific box in and owned by a specific sample entry,3GPP
+isoX,The 'isoX' brand (where “X” represents a number or letter) specified in each new edition,CMAF
+csch,compatible scheme type for restricted schemes,ISO
+dimm,hintimmediateBytesSent,ISO
+dmax,hintlongestpacket,ISO
+dmed,hintmediaBytesSent,ISO
+drep,hintrepeatedBytesSent,ISO
+encX,template for encrypted entries wheer X is a character,ISO
+extr,hint extra data,ISO
+fdpa,FD packet,ISO
+fdsa,FD sample,ISO
+istm,hint initial sample time,ISO
+keyd,metadata key declaration,ISO
+keys,metadata key table,ISO
+loca,metadata locale,ISO
+maxr,hint maximum rate,ISO
+me4c,metadata key namespace,ISO
+npck,hintPacketsSent,ISO
+nump,hintPacketsSent,ISO
+payl,inner CuePayloadBox in the VTTCueBox,ISO-Text
+payt,hintpayloadID,ISO
+pmax,hintlargestpacket,ISO
+qvXt,example brand,ISO
+rcsr,receivedCSRC,ISO
+rssr,ReceivedSsrcBox,ISO
+rtpo,rtpoffsetTLV,ISO
+rtpx,rtphdrextTLV,ISO
+sdp$20,Hint track SDP information,ISO
+setu,metadata setup,ISO
+spdb,ServiceProtectionDescription scoped to the SRTP hint track Scheme Information,3GPP
+snro,RTP sequence number offset,ISO
+sroc,SRTP rollover counter,ISO
+sttg,inner CueSettingsBox in the VTTCueBox,ISO-Text
+stuf,metadata example space,ISO
+tims,hint timescale,ISO
+tmax,hintmaxrelativetime,ISO
+tmin,hintminrelativetime,ISO
+tOD$20,MPEG-2 OD information,ISO
+totl,hintBytesSent,ISO
+tPAT,MPEG-2 PAT,ISO
+tpay,hintBytesSent,ISO
+tPMT,MPEG-2 PMT,ISO
+tpyl,hintBytesSent,ISO
+trpy,hintBytesSent,ISO
+tsro,hint timestamp offset,ISO
+tssy,hint timestamp synchronu,ISO
+tsti,MPEG-2 hint timing,ISO
+uiso,metadata key space,ISO
+vlab,WebVTT specific box in a codec-specific sample entry,ISO-Text
+vsid,inner CueSourceIDBox in the VTTCueBox,ISO-Text
+vtta,VTTAdditionalTextBox only present in WebVTT sample payload,ISO-Text
+vttc,VTTCueBox only present in WebVTT sample payload,ISO-Text
+vtte,VTTEmptyCueBox only present in WebVTT sample payload,ISO-Text
+?vc?,Pattern for sample-entry codes,NALu Video
+abcd,4CC example,ISO
+main,a main video track for the wide angle view,Metrics
