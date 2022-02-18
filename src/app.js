@@ -227,7 +227,7 @@ var app = new Vue({
             return e.specification == item.specification;
           }
         );
-        if(spec !== undefined) item.specificationAnchor = spec.linkname;
+        if(spec !== undefined) item.specificationAnchor = spec.specification;
       }
       if ('handler' in item) {
         var handler = und.find(

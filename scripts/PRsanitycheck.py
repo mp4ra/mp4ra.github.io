@@ -41,10 +41,9 @@ def getCSV4CCs(directory):
                 #Build speclist
                 if fileName == "specifications.csv":
                     for row in csvReader:
-                        linkname = row['linkname']
                         spec = row['specification']
                         desc = row['description']
-                        speclist.append([linkname, spec, desc])
+                        speclist.append([spec, desc])
     return (codesInCSV, speclist)
 
 # 1. Valid, Four Characters Check
@@ -115,7 +114,7 @@ def knownduplicates(filename):
 # Check to make sure all the codes that have Specifications are registered in the specifications.csv file
 def registerspecs(codesInCSV, speclist, specexceptions=[]):
     unregisteredspecs = []
-    allspecs = [spec[1] for spec in speclist]+specexceptions
+    allspecs = [spec[0] for spec in speclist]+specexceptions
     for a in range(len(codesInCSV)):
         if codesInCSV[a][2] not in allspecs:
             unregisteredspecs.append(codesInCSV[a])
