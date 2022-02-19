@@ -161,4 +161,4 @@ vvs1,Versatile Video Coding (VVC) subpicture track that does not contain a confo
 wvtt,WebVTT data,Text,ISO-Text,
 encu,Encrypted/protected subtitles,Subtitles,ISO,
 encp,Encrypted/protected haptics,Haptics,ISO,
-enc3,Encrypted/protected volumetric visual,Volumetric,ISO,
+enc3,Encrypted/protected volumetric visual,Volumetric visual media,ISO,
