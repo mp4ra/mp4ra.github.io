@@ -239,11 +239,11 @@ UITS,Unique Identifier Technology Solution,Universal Music Group
 ulst,a list of UUID’s,JPEG2000
 url$20,a URL,JPEG2000
 uuid,user-extension box,ISO
-v3sc,v3c spatial region collection,V3C-SYS
+v3sc,V3C spatial region collection,V3C-SYS
 vmhd,"video media header, overall information (video track only)",ISO
-vpbb,volumetric media bounding box,V3C-SYS
+vpbb,Volumetric media bounding box,V3C-SYS
 vssn,viewing space,OMAF
-vunt,v3c unit header,V3C-SYS
+vunt,V3C unit header,V3C-SYS
 vvhd,volumetric visual media header,ISO
 vwdi,Multiview Scene Information,NALu Video
 xml$20,XML container,ISO
