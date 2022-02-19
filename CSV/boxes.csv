@@ -73,12 +73,12 @@ imif,IPMP Information box,ISO
 infe,Item information entry,ISO
 infu,OMA DRM Info URL,OMA DRM 2.0
 iods,Object Descriptor container box,MP4v1
-ipco,ItemPropertyContainerBox,HEIF
+ipco,ItemPropertyContainerBox,ISO
 iphd,reserved for IPMP Stream header,MP4v1
-ipma,ItemPropertyAssociation,HEIF
+ipma,ItemPropertyAssociation,ISO
 ipmc,IPMP Control Box,ISO
 ipro,item protection,ISO
-iprp,Item Properties Box,HEIF
+iprp,Item Properties Box,ISO
 iref,Item reference,ISO
 j2kH,JPEG 2000 header info,J2KHEIF
 j2kP,JPEG 2000 prefix,J2KHEIF
@@ -125,7 +125,7 @@ movd,mesh omnidirectional video,OMAF
 mstv,MVC sub track view box,NALu Video
 mvcg,Multiview group,NALu Video
 mvci,Multiview Information,NALu Video
-mvdr,MVDDepthResolutionBox,NALu Video
+3dpr,MVDDepthResolutionBox,NALu Video
 mvex,movie extends box,ISO
 mvhd,"movie header, overall declarations",ISO
 mvra,Multiview Relation Attribute,NALu Video
@@ -252,3 +252,13 @@ xml$20,a tool by which vendors can add XML formatted information,JPEG2000
 !mov,Compressed movie,ISO
 !six,Compressed segment index,ISO
 !ssx,Compressed subsegment index,ISO
+iroi,SVC region of interest box,NALu Video
+ldep,Tier dependency box,NALu Video
+rrgn,SVC rect region box,NALu Video
+svdr,SVC dependency range,NALu Video
+svip,Initial parameter sets box for tiers,NALu Video
+svpr,Priority range,NALu Video
+tran,SVC lightweight transcoding,NALu Video
+vipr,View priority Box,NALu Video
+sdp$20,SDP information,ISO
+stvi,Stereo Video Box,ISO

@@ -54,14 +54,15 @@ evm1,Essential Video Coding slice base track,Video,NALu Video,
 evs1,Essential Video Coding slice component track without parameter sets,Video,NALu Video,
 evs2,Essential Video Coding slice component track that may contain parameter sets,Video,NALu Video,
 fdp$20,File delivery hints,Hint,ISO,
+FFV1,An open lossless intra-frame video codec,Video,FF Video Codec,
 g719,ITU-T Recommendation G.719 (2008),Audio,ITU G.719,0xA8
 g726,ITU-T Recommendation G.726 (1990),Audio,SDV,
-hev1,High Efficiency Video Coding,Video,NALu Video,0x23
-hev2,High Efficiency Video Coding,Video,NALu Video,0x23
-hev3,High Efficiency Video Coding,Video,NALu Video,0x23
-hvc1,High Efficiency Video Coding,Video,NALu Video,0x23
-hvc2,High Efficiency Video Coding,Video,NALu Video,0x23
-hvc3,High Efficiency Video Coding,Video,NALu Video,0x23
+hev1,HEVC video with parameter sets in the Sample Entry or samples,Video,NALu Video,0x23
+hev2,HEVC video with constrained extractors and/or aggregators and parameter sets in the Sample Entry or samples,Video,NALu Video,0x23
+hev3,HEVC video with extractors and/or aggregators and parameter sets in the Sample Entry or samples,Video,NALu Video,0x23
+hvc1,HEVC video with parameter sets only in the Sample Entry,Video,NALu Video,0x23
+hvc2,HEVC video with constrained extractors and/or aggregators and parameter sets only in the Sample Entry,Video,NALu Video,0x23
+hvc3,HEVC video with extractors and/or aggregators and parameter sets only in the Sample Entry,Video,NALu Video,0x23
 hvt1,HEVC tile tracks,Video,NALu Video,
 hvt2,HEVC slice segment data track,Video,NALu Video,
 hvt3,HEVC Tile Track with Slice Segment Header Info,Video,NALu Video,
@@ -158,3 +159,6 @@ vvc1,Versatile Video Coding with parameter sets only in sample entries,Video,NAL
 vvi1,Versatile Video Coding with parameter sets in sample entries or samples,Video,NALu Video,
 vvs1,Versatile Video Coding (VVC) subpicture track that does not contain a conforming VVC bitstream,Video,NALu Video,
 wvtt,WebVTT data,Text,ISO-Text,
+encu,Encrypted/protected subtitles,Subtitles,ISO,
+encp,Encrypted/protected haptics,Haptics,ISO,
+enc3,Encrypted/protected volumetric visual,Volumetric,ISO,

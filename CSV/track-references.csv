@@ -1,9 +1,9 @@
 code,description,specification
-adda,Additional audio track,DRC
-adrc,DRC metadata track,DRC
+adda,Additional audio track,ISO
+adrc,DRC metadata track,ISO
 auxl,Auxiliary track reference,ISO
 avcp,AVC parameter set stream link,NALu Video
-cdsc,this track describes the referenced track.,MPEG-4
+cdsc,this track describes the referenced track.,ISO
 cdtg,this track describes the referenced tracks and track groups collectively,OMAF
 deps,track containing the depth view,NALu Video
 dpnd,this track has an MPEG-4 dependency on the referenced track,MPEG-4
@@ -11,7 +11,6 @@ evcr,EVC slice base track,NALu Video
 font,this track uses fonts carried/defined in the referenced track,ISO
 hind,Hint dependency,ISO
 hint,links hint track to original media track,ISO
-iloc,Item data location (item reference),ISO
 ipir,this track contains IPI declarations for the referenced track,MPEG-4
 lyra,Audio layer track dependency,DTS
 mixn,used in indicating combinations that result into mixed network abstraction layer unit types in a coded picture of VVC,NALu Video
