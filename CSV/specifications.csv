@@ -41,6 +41,7 @@ DRC,"<a href='http://www.iso.ch/' target='_blank'>ISO</a>/IEC 23003-4, Dynamic R
 ETSI AC-3,"<a href='http://www.etsi.org/'>ETSI</a> TS 102 366 v1.4.1 - Digital Audio Compression (AC-3, Enhanced AC-3) Standard, Annex F"
 ETSI AC-4,"<a href='http://www.etsi.org/'>ETSI</a> TS 103 190 v1.2.1 - Digital Audio Compression (AC-4) Standard, Annex E and TS 103 190-2 v1.1.1 - Digital Audio Compression (AC-4) Standard Part 2: Immersive and personalized audio, Annex E"
 ETSI E-AC-3+JOC,"<a href='http://www.etsi.org/'>ETSI</a> TS 103 420 v1.1.1 - Backwards-compatible object audio carriage using Enhanced AC-3"
+FLAC,"<a href='https://xiph.org/flac/'>FLAC</a> Free Lossless Audio Codec. Encapsulation of FLAC in ISO Base Media File Format"
 GB-T-20090-9,<a href='http://www.avs.org.cn/AVS2_download/index.asp'>GB/T 20090.9</a>-2006 Information technology - Advanced coding of audio and video - Part 9: AVS file format
 FF Video Codec,"<a href='https://datatracker.ietf.org/doc/draft-ietf-cellar-ffv1/' target='_blank'>IETF FFV1</a> Video Coding Format Version 0, 1, and 3"
 HEIF,"<a href='http://www.iso.ch/' target='_blank'>ISO</a>/IEC 23008-12:2017, Image File Format. Available as a <a href='http://standards.iso.org/ittf/PubliclyAvailableStandards/index.html'>publicly available standard</a> from ISO."
