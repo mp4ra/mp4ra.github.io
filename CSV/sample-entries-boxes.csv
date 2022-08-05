@@ -16,6 +16,7 @@ CoLL,Content Light Level Box,Video,VPxx
 dac3,Decoder specific info for AC-3 audio,Audio,ETSI AC-3
 dac4,Decoder specific info for AC-4 audio,Audio,ETSI AC-4
 dec3,Decoder specific info for Enhanced AC-3 audio,Audio,ETSI AC-3
+dfLa,Free Lossless Audio Codec (FLAC) specific data,Audio,FLAC
 dhec,Default HEVC extractor constructor box,Video,NALu Video
 dmix,Downmix instructions,Audio,ISO
 dmlp,Decoder specific info for MLP audio,Audio,Dolby MLP
