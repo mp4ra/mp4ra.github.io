@@ -3,5 +3,7 @@ code,description,specification
 alte,alternative extraction source track grouping,NALu Video
 cstg,complete subset track grouping,NALu Video
 msrc,multi-source presentation track grouping,ISO
+potg,playout track grouping,V3C-SYS
 snut,a group of VVC subpicture tracks where the VCL NAL units of the time-aligned samples have the same NAL unit type,NALu Video
+vtcg,V3C atlas tile component track grouping,V3C-SYS
 ster,stereo pair track grouping,ISO

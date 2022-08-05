@@ -47,6 +47,7 @@ tmsh,Tile mesh sample grouping,sample group,OMAF
 trif,Rectangular region group,sample group,NALu Video
 tsas,Temporal Sub-Layer access,sample group,NALu Video
 tscl,Temporal Layer,sample group,NALu Video
+vaps,V3C atlas parameter set sample group,sample group,V3C-SYS
 vipr,View priority,sample group,NALu Video
 vopi,VVC operating points information,sample group,NALu Video
 aebr,Auto exposure bracketing,sample group,HEIF

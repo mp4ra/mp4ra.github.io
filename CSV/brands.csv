@@ -231,6 +231,10 @@ ttwv,OMAF WebVTT timed text profile,OMAF
 uhvi,Unconstrained HEVC-based viewport-independent OMAF video profile,OMAF
 unif,Unified identifiers,ISO
 uvvu,"UltraViolet file brand – conforming to the DECE Common File Format spec, Annex E.",DECE
+v3mp,Multi-track encapsulation mode for V3C data with partial access support,V3C-SYS
+v3mt,Multi-track encapsulation mode for V3C data,V3C-SYS
+v3nt,Non-timed encpasulation mode for V3C data,V3C-SYS
+v3st,Single-track encapsulation mode for V3C data,V3C-SYS
 vwpt,Viewpoint toolset brand,OMAF
 XAVC,XAVC File Format,Sony
 yt4$20,Google specification for use by YouTube apps,Youtube

@@ -30,7 +30,10 @@ rwpk,Region-wise packing,OMAF
 stvi,Frame packing,OMAF
 subs,Subsample information,HEIF
 tols,Layered HEVC Target output layer set property,HEIF
+v3cC,V3C configuration,V3C-SYS
+v3tp,V3C atlas tile configuration,V3C-SYS
 vssn,Viewing space,OMAF
+vutp,V3C unit header,V3C-SYS
 aebr,Auto Exposure Information,HEIF
 afbr,Flash exposure information,HEIF
 altt,Accessibility text,HEIF

@@ -45,5 +45,5 @@ tmcd,Timecode,handler,Apple
 twen,QuickTime Tween track handler,handler,Apple
 uri$20,URI identified metadata,handler,DVB
 vide,Video,handler,ISO
+volv,Volumetric visual media,handler,ISO
 hapt,Haptics,handler,ISO
-volv,Volumetric,handler,ISO
