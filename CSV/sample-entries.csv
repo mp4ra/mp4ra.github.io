@@ -55,6 +55,7 @@ evs1,Essential Video Coding slice component track without parameter sets,Video,N
 evs2,Essential Video Coding slice component track that may contain parameter sets,Video,NALu Video,
 fdp$20,File delivery hints,Hint,ISO,
 FFV1,An open lossless intra-frame video codec,Video,FF Video Codec,
+fLaC,Free Lossless Audio Codec (FLAC),Audio,FLAC
 g719,ITU-T Recommendation G.719 (2008),Audio,ITU G.719,0xA8
 g726,ITU-T Recommendation G.726 (1990),Audio,SDV,
 hev1,HEVC video with parameter sets in the Sample Entry or samples,Video,NALu Video,0x23
