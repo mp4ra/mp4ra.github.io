@@ -5,6 +5,7 @@ clip,Visual clipping region container,QT
 clsf,Media classification (user-data),3GPP
 cprt,copyright etc. (user-data),ISO
 crgn,Visual clipping region definition,QT
+csgm,Compact sample to group used in QuickTime File Format,QT
 ctab,Track color-table,QT
 dcfD,"Marlin DCF Duration, user-data atom type",OMArlin
 elng,Extended Language Tag,QT
