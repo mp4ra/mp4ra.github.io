@@ -75,6 +75,7 @@ cud1,CMAF Media Profile - HEVC UHD10,CMAF
 cud8,CMAF Media Profile - HEVC UHD8,CMAF
 cuvd,CMAF Media Profile for the unconstrained HEVC-based viewport-independent OMAF video profile,OMAF
 cvid,CMAF Media Profile for the HEVC-based viewport-independent OMAF video profile,OMAF
+cvvc,CMAF media profile for the VVC-based viewport-independent OMAF video profile,OMAF
 cwvt,CMAF Media Profile - WebVTT,CMAF
 da0a,"DMB AF audio with MPEG Layer II audio, MOT slide show, DLS, JPG/PNG/MNG images",DMB-MAF
 da0b,"DMB AF, extending da0a , with 3GPP timed text, DID, TVA, REL, IPMP",DMB-MAF
@@ -221,7 +222,8 @@ SEBK,Home and Mobile Multimedia Platform (HMMP),Sony
 senv,Video contents Sony Entertainment Network provides by using MP4 file format,Sony
 sims,Media Segment conforming to the Sub-Indexed Media Segment format type for ISO base media file format.,DASH
 sisx,Single Index Segment used to index MPEG-2 TS based Media Segments.,DASH
-siti,Simple tiling OMAF video profile,OMAF
+siti,HEVC-based simple tiling OMAF video profile,OMAF
+sitv,VVC-based simple tiling OMAF video profile,OMAF
 slh1,Dynamic metadata for Single Layer SDR-compatible HDR video streams,SL-HDR
 slh2,Dynamic metadata for Single Layer PQ-based HDR video streams,SL-HDR
 slh3,Dynamic metadata for Single Layer HLG-based HDR video streams,SL-HDR
@@ -235,6 +237,8 @@ v3mp,Multi-track encapsulation mode for V3C data with partial access support,V3C
 v3mt,Multi-track encapsulation mode for V3C data,V3C-SYS
 v3nt,Non-timed encpasulation mode for V3C data,V3C-SYS
 v3st,Single-track encapsulation mode for V3C data,V3C-SYS
+vvci,VVC-based viewport-independent OMAF video profile,OMAF
+vvoi,OMAF VVC image profile,OMAF
 vwpt,Viewpoint toolset brand,OMAF
 XAVC,XAVC File Format,Sony
 yt4$20,Google specification for use by YouTube apps,Youtube
