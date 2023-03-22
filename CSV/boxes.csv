@@ -246,7 +246,7 @@ vssn,viewing space,OMAF
 vunt,V3C unit header,V3C-SYS
 vvhd,volumetric visual media header,ISO
 vwdi,Multiview Scene Information,NALu Video
-wmpi, Watermark PaceInfo, DASH-IF A/B watermarking
+wmpi,Watermark PaceInfo,DASH-IF watermarking
 xml$20,XML container,ISO
 xml$20,a tool by which vendors can add XML formatted information,JPEG2000
 !mof,Compressed movie fragment,ISO
