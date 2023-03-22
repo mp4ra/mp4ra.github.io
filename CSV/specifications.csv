@@ -44,7 +44,7 @@ ETSI E-AC-3+JOC,"<a href='http://www.etsi.org/'>ETSI</a> TS 103 420 v1.1.1 - Bac
 FLAC,"<a href='https://xiph.org/flac/'>FLAC</a> Free Lossless Audio Codec. Encapsulation of FLAC in ISO Base Media File Format"
 GB-T-20090-9,<a href='http://www.avs.org.cn/AVS2_download/index.asp'>GB/T 20090.9</a>-2006 Information technology - Advanced coding of audio and video - Part 9: AVS file format
 FF Video Codec,"<a href='https://datatracker.ietf.org/doc/draft-ietf-cellar-ffv1/' target='_blank'>IETF FFV1</a> Video Coding Format Version 0, 1, and 3"
-HEIF,"<a href='http://www.iso.ch/' target='_blank'>ISO</a>/IEC 23008-12:2017, Image File Format. Available as a <a href='http://standards.iso.org/ittf/PubliclyAvailableStandards/index.html'>publicly available standard</a> from ISO."
+HEIF,"<a href='http://www.iso.ch/' target='_blank'>ISO</a>/IEC 23008-12:2022, Image File Format."
 Hipix,Rich Picture Format from <a href='http://www.hipixpro.com/pdf/What_is_hipix_OCT_2010.pdf'>Human Monitoring</a>
 IEC 62592,"<a href='https://webstore.iec.ch/publication/7232'>IEC</a> TS 62592, Encoding guidelines for portable multimedia CE products using MP4 file format with AVC video codec and AAC audio codec"
 IFE,"<a href='https://connect.apex.aero/resources/techspecifications'>APEX</a> Specification 0415 Media and Device IFE Ecosystem Specificaton"
