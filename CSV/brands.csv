@@ -1,4 +1,5 @@
 code,description,specification
+1pic,Single picture,HEIF
 3g2a,3GPP2,3GPP2
 3ge6,3GPP Release 6 extended-presentation Profile,3GPP
 3ge7,3GPP Release 7 extended-presentation Profile,3GPP
@@ -59,9 +60,12 @@ cfsd,CMAF Media Profile - AVC SD,CMAF
 chd1,CMAF Media Profile - HEVC HDR10,CMAF
 chdf,CMAF Media Profile - AVC HDHF,CMAF
 chev,CMAF Media Profile for the HEVC-based viewport-dependent OMAF video profile,OMAF
-chhd,CMAF Media Profile - HEVC HHD8,CMAF
+chd2,CMAF High frame rate Media Profile - HEVC HDR10H,CMAF
 chh1,CMAF Media Profile - HEVC HHD10,CMAF
+chhd,CMAF Media Profile - HEVC HHD8,CMAF
+cint,CMAF Interlaced Media Profile - INT10,CMAF
 clg1,CMAF Media Profile - HEVC HLG10,CMAF
+clg2,CMAF High frame rate Media Profile - HEVC HLG10H,CMAF
 cmf2,CMAF Structural Brand,CMAF
 cmfc,CMAF Structural Brand,CMAF
 cmff,CMAF Fragment Format,CMAF
@@ -72,7 +76,9 @@ cmhs,CMAF Media Profile - MPEG-H 3D audio LC (mhm1),CMAF
 comp,Compressed boxes,ISO
 csh1,CMAF Media Profile - Scalable HEVC media profile,CMAF
 cud1,CMAF Media Profile - HEVC UHD10,CMAF
+cud2,CMAF High frame rate Media Profile - HEVC UHD10H,CMAF
 cud8,CMAF Media Profile - HEVC UHD8,CMAF
+cud9,CMAF High frame rate Media Profile - HEVC UHD8H,CMAF
 cuvd,CMAF Media Profile for the unconstrained HEVC-based viewport-independent OMAF video profile,OMAF
 cvid,CMAF Media Profile for the HEVC-based viewport-independent OMAF video profile,OMAF
 cvvc,CMAF media profile for the VVC-based viewport-independent OMAF video profile,OMAF
@@ -102,6 +108,10 @@ dvr1,DVB RTP,DVB
 dvt1,DVB Transport Stream,DVB
 dxo$20,DxO ONE camera,DxO
 emsg,Event message box present,DASH
+evbi,EVC Baseline coded image,HEIF
+evbs,EVC Baseline coded image sequence,HEIF
+evmi,EVC Main coded image,HEIF
+evms,EVC Main coded image sequenc,HEIF
 heic,HEVC image and image collection brands,HEIF
 heim,L-HEVC image and image collection brands,HEIF
 heis,L-HEVC image and image collection brands,HEIF
@@ -185,6 +195,7 @@ MiAn,Mutli-Image Application format brand for animation,MIAF
 MiBu,Multi-Image Application format brand for burst capture,MIAF
 MiCm,Multi-Image Application format brand for CMAF compatibility,MIAF
 mif1,Image file format structural brand,HEIF
+mif2,Image file format structural brand CICP alpha and depth,HEIF
 MiHA,Multi-Image Application format brand for MIAF HEVC Advanced Profile,MIAF
 MiHB,Multi-Image Application format brand for MIAF HEVC Basic Profile,MIAF
 MiHE,Multi-Image Application format brand for MIAF HEVC Extended Profile,MIAF
@@ -217,6 +228,7 @@ pana,Panasonic Digital Camera,Panasonic
 piff,Protected Interoperable File Format,PIFF
 pmff,"Mixed Partial File",ISO-Partial
 pnvi,Panasonic Video Intercom,Panasonic Video Intercom
+pred,Image file format brand for predictively coded image items,HEIF
 qt$20$20,QuickTime,QT
 relo,combination brand to indicate relative addressing,ISO
 risx,Representation Index Segment used to index MPEG-2 TS based Media Segments.,DASH
@@ -243,14 +255,9 @@ v3mt,Multi-track encapsulation mode for V3C data,V3C-SYS
 v3nt,Non-timed encpasulation mode for V3C data,V3C-SYS
 v3st,Single-track encapsulation mode for V3C data,V3C-SYS
 vvci,VVC-based viewport-independent OMAF video profile,OMAF
+vvic,VVC coded image item,HEIF
+vvis,VVC coded image sequence,HEIF
 vvoi,OMAF VVC image profile,OMAF
 vwpt,Viewpoint toolset brand,OMAF
 XAVC,XAVC File Format,Sony
 yt4$20,Google specification for use by YouTube apps,Youtube
-chd2,CMAF High frame rate Media Profile - HEVC HDR10H,CMAF
-cint,CMAF Interlaced Media Profile - INT10,CMAF
-clg2,CMAF High frame rate Media Profile - HEVC HLG10H,CMAF
-cud2,CMAF High frame rate Media Profile - HEVC UHD10H,CMAF
-cud9,CMAF High frame rate Media Profile - HEVC UHD8H,CMAF
-mif2,Image file format structural brand CICP alpha and depth,HEIF
-pred,Image file format brand for predictively coded image items,HEIF

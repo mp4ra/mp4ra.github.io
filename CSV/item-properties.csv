@@ -1,11 +1,22 @@
 code,description,specification
+aebr,Auto Exposure Information,HEIF
+afbr,Flash exposure information,HEIF
+altt,Accessibility text,HEIF
+amve,Ambient viewing environment,HEIF
 auxC,Auxiliary type,HEIF
 av1C,AVIF Image item configuration,AVIF
 avcC,AVC Image item configuration,HEIF
 brnd,Item brand (type),ISO
+cclv,Content colour volume,HEIF
 clap,Clean aperture,HEIF
+clli,Content light level,HEIF
+crtt,Creation time information,HEIF
 colr,Colour information,HEIF
 covi,Coverage information,OMAF
+dobr,Depth of field information,HEIF
+evcC,EVC image item configuration,HEIF
+fade,Fade transition effect,HEIF
+fobr,Focus information,HEIF
 fovi,Essential fisheye information,OMAF
 fvsi,Supplemental fisheye information,OMAF
 hvcC,HEVC Image item configuration,HEIF
@@ -14,38 +25,38 @@ ienc,Item Encryption,ISO Common Encryption
 iivo,Initial viewing orientation,OMAF
 imir,Image mirroring,HEIF
 irot,Image rotation,HEIF
+iscl,Image scaling,HEIF
 ispe,Image spatial extents,HEIF
 jpgC,JPEG image item configuration,HEIF
 jxsH,JPEG XS Header,JPXS
 lhvC,Layered HEVC Image item configuration,HEIF
 lsel,Layer selection,HEIF
+mdcv,Mastering display colour volume,HEIF
+mdft,Modification time information,HEIF
+mskC,Mask item configuration,HEIF
 oinf,HEVC operating point,HEIF
 ovly,Overlay configuration,OMAF
+pano,Panorama information,HEIF
 pasp,Pixel aspect ratio,HEIF
 pixi,Pixel information,HEIF
 prfr,Projection format,OMAF
 rloc,Relative location,HEIF
 rotn,Rotation,OMAF
+rref,Required reference types,HEIF
 rwpk,Region-wise packing,OMAF
+splt,Split transition effect,HEIF
+ssld,Suggested time display duraton,HEIF
+stpe,Suggested transition period,HEIF
 stvi,Frame packing,OMAF
 subs,Subsample information,HEIF
 tols,Layered HEVC Target output layer set property,HEIF
+udes,User description,HEIF
 v3cC,V3C configuration,V3C-SYS
 v3tp,V3C atlas tile configuration,V3C-SYS
 vssn,Viewing space,OMAF
 vutp,V3C unit header,V3C-SYS
-aebr,Auto Exposure Information,HEIF
-afbr,Flash exposure information,HEIF
-altt,Accessibility text,HEIF
-crtt,Creation time information,HEIF
-dobr,Depth of field information,HEIF
-fobr,Focus information,HEIF
-iscl,Image scaling,HEIF
-mdft,Modification time information,HEIF
-pano,Panorama information,HEIF
-rref,Required reference types,HEIF
-udes,User description,HEIF
+vvcC,VVC image item configuration,HEIF
 wbbr,White balance information,HEIF
-cclv,Content colour volume,HEIF
-mdcv,Mastering display colour volume,HEIF
-clli,Content light level,HEIF
+wipe,Wipe transition effect,HEIF
+zoom,Zoom transition effect,HEIF
+

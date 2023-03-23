@@ -3,6 +3,7 @@ code,description,specification
 2dss,spatial relationship 2D source,OMAF
 ainf,"Asset information to identify, license and play",DECE
 assp,alternative startup sequence properties,ISO
+auxi,Auxiliary type,HEIF
 avcn,AVC NAL Unit Storage Box,DECE
 bidx,Box Index,ISO-Partial
 bloc,Base location and purchase location for license acquisition,DECE
@@ -11,6 +12,7 @@ bpcc,Bits per component,JPEG2000
 buff,Buffering information,NALu Video
 bxml,binary XML container,ISO
 ccid,OMA DRM Content ID,OMA DRM 2.1
+ccst,Coding constraints box,HEIF
 cdef,type and ordering of the components within the codestream,JPEG2000
 cinf,complete track information,ISO
 clip,Reserved,ISO
