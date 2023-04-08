@@ -16,6 +16,7 @@ opeg,VVC operating points,NALu Video
 oval,Grouping of overlays that are alternatives for switching,OMAF
 ovbg,Grouping of overlays and background visual media that are intended to be presented together,OMAF
 pano,Panorama entity group,HEIF
+slid,Slideshow entity group,HEIF
 ster,Stereo entity grouping,HEIF
 swpc,Object switch alternatives grouping,V3C-SYS
 swtk,VVC switchable tracks,NALu Video
