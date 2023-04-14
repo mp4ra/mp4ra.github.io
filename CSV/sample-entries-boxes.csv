@@ -22,6 +22,7 @@ dmix,Downmix instructions,Audio,ISO
 dmlp,Decoder specific info for MLP audio,Audio,Dolby MLP
 dvcC,Dolby Vision Configuration,Video,Dolby Vision
 dvvC,Dolby Vision Extended Configuration,Video,Dolby Vision
+dvwC,Dolby Vision Extended Configuration 2,Video,Dolby Vision
 ecam,Extrinsic camera parameters,Video,NALu Video
 esds,Elementary stream descriptor,General,MP4v2
 evcC,EVC configuration,Video,NALu Video
