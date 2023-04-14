@@ -7,6 +7,7 @@ cpad,CPCM Auxiliary Metadata,handler,DVB
 crsm,ClockReferenceStream,handler,MPEG-4
 dmbd,DVB Mandatory Metadata,handler,DVB
 dtva,"TV-Anytime Metadata, according to DVB specifications",handler,DVB
+dvmd,"withdrawn, unused, do not use (was Dolby Vision Metadata)",handler,Deprecated
 fdsm,Font,handler,MPEG-4
 gesm,General MPEG-4 systems streams (without specific handler),handler,see (1) below
 GRAP,Subtitle Graphics,handler,Sony
