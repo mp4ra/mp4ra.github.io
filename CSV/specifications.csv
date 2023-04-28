@@ -23,6 +23,7 @@ Convergent,<a href='http://www.convergent-design.com/'>Convergent Design</a>
 CMAF,<a href='http://www.iso.ch/' target='_blank'>ISO</a>/IEC 23000-19: Common Media Application Format
 CMAF-ID3,<a href='https://aomediacodec.github.io/id3-emsg/' target='_blank'>Carriage of ID3 Timed Metadata in the Common Media Application Format (CMAF)</a>
 DASH,<a href='http://www.iso.ch/' target='_blank'>ISO</a>/IEC 23009-1: Dynamic Adaptive Streaming over HTTP
+DASH-IF watermarking,<a href='https://dashif.org/guidelines/others/' target='_blank'>DASH-IF Forensic A/B Watermarking</a>: An interoperable watermarking integration schema
 DxO,<a href='http://www.dxo.com/'>DxO</a>
 ISO Common Encryption,<a href='http://www.iso.ch/' target='_blank'>ISO</a>/IEC 23001-7: Common encryption format for ISO base media file format
 DECE,Digital Entertainment Content Ecosystem (<a href='http://uvcentral.com/'>DECE</a>) <a href='http://uvcentral.com/'>Common File Format &amp; Media Formats Specification</a>
