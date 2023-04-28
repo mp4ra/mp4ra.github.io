@@ -86,6 +86,10 @@ da2b,"DMB AF extending da2a, with 3GPP timed text, DID, TVA, REL, IPMP",DMB-MAF
 da3a,"DMB AF audio with HE-AAC, JPG/PNG/MNG images",DMB-MAF
 da3b,"DMB AF extending da3a with BIFS, 3GPP timed text, DID, TVA, REL, IPMP",DMB-MAF
 dash,ISO base media file format file specifically designed for DASH including movie fragments and Segment Index.,DASH
+db1p,Dolby Vision cross-compatible with HDR10,Dolby
+db2g,Dolby Vision cross-compatible with SDR,Dolby
+db4h,Dolby Vision cross-compatible with HLG (VUI =18),Dolby
+db4g,Dolby Vision cross-compatible with HLG (VUI=14),Dolby
 dby1,"MP4 files with Dolby content (e.g. Dolby AC-4, Dolby Digital Plus, Dolby TrueHD (Dolby MLP))",Dolby
 dmb1,DMB AF supporting all the components defined in the specification,DMB-MAF
 dsms,Media Segment conforming to the DASH Self-Initializing Media Segment format type for ISO base media file format,DASH
