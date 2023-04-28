@@ -8,6 +8,7 @@ bidx,Box Index,ISO-Partial
 bloc,Base location and purchase location for license acquisition,DECE
 bmdm,Buffer Model Description,JPXS
 bpcc,Bits per component,JPEG2000
+brob,Brotli-compressed box,JPEG XL
 buff,Buffering information,NALu Video
 bxml,binary XML container,ISO
 ccid,OMA DRM Content ID,OMA DRM 2.1
@@ -82,11 +83,14 @@ iprp,Item Properties Box,ISO
 iref,Item reference,ISO
 j2kH,JPEG 2000 header info,J2KHEIF
 j2kP,JPEG 2000 prefix,J2KHEIF
+jbrd,JPEG bitstream reconstruction data,JPEG XL
 jP$20$20,JPEG 2000 Signature,JPEG2000
 jp2c,JPEG 2000 contiguous codestream,JPEG2000
 jp2h,Header,JPEG2000
 jp2i,intellectual property information,JPEG2000
+jumb,JPEG Universal Metadata Box Format (JUMBF),JPEG Systems
 JXL$20,JPEG XL Signature,JPEG XL
+jxll,JPEG XL Level,JPEG XL
 jxlc,JPEG XL Codestream,JPEG XL
 jxli,JPEG XL Frame Index,JPEG XL
 jxlp,JPEG XL Partial Codestream,JPEG XL
