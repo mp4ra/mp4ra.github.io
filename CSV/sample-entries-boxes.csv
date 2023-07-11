@@ -75,15 +75,15 @@ vvcC,VVC video configuration,Video,NALu Video
 vwid,View identifier,Video,NALu Video
 vlab,WebVTT Source Label,Text,ISO-Text
 cuvv,HDR Vivid Configuration,Video,UWA
-cmpd,Component Definition,UNCV
-uncC,Uncompressed Frame Config,UNCV
-cpal,Component Palette,UNCV
-cpat,Component Pattern Definition,UNCV
-clev,Component Reference Level,UNCV
-splz,Polarization Pattern Definition,UNCV
-snuc,Sensor Non Uniformity Correction,UNCV
-sbpm,Sensor Bad Pixels Map,UNCV
-cloc,Chroma Location,UNCV
-fpac,Frame Packing Information,UNCV
-disi,Disparity Information,UNCV
-ilcp,Field Interlace,UNCV
+cmpd,Component Definition,Video,UNCV
+uncC,Uncompressed Frame Config,Video,UNCV
+cpal,Component Palette,Video,UNCV
+cpat,Component Pattern Definition,Video,UNCV
+clev,Component Reference Level,Video,UNCV
+splz,Polarization Pattern Definition,Video,UNCV
+snuc,Sensor Non Uniformity Correction,Video,UNCV
+sbpm,Sensor Bad Pixels Map,Video,UNCV
+cloc,Chroma Location,Video,UNCV
+fpac,Frame Packing Information,Video,UNCV
+disi,Disparity Information,Video,UNCV
+ilcp,Field Interlace,Video,UNCV
