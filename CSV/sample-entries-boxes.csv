@@ -80,7 +80,7 @@ uncC,Uncompressed Frame Config,UNCV
 cpal,Component Palette,UNCV
 cpat,Component Pattern Definition,UNCV
 clev,Component Reference Level,UNCV
-spl,Polarization Pattern Definition,UNCV
+splz,Polarization Pattern Definition,UNCV
 snuc,Sensor Non Uniformity Correction,UNCV
 sbpm,Sensor Bad Pixels Map,UNCV
 cloc,Chroma Location,UNCV
