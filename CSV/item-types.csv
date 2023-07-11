@@ -14,3 +14,4 @@ jxs1,Images coded to the JPEG-XS coding format,JPXS
 lhv1,Layered HEVC image item,HEIF
 mint,Data integrity item,HEIF
 mime,Item identified by a MIME type,ISO
+unci,Uncompressed Image Item,UNCV

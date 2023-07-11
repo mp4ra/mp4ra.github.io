@@ -211,6 +211,12 @@ var app = new Vue({
         url: 'CSV/track-selection.csv',
         category: 'track selection',
         name: 'Track selection'
+      },
+      uncv_profiles_types: {
+        db: null,
+        url: 'CSV/uncv-profiles.csv',
+        category: 'UNCV profiles',
+        name: 'Profiles for Uncompressed Video'
       }
     }
   },
@@ -273,6 +279,7 @@ var app = new Vue({
         self.loadData('track_references_qt');
         self.loadData('track_selection');
         self.loadData('checksum_types');
+        self.loadData('uncv_profiles_types');
         $.get(self.mp4ra.handlers.url, function(response) {
           self.mp4ra.handlers.db = Papa.parse(response, { header: true }).data;
           self.mp4ra.handlers.db.forEach( function(item) {
