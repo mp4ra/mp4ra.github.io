@@ -32,8 +32,11 @@ jobs:
       run: |
         import csv, json, glob
 
+        ignore = ['specifications', 'unlisted', 'knownduplicates']
         all = []
         for file in glob.glob('CSV/*.csv'):
+            if any([i in file for i in ignore]):
+                continue
             with open(file, 'r') as f:
                 all.extend(csv.DictReader(f))
         with open("dist/all.json", 'w') as f:
