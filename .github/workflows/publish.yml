@@ -22,11 +22,6 @@ jobs:
     - run: npm install
     - run: NODE_ENV=production browserify -t brfs src/app.js -o dist/js/bundle.js
 
-    - name: Move index.html
-      run: |
-        mv index.html dist/index.html
-        sed -i 's/dist//g' dist/index.html
-
     - name: Combine CSVs
       shell: python
       run: |
@@ -39,7 +34,7 @@ jobs:
                 continue
             with open(file, 'r') as f:
                 boxes.extend(csv.DictReader(f))
-        with open("dist/boxes.json", 'w') as f:
+        with open("boxes.json", 'w') as f:
             json.dump(boxes, f)
 
     - name: Deploy to GitHub Pages
@@ -47,7 +42,7 @@ jobs:
       if: ${{ github.repository == 'mp4ra/mp4ra.github.io' }} 
       uses: JamesIves/github-pages-deploy-action@4.1.4
       with:
-        folder: dist
+        folder: .
         branch: master  # deploying branch
         git-config-name: 'github-actions[bot]'
         git-config-email: 'github-actions[bot]@users.noreply.github.com'
