@@ -1,5 +1,5 @@
 code,description,specification
-1pic,Single picture,HEIF
+1pic,Single intra-coded picture,HEIF
 3g2a,3GPP2,3GPP2
 3ge6,3GPP Release 6 extended-presentation Profile,3GPP
 3ge7,3GPP Release 7 extended-presentation Profile,3GPP

@@ -3,7 +3,7 @@ code,description,specification
 2dss,spatial relationship 2D source,OMAF
 ainf,"Asset information to identify, license and play",DECE
 assp,alternative startup sequence properties,ISO
-auxi,Auxiliary type,HEIF
+auxi,Auxiliary track type information,HEIF
 avcn,AVC NAL Unit Storage Box,DECE
 bidx,Box Index,ISO-Partial
 bloc,Base location and purchase location for license acquisition,DECE
