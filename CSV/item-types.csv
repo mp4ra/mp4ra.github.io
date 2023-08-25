@@ -3,6 +3,7 @@ auvd,Auxiliary Video descriptor,ISO
 av01,AVIF image item,AVIF
 avc1,AVC image item,HEIF
 Exif,EXIF item,HEIF
+evc1,EVC image item,HEIF
 grid,Image item grid derivation,HEIF
 hvc1,HEVC image item,HEIF
 hvt1,HEVC tile image item,HEIF
@@ -14,3 +15,6 @@ jxs1,Images coded to the JPEG-XS coding format,JPXS
 lhv1,Layered HEVC image item,HEIF
 mint,Data integrity item,HEIF
 mime,Item identified by a MIME type,ISO
+mski,Mask item,HEIF
+rgan,Region item,HEIF
+vvc1,VVC image item,HEIF
