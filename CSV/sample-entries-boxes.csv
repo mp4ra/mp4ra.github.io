@@ -67,6 +67,7 @@ ueqi,Equalization instructions,Audio,DRC
 uriI,URI Information,Metadata,ISO
 v3cC,V3C Configuration,Volumetric visual media,V3C-SYS
 v3tC,V3C Atlas Tile Configuration,Volumetric visual media,V3C-SYS
+vexu,Video Extended Usage,Video,Apple
 vpcC,VP9 Codec Configuration,Video,VPxx
 vsib,View scalability information,Video,NALu Video
 vttC,WebVTTConfigurationBox,Text,ISO-Text
