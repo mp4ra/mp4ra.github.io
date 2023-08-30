@@ -1,0 +1,43 @@
+name: Create Draft PR from Registration
+
+on:
+  issues:
+    types: [opened]
+
+permissions:
+  pull-requests: write
+  contents: write
+
+jobs:
+  registration-pr:
+    runs-on: ubuntu-latest
+    if: contains(github.event.issue.labels.*.name, 'registration')
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+        with:
+          ssh-key: ${{ secrets.SSH_PRIVATE_KEY }}
+
+      - uses: stefanbuck/github-issue-parser@v3
+        id: issue-parser
+        with:
+          template-path: .github/ISSUE_TEMPLATE/new-codepoint-iso.yml
+      - run: echo '${{ steps.issue-parser.outputs.jsonString }}' > /tmp/issue.json
+
+      - name: Add Entry to CSV
+        run: python .github/scripts/issue-pr.py ${{ contains(github.event.issue.labels.*.name, 'QuickTime') }}
+
+      - name: Create Draft PR
+        uses: peter-evans/create-pull-request@v3
+        with:
+          title: Add `${{ steps.issue-parser.outputs.issueparser_fourcc }}` to ${{ steps.issue-parser.outputs.issueparser_kind }}
+          commit-message: Add `${{ steps.issue-parser.outputs.issueparser_fourcc }}` to ${{ steps.issue-parser.outputs.issueparser_kind }}
+          body: |
+            This PR adds `${{ steps.issue-parser.outputs.issueparser_fourcc }}` to the ${{ steps.issue-parser.outputs.issueparser_kind }} registry.
+
+            fixes #${{ github.event.issue.number }}
+          branch: codepoint-request
+          branch-suffix: timestamp
+          delete-branch: true
+          draft: true
+          assignees: podborski

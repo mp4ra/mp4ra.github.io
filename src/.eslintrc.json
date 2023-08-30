@@ -1,0 +1,59 @@
+{
+    "env": {
+        "browser": true,
+        "es2021": true
+    },
+    "plugins": ["react", "prettier", "tailwindcss"],
+    "extends": [
+        "eslint:recommended",
+        "plugin:react/recommended",
+        "airbnb",
+        "next",
+        "plugin:prettier/recommended",
+        "plugin:tailwindcss/recommended",
+        "prettier"
+    ],
+    "rules": {
+        // Prettier
+        "prettier/prettier": "error",
+        "no-console": [
+            "error",
+            {
+                "allow": ["warn", "error"]
+            }
+        ],
+        "no-use-before-define": "off",
+        // react
+        "react/react-in-jsx-scope": "off", // React 17 does not require this anymore
+        "react/require-default-props": "off",
+        "react/jsx-sort-props": "error",
+        "react/sort-default-props": "error",
+        "react/jsx-filename-extension": [
+            "error",
+            {
+                "extensions": [".tsx"]
+            }
+        ],
+        // TailwindCSS
+        "tailwindcss/no-custom-classname": [
+            "error",
+            {
+                "whitelist": ["markdown-body"]
+            }
+        ],
+        // Import
+        "import/extensions": "off",
+        "import/no-cycle": [
+            "error",
+            {
+                "maxDepth": 1
+            }
+        ],
+        "import/no-extraneous-dependencies": [
+            "error",
+            {
+                "devDependencies": true
+            }
+        ]
+    }
+}

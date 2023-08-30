@@ -6,20 +6,17 @@ This site contains the master copy of the official MP4RA.
 Registration requests are formally sent to the email address documented on the site. These can be supported by a Pull Request here, which can reduce the possibility of error or confusion on the part of the maintainers.
 The simplest way to submit a pull request is probably as follows:
 
-* Fork the repository into your own area at GitHub
-* Go to that fork, and edit the GitHub.io link from mp4ra.github.io/mp4ra to change the first mp4ra to your area name
-* In your fork, make changes to the appropriate CSV files; start first by making sure that you have your specifications in specifications.csv, and then add/fix the code points in other tables (e.g. sample-entries for codec sample entry types). In those other tables, the visible specification name is used for cross-reference; the linkname you enter in  specifications.csv will be retrieved and used to make HTML fragment URLs to refer to that entry.
-* Preview that in your fork
-* When it is right, submit a Pull Request, supported by a formal email, to the Mp4RA.
+- Fork the repository into your own area at GitHub
+- Go to that fork, and edit the GitHub.io link from mp4ra.github.io/mp4ra to change the first mp4ra to your area name
+- In your fork, make changes to the appropriate CSV files; start first by making sure that you have your specifications in specifications.csv, and then add/fix the code points in other tables (e.g. sample-entries for codec sample entry types). In those other tables, the visible specification name is used for cross-reference; the linkname you enter in specifications.csv will be retrieved and used to make HTML fragment URLs to refer to that entry.
+- Preview that in your fork
+- When it is right, submit a Pull Request, supported by a formal email, to the MP4RA.
 
 ## Branches
 
-* `dev` branch (configured as default branch)
-  * All the commits to modify the registry or the website must be pushed the dev branch.
-  * Every pull request and commit in this branch triggers the compilation of the website using [GitHub Actions](https://github.com/mp4ra/mp4ra.github.io/actions).
-* ``master`` branch
-  * The compiled website is pushed by the GitHub Actions workflow to this branch
-  * The Github Pages feature picks up the changes made to the master branch and republishes the website few seconds after a new commit in this branch
+- `main` branch (configured as default branch)
+  - All the commits to modify the registry or the website must be pushed the main branch.
+  - Every pull request and commit in this branch triggers the compilation of the website using [GitHub Actions](https://github.com/mp4ra/mp4ra.github.io/actions).
 
 ## Development
 
@@ -29,8 +26,8 @@ need to be concerned about this section.
 
 ### Install dependencies
 
-The dependencies of the project are tracked in `package.json`. To install them,
-run the following command.
+The dependencies of the project are tracked in `src/package.json`. To install them,
+run the following command in `src` directory.
 
 ```shell
 npm install
@@ -38,39 +35,27 @@ npm install
 
 ### Building
 
-[Browserify](https://router.vuejs.org/) bundles the complete frontend
-JavaScript, including dependencies, into one target file. The following
-command performs this operation.
+The website is built with [Next.js](https://nextjs.org/) framework. To build the website, run the following command in `src` directory.
 
 ```shell
-browserify -t brfs src/app.js -o dist/js/bundle.js
+npm run build
 ```
 
 ### Application design
 
-The application logic is built using [Vuejs](https://vuejs.org/) framework.
-The data element of the application contains two main properties: `db` and `urls`.
-The URLs of the CSV files are contained in the `urls` property while the data
-from these CSV are loaded in the `db` property.
-
-The navigation on the website follows the [single-page application](https://en.wikipedia.org/wiki/Single-page_application) approach. That is, the web browser loads
-the entire HTML and the [router-vue](https://router.vuejs.org/) component
-updates the DOM when the user nagivates via the menu.
+The website is built with [Next.js](https://nextjs.org/) framework. The framework allows to create a mostly static website. The pages are generated at build time and served statically. All of the pages are created in [MDX](https://mdxjs.com) which is a combination of Markdown and JSX. The pages are located in `src/app` of the project.
 
 ### Adding content
 
 #### A page
 
-The pages are located in `src/pages` of the project. Each of the page has
-a JavaScript file and a Vue template, e.g. `my_page.js` and `my_page.vue`.
+It is strongly advised that you skim through the [Next.js documentation](https://nextjs.org/docs/app/building-your-application/routing) before adding content.
 
-The JavaScript file contains the Vuejs component defining the page. Similarly,
-the Vue template contains the HTML data associated to this page.
+There are two ways to add a page to the website:
 
-The main application defined in `src/app.js` loads the pages via their
-respective JavaScript files and then injects them in the Vue router as
-Vue components with an associated `path`, i.e. the relative URL of the given
-page.
+- Create a new MDX file in `src/app` directory. The file directory will be used as the URL of the page. For example, `src/app/my-page/page.mdx` will be available at `https://mp4ra.org/my-page`.
+  > **Note:** The file name must be `page.mdx` for the page to be generated.
+- Add the appropriate entry in `src/app/(rest)/registered-types/[type]/page.tsx`. This is a dynamic route that generates a page for every entry in `MISC_TYPES`. This is useful if you do not want to add additional content to the page except for the title and table.
 
 ## 4CC_Automation/
 

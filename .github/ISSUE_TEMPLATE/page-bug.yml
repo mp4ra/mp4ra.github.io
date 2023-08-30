@@ -1,0 +1,31 @@
+name: 🌎 Website Bug
+description: Use this template if something is wrong with the website. This may include visual bugs, typos, broken links, etc.
+title: "[Website] "
+labels: ["website"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for reporting a bug in the website.
+        Please fill out the following template to help us reproduce the issue.
+        If you can attach a video or screenshot, that would be great!
+
+  - type: textarea
+    id: summary
+    attributes:
+      label: Summary
+      description: Provide a description of the problem. What is wrong on the website?
+      placeholder: "The search bar is not working"
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps-to-reproduce
+    attributes:
+      label: Steps to reproduce
+      description: What steps do we need to follow to see the problem with our own eyes?
+      placeholder: |
+        1. Open the website
+        2. Click on the link to the specification
+    validations:
+      required: true

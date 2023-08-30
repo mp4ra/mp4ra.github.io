@@ -1,0 +1,33 @@
+{
+  "Track References": {
+    "iso": "track-references",
+    "qt": "track-references-qt"
+  },
+  "Object Types": "oti",
+  "Stream Types": "stream-types",
+  "Handlers": "handlers",
+  "Sample Entry Types": {
+    "iso": "sample-entries",
+    "qt": "sample-entries-qt"
+  },
+  "Metadata Item Types": "item-types",
+  "Metadata Item Properties": "item-properties",
+  "Sample Entry Boxes": "sample-entries-boxes",
+  "Checksum Types": "checksum-types",
+  "Brands": "brands",
+  "Boxes": {
+    "iso": "boxes",
+    "qt": "boxes-qt"
+  },
+  "User Data Boxes": "boxes-udta",
+  "Data References": "data-references",
+  "Item References": "item-references",
+  "Item Properties": "item-properties",
+  "Multiview Attributes": "multiview-attributes",
+  "Protection and Restricted Schemes": "schemes",
+  "Sample Groups": "sample-groups",
+  "Track Selection Types": "track-selection",
+  "Track Group Types": "track-groups",
+  "Entity Group Types": "entity-groups",
+  "Color Types": "color-types"
+}
