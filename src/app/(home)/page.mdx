@@ -1,0 +1,44 @@
+export const metadata = {
+    title: "The 'MP4' Registiration Authority",
+    description:
+        "The 'MP4' Registration Authority for code-points in ISO base media file format family files"
+};
+
+## What it is for
+
+This site is the registration authority for code-points in "MP4 Family" files. Within the documentation on this site are code-points from specifications both using and related to the ISO specifications for which this is the formal registry. Some MPEG systems code-points are here, including MPEG-4 ObjectType and StreamType. This site also acts as the registration database for QuickTime files; you will find the information for the standards family and QuickTime here. However, the data is separated to reflect the fact that the standards registration is distinct from the QuickTime registration. (In addition, the QuickTime data is not yet complete.) QuickTime code-points are documented here as this will be the QuickTime registration database, so that undesirable 'collisions' can be avoided, and to provide suggestions for code-points and practice when they are needed.
+
+## You can use it to
+
+-   find information about the [existing specifications](/references) in this family.
+-   find the code points that have already been [registered](/registered-types/boxes).
+-   [request](/request) to register a code point.
+-   find information about [reference software](#reference-software) for the file format.
+
+## About
+
+This site is run on behalf of the International Organization for Standardization, [ISO](//www.iso.org/), and supports in particular the working groups WG11 ([MPEG](//mpeg.chiariglione.org/)) and WG01 ([JPEG](//www.jpeg.org/)). However, a number of other organizations have specifications in the family.
+
+## What is registered
+
+The registered code-points include four-character codes (4CCs) used in various ways within these file formats, and ObjectTypeIndication values used in MPEG-4 systems. The four-character codes are divided into various categories, for convenience. The largest category is the box (atom) types. The only box (atom) types which are not normally registered are boxes that are within the sample entry (sample description) for, and specific to, a codec or family of codecs, or that are used in a specific coding system (e.g. boxes used in a specific hint track).
+
+## Before requesting the registration of a code-point
+
+Please consider these questions:
+
+1.  Look at the existing specifications and practice; can your need be met with an existing definition (possibly from another organization)?
+2.  Can you use an existing extension mechanism (e.g. a UUID box)?
+3.  Is what you are defining stable, defined in such a way as to have longevity, and flexible enough to be a good general-purpose, public, design?
+
+## Reference software
+
+_Reference software_ for the file format may be found hosted at [Github](//github.com/MPEGGroup/isobmff) also.
+
+## Contact
+
+Please see the [registration](/request) section of the site for information on how to contact the registration authority. If you see errors or problems with the site, you may also file Github [issues](//github.com/mp4ra/mp4ra/issues).
+
+There is no cost for using this service. Apple Inc. operates this for the benefit of the standards community. Please use the email contact information in the [registration](/request) section for any questions you have.
+
+The subject of the email _must_ include the word "mp4reg" somewhere. **Messages without "mp4reg" in their subject may be discarded as spam and never seen or acted on by a human.**

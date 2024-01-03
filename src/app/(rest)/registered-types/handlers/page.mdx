@@ -1,0 +1,11 @@
+import { DataDisplay } from "@/components";
+
+export const metadata = {
+    title: "Handlers"
+};
+
+# Handlers
+
+<DataDisplay csv="handlers" />
+
+1. There only exists a defined set of handler code-points in MP4 file format allowing declaration of most known MPEG-4 Systems streams. However there is no provision for private MPEG-4 streams, which may be used by the file creator. This will likely push the file creator into using one of the defined handler types, which is wrong and may corrupt processing by some file readers. This is a generic handler type to indicate that the media is an MPEG-4 systems stream, without further details on the stream type itself. The associated sample descriptions must still remain the same, i.e. "mp4s" as used with all MPEG-4 systems streams.
