@@ -5,7 +5,7 @@ import createMDX from "@next/mdx";
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-    basePath: "/mp4ra.github.io", // FIXME: This is a hack to make the site work on GitHub Pages
+    basePath: "/",
     output: "export",
     pageExtensions: ["ts", "tsx", "mdx"],
     env: {
