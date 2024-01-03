@@ -42,6 +42,10 @@ export const MISC_TYPES = [
     {
         title: "Color Types",
         type: "color-types"
+    },
+    {
+        title: "UNCV Profiles",
+        type: "uncv-profiles"
     }
 ];
 
