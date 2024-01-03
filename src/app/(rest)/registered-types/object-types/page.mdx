@@ -1,0 +1,36 @@
+import { DataDisplay } from "@/components";
+
+export const metadata = {
+    title: "Object Types"
+};
+
+# Object Types
+
+This section documents the ObjectTypeIndication used in MPEG-4 systems to indicate the type of streams. Applications for a new codec type will also automatically receive an object type indication.
+
+This table also occurs in ISO/IEC 14496-1 (various versions), the MPEG-4 systems specification. The intent is that the table maintained by this registration authority is the most up-to-date and definitive version.
+
+There is also an informative table of the current [StreamType](#stream-types) allocations.
+
+The values in both these tables are notated here in _hexadecimal_.
+
+<DataDisplay csv="oti" />
+
+1.  This type is used for all 14496-1 streams unless specifically indicated to the contrary. Scene Description scenes, which are identified with StreamType=03 (see Table 9), using this object type value shall use the BIFSConfig specified in section 9.3.5.2.2 of this specification.
+2.  Used, with StreamType=03 (see Table 9), for Scene Description streams that use the BIFSv2Config. Its use with other StreamTypes is reserved.
+3.  Includes associated Amendment(s) and Corrigendum(a). The actual object types are defined in ISO/IEC 14496-2 and are conveyed in the DecoderSpecificInfo as specified in ISO/IEC 14496-2, Annex K.
+4.  Includes associated Amendment(s) and Corrigendum(a). The actual object types are defined in ISO/IEC 14496-3 and are conveyed in the DecoderSpecificInfo as specified in ISO/IEC 14496-3 subpart 1 subclause 6.2.1.
+5.  Streams with this value with a StreamType indicating a systems stream (values 1,2,3, 6, 7, 8, 9) shall be treated as if the ObjectTypeIndication had been set to 01.
+6.  For PNG Streams, the following configuration/rules apply:
+    -   StreamType: 04 (visual)
+    -   No decoder specific info needed
+    -   The PNG stream shall consist in only one (1) AccessUnit
+    -   The PNG stream access unit shall contain the complete PNG image/file
+    -   MNG shall not be used inside PNG streams
+7.  Includes associated Amendment(s) and Corrigendum(a). The actual object types are defined in ITU-T Recommendation H.264 | ISO/IEC 14496-10 and are conveyed in the DecoderSpecificInfo.
+8.  Used, with StreamType=03, for Scene Description streams that use the BIFSConfigEx; its use with other StreamTypes is reserved. (Was previously reserved for MUCommandStream but not used for that purpose.)
+9.  Used, with StreamType=03, for Scene Description streams that use the AFXConfig; its use with other StreamTypes is reserved.
+
+## Stream Types
+
+<DataDisplay csv="stream-types" />

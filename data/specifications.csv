@@ -1,0 +1,112 @@
+specification,description
+3GPP,"<a href='http://www.3gpp.org/' target='_blank'>3GPP</a> 26.234 Transparent end-to-end packet switched streaming service (PSS); Protocols and codecs, Annex D;<br><a href='http://www.3gpp.org/' target='_blank'>3GPP</a> 26.244 Transparent end-to-end packet switched streaming service (PSS); 3GPP file format (3GP)"
+3GPP-DASH,"<a href='http://www.3gpp.org/' target='_blank'>3GPP</a> 26.247 Progressive Download and Dynamic Adaptive Streaming over HTTP"
+3GPP-VR,"<a href='http://www.3gpp.org/' target='_blank'>3GPP</a> 26.118 3GPP Virtual reality profiles for streaming applications"
+3GPP-TVP,"<a href='http://www.3gpp.org/' target='_blank'>3GPP</a> 26.116 Television (TV) over 3GPP services; Video profiles"
+3GPP2,"<a href='http://www.3gpp2.org/' target='_blank'>3GPP2</a> C.S0050-A, File Formats for Multimedia Services"
+ARRI,<a href='http://www.arri.com/'>The ARRI Group</a>
+AV1-ISOBMFF,<a href='https://aomediacodec.github.io/av1-isobmff/'>AV1-ISOBMFF</a>
+AVIF,<a href='https://aomediacodec.github.io/av1-avif/'>AVIF</a>
+Avid,<a href='http://www.avid.com/'>Avid</a>
+Apple,<a href='http://www.apple.com/'>Apple</a> Inc.
+ATSC 3.0,<a href='https://www.atsc.org/standards/atsc-3-0-standards/'>ATSC 3.0</a> A337 Application Signaling
+Auro,<a href='http://www.auro-3d.com/'>Auro Technologies</a>
+Avs2,<a href='http://www.gb688.cn/bzgk/gb/newGbInfo?hcno=3AB9CF558421E866CAB2B3115498E7C0'>AVS 2 Specification</a>
+Avs3,<a href='http://www.avs.org.cn/AVS3_download/index.asp'>AVS 3 Specification</a>
+BitJazz,<a href='http://www.bitjazz.com/'>BitJazz</a>
+Blinkbox,<a href='http://www.blinkbox.com/'>Blinkbox</a>
+CamMotion,"<a href='https://developers.google.com/streetview/publish/camm-spec' target='_blank'>Camera Motion Metadata Track, Google Inc.</a>, embed various metadata about camera motion including orientation, gyroscope reading, accelerometer reading, positions, etc."
+Canon,<a href='http://www.canon.com/'>Canon</a>
+Casio,<a href='http://world.casio.com/'>Casio</a>
+CineForm,<a href='http://www.cineform.com/'>Cineform</a>
+Convergent,<a href='http://www.convergent-design.com/'>Convergent Design</a>
+CMAF,<a href='http://www.iso.ch/' target='_blank'>ISO</a>/IEC 23000-19: Common Media Application Format
+CMAF-ID3,<a href='https://aomediacodec.github.io/id3-emsg/' target='_blank'>Carriage of ID3 Timed Metadata in the Common Media Application Format (CMAF)</a>
+DASH,<a href='http://www.iso.ch/' target='_blank'>ISO</a>/IEC 23009-1: Dynamic Adaptive Streaming over HTTP
+DASH-IF watermarking,<a href='https://dashif.org/guidelines/others/' target='_blank'>DASH-IF Forensic A/B Watermarking</a>: An interoperable watermarking integration schema
+DxO,<a href='http://www.dxo.com/'>DxO</a>
+ISO Common Encryption,<a href='http://www.iso.ch/' target='_blank'>ISO</a>/IEC 23001-7: Common encryption format for ISO base media file format
+DECE,Digital Entertainment Content Ecosystem (<a href='http://uvcentral.com/'>DECE</a>) <a href='http://uvcentral.com/'>Common File Format &amp; Media Formats Specification</a>
+DMB-MAF,"<a href='http://www.iso.ch/' target='_blank'>ISO</a>/IEC 23000-9 Information technology - Multimedia application format (MPEG-A) - Part 9: Digital Multimedia Broadcasting application format "
+Dolby,<a href='http://www.dolby.com/'>Dolby</a>
+Dolby Vision,<a href='https://professionalsupport.dolby.com/s/article/How-to-signal-Dolby-Vision-in-ISOBMFF-format-AKA-mp4-container?language=en_US'>Dolby Vision</a>
+DRA,"Specification for multichannel digital audio coding technology, SJ/T 11368-2006 (Electronics Industrial Standardization of the People's Republic of China)"
+DTS,<a href='http://dts.com/get-licensed'>DTS</a>
+DTS-HD,<a href='http://www.etsi.org/'>ETSI</a> TS 102 114 Coherent Acoustics; Core and Extensions with Additional Profiles (Annex E)
+DTS-UHD,"<a href='http://www.etsi.org/'>ETSI</a> TS 103 491 DTS-UHD Audio Format; Delivery of Channels, Objects and Ambisonic Sound Fields"
+DVB,DVB <a href='http://www.dvb.org/technology/standards/a121.tm3904r3.ff0020r12.DVB_File_Format_Specification.pdf'>Blue Book A121</a>
+Digital Voodoo,<a href='http://www.digitalvoodoo.net/'>Digital Voodoo</a>
+Dirac,<a href='http://www.diracvideo.org/download/mapping-specs/dirac-mapping-isom-latest.pdf'>Encapsulation</a> of <a href='http://www.bbc.co.uk/rd/projects/dirac/index.shtml'>Dirac</a> in ISO/IEC 14496-12 derivatives
+Dolby MLP,"MLP (<a href='https://www.dolby.com/us/en/professional/licensing/apply-license-consumer.aspx'>Dolby</a> TrueHD) streams within the ISO Base Media File Format, version 1.0, September 2009"
+DRC,"<a href='http://www.iso.ch/' target='_blank'>ISO</a>/IEC 23003-4, Dynamic Range Control"
+ETSI AC-3,"<a href='http://www.etsi.org/'>ETSI</a> TS 102 366 v1.4.1 - Digital Audio Compression (AC-3, Enhanced AC-3) Standard, Annex F"
+ETSI AC-4,"<a href='http://www.etsi.org/'>ETSI</a> TS 103 190 v1.2.1 - Digital Audio Compression (AC-4) Standard, Annex E and TS 103 190-2 v1.1.1 - Digital Audio Compression (AC-4) Standard Part 2: Immersive and personalized audio, Annex E"
+ETSI E-AC-3+JOC,"<a href='http://www.etsi.org/'>ETSI</a> TS 103 420 v1.1.1 - Backwards-compatible object audio carriage using Enhanced AC-3"
+FLAC,"<a href='https://xiph.org/flac/'>FLAC</a> Free Lossless Audio Codec. Encapsulation of FLAC in ISO Base Media File Format"
+GB-T-20090-9,<a href='http://www.avs.org.cn/AVS2_download/index.asp'>GB/T 20090.9</a>-2006 Information technology - Advanced coding of audio and video - Part 9: AVS file format
+FF Video Codec,"<a href='https://datatracker.ietf.org/doc/draft-ietf-cellar-ffv1/' target='_blank'>IETF FFV1</a> Video Coding Format Version 0, 1, and 3"
+HEIF,"<a href='http://www.iso.ch/' target='_blank'>ISO</a>/IEC 23008-12:2022, Image File Format."
+Hipix,Rich Picture Format from <a href='http://www.hipixpro.com/pdf/What_is_hipix_OCT_2010.pdf'>Human Monitoring</a>
+IEC 62592,"<a href='https://webstore.iec.ch/publication/7232'>IEC</a> TS 62592, Encoding guidelines for portable multimedia CE products using MP4 file format with AVC video codec and AAC audio codec"
+IFE,"<a href='https://connect.apex.aero/resources/techspecifications'>APEX</a> Specification 0415 Media and Device IFE Ecosystem Specificaton"
+ISMAc,<a href='http://www.isma.tv/' target='_blank'>ISMA</a> 1.0 Encryption and Authentication
+ISMACryp2,<a href='http://www.isma.tv/' target='_blank'>ISMA</a> 2.0 Encryption and Authentication
+ISO,"<a href='http://www.iso.ch/' target='_blank'>ISO</a>/IEC 14496-12:2004 &amp; 15444-12:2004, ISO base media file format. Available as a <a href='http://standards.iso.org/ittf/PubliclyAvailableStandards/index.html'>publicly available standard</a> from ISO."
+ISO-Partial,"<a href='http://www.iso.ch/' target='_blank'>ISO</a>/IEC 23001-14:2019, Partial File Format"
+ISO-Text,"<a href='http://www.iso.ch/' target='_blank'>ISO</a>/IEC 14496-30, Timed text and other visual overlays in ISO base media file format."
+ISO Variants,"<a href='http://www.iso.ch/' target='_blank'>ISO</a>/IEC 23001-12, Sample Variants."
+ITU G.719,"<a href='http://www.itu.int/ITU-T/'>ITU-T</a> Recommendation G.719 (2008) Amendment 1 (2008): 'New Annex A on storage format definitions for G.719, and new Annex B on a reference floating-point implementation for G.719'"
+iTunes,General documentation can be found on Apple's <a href='http://developer.apple.com/quicktime/'>developer</a> site
+J2KHEIF,"<a href='https://www.iso.org/standard/80620.html'>ISO/IEC 15444-16, Information technology -- JPEG 2000 image coding system -- Part 16: Encapsulation of JPEG 2000 Images into ISO/IEC 23008-12</a>"
+JPEG2000,"<a href='http://www.iso.ch/' target='_blank'>ISO</a>/IEC 15444-1, The JPEG 2000 Image Coding System: Core coding system"
+JPX,"<a href='http://www.iso.ch/' target='_blank'>ISO</a>/IEC 15444-2, The JPEG 2000 Image Coding System: Extensions"
+JPXR,"<a href='http://www.iso.ch/' target='_blank'>ISO</a>/IEC 29199-2, JPEG XR image coding system: Image coding specification"
+JPXS,"<a href='http://www.iso.ch/' target='_blank'>ISO</a>/IEC ISO/IEC 21122-3 JPEG XS low-latency lightweight image coding system -- Part 3: Transport and container formats"
+JPM,"<a href='http://www.iso.ch/' target='_blank'>ISO</a>/IEC 15444-6, The JPEG 2000 Image Coding System: Compound image file format"
+JPSearch,"<a href='http://www.iso.ch/' target='_blank'>ISO</a>/IEC 24800-5, JPSearch - Data interchange format between image repositories"
+JPEG XL,"<a href='https://www.iso.org/standard/80617.html'>ISO/IEC 18181-2, Information technology — JPEG XL Image Coding System — Part 2: File format</a>"
+JPEG Systems,"<a href='https://jpeg.org/jpegsystems/'>ISO/IEC 19566, Information technologies — JPEG Systems</a>"
+Leica,<a href='http://en.leica-camera.com/home/'>Leica</a> Camera AG
+Metrics,"<a href='http://www.iso.ch/' target='_blank'>ISO</a>/IEC 23001-10, Carriage of timed metadata metrics of media in ISO base media file format"
+MIAF,"<a href='http://www.iso.ch/' target='_blank'>ISO</a>/IEC 23000-22:2019, Multi-Image Application Format."
+MJ2,"<a href='http://www.iso.ch/' target='_blank'>ISO</a>/IEC 15444-3:2003, Motion JPEG 2000"
+MP4v1,"<a href='http://www.iso.ch/' target='_blank'>ISO</a>/IEC 14496-1, Information technology – Coding of audio-visual objects – Part 1: Systems, (Various versions to 2001), Chapter 13, The MP4 File Format"
+MP4v2,"<a href='http://www.iso.ch/' target='_blank'>ISO</a>/IEC 14496-14, The MP4 File Format"
+MPEG-4,"<a href='http://www.iso.ch/' target='_blank'>ISO</a>/IEC 14496-1, Information technology – Coding of audio-visual objects – Part 1: Systems"
+MPEG-21,"<a href='http://www.iso.ch/' target='_blank'>ISO</a>/IEC 21000-9, Information technology – MPEG-21 File Format"
+MPEG-H,"<a href='http://www.iso.ch/' target='_blank'>ISO</a>/IEC 23008-3, Information technology – High efficiency coding and media delivery in heterogeneous environments – Part 3: 3D audio"
+MPEG-VSAF,"<a href='http://www.iso.ch/' target='_blank'>ISO</a>/IEC 23000-10 Video surveillance application format"
+MMT,<a href='http://www.iso.ch/' target='_blank'>ISO</a>/IEC 23008-1 MPEG Media Transport
+Matrox,<a href='http://www.matrox.com/'>Matrox</a>
+NALu Video,"<a href='http://www.iso.ch/' target='_blank'>ISO</a>/IEC 14496-15, Carriage of NAL unit structured video in the ISO Base Media File Format"
+Nikon,<a href='http://www.nikon.com/'>Nikon</a>
+OMA DRM 2.0,"OMA DRM; <a href='http://www.openmobilealliance.org/'>Open Mobile Alliance </a>Digital Rights Management, DRM Content Format 2.0 (OMA-TS-DRM_DCF-V2_0_1-20080226-A)"
+OMA DRM 2.1,"OMA DRM; <a href='http://www.openmobilealliance.org/'>Open Mobile Alliance </a>Digital Rights Management, DRM Content Format 2.1 (OMA-TS-DRM-DCF-V2_1-20070724-C)"
+OMA DRM XBS,"OMA DRM; <a href='http://www.openmobilealliance.org/'>Open Mobile Alliance </a>Digital Rights Management, DRM  Extensions for Broadcast Support (OMA-TS-DRM_XBS-V1_0-20070529-C)"
+OMAF,<a href='http://www.iso.ch/' target='_blank'>ISO</a>/IEC 23090-2: Omnidirectional media format
+OMArlin,"The OMArlin Specification, available on request from <a href='http://www.marlin-community.com/join/index.html'>The Marlin Developer Community</a>"
+ONVIF,"<a href='https://www.onvif.org/specs/stream/ONVIF-ExportFileFormat-Spec.pdf' target='_blank'>ONVIF</a>, Export File Format Specification"
+Opus,<a href='https://www.opus-codec.org/docs/opus_in_isobmff.html'>Encapsulation specification</a> and <a href='https://tools.ietf.org/html/rfc6716'>Codec specification</a>
+PIFF,"The <a href='http://go.microsoft.com/?linkid=9682897'>Protected interoperable file format</a>, Microsoft Corp."
+PNG,<a href='http://www.libpng.org'>Portable Network Graphics</a>
+Panasonic,<a href='http://panasonic.net/avc'>Panasonic</a>
+Panasonic Video Intercom,<a href='http://panasonic.net/corporate/segments/psn/'>Panasonic System Networks</a>
+ISO-MAF,<a href='http://www.iso.ch/' target='_blank'>ISO</a>/IEC 23000-3 Information technology - Multimedia application format (MPEG-A) - Part 3: MPEG photo player application format
+QT,"The <a href='http://www.apple.com/quicktime/' target='_blank'>QuickTime</a> File format, Apple Computer Inc."
+RealHD,<a href='http://www.realnetworks.com/realmediahd'>RealMedia™ HD</a>
+Ross,<a href='http://www.rossvideo.com/'>Ross Video</a>
+Samsung,"<a href='http://www.samsung.com/'>Samsung</a> "
+SCTE-215-1-1b,"<a href='https://www.scte.org/download-scteisbe-standards/'>SCTE</a> HEVC Video Constraints for Cable Television Part 1-1 HDR10 Coding"
+SDV,"<a href='http://www.sdcard.org/'>The SD Card Association</a>: SD Memory Card Specifications, Part 8, VIDEO SPECIFICATIONS"
+SL-HDR,"<a href='http://www.etsi.org/'>ETSI</a> TS 103 433 - High-Performance Single Layer High Dynamic Range System"
+SMPTE,"<a href='http://www.smpte.org/'>SMPTE</a> RP2025:2007, VC-1 Bitstream Storage in the ISO Base Media File Format"
+Sony,<a href='http://www.sony.net'>Sony Corporation</a>
+Universal Music Group,Specification is made available only under license; contact <a href='mailto:uits-%20legal@umusic.com'>Universal Music Group</a>.
+V3C-SYS,<a href='http://www.iso.ch/' target='_blank'>ISO</a>/IEC 23090-10: Carriage of Visual Volumetric Video-based Coding Data
+UWA,"UHD World Association <a href='http://www.theuwa.org/'>UWA</a>, China UHD Video Industry Alliance <a href='http://www.cuva.org.cn'>CUVA</a>: CUVA 005.2-2021 - High Dynamic Range Video Technology Part 2-1: Application Guide to System Integration"
+VPxx,<a href='https://www.webmproject.org/vp9/mp4/'>Specification</a> of VPxx codecs in ISO BMFF files
+WhatsApp,<a href='https://www.whatsapp.com/'>WhatsApp Inc.</a>
+Youtube,<a href='mailto:ytb-external@google.com'>Google LLC</a>
+UNCV,"<a href='http://www.iso.ch/' target='_blank'>ISO</a>/IEC 23001-17, Carriage of uncompressed video and images in ISO Base Media File Format"
+id3v2,See below
+Deprecated,Deprecated or unused or no longer specified

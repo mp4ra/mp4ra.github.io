@@ -1,0 +1,158 @@
+name: New QuickTime Codepoint Request
+description: Use this template to request a new codepoint to be registered in MP4RA
+labels: ["registration", "QuickTime"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for your interest in registering a new codepoint in MP4RA. Please fill out the following information to help us process your request.
+
+  - type: markdown
+    attributes:
+      value: |
+        ## Requestor Information
+        Please provide the following information about the organization requesting the codepoint.
+        > This will be included in MP4RA's [website](https://mp4ra.org/) and registry.
+  - type: input
+    id: name
+    attributes:
+      label: Name
+      description: Name of the organization requesting the codepoint
+      placeholder: ACME Inc.
+    validations:
+      required: true
+  - type: input
+    id: requestor-address
+    attributes:
+      label: Address
+      description: Address of the organization requesting the codepoint
+      placeholder: 123 Main St, Anytown, USA
+  - type: input
+    id: url
+    attributes:
+      label: URL
+      description: URL of the organization requesting the codepoint
+      placeholder: https://acme.example.com
+
+  - type: markdown
+    attributes:
+      value: |
+        ## Codepoint Information
+        Please provide the following information about the codepoint you are requesting.
+        > This will be included in MP4RA's [website](https://mp4ra.org/) and registry.
+  - type: dropdown
+    id: kind
+    attributes:
+      label: Kind
+      description: Kind of codepoint being requested (please choose from the set of registered types)
+      options:
+        - Boxes
+        - Checksum Types
+        - Handlers
+        - Track References
+        - Data References
+        - Item Properties
+        - Multiview Attributes
+        - Sample Groups
+        - Track Selection Types
+        - Brands
+        - Sample Entry Types
+        - Sample Entry Boxes
+        - Metadata Item Types
+        - Metadata Item Properties
+        - Object Types
+        - Stream Types
+        - Color Types
+        - Entity Group Types
+        - Item References
+        - Protection and Restricted Schemes
+        - Track Group Types
+        - User Data Boxes
+    validations:
+      required: true
+  - type: input
+    id: fourcc
+    attributes:
+      label: Identifier (four-character code)
+      description: Four-character code for the codepoint being requested
+      placeholder: "QCTM"
+    validations:
+      required: true
+  - type: markdown
+    attributes:
+      value: |
+        > If you request to add multiple codepoints, please separate them with a comma.
+
+        > Object Type registirations do not require a four-character code.
+
+        > Note that four-character codes use four 8-bit printable characters, usually from the first 128 Unicode characters (commonly thought of as plain ASCII), but at most from the first 256 Unicode characters.
+  - type: input
+    id: specification
+    attributes:
+      label: Specification
+      description: The specification in which this code-point is defined, if possible. A copy of the specification would be appreciated, as it enables the authority to understand the registration better. If you are requesting a 'codec' code-point, a reference to the definition of the coding system itself, if separate from the definition of its storage in these files, would also be appreciated.
+      placeholder: "Link to your specification (if available)"
+  - type: markdown
+    attributes:
+      value: |
+        > If your specification is not in a public domain you can still share it with MP4RA by sending an email to mp4reg [at] group.apple.com including a link to this issue.
+  - type: textarea
+    id: abstract
+    attributes:
+      label: Abstract
+      description: A brief 'abstract' of the meaning of the code-point, perhaps ten to twenty words
+    validations:
+      required: true
+
+  - type: markdown
+    attributes:
+      value: |
+        ## Contact Information
+
+        Please provide the following information about the person who should be contacted regarding this request.
+
+        **NOTE: If you are okay with providing your contact information through this GitHub issue please feel free to do so. If you are not okay with your contact information to be shared, please leave it blank and send an email to mp4reg [at] group.apple.com including a link to this issue.**
+  - type: input
+    id: contact
+    attributes:
+      label: Name, Title, Organization
+      description: Name of the person to contact regarding this request
+      placeholder: John Doe, Director of Engineering, ACME Inc.
+    validations:
+      required: true
+  - type: input
+    id: email
+    attributes:
+      label: Email
+      description: Email address of the person to contact regarding this request
+      placeholder: john@apple.com
+  - type: input
+    id: phone
+    attributes:
+      label: Phone
+      description: Phone number of the person to contact regarding this request
+      placeholder: +1 (555) 555-5555
+  - type: input
+    id: contact-address
+    attributes:
+      label: Address
+      description: Address of the person to contact regarding this request
+      placeholder: 123 Main St, Anytown, USA
+
+  - type: markdown
+    attributes:
+      value: |
+        ## Additional Information
+
+        Please provide any additional information that may be helpful in processing this request.
+  - type: input
+    id: date-of-definition
+    attributes:
+      label: Date of Definition
+      description: Date of definition of the code-point, if known
+      placeholder: 08-23-2023
+  - type: textarea
+    id: statement
+    attributes:
+      label: Statement of Intention
+      description: Statement of an intention to apply (implement) the assigned code-point

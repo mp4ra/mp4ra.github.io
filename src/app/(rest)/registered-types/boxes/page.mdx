@@ -1,0 +1,25 @@
+import { DataDisplay } from "@/components";
+
+export const metadata = {
+    title: "Boxes (Atoms)"
+};
+
+# Boxes (Atoms)
+
+This sub-section documents the structural _atom or box types_ for the file formats. All files in this family are structured as a series of boxes (also known as atoms). Each box has a size and a four-character-code type. Boxes may contain other boxes.
+
+User-data types are in a separate table [below](#user-data-codes).
+
+## ISO family codes
+
+See [below](#quicktime-codes) for additional QuickTime codes.
+
+<DataDisplay csv="boxes" />
+
+## User-data Codes
+
+<DataDisplay csv="boxes-udta" />
+
+## QuickTime Codes
+
+<DataDisplay csv="boxes-qt" />

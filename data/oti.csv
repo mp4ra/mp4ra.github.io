@@ -1,0 +1,56 @@
+code,description,specification
+00,Forbidden,
+01,Systems ISO/IEC 14496-1 (1),MPEG-4
+02,Systems ISO/IEC 14496-1 (2),MPEG-4
+03,Interaction Stream,MPEG-4
+04,Extended BIFS (8),MPEG-4
+05,AFX Stream (9),MPEG-4
+06,Font Data Stream,MPEG-4
+07,Synthetised Texture,MPEG-4
+08,Text Stream,MPEG-4
+09,LASeR Stream,MPEG-4
+0A,Simple Aggregation Format (SAF) Stream,MPEG-4
+20,Visual ISO/IEC 14496-2 (3),MPEG-4
+21,Visual ITU-T Recommendation H.264 | ISO/IEC 14496-10 (7),MPEG-4
+22,Parameter Sets for ITU-T Recommendation H.264 | ISO/IEC 14496-10 (7),MPEG-4
+23,Visual ISO/IEC 23008-2 | ITU-T Recommendation H.265,MPEG-4
+40,Audio ISO/IEC 14496-3 (4),MPEG-4
+60,Visual ISO/IEC 13818-2 Simple Profile,MPEG-4
+61,Visual ISO/IEC 13818-2 Main Profile,MPEG-4
+62,Visual ISO/IEC 13818-2 SNR Profile,MPEG-4
+63,Visual ISO/IEC 13818-2 Spatial Profile,MPEG-4
+64,Visual ISO/IEC 13818-2 High Profile,MPEG-4
+65,Visual ISO/IEC 13818-2 422 Profile,MPEG-4
+66,Audio ISO/IEC 13818-7 Main Profile,MPEG-4
+67,Audio ISO/IEC 13818-7 LowComplexity Profile,MPEG-4
+68,Audio ISO/IEC 13818-7 Scaleable Sampling Rate Profile,MPEG-4
+69,Audio ISO/IEC 13818-3,MPEG-4
+6A,Visual ISO/IEC 11172-2,MPEG-4
+6B,Audio ISO/IEC 11172-3,MPEG-4
+6C,Visual ISO/IEC 10918-1,MPEG-4
+6D,Portable Network Graphics (6),PNG
+6E,Visual ISO/IEC 15444-1 (JPEG 2000),MPEG-4
+A0,EVRC Voice,3GPP2
+A1,SMV Voice,3GPP2
+A2,3GPP2 Compact Multimedia Format (CMF),3GPP2
+A3,SMPTE VC-1 Video,SMPTE
+A4,Dirac Video Coder,Dirac
+A5,"withdrawn, unused, do not use (was AC-3)",Deprecated
+A6,"withdrawn, unused, do not use (was Enhanced AC-3)",Deprecated
+A7,DRA Audio,DRA
+A8,ITU G.719 Audio,ITU G.719
+A9,Core Substream,DTS-HD
+AA,Core Substream + Extension Substream,DTS-HD
+AB,Extension Substream containing only XLL,DTS-HD
+AC,Extension Substream containing only LBR,DTS-HD
+AD,Opus audio,Opus
+AE,"withdrawn, unused, do not use (was AC-4)",Deprecated
+AF,Auro-Cx 3D audio,Auro
+B0,RealVideo Codec 11,RealHD
+B1,VP9 Video,VPxx
+B2,DTS-UHD profile 2,DTS-UHD
+B3,DTS-UHD profile 3 or higher,DTS-UHD
+C0 - E0,user private,
+E1,13K Voice,3GPP2
+E2 - FE,user private,
+FF,no object type specified (5),MPEG-4
