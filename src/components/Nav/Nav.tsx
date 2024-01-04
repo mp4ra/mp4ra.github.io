@@ -182,7 +182,7 @@ export default function Nav(props: { meta: Meta }) {
                                 MP4
                             </span>
                             <span className="whitespace-nowrap font-light max-xs:text-sm">
-                                Registiration Authority
+                                Registration Authority
                             </span>
                         </span>
                     </LinkWrapper>
