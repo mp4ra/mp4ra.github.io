@@ -14,7 +14,7 @@ const meta: Meta = {
         "Registered Types": {
             link: "/registered-types"
         },
-        "Request Registiration": {
+        "Request Registration": {
             link: "/request"
         },
         Search: {

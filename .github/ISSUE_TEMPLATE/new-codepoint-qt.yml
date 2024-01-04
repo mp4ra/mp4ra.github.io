@@ -83,7 +83,7 @@ body:
       value: |
         > If you request to add multiple codepoints, please separate them with a comma.
 
-        > Object Type registirations do not require a four-character code.
+        > Object Type registrations do not require a four-character code.
 
         > Note that four-character codes use four 8-bit printable characters, usually from the first 128 Unicode characters (commonly thought of as plain ASCII), but at most from the first 256 Unicode characters.
   - type: input

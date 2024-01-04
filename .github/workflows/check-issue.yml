@@ -21,7 +21,7 @@ jobs:
         with:
           template-path: .github/ISSUE_TEMPLATE/new-codepoint-qt.yml
 
-      - name: Check QT Registiration
+      - name: Check QT Registration
         id: check-qt-registiration
         run: |
           fourcc=${{ steps.issue-parser.outputs.issueparser_fourcc }}
@@ -45,7 +45,7 @@ jobs:
           issue-number: ${{ github.event.issue.number }}
           edit-mode: replace
           body: |
-            This registiration request has invalid codepoint identifier. Please make sure the identifier is 4 characters long and only contains uppercase letters and numbers.
+            This registration request has invalid codepoint identifier. Please make sure the identifier is 4 characters long and only contains uppercase letters and numbers.
             - [ ] Correct identifier provided
 
       - name: Update comment
@@ -55,7 +55,7 @@ jobs:
           comment-id: ${{ steps.fc.outputs.comment-id }}
           issue-number: ${{ github.event.issue.number }}
           body: |
-            This registiration request has invalid codepoint identifier. Please make sure the identifier is 4 characters long and only contains uppercase letters and numbers.
+            This registration request has invalid codepoint identifier. Please make sure the identifier is 4 characters long and only contains uppercase letters and numbers.
             - [x] Correct identifier provided
           edit-mode: replace
           reactions: rocket
@@ -88,4 +88,4 @@ jobs:
           issue-number: ${{ github.event.issue.number }}
           edit-mode: replace
           body: |
-            This registiration request is missing contact information. We understand that you might not want to share your contact information publicly. In that case, please send an email to mp4reg [at] group.apple.com with a link to this issue.
+            This registration request is missing contact information. We understand that you might not want to share your contact information publicly. In that case, please send an email to mp4reg [at] group.apple.com with a link to this issue.
