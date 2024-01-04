@@ -2,7 +2,7 @@ name: Create Draft PR from Registration
 
 on:
   issues:
-    types: [opened]
+    types: [opened, labeled]
 
 permissions:
   pull-requests: write
