@@ -142,7 +142,7 @@ def knownduplicates(filename):
 
 
 # 3. Registered Specification Check
-# Check to make sure all the codes that have Specifications are registered in the specifications.csv file
+# Check to make sure all the codes that have Specifications are registered in the specifications.json file
 def registerspecs(codesInCSV, speclist, specexceptions=[]):
     unregisteredspecs = []
     allspecs = [spec[0] for spec in speclist] + specexceptions
