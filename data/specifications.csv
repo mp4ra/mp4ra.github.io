@@ -46,14 +46,14 @@ ETSI E-AC-3+JOC,"<a href='http://www.etsi.org/'>ETSI</a> TS 103 420 v1.1.1 - Bac
 FLAC,"<a href='https://xiph.org/flac/'>FLAC</a> Free Lossless Audio Codec. Encapsulation of FLAC in ISO Base Media File Format"
 GB-T-20090-9,<a href='http://www.avs.org.cn/AVS2_download/index.asp'>GB/T 20090.9</a>-2006 Information technology - Advanced coding of audio and video - Part 9: AVS file format
 FF Video Codec,"<a href='https://datatracker.ietf.org/doc/draft-ietf-cellar-ffv1/' target='_blank'>IETF FFV1</a> Video Coding Format Version 0, 1, and 3"
-HEIF,"<a href='http://www.iso.ch/' target='_blank'>ISO</a>/IEC 23008-12:2022, Image File Format."
+HEIF,"<a href='http://www.iso.ch/' target='_blank'>ISO</a>/IEC 23008-12, Image File Format."
 Hipix,Rich Picture Format from <a href='http://www.hipixpro.com/pdf/What_is_hipix_OCT_2010.pdf'>Human Monitoring</a>
 IEC 62592,"<a href='https://webstore.iec.ch/publication/7232'>IEC</a> TS 62592, Encoding guidelines for portable multimedia CE products using MP4 file format with AVC video codec and AAC audio codec"
 IFE,"<a href='https://connect.apex.aero/resources/techspecifications'>APEX</a> Specification 0415 Media and Device IFE Ecosystem Specificaton"
 ISMAc,<a href='http://www.isma.tv/' target='_blank'>ISMA</a> 1.0 Encryption and Authentication
 ISMACryp2,<a href='http://www.isma.tv/' target='_blank'>ISMA</a> 2.0 Encryption and Authentication
 ISO,"<a href='http://www.iso.ch/' target='_blank'>ISO</a>/IEC 14496-12 &amp; 15444-12, ISO base media file format."
-ISO-Partial,"<a href='http://www.iso.ch/' target='_blank'>ISO</a>/IEC 23001-14:2019, Partial File Format"
+ISO-Partial,"<a href='http://www.iso.ch/' target='_blank'>ISO</a>/IEC 23001-14, Partial File Format"
 ISO-Text,"<a href='http://www.iso.ch/' target='_blank'>ISO</a>/IEC 14496-30, Timed text and other visual overlays in ISO base media file format."
 ISO-UNCA,"<a href='http://www.iso.ch/' target='_blank'>ISO</a>/IEC 23003-5 Uncompressed audio in MPEG-4 file format."
 ISO Variants,"<a href='http://www.iso.ch/' target='_blank'>ISO</a>/IEC 23001-12, Sample Variants."
@@ -70,8 +70,8 @@ JPEG XL,"<a href='https://www.iso.org/standard/80617.html'>ISO/IEC 18181-2, Info
 JPEG Systems,"<a href='https://jpeg.org/jpegsystems/'>ISO/IEC 19566, Information technologies — JPEG Systems</a>"
 Leica,<a href='http://en.leica-camera.com/home/'>Leica</a> Camera AG
 Metrics,"<a href='http://www.iso.ch/' target='_blank'>ISO</a>/IEC 23001-10, Carriage of timed metadata metrics of media in ISO base media file format"
-MIAF,"<a href='http://www.iso.ch/' target='_blank'>ISO</a>/IEC 23000-22:2019, Multi-Image Application Format."
-MJ2,"<a href='http://www.iso.ch/' target='_blank'>ISO</a>/IEC 15444-3:2003, Motion JPEG 2000"
+MIAF,"<a href='http://www.iso.ch/' target='_blank'>ISO</a>/IEC 23000-22, Multi-Image Application Format."
+MJ2,"<a href='http://www.iso.ch/' target='_blank'>ISO</a>/IEC 15444-3, Motion JPEG 2000"
 MP4v1,"<a href='http://www.iso.ch/' target='_blank'>ISO</a>/IEC 14496-1, Information technology – Coding of audio-visual objects – Part 1: Systems, (Various versions to 2001), Chapter 13, The MP4 File Format"
 MP4v2,"<a href='http://www.iso.ch/' target='_blank'>ISO</a>/IEC 14496-14, The MP4 File Format"
 MPEG-4,"<a href='http://www.iso.ch/' target='_blank'>ISO</a>/IEC 14496-1, Information technology – Coding of audio-visual objects – Part 1: Systems"
