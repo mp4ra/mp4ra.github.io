@@ -1,11 +1,21 @@
 #!/usr/bin/env python3
-import csv, re, os
+import csv, re, os, json
+
+
+def loadSpecJSON(json_file_path):
+    speclist = []
+    with open(json_file_path, "r", encoding="utf-8") as file:
+        data = json.load(file)
+
+        for entry in data:
+            speclist.append([entry["specification"], entry["description"]])
+    return speclist
 
 
 # Cycles through the CSV files in the MP4RA repo and returns a tuple contatining 1.)list of all the 4CCs and the associated columns and 2.) list of the specifications and their associtated columns
 def getCSV4CCs(directory):
     codesInCSV = []
-    speclist = []
+    speclist = loadSpecJSON(os.path.join(directory, "specifications.json"))
     for fileName in os.listdir(directory):
         # Ignores some files in the CSV directory that don't have 4CCs or aren't needed
         if (
@@ -56,12 +66,6 @@ def getCSV4CCs(directory):
                                 csvType,
                             ]
                         )
-                # Build speclist
-                if fileName == "specifications.csv":
-                    for row in csvReader:
-                        spec = row["specification"]
-                        desc = row["description"]
-                        speclist.append([spec, desc])
     return (codesInCSV, speclist)
 
 
@@ -216,14 +220,7 @@ def registerhandle(codesInCSV, handlerexceptions):
 
 # Start and perform the sanity check
 def prsanitycheck():
-    # The location of the CSV Folder changes between the travis repo and when you clone and run the check on your local machine. When uploading to github ensure repo = github
-    # repo = "local"
-    repo = "github"
-    if repo == "github":
-        repo = "data/"
-    elif repo == "local":
-        repo = "../data/"
-
+    repo = "data/"
     codesspecs = getCSV4CCs(repo)
 
     # 1. Valid, Four Characters Check
