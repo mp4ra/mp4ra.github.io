@@ -69,7 +69,7 @@ export default function Table({ data, globalFilter }: { data: object[]; globalFi
                 return columnHelper.accessor(header, {
                     // eslint-disable-next-line react/no-danger, react/no-unstable-nested-components
                     cell: (info) =>
-                        info.getValue() && (
+                        info.getValue() && ( // TODO: only add a hyperlink if the specification MPEG entry is true
                             <a
                                 href={`${process.env.FFC_URL}?query=="${(
                                     info.getValue() as string
