@@ -164,3 +164,19 @@ encu,Encrypted/protected subtitles,Subtitles,ISO,
 encp,Encrypted/protected haptics,Haptics,ISO,
 enc3,Encrypted/protected volumetric visual,Volumetric visual media,ISO,
 iamf,Immersive Audio Model and Formats - Encapsulated IA Sequence,Audio,AOM-IAMF,
+ipcm,"From: https://github.com/mp4ra/mp4ra.github.io/issues/167
+
+[""Information technology — MPEG audio technologies — Part 5: Uncompressed audio in MPEG-4 file format""](https://www.iso.org/standard/77752.html) specifies several code points that should be registered:
+sample entry box:
+- `pcmC`
+codecs:
+- `ipcm`
+- `fpcm`",,,
+fpcm,"From: https://github.com/mp4ra/mp4ra.github.io/issues/167
+
+[""Information technology — MPEG audio technologies — Part 5: Uncompressed audio in MPEG-4 file format""](https://www.iso.org/standard/77752.html) specifies several code points that should be registered:
+sample entry box:
+- `pcmC`
+codecs:
+- `ipcm`
+- `fpcm`",,,
