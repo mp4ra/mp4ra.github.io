@@ -17,11 +17,16 @@ This site is the registration authority for code-points in "MP4 Family" files. W
 
 ## About
 
-This site is run on behalf of the International Organization for Standardization, [ISO](//www.iso.org/), and supports in particular the working groups WG11 ([MPEG](//mpeg.chiariglione.org/)) and WG01 ([JPEG](//www.jpeg.org/)). However, a number of other organizations have specifications in the family.
+This site is run on behalf of the International Organization for Standardization, [ISO](https://www.iso.org), and supports in particular the working groups WG03 ([MPEG](https://www.mpeg.org)) and WG01 ([JPEG](https://jpeg.org)). However, a number of other organizations have specifications in the family.
 
 ## What is registered
 
-The registered code-points include four-character codes (4CCs) used in various ways within these file formats, and ObjectTypeIndication values used in MPEG-4 systems. The four-character codes are divided into various categories, for convenience. The largest category is the box (atom) types. The only box (atom) types which are not normally registered are boxes that are within the sample entry (sample description) for, and specific to, a codec or family of codecs, or that are used in a specific coding system (e.g. boxes used in a specific hint track).
+The registered code-points include four-character codes (4CCs) used in various ways within these file formats, and ObjectTypeIndication values used in MPEG-4 systems. The four-character codes are divided into various categories, for convenience. The largest category is the box (atom) types. 
+
+The current best practice is to register all box (atom) types. Historically, some that were clearly contextual were not registered, notably those:
+
+- within the sample entry (sample description) for, and specific to, a codec or family of codecs, or
+- that are used in a specific coding system (e.g. boxes used in a specific hint track).
 
 ## Before requesting the registration of a code-point
 
@@ -34,6 +39,10 @@ Please consider these questions:
 ## Reference software
 
 _Reference software_ for the file format may be found hosted at [Github](//github.com/MPEGGroup/isobmff) also.
+
+## Conformance files
+
+_Conformance files_ developed by the MPEG Systems File Format group may be found at [Github](//github.com/MPEGGroup/FileFormatConformance) and can be searched using the [File Format Conformance Framework](https://mpeggroup.github.io/FileFormatConformance).
 
 ## Contact
 
