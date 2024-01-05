@@ -2,16 +2,22 @@ name: Create Draft PR from Registration
 
 on:
   issues:
-    types: [opened]
+    types: [opened, labeled]
 
 permissions:
   pull-requests: write
   contents: write
 
+concurrency:
+  group: issue-${{ github.event.issue.number }}
+  cancel-in-progress: true
+
 jobs:
   registration-pr:
     runs-on: ubuntu-latest
-    if: contains(github.event.issue.labels.*.name, 'registration')
+    if: |
+      contains(github.event.issue.labels.*.name, 'registration') &&
+      (contains(github.event.issue.labels.*.name, 'ISO') || contains(github.event.issue.labels.*.name, 'QuickTime'))
     steps:
       - name: Checkout
         uses: actions/checkout@v3
