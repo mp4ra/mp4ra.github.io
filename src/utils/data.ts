@@ -1,5 +1,8 @@
 import fs from "fs";
+import path from "path";
+import { glob } from "glob";
 import { parse } from "csv/sync";
+import getRegisteredTypes from "@/app/(rest)/registered-types";
 import cleanRecords from "./misc";
 
 type Specification = {
@@ -9,12 +12,14 @@ type Specification = {
     MPEG: boolean;
 };
 
+type ReturnType = Record<string, unknown>[];
+
 function getSpecifications(): Specification[] {
     const data = fs.readFileSync("../data/specifications.json", "utf8");
     return JSON.parse(data);
 }
 
-export default async function getData(filename: string): Promise<object[]> {
+export default async function getData(filename: string): Promise<ReturnType> {
     try {
         let records;
         const specifications = getSpecifications();
@@ -41,9 +46,39 @@ export default async function getData(filename: string): Promise<object[]> {
                 };
             });
         }
-        return cleanRecords(records) as object[];
+        return cleanRecords(records);
     } catch (err) {
         console.error(err);
         throw new Error(`Error loading data ${filename}`);
     }
+}
+
+export async function getAllData(): Promise<ReturnType> {
+    const csvMapping = await getRegisteredTypes();
+    const findCategory = (csv: string) => {
+        const category = Object.entries(csvMapping).find(([, { csvs }]) => csvs.includes(csv));
+        return category ? category[0] : "/";
+    };
+
+    const ignore = ["unlisted", "knownduplicates"];
+    const all: ReturnType = [];
+    const CSVs = await glob(path.join(process.cwd(), "../data/*.csv"));
+
+    await Promise.all(
+        CSVs.map(async (file) => {
+            if (ignore.some((i) => file.includes(i))) return;
+            const records = await getData(path.basename(file, ".csv"));
+            all.push(
+                ...records.map((record: Record<string, unknown>) => ({
+                    isMPEG: record.isMPEG,
+                    code: record.code,
+                    description: record.description,
+                    specification: record.specification,
+                    category: findCategory(path.basename(file, ".csv"))
+                }))
+            );
+        })
+    );
+
+    return cleanRecords(all, true);
 }
