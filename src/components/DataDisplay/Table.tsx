@@ -63,13 +63,16 @@ export default function Table({ data, globalFilter }: { data: object[]; globalFi
         const keys = new Set<string>();
         data.forEach((row) => Object.keys(row).forEach((key) => keys.add(key)));
 
+        // Remove isMPEG from keys
+        if (keys.has("isMPEG")) keys.delete("isMPEG");
+
         // Generate columns
         return Array.from(keys).map((header) => {
             if (header === "code") {
                 return columnHelper.accessor(header, {
                     // eslint-disable-next-line react/no-danger, react/no-unstable-nested-components
                     cell: (info) =>
-                        info.getValue() && ( // TODO: only add a hyperlink if the specification MPEG entry is true
+                        info.getValue() && info.row.original.isMPEG ? (
                             <a
                                 href={`${process.env.FFC_URL}?query=="${(
                                     info.getValue() as string
@@ -78,6 +81,8 @@ export default function Table({ data, globalFilter }: { data: object[]; globalFi
                             >
                                 <code>{info.getValue()}</code>
                             </a>
+                        ) : (
+                            <code>{info.getValue()}</code>
                         )
                 });
             }
