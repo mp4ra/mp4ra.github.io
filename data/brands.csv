@@ -187,7 +187,10 @@ lmsg,last Media Segment indicator for ISO base media file format.,DASH
 M4A$20,"iTunes MPEG-4 audio protected or not, can contain audio + video + 3g text track + chapter track",iTunes
 M4B$20,"iTunes AudioBook protected or not, can contain audio + video + 3g text track + chapter track",iTunes
 M4P$20,MPEG-4 protected audio,iTunes
-M4V$20,MPEG-4 protected audio+video,iTunes
+M4V$20,iTunes MPEG4 audio + video up to 480p SD,iTunes
+M4VP,iTunes MPEG4 audio + video for progressive download over limited bandwidth,iTunes
+M4VH,iTunes MPEG4 audio + video up to 720p HD,iTunes
+M4VW,iTunes MPEG4 audio + video up to 1080p HD,iTunes
 MA1B,AVIF Baseline Profile,AVIF
 MA1A,AVIF Advanced Profile,AVIF
 MFSM,Media File for Samsung video Metadata,Samsung
