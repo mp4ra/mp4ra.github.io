@@ -135,7 +135,7 @@
     "specification": "CMAF",
     "url": "http://www.iso.ch/",
     "description": "ISO/IEC 23000-19: Common Media Application Format",
-    "MPEGFFC": true
+    "MPEGFFC": false
   },
   {
     "specification": "CMAF-ID3",
@@ -147,7 +147,7 @@
     "specification": "DASH",
     "url": "http://www.iso.ch/",
     "description": "ISO/IEC 23009-1: Dynamic Adaptive Streaming over HTTP",
-    "MPEGFFC": true
+    "MPEGFFC": false
   },
   {
     "specification": "DASH-IF watermarking",
@@ -177,7 +177,7 @@
     "specification": "DMB-MAF",
     "url": "http://www.iso.ch/",
     "description": "ISO/IEC 23000-9 Information technology - Multimedia application format (MPEG-A) - Part 9: Digital Multimedia Broadcasting application format",
-    "MPEGFFC": true
+    "MPEGFFC": false
   },
   {
     "specification": "Dolby",
@@ -243,7 +243,7 @@
     "specification": "DRC",
     "url": "http://www.iso.ch/",
     "description": "ISO/IEC 23003-4, Dynamic Range Control",
-    "MPEGFFC": true
+    "MPEGFFC": false
   },
   {
     "specification": "ETSI AC-3",
@@ -327,6 +327,30 @@
     "specification": "ISO-Partial",
     "url": "http://www.iso.ch/",
     "description": "ISO/IEC 23001-14, Partial File Format",
+    "MPEGFFC": true
+  },
+  {
+    "specification": "ISO-Web",
+    "url": "http://www.iso.ch/",
+    "description": "ISO/IEC 23001-15, Carriage of Web Resources",
+    "MPEGFFC": true
+  },
+  {
+    "specification": "ISO-DerivedVisual",
+    "url": "http://www.iso.ch/",
+    "description": "ISO/IEC 23001-16, Derived Visual Tracks",
+    "MPEGFFC": true
+  },
+  {
+    "specification": "ISO-UNCV",
+    "url": "http://www.iso.ch/",
+    "description": "ISO/IEC 23001-17, Uncompressed Videos and Images",
+    "MPEGFFC": true
+  },
+  {
+    "specification": "ISO-EMSG",
+    "url": "http://www.iso.ch/",
+    "description": "ISO/IEC 23001-18, Event Message",
     "MPEGFFC": true
   },
   {
@@ -429,7 +453,7 @@
     "specification": "MIAF",
     "url": "http://www.iso.ch/",
     "description": "ISO/IEC 23000-22, Multi-Image Application Format.",
-    "MPEGFFC": true
+    "MPEGFFC": false
   },
   {
     "specification": "MJ2",
@@ -459,25 +483,25 @@
     "specification": "MPEG-21",
     "url": "http://www.iso.ch/",
     "description": "ISO/IEC 21000-9, Information technology \u2013 MPEG-21 File Format",
-    "MPEGFFC": true
+    "MPEGFFC": false
   },
   {
     "specification": "MPEG-H",
     "url": "http://www.iso.ch/",
     "description": "ISO/IEC 23008-3, Information technology \u2013 High efficiency coding and media delivery in heterogeneous environments \u2013 Part 3: 3D audio",
-    "MPEGFFC": true
+    "MPEGFFC": false
   },
   {
     "specification": "MPEG-VSAF",
     "url": "http://www.iso.ch/",
     "description": "ISO/IEC 23000-10 Video surveillance application format",
-    "MPEGFFC": true
+    "MPEGFFC": false
   },
   {
     "specification": "MMT",
     "url": "http://www.iso.ch/",
     "description": "ISO/IEC 23008-1 MPEG Media Transport",
-    "MPEGFFC": true
+    "MPEGFFC": false
   },
   {
     "specification": "Matrox",
@@ -519,7 +543,7 @@
     "specification": "OMAF",
     "url": "http://www.iso.ch/",
     "description": "ISO/IEC 23090-2: Omnidirectional media format",
-    "MPEGFFC": true
+    "MPEGFFC": false
   },
   {
     "specification": "OMArlin",
@@ -567,7 +591,7 @@
     "specification": "ISO-MAF",
     "url": "http://www.iso.ch/",
     "description": "ISO/IEC 23000-3 Information technology - Multimedia application format (MPEG-A) - Part 3: MPEG photo player application format",
-    "MPEGFFC": true
+    "MPEGFFC": false
   },
   {
     "specification": "QT",
@@ -633,7 +657,7 @@
     "specification": "V3C-SYS",
     "url": "http://www.iso.ch/",
     "description": "ISO/IEC 23090-10: Carriage of Visual Volumetric Video-based Coding Data",
-    "MPEGFFC": true
+    "MPEGFFC": false
   },
   {
     "specification": "UWA",
