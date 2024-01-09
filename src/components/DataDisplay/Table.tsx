@@ -63,8 +63,8 @@ export default function Table({ data, globalFilter }: { data: object[]; globalFi
         const keys = new Set<string>();
         data.forEach((row) => Object.keys(row).forEach((key) => keys.add(key)));
 
-        // Remove isMPEG from keys
-        if (keys.has("isMPEG")) keys.delete("isMPEG");
+        // Remove isMPEGFFC from keys
+        if (keys.has("isMPEGFFC")) keys.delete("isMPEGFFC");
 
         // Generate columns
         return Array.from(keys).map((header) => {
@@ -72,7 +72,7 @@ export default function Table({ data, globalFilter }: { data: object[]; globalFi
                 return columnHelper.accessor(header, {
                     // eslint-disable-next-line react/no-danger, react/no-unstable-nested-components
                     cell: (info) =>
-                        info.getValue() && info.row.original.isMPEG ? (
+                        info.getValue() && info.row.original.isMPEGFFC ? (
                             <a
                                 href={`${process.env.FFC_URL}?query=="${(
                                     info.getValue() as string

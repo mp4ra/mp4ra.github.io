@@ -9,7 +9,7 @@ type Specification = {
     specification: string;
     url: string;
     description: string;
-    MPEG: boolean;
+    MPEGFFC: boolean;
 };
 
 type ReturnType = Record<string, unknown>[];
@@ -41,7 +41,7 @@ export default async function getData(filename: string): Promise<ReturnType> {
                     (s: any) => s.specification === record.specification
                 );
                 return {
-                    isMPEG: spec?.MPEG ?? false,
+                    isMPEGFFC: spec?.MPEGFFC ?? false,
                     ...record
                 };
             });
@@ -70,7 +70,7 @@ export async function getAllData(): Promise<ReturnType> {
             const records = await getData(path.basename(file, ".csv"));
             all.push(
                 ...records.map((record: Record<string, unknown>) => ({
-                    isMPEG: record.isMPEG,
+                    isMPEGFFC: record.isMPEGFFC,
                     code: record.code,
                     description: record.description,
                     specification: record.specification,

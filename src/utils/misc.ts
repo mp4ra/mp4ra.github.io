@@ -28,7 +28,7 @@ export default function cleanRecords(records: object[], strict: boolean = false)
     // Sanitize data
     return records.map((record: object) => {
         return Object.entries(record).reduce((acc, [key, value]) => {
-            if (key === "isMPEG") return { ...acc, [key]: value };
+            if (key === "isMPEGFFC") return { ...acc, [key]: value };
             if (!value) return acc;
             return {
                 ...acc,
