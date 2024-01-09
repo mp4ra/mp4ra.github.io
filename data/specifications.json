@@ -3,672 +3,672 @@
     "specification": "3GPP",
     "url": "http://www.3gpp.org/",
     "description": "3GPP 26.234 Transparent end-to-end packet switched streaming service (PSS); Protocols and codecs, Annex D;3GPP 26.244 Transparent end-to-end packet switched streaming service (PSS); 3GPP file format (3GP)",
-    "MPEG": false
+    "MPEGFFC": false
   },
   {
     "specification": "3GPP-DASH",
     "url": "http://www.3gpp.org/",
     "description": "3GPP 26.247 Progressive Download and Dynamic Adaptive Streaming over HTTP",
-    "MPEG": false
+    "MPEGFFC": false
   },
   {
     "specification": "3GPP-VR",
     "url": "http://www.3gpp.org/",
     "description": "3GPP 26.118 3GPP Virtual reality profiles for streaming applications",
-    "MPEG": false
+    "MPEGFFC": false
   },
   {
     "specification": "3GPP-TVP",
     "url": "http://www.3gpp.org/",
     "description": "3GPP 26.116 Television (TV) over 3GPP services; Video profiles",
-    "MPEG": false
+    "MPEGFFC": false
   },
   {
     "specification": "3GPP2",
     "url": "http://www.3gpp2.org/",
     "description": "3GPP2 C.S0050-A, File Formats for Multimedia Services",
-    "MPEG": false
+    "MPEGFFC": false
   },
   {
     "specification": "ARRI",
     "url": "http://www.arri.com/",
     "description": "The ARRI Group",
-    "MPEG": false
+    "MPEGFFC": false
   },
   {
     "specification": "AV1-ISOBMFF",
     "url": "https://aomediacodec.github.io/av1-isobmff/",
     "description": "AV1-ISOBMFF",
-    "MPEG": false
+    "MPEGFFC": false
   },
   {
     "specification": "AVIF",
     "url": "https://aomediacodec.github.io/av1-avif/",
     "description": "AVIF",
-    "MPEG": false
+    "MPEGFFC": false
   },
   {
     "specification": "AOM-IAMF",
     "url": "https://aomediacodec.github.io/iamf/",
     "description": "Immersive Audio Model and Formats",
-    "MPEG": false
+    "MPEGFFC": false
   },
   {
     "specification": "Avid",
     "url": "http://www.avid.com/",
     "description": "Avid",
-    "MPEG": false
+    "MPEGFFC": false
   },
   {
     "specification": "Apple",
     "url": "http://www.apple.com/",
     "description": "Apple Inc.",
-    "MPEG": false
+    "MPEGFFC": false
   },
   {
     "specification": "ATSC 3.0",
     "url": "https://www.atsc.org/standards/atsc-3-0-standards/",
     "description": "ATSC 3.0 A337 Application Signaling",
-    "MPEG": false
+    "MPEGFFC": false
   },
   {
     "specification": "Auro",
     "url": "http://www.auro-3d.com/",
     "description": "Auro Technologies",
-    "MPEG": false
+    "MPEGFFC": false
   },
   {
     "specification": "Avs2",
     "url": "http://www.gb688.cn/bzgk/gb/newGbInfo?hcno=3AB9CF558421E866CAB2B3115498E7C0",
     "description": "AVS 2 Specification",
-    "MPEG": false
+    "MPEGFFC": false
   },
   {
     "specification": "Avs3",
     "url": "http://www.avs.org.cn/AVS3_download/index.asp",
     "description": "AVS 3 Specification",
-    "MPEG": false
+    "MPEGFFC": false
   },
   {
     "specification": "BitJazz",
     "url": "http://www.bitjazz.com/",
     "description": "BitJazz",
-    "MPEG": false
+    "MPEGFFC": false
   },
   {
     "specification": "Blinkbox",
     "url": "http://www.blinkbox.com/",
     "description": "Blinkbox",
-    "MPEG": false
+    "MPEGFFC": false
   },
   {
     "specification": "CamMotion",
     "url": "https://developers.google.com/streetview/publish/camm-spec",
     "description": "Camera Motion Metadata Track, Google Inc., embed various metadata about camera motion including orientation, gyroscope reading, accelerometer reading, positions, etc.",
-    "MPEG": false
+    "MPEGFFC": false
   },
   {
     "specification": "Canon",
     "url": "http://www.canon.com/",
     "description": "Canon",
-    "MPEG": false
+    "MPEGFFC": false
   },
   {
     "specification": "Casio",
     "url": "http://world.casio.com/",
     "description": "Casio",
-    "MPEG": false
+    "MPEGFFC": false
   },
   {
     "specification": "CineForm",
     "url": "http://www.cineform.com/",
     "description": "Cineform",
-    "MPEG": false
+    "MPEGFFC": false
   },
   {
     "specification": "Convergent",
     "url": "http://www.convergent-design.com/",
     "description": "Convergent Design",
-    "MPEG": false
+    "MPEGFFC": false
   },
   {
     "specification": "CMAF",
     "url": "http://www.iso.ch/",
     "description": "ISO/IEC 23000-19: Common Media Application Format",
-    "MPEG": true
+    "MPEGFFC": true
   },
   {
     "specification": "CMAF-ID3",
     "url": "https://aomediacodec.github.io/id3-emsg/",
     "description": "Carriage of ID3 Timed Metadata in the Common Media Application Format (CMAF)",
-    "MPEG": false
+    "MPEGFFC": false
   },
   {
     "specification": "DASH",
     "url": "http://www.iso.ch/",
     "description": "ISO/IEC 23009-1: Dynamic Adaptive Streaming over HTTP",
-    "MPEG": true
+    "MPEGFFC": true
   },
   {
     "specification": "DASH-IF watermarking",
     "url": "https://dashif.org/guidelines/others/",
     "description": "DASH-IF Forensic A/B Watermarking: An interoperable watermarking integration schema",
-    "MPEG": false
+    "MPEGFFC": false
   },
   {
     "specification": "DxO",
     "url": "http://www.dxo.com/",
     "description": "DxO",
-    "MPEG": false
+    "MPEGFFC": false
   },
   {
     "specification": "ISO Common Encryption",
     "url": "http://www.iso.ch/",
     "description": "ISO/IEC 23001-7: Common encryption format for ISO base media file format",
-    "MPEG": true
+    "MPEGFFC": true
   },
   {
     "specification": "DECE",
     "url": "http://uvcentral.com/",
     "description": "Digital Entertainment Content Ecosystem (DECE) Common File Format & Media Formats Specification",
-    "MPEG": false
+    "MPEGFFC": false
   },
   {
     "specification": "DMB-MAF",
     "url": "http://www.iso.ch/",
     "description": "ISO/IEC 23000-9 Information technology - Multimedia application format (MPEG-A) - Part 9: Digital Multimedia Broadcasting application format",
-    "MPEG": true
+    "MPEGFFC": true
   },
   {
     "specification": "Dolby",
     "url": "http://www.dolby.com/",
     "description": "Dolby",
-    "MPEG": false
+    "MPEGFFC": false
   },
   {
     "specification": "Dolby Vision",
     "url": "https://professionalsupport.dolby.com/s/article/How-to-signal-Dolby-Vision-in-ISOBMFF-format-AKA-mp4-container?language=en_US",
     "description": "Dolby Vision",
-    "MPEG": false
+    "MPEGFFC": false
   },
   {
     "specification": "DRA",
     "url": "",
     "description": "Specification for multichannel digital audio coding technology, SJ/T 11368-2006 (Electronics Industrial Standardization of the People's Republic of China)",
-    "MPEG": false
+    "MPEGFFC": false
   },
   {
     "specification": "DTS",
     "url": "http://dts.com/get-licensed",
     "description": "DTS",
-    "MPEG": false
+    "MPEGFFC": false
   },
   {
     "specification": "DTS-HD",
     "url": "http://www.etsi.org/",
     "description": "ETSI TS 102 114 Coherent Acoustics; Core and Extensions with Additional Profiles (Annex E)",
-    "MPEG": false
+    "MPEGFFC": false
   },
   {
     "specification": "DTS-UHD",
     "url": "http://www.etsi.org/",
     "description": "ETSI TS 103 491 DTS-UHD Audio Format; Delivery of Channels, Objects and Ambisonic Sound Fields",
-    "MPEG": false
+    "MPEGFFC": false
   },
   {
     "specification": "DVB",
     "url": "http://www.dvb.org/technology/standards/a121.tm3904r3.ff0020r12.DVB_File_Format_Specification.pdf",
     "description": "DVB Blue Book A121",
-    "MPEG": false
+    "MPEGFFC": false
   },
   {
     "specification": "Digital Voodoo",
     "url": "http://www.digitalvoodoo.net/",
     "description": "Digital Voodoo",
-    "MPEG": false
+    "MPEGFFC": false
   },
   {
     "specification": "Dirac",
     "url": "http://www.bbc.co.uk/rd/projects/dirac/index.shtml",
     "description": "Encapsulation of Dirac in ISO/IEC 14496-12 derivatives",
-    "MPEG": false
+    "MPEGFFC": false
   },
   {
     "specification": "Dolby MLP",
     "url": "https://www.dolby.com/us/en/professional/licensing/apply-license-consumer.aspx",
     "description": "MLP (Dolby TrueHD) streams within the ISO Base Media File Format, version 1.0, September 2009",
-    "MPEG": false
+    "MPEGFFC": false
   },
   {
     "specification": "DRC",
     "url": "http://www.iso.ch/",
     "description": "ISO/IEC 23003-4, Dynamic Range Control",
-    "MPEG": true
+    "MPEGFFC": true
   },
   {
     "specification": "ETSI AC-3",
     "url": "http://www.etsi.org/",
     "description": "ETSI TS 102 366 v1.4.1 - Digital Audio Compression (AC-3, Enhanced AC-3) Standard, Annex F",
-    "MPEG": false
+    "MPEGFFC": false
   },
   {
     "specification": "ETSI AC-4",
     "url": "http://www.etsi.org/",
     "description": "ETSI TS 103 190 v1.2.1 - Digital Audio Compression (AC-4) Standard, Annex E and TS 103 190-2 v1.1.1 - Digital Audio Compression (AC-4) Standard Part 2: Immersive and personalized audio, Annex E",
-    "MPEG": false
+    "MPEGFFC": false
   },
   {
     "specification": "ETSI E-AC-3+JOC",
     "url": "http://www.etsi.org/",
     "description": "ETSI TS 103 420 v1.1.1 - Backwards-compatible object audio carriage using Enhanced AC-3",
-    "MPEG": false
+    "MPEGFFC": false
   },
   {
     "specification": "FLAC",
     "url": "https://xiph.org/flac/",
     "description": "FLAC Free Lossless Audio Codec. Encapsulation of FLAC in ISO Base Media File Format",
-    "MPEG": false
+    "MPEGFFC": false
   },
   {
     "specification": "GB-T-20090-9",
     "url": "http://www.avs.org.cn/AVS2_download/index.asp",
     "description": "GB/T 20090.9-2006 Information technology - Advanced coding of audio and video - Part 9: AVS file format",
-    "MPEG": false
+    "MPEGFFC": false
   },
   {
     "specification": "FF Video Codec",
     "url": "https://datatracker.ietf.org/doc/draft-ietf-cellar-ffv1/",
     "description": "IETF FFV1 Video Coding Format Version 0, 1, and 3",
-    "MPEG": false
+    "MPEGFFC": false
   },
   {
     "specification": "HEIF",
     "url": "http://www.iso.ch/",
     "description": "ISO/IEC 23008-12, Image File Format.",
-    "MPEG": true
+    "MPEGFFC": true
   },
   {
     "specification": "Hipix",
     "url": "http://www.hipixpro.com/pdf/What_is_hipix_OCT_2010.pdf",
     "description": "Rich Picture Format from Human Monitoring",
-    "MPEG": false
+    "MPEGFFC": false
   },
   {
     "specification": "IEC 62592",
     "url": "https://webstore.iec.ch/publication/7232",
     "description": "IEC TS 62592, Encoding guidelines for portable multimedia CE products using MP4 file format with AVC video codec and AAC audio codec",
-    "MPEG": false
+    "MPEGFFC": false
   },
   {
     "specification": "IFE",
     "url": "https://connect.apex.aero/resources/techspecifications",
     "description": "APEX Specification 0415 Media and Device IFE Ecosystem Specificaton",
-    "MPEG": false
+    "MPEGFFC": false
   },
   {
     "specification": "ISMAc",
     "url": "http://www.isma.tv/",
     "description": "ISMA 1.0 Encryption and Authentication",
-    "MPEG": false
+    "MPEGFFC": false
   },
   {
     "specification": "ISMACryp2",
     "url": "http://www.isma.tv/",
     "description": "ISMA 2.0 Encryption and Authentication",
-    "MPEG": false
+    "MPEGFFC": false
   },
   {
     "specification": "ISO",
     "url": "http://www.iso.ch/",
     "description": "ISO/IEC 14496-12 & 15444-12, ISO base media file format.",
-    "MPEG": true
+    "MPEGFFC": true
   },
   {
     "specification": "ISO-Partial",
     "url": "http://www.iso.ch/",
     "description": "ISO/IEC 23001-14, Partial File Format",
-    "MPEG": true
+    "MPEGFFC": true
   },
   {
     "specification": "ISO-Text",
     "url": "http://www.iso.ch/",
     "description": "ISO/IEC 14496-30, Timed text and other visual overlays in ISO base media file format.",
-    "MPEG": true
+    "MPEGFFC": true
   },
   {
     "specification": "ISO-UNCA",
     "url": "http://www.iso.ch/",
     "description": "ISO/IEC 23003-5 Uncompressed audio in MPEG-4 file format.",
-    "MPEG": true
+    "MPEGFFC": true
   },
   {
     "specification": "ISO Variants",
     "url": "http://www.iso.ch/",
     "description": "ISO/IEC 23001-12, Sample Variants.",
-    "MPEG": true
+    "MPEGFFC": true
   },
   {
     "specification": "ITU G.719",
     "url": "http://www.itu.int/ITU-T/",
     "description": "ITU-T Recommendation G.719 (2008) Amendment 1 (2008): 'New Annex A on storage format definitions for G.719, and new Annex B on a reference floating-point implementation for G.719'",
-    "MPEG": false
+    "MPEGFFC": false
   },
   {
     "specification": "iTunes",
     "url": "http://developer.apple.com/quicktime/",
     "description": "General documentation can be found on Apple's developer site",
-    "MPEG": false
+    "MPEGFFC": false
   },
   {
     "specification": "J2KHEIF",
     "url": "https://www.iso.org/standard/80620.html",
     "description": "ISO/IEC 15444-16, Information technology -- JPEG 2000 image coding system -- Part 16: Encapsulation of JPEG 2000 Images into ISO/IEC 23008-12",
-    "MPEG": false
+    "MPEGFFC": false
   },
   {
     "specification": "JPEG2000",
     "url": "http://www.iso.ch/",
     "description": "ISO/IEC 15444-1, The JPEG 2000 Image Coding System: Core coding system",
-    "MPEG": false
+    "MPEGFFC": false
   },
   {
     "specification": "JPX",
     "url": "http://www.iso.ch/",
     "description": "ISO/IEC 15444-2, The JPEG 2000 Image Coding System: Extensions",
-    "MPEG": false
+    "MPEGFFC": false
   },
   {
     "specification": "JPXR",
     "url": "http://www.iso.ch/",
     "description": "ISO/IEC 29199-2, JPEG XR image coding system: Image coding specification",
-    "MPEG": false
+    "MPEGFFC": false
   },
   {
     "specification": "JPXS",
     "url": "http://www.iso.ch/",
     "description": "ISO/IEC ISO/IEC 21122-3 JPEG XS low-latency lightweight image coding system -- Part 3: Transport and container formats",
-    "MPEG": false
+    "MPEGFFC": false
   },
   {
     "specification": "JPM",
     "url": "http://www.iso.ch/",
     "description": "ISO/IEC 15444-6, The JPEG 2000 Image Coding System: Compound image file format",
-    "MPEG": false
+    "MPEGFFC": false
   },
   {
     "specification": "JPSearch",
     "url": "http://www.iso.ch/",
     "description": "ISO/IEC 24800-5, JPSearch - Data interchange format between image repositories",
-    "MPEG": false
+    "MPEGFFC": false
   },
   {
     "specification": "JPEG XL",
     "url": "https://www.iso.org/standard/80617.html",
     "description": "ISO/IEC 18181-2, Information technology \u2014 JPEG XL Image Coding System \u2014 Part 2: File format",
-    "MPEG": false
+    "MPEGFFC": false
   },
   {
     "specification": "JPEG Systems",
     "url": "https://jpeg.org/jpegsystems/",
     "description": "ISO/IEC 19566, Information technologies \u2014 JPEG Systems",
-    "MPEG": false
+    "MPEGFFC": false
   },
   {
     "specification": "Leica",
     "url": "http://en.leica-camera.com/home/",
     "description": "Leica Camera AG",
-    "MPEG": false
+    "MPEGFFC": false
   },
   {
     "specification": "Metrics",
     "url": "http://www.iso.ch/",
     "description": "ISO/IEC 23001-10, Carriage of timed metadata metrics of media in ISO base media file format",
-    "MPEG": true
+    "MPEGFFC": true
   },
   {
     "specification": "MIAF",
     "url": "http://www.iso.ch/",
     "description": "ISO/IEC 23000-22, Multi-Image Application Format.",
-    "MPEG": true
+    "MPEGFFC": true
   },
   {
     "specification": "MJ2",
     "url": "http://www.iso.ch/",
     "description": "ISO/IEC 15444-3, Motion JPEG 2000",
-    "MPEG": false
+    "MPEGFFC": false
   },
   {
     "specification": "MP4v1",
     "url": "http://www.iso.ch/",
     "description": "ISO/IEC 14496-1, Information technology \u2013 Coding of audio-visual objects \u2013 Part 1: Systems, (Various versions to 2001), Chapter 13, The MP4 File Format",
-    "MPEG": true
+    "MPEGFFC": true
   },
   {
     "specification": "MP4v2",
     "url": "http://www.iso.ch/",
     "description": "ISO/IEC 14496-14, The MP4 File Format",
-    "MPEG": true
+    "MPEGFFC": true
   },
   {
     "specification": "MPEG-4",
     "url": "http://www.iso.ch/",
     "description": "ISO/IEC 14496-1, Information technology \u2013 Coding of audio-visual objects \u2013 Part 1: Systems",
-    "MPEG": true
+    "MPEGFFC": true
   },
   {
     "specification": "MPEG-21",
     "url": "http://www.iso.ch/",
     "description": "ISO/IEC 21000-9, Information technology \u2013 MPEG-21 File Format",
-    "MPEG": true
+    "MPEGFFC": true
   },
   {
     "specification": "MPEG-H",
     "url": "http://www.iso.ch/",
     "description": "ISO/IEC 23008-3, Information technology \u2013 High efficiency coding and media delivery in heterogeneous environments \u2013 Part 3: 3D audio",
-    "MPEG": true
+    "MPEGFFC": true
   },
   {
     "specification": "MPEG-VSAF",
     "url": "http://www.iso.ch/",
     "description": "ISO/IEC 23000-10 Video surveillance application format",
-    "MPEG": true
+    "MPEGFFC": true
   },
   {
     "specification": "MMT",
     "url": "http://www.iso.ch/",
     "description": "ISO/IEC 23008-1 MPEG Media Transport",
-    "MPEG": true
+    "MPEGFFC": true
   },
   {
     "specification": "Matrox",
     "url": "http://www.matrox.com/",
     "description": "Matrox",
-    "MPEG": false
+    "MPEGFFC": false
   },
   {
     "specification": "NALu Video",
     "url": "http://www.iso.ch/",
     "description": "ISO/IEC 14496-15, Carriage of NAL unit structured video in the ISO Base Media File Format",
-    "MPEG": true
+    "MPEGFFC": true
   },
   {
     "specification": "Nikon",
     "url": "http://www.nikon.com/",
     "description": "Nikon",
-    "MPEG": false
+    "MPEGFFC": false
   },
   {
     "specification": "OMA DRM 2.0",
     "url": "http://www.openmobilealliance.org/",
     "description": "OMA DRM; Open Mobile Alliance Digital Rights Management, DRM Content Format 2.0 (OMA-TS-DRM_DCF-V2_0_1-20080226-A)",
-    "MPEG": false
+    "MPEGFFC": false
   },
   {
     "specification": "OMA DRM 2.1",
     "url": "http://www.openmobilealliance.org/",
     "description": "OMA DRM; Open Mobile Alliance Digital Rights Management, DRM Content Format 2.1 (OMA-TS-DRM-DCF-V2_1-20070724-C)",
-    "MPEG": false
+    "MPEGFFC": false
   },
   {
     "specification": "OMA DRM XBS",
     "url": "http://www.openmobilealliance.org/",
     "description": "OMA DRM; Open Mobile Alliance Digital Rights Management, DRM  Extensions for Broadcast Support (OMA-TS-DRM_XBS-V1_0-20070529-C)",
-    "MPEG": false
+    "MPEGFFC": false
   },
   {
     "specification": "OMAF",
     "url": "http://www.iso.ch/",
     "description": "ISO/IEC 23090-2: Omnidirectional media format",
-    "MPEG": true
+    "MPEGFFC": true
   },
   {
     "specification": "OMArlin",
     "url": "http://www.marlin-community.com/join/index.html",
     "description": "The OMArlin Specification, available on request from The Marlin Developer Community",
-    "MPEG": false
+    "MPEGFFC": false
   },
   {
     "specification": "ONVIF",
     "url": "https://www.onvif.org/specs/stream/ONVIF-ExportFileFormat-Spec.pdf",
     "description": "ONVIF, Export File Format Specification",
-    "MPEG": false
+    "MPEGFFC": false
   },
   {
     "specification": "Opus",
     "url": "https://tools.ietf.org/html/rfc6716",
     "description": "Encapsulation specification and Codec specification",
-    "MPEG": false
+    "MPEGFFC": false
   },
   {
     "specification": "PIFF",
     "url": "http://go.microsoft.com/?linkid=9682897",
     "description": "The Protected interoperable file format, Microsoft Corp.",
-    "MPEG": false
+    "MPEGFFC": false
   },
   {
     "specification": "PNG",
     "url": "http://www.libpng.org",
     "description": "Portable Network Graphics",
-    "MPEG": false
+    "MPEGFFC": false
   },
   {
     "specification": "Panasonic",
     "url": "http://panasonic.net/avc",
     "description": "Panasonic",
-    "MPEG": false
+    "MPEGFFC": false
   },
   {
     "specification": "Panasonic Video Intercom",
     "url": "http://panasonic.net/corporate/segments/psn/",
     "description": "Panasonic System Networks",
-    "MPEG": false
+    "MPEGFFC": false
   },
   {
     "specification": "ISO-MAF",
     "url": "http://www.iso.ch/",
     "description": "ISO/IEC 23000-3 Information technology - Multimedia application format (MPEG-A) - Part 3: MPEG photo player application format",
-    "MPEG": true
+    "MPEGFFC": true
   },
   {
     "specification": "QT",
     "url": "http://www.apple.com/quicktime/",
     "description": "The QuickTime File format, Apple Computer Inc.",
-    "MPEG": false
+    "MPEGFFC": false
   },
   {
     "specification": "RealHD",
     "url": "http://www.realnetworks.com/realmediahd",
     "description": "RealMedia\u2122 HD",
-    "MPEG": false
+    "MPEGFFC": false
   },
   {
     "specification": "Ross",
     "url": "http://www.rossvideo.com/",
     "description": "Ross Video",
-    "MPEG": false
+    "MPEGFFC": false
   },
   {
     "specification": "Samsung",
     "url": "http://www.samsung.com/",
     "description": "Samsung",
-    "MPEG": false
+    "MPEGFFC": false
   },
   {
     "specification": "SCTE-215-1-1b",
     "url": "https://www.scte.org/download-scteisbe-standards/",
     "description": "SCTE HEVC Video Constraints for Cable Television Part 1-1 HDR10 Coding",
-    "MPEG": false
+    "MPEGFFC": false
   },
   {
     "specification": "SDV",
     "url": "http://www.sdcard.org/",
     "description": "The SD Card Association: SD Memory Card Specifications, Part 8, VIDEO SPECIFICATIONS",
-    "MPEG": false
+    "MPEGFFC": false
   },
   {
     "specification": "SL-HDR",
     "url": "http://www.etsi.org/",
     "description": "ETSI TS 103 433 - High-Performance Single Layer High Dynamic Range System",
-    "MPEG": false
+    "MPEGFFC": false
   },
   {
     "specification": "SMPTE",
     "url": "http://www.smpte.org/",
     "description": "SMPTE RP2025:2007, VC-1 Bitstream Storage in the ISO Base Media File Format",
-    "MPEG": false
+    "MPEGFFC": false
   },
   {
     "specification": "Sony",
     "url": "http://www.sony.net",
     "description": "Sony Corporation",
-    "MPEG": false
+    "MPEGFFC": false
   },
   {
     "specification": "Universal Music Group",
     "url": "mailto:uits-%20legal@umusic.com",
     "description": "Specification is made available only under license; contact Universal Music Group.",
-    "MPEG": false
+    "MPEGFFC": false
   },
   {
     "specification": "V3C-SYS",
     "url": "http://www.iso.ch/",
     "description": "ISO/IEC 23090-10: Carriage of Visual Volumetric Video-based Coding Data",
-    "MPEG": true
+    "MPEGFFC": true
   },
   {
     "specification": "UWA",
     "url": "http://www.cuva.org.cn",
     "description": "UHD World Association UWA, China UHD Video Industry Alliance CUVA: CUVA 005.2-2021 - High Dynamic Range Video Technology Part 2-1: Application Guide to System Integration",
-    "MPEG": false
+    "MPEGFFC": false
   },
   {
     "specification": "VPxx",
     "url": "https://www.webmproject.org/vp9/mp4/",
     "description": "Specification of VPxx codecs in ISO BMFF files",
-    "MPEG": false
+    "MPEGFFC": false
   },
   {
     "specification": "WhatsApp",
     "url": "https://www.whatsapp.com/",
     "description": "WhatsApp Inc.",
-    "MPEG": false
+    "MPEGFFC": false
   },
   {
     "specification": "Youtube",
     "url": "mailto:ytb-external@google.com",
     "description": "Google LLC",
-    "MPEG": false
+    "MPEGFFC": false
   },
   {
     "specification": "id3v2",
     "url": "",
     "description": "See below",
-    "MPEG": false
+    "MPEGFFC": false
   },
   {
     "specification": "Deprecated",
     "url": "",
     "description": "Deprecated or unused or no longer specified",
-    "MPEG": false
+    "MPEGFFC": false
   }
 ]
