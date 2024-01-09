@@ -670,5 +670,11 @@
     "url": "",
     "description": "Deprecated or unused or no longer specified",
     "MPEG": false
+  },
+  {
+    "specification": "UNCV",
+    "url": "http://www.iso.ch/",
+    "description": "ISO/IEC 23001-17: Carriage of uncompressed video and images in ISO Base Media File Format",
+    "MPEG": true
   }
 ]
