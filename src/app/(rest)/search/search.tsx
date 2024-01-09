@@ -3,9 +3,8 @@
 import React from "react";
 import { useSessionStorageValue } from "@react-hookz/web";
 import Table from "@/components/DataDisplay/Table";
-import { Record } from "./types";
 
-export default function Search({ data }: { data: Record[] }) {
+export default function Search({ data }: { data: object[] }) {
     const { value, set: setQuery } = useSessionStorageValue("search", {
         defaultValue: "",
         initializeWithValue: false
