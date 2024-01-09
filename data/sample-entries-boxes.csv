@@ -88,3 +88,4 @@ cloc,Chroma Location,Video,UNCV
 fpac,Frame Packing Information,Video,UNCV
 disi,Disparity Information,Video,UNCV
 ilcp,Field Interlace,Video,UNCV
+pcmC,Uncompressed audio PCM configuration,Audio,ISO-UNCA

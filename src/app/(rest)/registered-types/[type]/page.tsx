@@ -12,10 +12,6 @@ export const MISC_TYPES = [
         type: "item-references"
     },
     {
-        title: "Item Properties",
-        type: "item-properties"
-    },
-    {
         title: "Multiview Attributes",
         type: "multiview-attributes"
     },

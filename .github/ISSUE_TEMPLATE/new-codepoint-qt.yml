@@ -25,13 +25,13 @@ body:
     id: requestor-address
     attributes:
       label: Address
-      description: Address of the organization requesting the codepoint
+      description: Address of the organization requesting the codepoint (only if already public)
       placeholder: 123 Main St, Anytown, USA
   - type: input
     id: url
     attributes:
       label: URL
-      description: URL of the organization requesting the codepoint
+      description: URL of the organization requesting the codepoint (if availiable)
       placeholder: https://acme.example.com
 
   - type: markdown
@@ -83,7 +83,7 @@ body:
       value: |
         > If you request to add multiple codepoints, please separate them with a comma.
 
-        > Object Type registirations do not require a four-character code.
+        > Object Type registrations do not require a four-character code.
 
         > Note that four-character codes use four 8-bit printable characters, usually from the first 128 Unicode characters (commonly thought of as plain ASCII), but at most from the first 256 Unicode characters.
   - type: input
@@ -95,7 +95,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        > If your specification is not in a public domain you can still share it with MP4RA by sending an email to mp4reg [at] group.apple.com including a link to this issue.
+        > If your specification is not in a public domain you can still share it with MP4RA by sending an email to qtfourcc [at] group.apple.com including a link to this issue.
   - type: textarea
     id: abstract
     attributes:
@@ -111,7 +111,7 @@ body:
 
         Please provide the following information about the person who should be contacted regarding this request.
 
-        **NOTE: If you are okay with providing your contact information through this GitHub issue please feel free to do so. If you are not okay with your contact information to be shared, please leave it blank and send an email to mp4reg [at] group.apple.com including a link to this issue.**
+        **NOTE: Given the public nature of GitHub, any sensitive information, particularly contact details, should not be disclosed directly in the issue if the requester opts for privacy. In such cases, leave non-mandatory fields blank and send us an email to qtfourcc [at] group.apple.com with that information including the link to the issue you created.**
   - type: input
     id: contact
     attributes:
