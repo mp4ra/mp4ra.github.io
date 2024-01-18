@@ -8,7 +8,7 @@ crsm,ClockReferenceStream,handler,MP4v2
 dmbd,DVB Mandatory Metadata,handler,DVB
 dtva,"TV-Anytime Metadata, according to DVB specifications",handler,DVB
 dvmd,"withdrawn, unused, do not use (was Dolby Vision Metadata)",handler,Deprecated
-fdsm,Font,handler,MPEG-4
+fdsm,Font,handler,ISO
 gesm,General MPEG-4 systems streams (without specific handler),handler,see (1) below
 GRAP,Subtitle Graphics,handler,Sony
 hint,Hint,handler,ISO
