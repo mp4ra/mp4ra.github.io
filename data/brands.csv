@@ -266,4 +266,5 @@ vwpt,Viewpoint toolset brand,OMAF
 XAVC,XAVC File Format,Sony
 yt4$20,Google specification for use by YouTube apps,Youtube
 iamf,Immersive Audio Model and Formats - Encapsulated IA Sequence,AOM-IAMF
-cvvm,CMAF Media Profile for Constrained Multilayer VVC,
+cvvm,CMAF Media Profile for Constrained Multilayer VVC,ATSC 3.0 A345
+cafr,CMAF Media Profile for ATSC Full Range Constrained Baseline VVC,ATSC 3.0 A345
