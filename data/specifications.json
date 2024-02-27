@@ -571,8 +571,8 @@
   },
   {
     "specification": "QT",
-    "url": "http://www.apple.com/quicktime/",
-    "description": "The QuickTime File format, Apple Computer Inc.",
+    "url": "https://developer.apple.com/documentation/quicktime-file-format",
+    "description": "QuickTime File format. Apple Inc.",
     "MPEG": false
   },
   {
