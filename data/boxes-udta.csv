@@ -38,3 +38,4 @@ tlou,Track loudness base,ISO
 tsel,Track selection,ISO
 urat,User 'star' rating of the media,3GPP
 yrrc,Year when media was recorded,3GPP
+swre,Name and version number of the software that generated this movie,Apple
