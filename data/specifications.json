@@ -61,8 +61,14 @@
   },
   {
     "specification": "Apple",
-    "url": "http://www.apple.com/",
+    "url": "https://www.apple.com",
     "description": "Apple Inc.",
+    "MPEG": false
+  },
+  {
+    "specification": "Apple HEVC Alpha",
+    "url": "https://developer.apple.com/av-foundation/HEVC-Video-with-Alpha-Interoperability-Profile.pdf",
+    "description": "HEVC Video with Alpha, Interoperability Profile. Apple Inc.",
     "MPEG": false
   },
   {
@@ -577,8 +583,8 @@
   },
   {
     "specification": "QT",
-    "url": "http://www.apple.com/quicktime/",
-    "description": "The QuickTime File format, Apple Computer Inc.",
+    "url": "https://developer.apple.com/documentation/quicktime-file-format",
+    "description": "QuickTime File format. Apple Inc.",
     "MPEG": false
   },
   {
