@@ -4,21 +4,21 @@ auxv,Auxiliary video,handler,ISO
 avmd,Avid Metadata,handler,Avid
 clcp,Closed Caption,handler,Apple
 cpad,CPCM Auxiliary Metadata,handler,DVB
-crsm,ClockReferenceStream,handler,MPEG-4
+crsm,ClockReferenceStream,handler,MP4v2
 dmbd,DVB Mandatory Metadata,handler,DVB
 dtva,"TV-Anytime Metadata, according to DVB specifications",handler,DVB
 dvmd,"withdrawn, unused, do not use (was Dolby Vision Metadata)",handler,Deprecated
-fdsm,Font,handler,MPEG-4
+fdsm,Font,handler,ISO
 gesm,General MPEG-4 systems streams (without specific handler),handler,see (1) below
 GRAP,Subtitle Graphics,handler,Sony
 hint,Hint,handler,ISO
 hpix,Hipix Rich Picture Format,handler,Hipix
 ID32,ID3 version 2 meta-data handler (meta box),handler,id3v2
 ipdc,DVB IPDC ESG Metadata,handler,DVB
-ipsm,IPMP Stream,handler,MPEG-4
-m7sm,MPEG7Stream,handler,MPEG-4
+ipsm,IPMP Stream,handler,MP4v2
+m7sm,MPEG7Stream,handler,MP4v2
 meta,Metadata,handler,ISO
-mjsm,MPEG-J Stream,handler,MPEG-4
+mjsm,MPEG-J Stream,handler,MP4v2
 mp21,MPEG-21 Digital item,handler,MPEG-21
 mp7b,MPEG-7 (binary meta-data),handler,ISO
 mp7t,MPEG-7 (textual meta-data),handler,ISO
@@ -28,12 +28,12 @@ MPEG,QuickTime MPEG track handler,handler,Apple
 musi,QuickTime Music track handler,handler,Apple
 nrtm,Non-Real Time Metadata (XAVC Format),handler,Sony
 null,No handling required (meta-data),handler,ISO
-ocsm,ObjectContentInfoStream,handler,MPEG-4
-odsm,ObjectDescriptorStream,handler,MPEG-4
+ocsm,ObjectContentInfoStream,handler,MP4v2
+odsm,ObjectDescriptorStream,handler,MP4v2
 pict,Image Item and Image sequences,handler,HEIF
 qd3d,QuickTime QuickDraw 3D ttrack handler,handler,Apple
 sbtl,QuickTime Subtitle track handler,handler,Apple
-sdsm,SceneDescriptionStream,handler,MPEG-4
+sdsm,SceneDescriptionStream,handler,MP4v2
 skmm,Key Management Messages,handler,DVB
 smhr,Samsung Video Metadata Handler,handler,Samsung
 soun,Audio,handler,ISO
