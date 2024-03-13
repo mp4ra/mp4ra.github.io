@@ -41,7 +41,7 @@ dstg,DVB Sample to Group Box,DVB
 edts,edit list container,ISO
 elst,an edit list,ISO
 emsg,event message,DASH
-evti,Event information,ATSC 3.0
+evti,Event information,ATSC 3.0 A337
 etyp,extended type and type combination,ISO
 Exif,Exif Metadata,JPXS
 fdel,File delivery information (item info extension),ISO
