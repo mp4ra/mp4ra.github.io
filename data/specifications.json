@@ -72,9 +72,15 @@
     "MPEG": false
   },
   {
-    "specification": "ATSC 3.0",
-    "url": "https://www.atsc.org/standards/atsc-3-0-standards/",
-    "description": "ATSC 3.0 A337 Application Signaling",
+    "specification": "ATSC 3.0 A337",
+    "url": "https://www.atsc.org/atsc-documents/type/3-0-standards/",
+    "description": "ATSC 3.0 A337 Application Event Delivery",
+    "MPEG": false
+  },
+  {
+    "specification": "ATSC 3.0 A345",
+    "url": "https://www.atsc.org/atsc-documents/type/3-0-candidate-standards/",
+    "description": "ATSC 3.0 A345 VVC Video",
     "MPEG": false
   },
   {
@@ -115,7 +121,7 @@
   },
   {
     "specification": "Canon",
-    "url": "http://www.canon.com/",
+    "url": "https://global.canon",
     "description": "Canon",
     "MPEG": false
   },
