@@ -57,3 +57,4 @@ dobr,Depth of field bracketing,sample group,HEIF
 fobr,Focus bracketing exposure bracketing,sample group,HEIF
 pano,Panorama sample group,sample group,HEIF
 wbbr,White balance bracketing,sample group,HEIF
+ilce,FieldInterlaceType,sample group,UNCV
