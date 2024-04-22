@@ -167,4 +167,4 @@ iamf,Immersive Audio Model and Formats - Encapsulated IA Sequence,Audio,AOM-IAMF
 ipcm,Integer based PCM format for audio,Audio,ISO-UNCA,
 fpcm,Floating-point based PCM format for audio,Audio,ISO-UNCA,
 cndm,Dynamic Metadata Sample Entry(XF-AVC S/XF-HEVC S File Format),Video,Canon,
-lvc1,LCEVC video stream,,,
+lvc1,LCEVC video track,Video,NALu Video,

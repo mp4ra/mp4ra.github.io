@@ -77,3 +77,4 @@ vwid,View identifier,Video,NALu Video
 vlab,WebVTT Source Label,Text,ISO-Text
 cuvv,HDR Vivid Configuration,Video,UWA
 pcmC,Uncompressed audio PCM configuration,Audio,ISO-UNCA
+lvcC,LCEVC configuration,Video,NALu Video
