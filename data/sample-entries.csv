@@ -89,9 +89,9 @@ mjp2,Motion JPEG 2000,Video,MJ2,
 mjpg,JPEG image sequences,Video,HEIF,
 mlix,DVB Movie level index track,Metadata,DVB,
 mlpa,MLP Audio,Audio,Dolby MLP,
-mp4a,MPEG-4 Audio,Audio,MP4v1,"0x40, others"
-mp4s,MPEG-4 Systems,(various),MP4v1,various
-mp4v,MPEG-4 Visual,Video,MP4v1,"0x20, others"
+mp4a,MPEG-4 Audio,Audio,MP4v2,"0x40, others"
+mp4s,MPEG-4 Systems,(various),MP4v2,various
+mp4v,MPEG-4 Visual,Video,MP4v2,"0x20, others"
 mvc1,Multiview coding,Video,NALu Video,
 mvc2,Multiview coding,Video,NALu Video,
 mvc3,Multiview coding,Video,NALu Video,
