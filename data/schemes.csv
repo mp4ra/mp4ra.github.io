@@ -20,3 +20,4 @@ podv,Open-ended scheme type for omnidirectional video based on a projection,rest
 stvi,Stereo video restricted scheme,restricted video scheme,ISO
 sve1,AES-CTR content sensitive encryption,protection scheme,ISO Common Encryption
 vvvc,V3C video component restricted scheme,restricted video scheme,V3C-SYS
+spki,Compatible scheme type box,,
