@@ -57,3 +57,31 @@ dobr,Depth of field bracketing,sample group,HEIF
 fobr,Focus bracketing exposure bracketing,sample group,HEIF
 pano,Panorama sample group,sample group,HEIF
 wbbr,White balance bracketing,sample group,HEIF
+pasr,"""The list of all envisioned 4CC incl their description and specification:
+```
+pasr,Pixel Aspect Ratio Sample Grouping,ISO
+casg,Clean Aperture Sample Grouping,ISO
+edrp,EDRAP sample group,ISO
+esgh,Essential descriptions hierarchy sample grouping,ISO
+```""",,
+casg,"""The list of all envisioned 4CC incl their description and specification:
+```
+pasr,Pixel Aspect Ratio Sample Grouping,ISO
+casg,Clean Aperture Sample Grouping,ISO
+edrp,EDRAP sample group,ISO
+esgh,Essential descriptions hierarchy sample grouping,ISO
+```""",,
+edrp,"""The list of all envisioned 4CC incl their description and specification:
+```
+pasr,Pixel Aspect Ratio Sample Grouping,ISO
+casg,Clean Aperture Sample Grouping,ISO
+edrp,EDRAP sample group,ISO
+esgh,Essential descriptions hierarchy sample grouping,ISO
+```""",,
+esgh,"""The list of all envisioned 4CC incl their description and specification:
+```
+pasr,Pixel Aspect Ratio Sample Grouping,ISO
+casg,Clean Aperture Sample Grouping,ISO
+edrp,EDRAP sample group,ISO
+esgh,Essential descriptions hierarchy sample grouping,ISO
+```""",,
