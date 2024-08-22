@@ -59,3 +59,6 @@ vvcC,VVC image item configuration,HEIF
 wbbr,White balance information,HEIF
 wipe,Wipe transition effect,HEIF
 zoom,Zoom transition effect,HEIF
+mcrs,These three properties will be used to provide geospatial referencing (essentially a mapping of pixel coordinates to real-world coordinates) for image items such as Earth Observation photographs.,
+mtxf,These three properties will be used to provide geospatial referencing (essentially a mapping of pixel coordinates to real-world coordinates) for image items such as Earth Observation photographs.,
+tiep,These three properties will be used to provide geospatial referencing (essentially a mapping of pixel coordinates to real-world coordinates) for image items such as Earth Observation photographs.,
