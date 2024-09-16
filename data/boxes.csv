@@ -269,3 +269,4 @@ tran,SVC lightweight transcoding,NALu Video
 vipr,View priority Box,NALu Video
 sdp$20,SDP information,ISO
 stvi,Stereo Video Box,ISO
+apvC,"""APV is a mezzanine video codec for storage, exchange and editing of professional quality video. This type of box carries configuration information for a decoder.""",
