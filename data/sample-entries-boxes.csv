@@ -51,6 +51,7 @@ prmr,Production metadata reference box,Video,Youtube
 qlif,Layer quality assignments,Video,NALu Video
 scrb,Scramble scheme information,Video,ISO
 seib,Scalability information,Video,NALu Video
+silb,Scheme ID list Box,Metadata,Event Message
 SmDm,Mastering Display Metadata Box,Video,VPxx
 srat,Sampling rate,Audio,ISO
 svcC,SVC configuration,Video,NALu Video
