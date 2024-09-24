@@ -26,6 +26,7 @@ export default async function getData(filename: string): Promise<ReturnType> {
         if (filename === "specifications") {
             // Transform each entry in the array
             records = specifications.map((record) => ({
+                id: record.specification,
                 specification: `<a href="${record.url}">${record.specification}</a>`,
                 description: record.description
             }));
