@@ -169,3 +169,9 @@ fpcm,Floating-point based PCM format for audio,Audio,ISO-UNCA,
 cndm,Dynamic Metadata Sample Entry(XF-AVC S/XF-HEVC S File Format),Video,Canon,
 lvc1,LCEVC video track,Video,NALu Video,
 apac,Apple Positional Audio Codec,Audio,Apple,
+av3a,"av3a: AVS3-P3 Codec
+ dca3: Decoder configuration for AVS3-P3 Codec
+ ca3a: CMAF Media Profile – AVS3-P3",,,
+dca3,"av3a: AVS3-P3 Codec
+ dca3: Decoder configuration for AVS3-P3 Codec
+ ca3a: CMAF Media Profile – AVS3-P3",,,
