@@ -39,4 +39,4 @@ vplx,Auxiliary video parallax,ISO
 vref,reference to a track that contains a 'vopi' sample group for VVC video,NALu Video
 vreg,reference to a VVC operating point entity group,NALu Video
 vvcN,the referenced track is a non video coding layer track of VVC,NALu Video
-aest,associated external stream track,
+aest,associated external stream track,ISO
