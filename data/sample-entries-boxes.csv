@@ -78,4 +78,4 @@ vlab,WebVTT Source Label,Text,ISO-Text
 cuvv,HDR Vivid Configuration,Video,UWA
 pcmC,Uncompressed audio PCM configuration,Audio,ISO-UNCA
 lvcC,LCEVC configuration,Video,NALu Video
-acxd,Decoder-specific info for Auro-Cx audio,,
+acxd,Decoder-specific info for Auro-Cx audio,Audio,Auro
