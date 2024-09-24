@@ -24,4 +24,4 @@ tsyn,Time-synchronized capture entity group,HEIF
 vipo,Viewpoint entity grouping,OMAF
 vvcb,VVC bitstream,NALu Video
 wbbr,White balance bracketing entity group,HEIF
-prsl,Preselection grouping,
+prsl,Preselection grouping,ISO
