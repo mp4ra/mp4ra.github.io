@@ -59,3 +59,4 @@ vvcC,VVC image item configuration,HEIF
 wbbr,White balance information,HEIF
 wipe,Wipe transition effect,HEIF
 zoom,Zoom transition effect,HEIF
+hdlp,Handler property that provides a mapping of a media handler with an item in a MetaBox,ISO

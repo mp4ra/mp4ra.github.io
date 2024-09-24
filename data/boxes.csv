@@ -269,4 +269,3 @@ tran,SVC lightweight transcoding,NALu Video
 vipr,View priority Box,NALu Video
 sdp$20,SDP information,ISO
 stvi,Stereo Video Box,ISO
-hdlp,"""handler property,ISO""",
