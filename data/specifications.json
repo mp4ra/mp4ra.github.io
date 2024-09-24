@@ -606,6 +606,12 @@
     "MPEG": false
   },
   {
+    "specification": "OpenAPV",
+    "url": "https://github.com/openapv",
+    "description": "Open Advanced Professional Video Codec",
+    "MPEG": false
+  },
+  {
     "specification": "SCTE-215-1-1b",
     "url": "https://www.scte.org/download-scteisbe-standards/",
     "description": "SCTE HEVC Video Constraints for Cable Television Part 1-1 HDR10 Coding",
