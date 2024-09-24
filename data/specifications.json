@@ -102,6 +102,12 @@
     "MPEG": false
   },
   {
+    "specification": "GB-T-20090-9",
+    "url": "http://www.avs.org.cn/AVS2_download/index.asp",
+    "description": "GB/T 20090.9-2006 Information technology - Advanced coding of audio and video - Part 9: AVS file format",
+    "MPEG": false
+  },
+  {
     "specification": "BitJazz",
     "url": "http://www.bitjazz.com/",
     "description": "BitJazz",
@@ -279,12 +285,6 @@
     "specification": "FLAC",
     "url": "https://xiph.org/flac/",
     "description": "FLAC Free Lossless Audio Codec. Encapsulation of FLAC in ISO Base Media File Format",
-    "MPEG": false
-  },
-  {
-    "specification": "GB-T-20090-9",
-    "url": "http://www.avs.org.cn/AVS2_download/index.asp",
-    "description": "GB/T 20090.9-2006 Information technology - Advanced coding of audio and video - Part 9: AVS file format",
     "MPEG": false
   },
   {
