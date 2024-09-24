@@ -510,6 +510,12 @@
     "MPEG": false
   },
   {
+    "specification": "OGC 24-038",
+    "url": "https://www.ogc.org",
+    "description": "OGC 23-038 GIMI Specification Engineering Report",
+    "MPEG": false
+  },
+  {
     "specification": "OMA DRM 2.0",
     "url": "http://www.openmobilealliance.org/",
     "description": "OMA DRM; Open Mobile Alliance Digital Rights Management, DRM Content Format 2.0 (OMA-TS-DRM_DCF-V2_0_1-20080226-A)",
