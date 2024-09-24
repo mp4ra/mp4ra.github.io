@@ -269,8 +269,6 @@ tran,SVC lightweight transcoding,NALu Video
 vipr,View priority Box,NALu Video
 sdp$20,SDP information,ISO
 stvi,Stereo Video Box,ISO
-aedb,"""The list of all envisioned 4CC incl their description and specification:
-```
 aedb,audio element description,ISO
 aelm,audio element box,ISO
 aepp,audio element positioning interactivity polar box,ISO
@@ -279,81 +277,3 @@ aesb,audio element selection box,ISO
 aesd,audio element selection description box,ISO
 ardi,audio rendering indication,ISO
 labl,Label,ISO
-```""",
-aelm,"""The list of all envisioned 4CC incl their description and specification:
-```
-aedb,audio element description,ISO
-aelm,audio element box,ISO
-aepp,audio element positioning interactivity polar box,ISO
-aepr,audio element prominence interactivity box,ISO
-aesb,audio element selection box,ISO
-aesd,audio element selection description box,ISO
-ardi,audio rendering indication,ISO
-labl,Label,ISO
-```""",
-aepp,"""The list of all envisioned 4CC incl their description and specification:
-```
-aedb,audio element description,ISO
-aelm,audio element box,ISO
-aepp,audio element positioning interactivity polar box,ISO
-aepr,audio element prominence interactivity box,ISO
-aesb,audio element selection box,ISO
-aesd,audio element selection description box,ISO
-ardi,audio rendering indication,ISO
-labl,Label,ISO
-```""",
-aepr,"""The list of all envisioned 4CC incl their description and specification:
-```
-aedb,audio element description,ISO
-aelm,audio element box,ISO
-aepp,audio element positioning interactivity polar box,ISO
-aepr,audio element prominence interactivity box,ISO
-aesb,audio element selection box,ISO
-aesd,audio element selection description box,ISO
-ardi,audio rendering indication,ISO
-labl,Label,ISO
-```""",
-aesb,"""The list of all envisioned 4CC incl their description and specification:
-```
-aedb,audio element description,ISO
-aelm,audio element box,ISO
-aepp,audio element positioning interactivity polar box,ISO
-aepr,audio element prominence interactivity box,ISO
-aesb,audio element selection box,ISO
-aesd,audio element selection description box,ISO
-ardi,audio rendering indication,ISO
-labl,Label,ISO
-```""",
-aesd,"""The list of all envisioned 4CC incl their description and specification:
-```
-aedb,audio element description,ISO
-aelm,audio element box,ISO
-aepp,audio element positioning interactivity polar box,ISO
-aepr,audio element prominence interactivity box,ISO
-aesb,audio element selection box,ISO
-aesd,audio element selection description box,ISO
-ardi,audio rendering indication,ISO
-labl,Label,ISO
-```""",
-ardi,"""The list of all envisioned 4CC incl their description and specification:
-```
-aedb,audio element description,ISO
-aelm,audio element box,ISO
-aepp,audio element positioning interactivity polar box,ISO
-aepr,audio element prominence interactivity box,ISO
-aesb,audio element selection box,ISO
-aesd,audio element selection description box,ISO
-ardi,audio rendering indication,ISO
-labl,Label,ISO
-```""",
-labl,"""The list of all envisioned 4CC incl their description and specification:
-```
-aedb,audio element description,ISO
-aelm,audio element box,ISO
-aepp,audio element positioning interactivity polar box,ISO
-aepr,audio element prominence interactivity box,ISO
-aesb,audio element selection box,ISO
-aesd,audio element selection description box,ISO
-ardi,audio rendering indication,ISO
-labl,Label,ISO
-```""",
