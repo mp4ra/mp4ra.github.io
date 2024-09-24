@@ -108,6 +108,12 @@
     "MPEG": false
   },
   {
+    "specification": "T-AI-109.7",
+    "url": "http://www.avs.org.cn/english/index.asp",
+    "description": "T/AI 109.7—2024 Information technology - Intelligent media coding – Part 7: Audio encapsulation and transport",
+    "MPEG": false
+  },
+  {
     "specification": "BitJazz",
     "url": "http://www.bitjazz.com/",
     "description": "BitJazz",
