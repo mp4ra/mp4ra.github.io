@@ -625,8 +625,8 @@
   },
   {
     "specification": "OpenAPV",
-    "url": "https://github.com/openapv",
-    "description": "Open Advanced Professional Video Codec",
+    "url": "https://github.com/openapv/openapv/blob/main/readme/apv_isobmff.md",
+    "description": "The ISOBMFF binding specification defines the means for storing data encoded with the Advanced Professional Video (APV) codec in ISO Base Media File Format files.",
     "MPEG": false
   },
   {
