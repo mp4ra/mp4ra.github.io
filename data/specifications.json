@@ -91,14 +91,26 @@
   },
   {
     "specification": "Avs2",
-    "url": "http://www.gb688.cn/bzgk/gb/newGbInfo?hcno=3AB9CF558421E866CAB2B3115498E7C0",
+    "url": "https://openstd.samr.gov.cn/bzgk/gb/newGbInfo?hcno=C23145CA7C18AC718FDE2589AC626D6E",
     "description": "AVS 2 Specification",
     "MPEG": false
   },
   {
     "specification": "Avs3",
-    "url": "http://www.avs.org.cn/AVS3_download/index.asp",
+    "url": "https://standard.avs.org.cn/AVS3_download/index.asp",
     "description": "AVS 3 Specification",
+    "MPEG": false
+  },
+  {
+    "specification": "GB-T-20090-9",
+    "url": "https://standard.avs.org.cn/AVS2_download/index.asp",
+    "description": "GB/T 20090.9-2006 Information technology - Advanced coding of audio and video - Part 9: AVS file format",
+    "MPEG": false
+  },
+  {
+    "specification": "T-AI-109.7",
+    "url": "https://www.avs.org.cn/en/",
+    "description": "T/AI 109.7—2024 Information technology - Intelligent media coding – Part 7: Audio encapsulation and transport",
     "MPEG": false
   },
   {
@@ -279,12 +291,6 @@
     "specification": "FLAC",
     "url": "https://xiph.org/flac/",
     "description": "FLAC Free Lossless Audio Codec. Encapsulation of FLAC in ISO Base Media File Format",
-    "MPEG": false
-  },
-  {
-    "specification": "GB-T-20090-9",
-    "url": "http://www.avs.org.cn/AVS2_download/index.asp",
-    "description": "GB/T 20090.9-2006 Information technology - Advanced coding of audio and video - Part 9: AVS file format",
     "MPEG": false
   },
   {

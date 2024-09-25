@@ -22,7 +22,8 @@ avcp,Advanced Video Coding Parameters,Video,NALu Video,0x22
 avst,2nd Generation Audio Video Coding Standard of China (AVS Two),Video,Avs2,
 avs3,3nd Generation Audio Video Coding Standard of China,Video,Avs3,
 camm,Camera motion metadata track,Video,CamMotion,
-cavs,AVS2-P3 codec,Audio,GB-T-20090-9,0xF0
+cavs,AVS2-P3 Codec,Audio,GB-T-20090-9,0xF0
+av3a,AVS3-P3 Codec,Audio,T-AI-109.7,0xF1
 dav1,AV1-related Dolby Vision consistent with av01,Video,Dolby Vision,
 dra1,DRA Audio,Audio,DRA,0xA7
 drac,Dirac Video Coder,Video,Dirac,0xA4
