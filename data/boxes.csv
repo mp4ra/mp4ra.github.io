@@ -40,8 +40,6 @@ dsgd,DVB Sample Group Description Box,DVB
 dstg,DVB Sample to Group Box,DVB
 edts,edit list container,ISO
 elst,an edit list,ISO
-emeb,event message empty,Event Message
-emib,event message instance,Event Message
 emsg,event message,DASH
 evti,Event information,ATSC 3.0 A337
 etyp,extended type and type combination,ISO
