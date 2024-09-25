@@ -51,6 +51,7 @@ prmr,Production metadata reference box,Video,Youtube
 qlif,Layer quality assignments,Video,NALu Video
 scrb,Scramble scheme information,Video,ISO
 seib,Scalability information,Video,NALu Video
+silb,Scheme ID list Box,Metadata,Event Message
 SmDm,Mastering Display Metadata Box,Video,VPxx
 srat,Sampling rate,Audio,ISO
 svcC,SVC configuration,Video,NALu Video
@@ -79,4 +80,5 @@ cuvv,HDR Vivid Configuration,Video,UWA
 pcmC,Uncompressed audio PCM configuration,Audio,ISO-UNCA
 lvcC,LCEVC configuration,Video,NALu Video
 acxd,Decoder-specific info for Auro-Cx audio,Audio,Auro
+dca3,Decoder configuration for AVS3-P3 Codec,Audio,T-AI-109.7
 apvC,APV Codec Configuration Box,Video,OpenAPV
