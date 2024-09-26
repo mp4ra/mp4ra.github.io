@@ -77,6 +77,17 @@ vvcC,VVC video configuration,Video,NALu Video
 vwid,View identifier,Video,NALu Video
 vlab,WebVTT Source Label,Text,ISO-Text
 cuvv,HDR Vivid Configuration,Video,UWA
+cmpd,Component Definition,Video,UNCV
+uncC,Uncompressed Frame Configuration,Video,UNCV
+cpal,Component Palette Configuration,Video,UNCV
+cpat,Component Pattern Definition,Video,UNCV
+clev,Component Reference Level,Video,UNCV
+splz,Polarization Pattern Definition,Video,UNCV
+snuc,Sensor Non-Uniformity Correction,Video,UNCV
+sbpm,Sensor Bad Pixels Map,Video,UNCV
+cloc,Chroma Location,Video,UNCV
+fpac,Frame Packing Information,Video,UNCV
+disi,Disparity Information,Video,UNCV
 pcmC,Uncompressed audio PCM configuration,Audio,ISO-UNCA
 lvcC,LCEVC configuration,Video,NALu Video
 acxd,Decoder-specific info for Auro-Cx audio,Audio,Auro
