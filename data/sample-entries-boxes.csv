@@ -77,12 +77,12 @@ vwid,View identifier,Video,NALu Video
 vlab,WebVTT Source Label,Text,ISO-Text
 cuvv,HDR Vivid Configuration,Video,UWA
 cmpd,Component Definition,Video,UNCV
-uncC,Uncompressed Frame Config,Video,UNCV
-cpal,Component Palette,Video,UNCV
+uncC,Uncompressed Frame Configuration,Video,UNCV
+cpal,Component Palette Configuration,Video,UNCV
 cpat,Component Pattern Definition,Video,UNCV
 clev,Component Reference Level,Video,UNCV
 splz,Polarization Pattern Definition,Video,UNCV
-snuc,Sensor Non Uniformity Correction,Video,UNCV
+snuc,Sensor Non-Uniformity Correction,Video,UNCV
 sbpm,Sensor Bad Pixels Map,Video,UNCV
 cloc,Chroma Location,Video,UNCV
 fpac,Frame Packing Information,Video,UNCV

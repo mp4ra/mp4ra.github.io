@@ -60,14 +60,14 @@ wbbr,White balance information,HEIF
 wipe,Wipe transition effect,HEIF
 zoom,Zoom transition effect,HEIF
 cmpd,Component Definition,UNCV
-uncC,Uncompressed Frame Config,UNCV
-cpal,Component Palette,UNCV
+uncC,Uncompressed Frame Configuration,UNCV
+cpal,Component Palette Configuration,UNCV
 cpat,Component Pattern Definition,UNCV
 clev,Component Reference Level,UNCV
 splz,Polarization Pattern Definition,UNCV
-snuc,Sensor Non Uniformity Correction,UNCV
+snuc,Sensor Non-Uniformity Correction,UNCV
 sbpm,Sensor Bad Pixels Map,UNCV
 cloc,Chroma Location,UNCV
 fpac,Frame Packing Information,UNCV
 disi,Disparity Information,UNCV
-ilcp,Field Interlace,UNCV
+ilcp,Field Interlace Property,UNCV
