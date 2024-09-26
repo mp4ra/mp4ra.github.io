@@ -7,5 +7,5 @@ potg,playout track grouping,V3C-SYS
 snut,a group of VVC subpicture tracks where the VCL NAL units of the time-aligned samples have the same NAL unit type,NALu Video
 vtcg,V3C atlas tile component track grouping,V3C-SYS
 ster,stereo pair track grouping,ISO
-scvg,component video track group,UNCV
-stvg,tile video track group,UNCV
+scvg,Component video track group,UNCV
+stvg,Tile video track group,UNCV
