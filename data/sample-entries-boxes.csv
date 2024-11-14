@@ -82,4 +82,4 @@ lvcC,LCEVC configuration,Video,NALu Video
 acxd,Decoder-specific info for Auro-Cx audio,Audio,Auro
 dca3,Decoder configuration for AVS3-P3 Codec,Audio,T-AI-109.7
 apvC,APV Codec Configuration Box,Video,OpenAPV
-amve,Ambient viewing environment,,
+amve,Ambient viewing environment,Video,ISO
