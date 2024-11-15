@@ -1,0 +1,18 @@
+code,description,specification
+2vuy,8 bit per component YUV 4:2:2. Packed Cb Y0 Cr Y1,Apple
+yuv2,8 bit per component YUV 4:2:2. Packed Y0 Cb Y1 Cr,Apple
+v308,8 bit per component YUV 4:4:4. Packed Cr Y Cb,Apple
+v408,8 bit per component YUVA 4:4:4:4. Packed Cb Y Cr A,Apple
+v216,"10,12,14,16 bit per component YUV 4:2:2. Packed Cb Y0 Cr Y1 (each n-bit component is left justified in a 16 bit little-endian word)",Apple
+v410,10 bit per component YUV 4:4:4. 3 10-bit unsigned components are packed into a 32-bit little-endian word,Apple
+v210,10 bit per component YUV 4:2:2. 12 10-bit unsigned components are packed into four 32-bit little-endian words,Apple
+yvyu,8 bits YUV 422 packed Y0 Cr Y1 Cb,UNCV
+vyuy,8 bits YUV 422 packed Cr Y0 Cb Y1,UNCV
+yuv1,8 bits YUV 411 packed Y0 Y1 Cb Y2 Y3 Cr,UNCV
+y210,10 bits YUV 422 packed Little-Endian Y0 Cb Y1 Cr,UNCV
+rgb3,RGB 24 bits packed,UNCV
+i420,YUV 420 8 bits planar Y Cb Cr,UNCV
+nv12,YUV 420 8 bits semi-planar Y CbCr,UNCV
+nv21,YUV 420 8 bits semi-planar Y CrCb,UNCV
+rgba,RGBA 32bits packed,UNCV
+abgr,RGBA 32bits packed,UNCV
