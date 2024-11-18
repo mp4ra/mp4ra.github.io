@@ -57,4 +57,4 @@ dobr,Depth of field bracketing,sample group,HEIF
 fobr,Focus bracketing exposure bracketing,sample group,HEIF
 pano,Panorama sample group,sample group,HEIF
 wbbr,White balance bracketing,sample group,HEIF
-pprr,Picture region replacement for the picture-in-picture functionality. Indicates that the NAL units representing the target supplementary video region in the main video can be replaced with the corresponding NAL units of the supplementary video.,,
+pprr,Picture region replacement for the picture-in-picture functionality,sample group,NALu Video
