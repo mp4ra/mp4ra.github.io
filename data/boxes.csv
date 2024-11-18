@@ -270,3 +270,11 @@ vipr,View priority Box,NALu Video
 sdp$20,SDP information,ISO
 stvi,Stereo Video Box,ISO
 spki,Compatible scheme type box,ISO
+aedb,audio element description,ISO
+aelm,audio element box,ISO
+aepp,audio element positioning interactivity polar box,ISO
+aepr,audio element prominence interactivity box,ISO
+aesb,audio element selection box,ISO
+aesd,audio element selection description box,ISO
+ardi,audio rendering indication,ISO
+labl,Label,ISO
