@@ -96,7 +96,7 @@ There are two ways to add a page to the website:
 
 - Create a new MDX file in `src/app` directory. The file directory will be used as the URL of the page. For example, `src/app/my-page/page.mdx` will be available at `https://mp4ra.org/my-page`.
   > **Note:** The file name must be `page.mdx` for the page to be generated.
-- Add the appropriate entry in `src/app/(rest)/registered-types/[type]/page.tsx`. This is a dynamic route that generates a page for every entry in `MISC_TYPES`. This is useful if you do not want to add additional content to the page except for the title and table.
+- Add the appropriate entry in `src/app/(rest)/registered-types/[type]/misc.ts`. This is a dynamic route that generates a page for every entry in `MISC_TYPES`. This is useful if you do not want to add additional content to the page except for the title and table.
 
 ## 4CC_Automation/
 
