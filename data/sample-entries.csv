@@ -22,7 +22,8 @@ avcp,Advanced Video Coding Parameters,Video,NALu Video,0x22
 avst,2nd Generation Audio Video Coding Standard of China (AVS Two),Video,Avs2,
 avs3,3nd Generation Audio Video Coding Standard of China,Video,Avs3,
 camm,Camera motion metadata track,Video,CamMotion,
-cavs,AVS2-P3 codec,Audio,GB-T-20090-9,0xF0
+cavs,AVS2-P3 Codec,Audio,GB-T-20090-9,0xF0
+av3a,AVS3-P3 Codec,Audio,T-AI-109.7,0xF1
 dav1,AV1-related Dolby Vision consistent with av01,Video,Dolby Vision,
 dra1,DRA Audio,Audio,DRA,0xA7
 drac,Dirac Video Coder,Video,Dirac,0xA4
@@ -53,6 +54,7 @@ evc1,Essential Video Coding,Video,NALu Video,
 evm1,Essential Video Coding slice base track,Video,NALu Video,
 evs1,Essential Video Coding slice component track without parameter sets,Video,NALu Video,
 evs2,Essential Video Coding slice component track that may contain parameter sets,Video,NALu Video,
+evte,Event message instance,Metadata,Event Message,
 fdp$20,File delivery hints,Hint,ISO,
 FFV1,An open lossless intra-frame video codec,Video,FF Video Codec,
 fLaC,Free Lossless Audio Codec (FLAC),Audio,FLAC,
@@ -89,9 +91,9 @@ mjp2,Motion JPEG 2000,Video,MJ2,
 mjpg,JPEG image sequences,Video,HEIF,
 mlix,DVB Movie level index track,Metadata,DVB,
 mlpa,MLP Audio,Audio,Dolby MLP,
-mp4a,MPEG-4 Audio,Audio,MP4v1,"0x40, others"
-mp4s,MPEG-4 Systems,(various),MP4v1,various
-mp4v,MPEG-4 Visual,Video,MP4v1,"0x20, others"
+mp4a,MPEG-4 Audio,Audio,MP4v2,"0x40, others"
+mp4s,MPEG-4 Systems,(various),MP4v2,various
+mp4v,MPEG-4 Visual,Video,MP4v2,"0x20, others"
 mvc1,Multiview coding,Video,NALu Video,
 mvc2,Multiview coding,Video,NALu Video,
 mvc3,Multiview coding,Video,NALu Video,
@@ -167,3 +169,7 @@ uncv,Uncompressed Video,Video,UNCV,
 iamf,Immersive Audio Model and Formats - Encapsulated IA Sequence,Audio,AOM-IAMF,
 ipcm,Integer based PCM format for audio,Audio,ISO-UNCA,
 fpcm,Floating-point based PCM format for audio,Audio,ISO-UNCA,
+cndm,Dynamic Metadata Sample Entry(XF-AVC S/XF-HEVC S File Format),Video,Canon,
+lvc1,LCEVC video track,Video,NALu Video,
+apac,Apple Positional Audio Codec,Audio,Apple,
+apv1,APV mezzanine video codec for storage exchange and editing of professional quality video,Video,OpenAPV,

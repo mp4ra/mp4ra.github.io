@@ -31,9 +31,11 @@ jpgC,JPEG image item configuration,HEIF
 jxsH,JPEG XS Header,JPXS
 lhvC,Layered HEVC Image item configuration,HEIF
 lsel,Layer selection,HEIF
+mcrs,Model coordinate reference system,OGC 24-038
 mdcv,Mastering display colour volume,HEIF
 mdft,Modification time information,HEIF
 mskC,Mask item configuration,HEIF
+mtxf,Model transformation,OGC 24-038
 oinf,HEVC operating point,HEIF
 ovly,Overlay configuration,OMAF
 pano,Panorama information,HEIF
@@ -49,6 +51,7 @@ ssld,Suggested time display duraton,HEIF
 stpe,Suggested transition period,HEIF
 stvi,Frame packing,OMAF
 subs,Subsample information,HEIF
+tiep,Model tie-point,OGC 24-038
 tols,Layered HEVC Target output layer set property,HEIF
 udes,User description,HEIF
 v3cC,V3C configuration,V3C-SYS

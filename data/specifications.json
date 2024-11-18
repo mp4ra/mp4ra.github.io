@@ -61,14 +61,26 @@
   },
   {
     "specification": "Apple",
-    "url": "http://www.apple.com/",
+    "url": "https://www.apple.com",
     "description": "Apple Inc.",
     "MPEG": false
   },
   {
-    "specification": "ATSC 3.0",
-    "url": "https://www.atsc.org/standards/atsc-3-0-standards/",
-    "description": "ATSC 3.0 A337 Application Signaling",
+    "specification": "Apple HEVC Alpha",
+    "url": "https://developer.apple.com/av-foundation/HEVC-Video-with-Alpha-Interoperability-Profile.pdf",
+    "description": "HEVC Video with Alpha, Interoperability Profile. Apple Inc.",
+    "MPEG": false
+  },
+  {
+    "specification": "ATSC 3.0 A337",
+    "url": "https://www.atsc.org/atsc-documents/type/3-0-standards/",
+    "description": "ATSC 3.0 A337 Application Event Delivery",
+    "MPEG": false
+  },
+  {
+    "specification": "ATSC 3.0 A345",
+    "url": "https://www.atsc.org/atsc-documents/type/3-0-candidate-standards/",
+    "description": "ATSC 3.0 A345 VVC Video",
     "MPEG": false
   },
   {
@@ -79,14 +91,26 @@
   },
   {
     "specification": "Avs2",
-    "url": "http://www.gb688.cn/bzgk/gb/newGbInfo?hcno=3AB9CF558421E866CAB2B3115498E7C0",
+    "url": "https://openstd.samr.gov.cn/bzgk/gb/newGbInfo?hcno=C23145CA7C18AC718FDE2589AC626D6E",
     "description": "AVS 2 Specification",
     "MPEG": false
   },
   {
     "specification": "Avs3",
-    "url": "http://www.avs.org.cn/AVS3_download/index.asp",
+    "url": "https://standard.avs.org.cn/AVS3_download/index.asp",
     "description": "AVS 3 Specification",
+    "MPEG": false
+  },
+  {
+    "specification": "GB-T-20090-9",
+    "url": "https://standard.avs.org.cn/AVS2_download/index.asp",
+    "description": "GB/T 20090.9-2006 Information technology - Advanced coding of audio and video - Part 9: AVS file format",
+    "MPEG": false
+  },
+  {
+    "specification": "T-AI-109.7",
+    "url": "https://www.avs.org.cn/en/",
+    "description": "T/AI 109.7—2024 Information technology - Intelligent media coding – Part 7: Audio encapsulation and transport",
     "MPEG": false
   },
   {
@@ -109,7 +133,7 @@
   },
   {
     "specification": "Canon",
-    "url": "http://www.canon.com/",
+    "url": "https://global.canon",
     "description": "Canon",
     "MPEG": false
   },
@@ -246,6 +270,12 @@
     "MPEG": true
   },
   {
+    "specification": "Event Message",
+    "url": "http://www.iso.ch/",
+    "description": "ISO/IEC 23001-18: Event message track format for the ISO base media file format",
+    "MPEG": true
+  },
+  {
     "specification": "ETSI AC-3",
     "url": "http://www.etsi.org/",
     "description": "ETSI TS 102 366 v1.4.1 - Digital Audio Compression (AC-3, Enhanced AC-3) Standard, Annex F",
@@ -267,12 +297,6 @@
     "specification": "FLAC",
     "url": "https://xiph.org/flac/",
     "description": "FLAC Free Lossless Audio Codec. Encapsulation of FLAC in ISO Base Media File Format",
-    "MPEG": false
-  },
-  {
-    "specification": "GB-T-20090-9",
-    "url": "http://www.avs.org.cn/AVS2_download/index.asp",
-    "description": "GB/T 20090.9-2006 Information technology - Advanced coding of audio and video - Part 9: AVS file format",
     "MPEG": false
   },
   {
@@ -498,6 +522,12 @@
     "MPEG": false
   },
   {
+    "specification": "OGC 24-038",
+    "url": "https://www.ogc.org",
+    "description": "OGC 23-038 GIMI Specification Engineering Report",
+    "MPEG": false
+  },
+  {
     "specification": "OMA DRM 2.0",
     "url": "http://www.openmobilealliance.org/",
     "description": "OMA DRM; Open Mobile Alliance Digital Rights Management, DRM Content Format 2.0 (OMA-TS-DRM_DCF-V2_0_1-20080226-A)",
@@ -571,8 +601,8 @@
   },
   {
     "specification": "QT",
-    "url": "http://www.apple.com/quicktime/",
-    "description": "The QuickTime File format, Apple Computer Inc.",
+    "url": "https://developer.apple.com/documentation/quicktime-file-format",
+    "description": "QuickTime File format. Apple Inc.",
     "MPEG": false
   },
   {
@@ -591,6 +621,12 @@
     "specification": "Samsung",
     "url": "http://www.samsung.com/",
     "description": "Samsung",
+    "MPEG": false
+  },
+  {
+    "specification": "OpenAPV",
+    "url": "https://github.com/openapv/openapv/blob/main/readme/apv_isobmff.md",
+    "description": "The ISOBMFF binding specification defines the means for storing data encoded with the Advanced Professional Video (APV) codec in ISO Base Media File Format files.",
     "MPEG": false
   },
   {

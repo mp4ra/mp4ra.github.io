@@ -2,6 +2,7 @@ import fs from "fs";
 import path from "path";
 import { glob } from "glob";
 import { capitalize } from "@/utils/misc";
+import MISC_TYPES from "./[type]/misc";
 
 type RegisteredTypes = {
     [link: string]: {
@@ -36,18 +37,16 @@ export default async function getRegisteredTypes(): Promise<RegisteredTypes> {
     });
 
     // Extend with [type] dyanmic routes
-    await import("./[type]/page").then((m) =>
-        m.MISC_TYPES.forEach(({ title, type }) => {
-            const link = `/registered-types/${type}`;
-            if (!types[link]) {
-                types[link] = {
-                    title,
-                    priority: 0,
-                    csvs: [type]
-                };
-            }
-        })
-    );
+    MISC_TYPES.forEach(({ title, type }) => {
+        const link = `/registered-types/${type}`;
+        if (!types[link]) {
+            types[link] = {
+                title,
+                priority: 0,
+                csvs: [type]
+            };
+        }
+    });
 
     return types;
 }

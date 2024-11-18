@@ -63,8 +63,9 @@ export default function Table({ data, globalFilter }: { data: object[]; globalFi
         const keys = new Set<string>();
         data.forEach((row) => Object.keys(row).forEach((key) => keys.add(key)));
 
-        // Remove isMPEG from keys
+        // Remove meta columns
         if (keys.has("isMPEG")) keys.delete("isMPEG");
+        if (keys.has("id")) keys.delete("id");
 
         // Generate columns
         return Array.from(keys).map((header) => {
@@ -128,7 +129,7 @@ export default function Table({ data, globalFilter }: { data: object[]; globalFi
         getCoreRowModel: getCoreRowModel(),
         getFilteredRowModel: getFilteredRowModel(),
         getSortedRowModel: getSortedRowModel(),
-        getRowId: (row, index) => (pathname === "/references" && row.specification) || index
+        getRowId: (row, index) => (pathname === "/references" && row.id) || index
     });
 
     if (globalFilter !== undefined && globalFilter.length < 2) return null;

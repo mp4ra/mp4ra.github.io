@@ -24,7 +24,7 @@ coin,Content Information Box,DECE
 colr,specifies the colourspace of the image,JPEG2000
 covi,coverage information,OMAF
 crgn,Reserved,ISO
-crhd,reserved for ClockReferenceStream header,MP4v1
+crhd,reserved for ClockReferenceStream header,MP4v2
 csgp,compact sample to group,ISO
 cslg,composition to decode timeline mapping,ISO
 cstb,corrected wall clock start time,ONVIF
@@ -41,7 +41,7 @@ dstg,DVB Sample to Group Box,DVB
 edts,edit list container,ISO
 elst,an edit list,ISO
 emsg,event message,DASH
-evti,Event information,ATSC 3.0
+evti,Event information,ATSC 3.0 A337
 etyp,extended type and type combination,ISO
 Exif,Exif Metadata,JPXS
 fdel,File delivery information (item info extension),ISO
@@ -75,9 +75,9 @@ imda,Identified media data,ISO
 imif,IPMP Information box,ISO
 infe,Item information entry,ISO
 infu,OMA DRM Info URL,OMA DRM 2.0
-iods,Object Descriptor container box,MP4v1
+iods,Object Descriptor container box,MP4v2
 ipco,ItemPropertyContainerBox,ISO
-iphd,reserved for IPMP Stream header,MP4v1
+iphd,reserved for IPMP Stream header,MP4v2
 ipma,ItemPropertyAssociation,ISO
 ipmc,IPMP Control Box,ISO
 ipro,item protection,ISO
@@ -106,7 +106,7 @@ leva,Leval assignment,ISO
 load,Reserved,ISO
 loop,Looping behavior,WhatsApp
 lrcu,OMA DRM Lyrics URI,OMA DRM 2.1
-m7hd,reserved for MPEG7Stream header,MP4v1
+m7hd,reserved for MPEG7Stream header,MP4v2
 matt,Reserved,ISO
 md5i,MD5IntegrityBox,HEIF
 mdat,media data container,ISO
@@ -123,7 +123,7 @@ mfhd,movie fragment header,ISO
 mfra,Movie fragment random access,ISO
 mfro,Movie fragment random access offset,ISO
 minf,media information container,ISO
-mjhd,reserved for MPEG-J Stream header,MP4v1
+mjhd,reserved for MPEG-J Stream header,MP4v2
 mmvi,multimap video,V3C-SYS
 moof,movie fragment,ISO
 moov,container for all the meta-data,ISO
@@ -136,10 +136,10 @@ mvex,movie extends box,ISO
 mvhd,"movie header, overall declarations",ISO
 mvra,Multiview Relation Attribute,NALu Video
 nmhd,"Null media header, overall information (some tracks only)",ISO
-ochd,reserved for ObjectContentInfoStream header,MP4v1
+ochd,reserved for ObjectContentInfoStream header,MP4v2
 odaf,OMA DRM Access Unit Format,OMA DRM 2.0
 odda,OMA DRM Content Object,OMA DRM 2.0
-odhd,reserved for ObjectDescriptorStream header,MP4v1
+odhd,reserved for ObjectDescriptorStream header,MP4v2
 odhe,OMA DRM Discrete Media Headers,OMA DRM 2.0
 odrb,OMA DRM Rights Object,OMA DRM 2.0
 odrm,OMA DRM Container,OMA DRM 2.0
@@ -179,7 +179,7 @@ sbgp,Sample to Group box,ISO
 schi,scheme information box,ISO
 schm,scheme type box,ISO
 sdep,Sample dependency,NALu Video
-sdhd,reserved for SceneDescriptionStream header,MP4v1
+sdhd,reserved for SceneDescriptionStream header,MP4v2
 sdtp,Independent and Disposable Samples Box,ISO
 sdvp,SD Profile Box,SDV
 segr,file delivery session group,ISO
