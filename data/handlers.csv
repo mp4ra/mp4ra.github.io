@@ -47,3 +47,4 @@ uri$20,URI identified metadata,handler,DVB
 vide,Video,handler,ISO
 volv,Volumetric visual media,handler,ISO
 hapt,Haptics,handler,ISO
+nnet,Indicates that items defined in the `MetaBox` represent neural networks,,
