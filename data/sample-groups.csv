@@ -59,3 +59,4 @@ pano,Panorama sample group,sample group,HEIF
 wbbr,White balance bracketing,sample group,HEIF
 ilce,Field Interlace Type,sample group,UNCV
 pprr,Picture region replacement for the picture-in-picture functionality,sample group,NALu Video
+nfcs,Efficient representation of neural-network post-filter characteristics SEI messages,,
