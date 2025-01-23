@@ -19,3 +19,4 @@ mski,Mask item,HEIF
 rgan,Region item,HEIF
 vvc1,VVC image item,HEIF
 unci,Uncompressed Image Item,UNCV
+nnr1,"""Carries a bitstream conforming to ISO/IEC 15398-17 (Neural Network Representation, NNR, also known as Neural Network Coding, NNC)""",
