@@ -273,3 +273,8 @@ XFVC,XF-AVC S/XF-HEVC S File Format,Canon
 ca3a,CMAF Media Profile – AVS3-P3,T-AI-109.7
 clv1,CMAF Media Profile for MPEG-5 LCEVC,CMAF
 isod,Version of the ISO file format,ISO
+cevb,CMAF EVC Baseline Media Profile,CMAF
+cevm,CMAF EVC Main Media Profile,CMAF
+cmfr,CMAF Random Access chunk,CMAF
+cmh1,MPEG-H audio BL single-stream media profile,CMAF
+cmh2,MPEG-H audio BL multi-stream media profile,CMAF
