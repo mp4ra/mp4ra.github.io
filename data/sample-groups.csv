@@ -65,3 +65,4 @@ edrp,EDRAP sample group,sample group,ISO
 esgh,Essential descriptions hierarchy sample grouping,sample group,ISO
 it35,T.35 sample group,sample group,ISO
 nfas,Indicates the samples where the neural-network post-filter (NNPF) with is active according to NNPF activation SEI messages present in the track,sample group,NALu Video
+nfcs,Neural-network post-filter characteristics sample group,sample group,NALu Video

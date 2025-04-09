@@ -20,3 +20,4 @@ rgan,Region item,HEIF
 vvc1,VVC image item,HEIF
 unci,Uncompressed Image Item,UNCV
 it35,T.35 Item,ISO
+nnr1,NNR Item that includes NNR units of an NNR bitstream as defined in ISO/IEC 15938-17,NALu Video
