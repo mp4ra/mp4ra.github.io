@@ -17,4 +17,4 @@ pred,Predictively coded item reference,item ref.,HEIF
 prem,Pre-Multiplied item,item ref.,MIAF
 tbas,HEVC Tile track base item reference,item ref.,HEIF
 thmb,Thumbnail image item reference,item ref.,HEIF
-sato,Sample Transform Derived Image Items combine input pixel values using basic mathematical operations.,,
+sato,Sample Transform Derived Image Items combine input pixel values using basic mathematical operations,item ref.,AVIF
