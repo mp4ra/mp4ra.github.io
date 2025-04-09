@@ -62,6 +62,7 @@ vvcC,VVC image item configuration,HEIF
 wbbr,White balance information,HEIF
 wipe,Wipe transition effect,HEIF
 zoom,Zoom transition effect,HEIF
+hdlp,Handler property that provides a mapping of a media handler with an item in a MetaBox,ISO
 cmpd,Component Definition,UNCV
 uncC,Uncompressed Frame Configuration,UNCV
 cpal,Component Palette Configuration,UNCV
