@@ -22,3 +22,4 @@ sve1,AES-CTR content sensitive encryption,protection scheme,ISO Common Encryptio
 vvvc,V3C video component restricted scheme,restricted video scheme,V3C-SYS
 csch,Compatible scheme type,restricted video scheme,ISO
 spkt,Sample-packed track that may contain packed samples (a single sample may contain more than one sample of an original track),restricted video scheme,ISO
+essg,Essential sample group samples,restricted scheme,ISO
