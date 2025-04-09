@@ -59,3 +59,10 @@ pano,Panorama sample group,sample group,HEIF
 wbbr,White balance bracketing,sample group,HEIF
 ilce,Field Interlace Type,sample group,UNCV
 pprr,Picture region replacement for the picture-in-picture functionality,sample group,NALu Video
+pasr,Pixel Aspect Ratio Sample Grouping,sample group,ISO
+casg,Clean Aperture Sample Grouping,sample group,ISO
+edrp,EDRAP sample group,sample group,ISO
+esgh,Essential descriptions hierarchy sample grouping,sample group,ISO
+it35,T.35 sample group,sample group,ISO
+nfas,Indicates the samples where the neural-network post-filter (NNPF) with is active according to NNPF activation SEI messages present in the track,sample group,NALu Video
+nfcs,Efficient representation of neural-network post-filter characteristics SEI messages,sample group,NALu Video
