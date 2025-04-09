@@ -75,3 +75,4 @@ cloc,Chroma Location,UNCV
 fpac,Frame Packing Information,UNCV
 disi,Disparity Information,UNCV
 ilcp,Field Interlace Property,UNCV
+nnrC,Configuration item property for 'nnr1' item,NALu Video
