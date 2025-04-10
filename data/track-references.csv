@@ -41,3 +41,4 @@ vreg,reference to a VVC operating point entity group,NALu Video
 vvcN,the referenced track is a non video coding layer track of VVC,NALu Video
 supm,The referenced tracks provide supplementary video to achieve picture-in-picture functionality,NALu Video
 aest,associated external stream track,ISO
+rndr,Rendering-related metadata,Apple
