@@ -81,7 +81,7 @@ cud8,CMAF Media Profile - HEVC UHD8,CMAF
 cud9,CMAF High frame rate Media Profile - HEVC UHD8H,CMAF
 cuvd,CMAF Media Profile for the unconstrained HEVC-based viewport-independent OMAF video profile,OMAF
 cvid,CMAF Media Profile for the HEVC-based viewport-independent OMAF video profile,OMAF
-cvvc,CMAF media profile for the VVC-based viewport-independent OMAF video profile,OMAF
+cvvc,Baseline VVC media profile,CMAF
 cwvt,CMAF Media Profile - WebVTT,CMAF
 da0a,"DMB AF audio with MPEG Layer II audio, MOT slide show, DLS, JPG/PNG/MNG images",DMB-MAF
 da0b,"DMB AF, extending da0a , with 3GPP timed text, DID, TVA, REL, IPMP",DMB-MAF
