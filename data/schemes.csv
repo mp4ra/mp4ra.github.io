@@ -1,5 +1,5 @@
 code,description,type,specification
-aSEI,SEI-restricted video,protection scheme,NALu Video
+aSEI,SEI-restricted video,restricted video scheme,NALu Video
 cbc1,AES-CBC scheme,protection scheme,ISO Common Encryption
 cbcs,AES-CBC subsample pattern encryption scheme,protection scheme,ISO Common Encryption
 cenc,AES-CTR scheme,protection scheme,ISO Common Encryption
