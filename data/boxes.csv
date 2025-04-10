@@ -3,7 +3,6 @@ code,description,specification
 2dss,spatial relationship 2D source,OMAF
 ainf,"Asset information to identify, license and play",DECE
 assp,alternative startup sequence properties,ISO
-auxi,Auxiliary track type information,HEIF
 avcn,AVC NAL Unit Storage Box,DECE
 bidx,Box Index,ISO-Partial
 bloc,Base location and purchase location for license acquisition,DECE
@@ -163,7 +162,7 @@ prfr,projection format,OMAF
 prft,Producer reference time,ISO
 pseg,Partial Segment,ISO-Partial
 pshd,Partial Segment Header,ISO-Partial
-pssh,Protection system specific header,ISO Common Encryption
+pssh,Protection system specific header,CENC
 ptle,Partial Top Level Entry,ISO-Partial
 res$20,grid resolution,JPEG2000
 resc,grid resolution at which the image was captured,JPEG2000
@@ -184,7 +183,7 @@ sdtp,Independent and Disposable Samples Box,ISO
 sdvp,SD Profile Box,SDV
 segr,file delivery session group,ISO
 seii,SEI information box,NALu Video
-senc,Sample specific encryption data,ISO Common Encryption
+senc,Sample specific encryption data,CENC
 sgpd,Sample group definition box,ISO
 sidx,Segment Index Box,ISO
 sinf,protection scheme information box,ISO
@@ -219,7 +218,7 @@ suep,signer identity information,ONVIF
 sumi,supplemental surveillance meta information,MPEG-VSAF
 surl,Source URL,ISO-Partial
 swtc,Multiview Group Relation,NALu Video
-tenc,Track Encryption,ISO Common Encryption
+tenc,Track Encryption,CENC
 tfad,Track fragment adjustment box,3GPP
 tfdt,Track fragment decode time,ISO
 tfhd,Track fragment header,ISO

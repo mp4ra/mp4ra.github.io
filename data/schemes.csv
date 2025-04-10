@@ -1,9 +1,9 @@
 code,description,type,specification
 aSEI,SEI-restricted video,restricted video scheme,NALu Video
-cbc1,AES-CBC scheme,protection scheme,ISO Common Encryption
-cbcs,AES-CBC subsample pattern encryption scheme,protection scheme,ISO Common Encryption
-cenc,AES-CTR scheme,protection scheme,ISO Common Encryption
-cens,AES-CTR subsample pattern encryption scheme,protection scheme,ISO Common Encryption
+cbc1,AES-CBC scheme,protection scheme,CENC
+cbcs,AES-CBC subsample pattern encryption scheme,protection scheme,CENC
+cenc,AES-CTR scheme,protection scheme,CENC
+cens,AES-CTR subsample pattern encryption scheme,protection scheme,CENC
 cpcm,CPCM (DVB BlueBook A094) protected content,protection scheme,DVB
 cva1,AES-CBC-128 sample variant,protection scheme,ISO Variants
 cva2,AES-CTR sample variant - supercedes cvar,protection scheme,ISO Variants
@@ -18,7 +18,7 @@ modv,Open-ended scheme type for mesh omnidirectional video,restricted video sche
 odkm,OMA DRM KMS protection scheme,protection scheme,OMA DRM 2.0
 podv,Open-ended scheme type for omnidirectional video based on a projection,restricted video scheme,OMAF
 stvi,Stereo video restricted scheme,restricted video scheme,ISO
-sve1,AES-CTR content sensitive encryption,protection scheme,ISO Common Encryption
+sve1,AES-CTR content sensitive encryption,protection scheme,CENC
 vvvc,V3C video component restricted scheme,restricted video scheme,V3C-SYS
 csch,Compatible scheme type,restricted video scheme,ISO
 spkt,Sample-packed track that may contain packed samples (a single sample may contain more than one sample of an original track),restricted video scheme,ISO

@@ -2,7 +2,7 @@ code,description,handler,specification
 3sib,MVD Scalability Information SEI Message Box,Video,NALu Video
 6vpC,Viewport Configuration,Volumetric visual media,V3C-SYS
 a3dC,A3DConfigurationBox,Video,NALu Video
-auxi,AuxiliaryTypeInfoBox,Video,HEIF
+auxi,AuxiliaryTypeInfoBox of an auxiliary image sequence track,Video,HEIF
 av1C,AOM Video Codec Configuration,Video,AV1-ISOBMFF
 avcC,AVC Configuration,Video,NALu Video
 btrt,Bit-rate information,General,ISO

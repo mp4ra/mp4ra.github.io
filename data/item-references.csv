@@ -16,3 +16,4 @@ pred,Predictively coded item reference,item ref.,HEIF
 prem,Pre-Multiplied item,item ref.,MIAF
 tbas,HEVC Tile track base item reference,item ref.,HEIF
 thmb,Thumbnail image item reference,item ref.,HEIF
+auxr,Auxiliary information item reference,item ref.,CENC
