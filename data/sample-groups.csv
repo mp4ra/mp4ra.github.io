@@ -33,7 +33,7 @@ roll,Pre/Post roll group,sample group,ISO
 rror,Rectangular region order,sample group,NALu Video
 sap$20,Stream access point,sample group,ISO
 seam,Identical sequence of samples from an original encoding after separation into overlapping segments stored independently. Group description: 16-byte UUID,sample group,Apple
-seig,Sample Encryption Information,sample group,ISO Common Encryption
+seig,Sample Encryption Information,sample group,CENC
 scif,SVC Scalability Information,sample group,NALu Video
 scnm,AVC/SVC/MVC map groups,sample group,NALu Video
 spid,VVC subpicture ID,sample group,NALu Video

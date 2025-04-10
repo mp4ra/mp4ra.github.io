@@ -186,8 +186,8 @@
     "MPEG": false
   },
   {
-    "specification": "ISO Common Encryption",
-    "url": "http://www.iso.ch/",
+    "specification": "CENC",
+    "url": "https://www.iso.org/standard/84637.html",
     "description": "ISO/IEC 23001-7: Common encryption format for ISO base media file format",
     "MPEG": true
   },
