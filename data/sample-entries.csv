@@ -181,3 +181,5 @@ cndm,Dynamic Metadata Sample Entry(XF-AVC S/XF-HEVC S File Format),Video,Canon,
 lvc1,LCEVC video track,Video,NALu Video,
 apac,Apple Positional Audio Codec,Audio,Apple,
 apv1,APV mezzanine video codec for storage exchange and editing of professional quality video,Video,OpenAPV,
+scl6,"Sample entry box ""scl6"": SCL6 audio
+Codec specific box ""ccfg"": SCL6 specific data",,,
