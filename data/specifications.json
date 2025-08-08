@@ -712,5 +712,11 @@
     "url": "http://www.iso.ch/",
     "description": "ISO/IEC 23001-17: Carriage of uncompressed video and images in ISO Base Media File Format",
     "MPEG": true
+  },
+  {
+    "specification": "JPEGAI",
+    "url": "https://www.iso.org/standard/90193.html",
+    "description": "ISO/IEC DIS 6048-5: Information technology — JPEG AI learning-based image coding system: Part 5: File format",
+    "MPEG": false
   }
 ]
