@@ -279,3 +279,4 @@ cmfr,CMAF Random Access chunk,CMAF
 cmh1,MPEG-H audio BL single-stream media profile,CMAF
 cmh2,MPEG-H audio BL multi-stream media profile,CMAF
 saie,SampleAuxiliaryInformationSizesBox with version 1 and 2,ISO
+gltf,"""The ‘gltf’ brand signals the presence of a glTF JSON document as the primary metadata item, indicating a 3D scene that may have timed media, such as video textures and Spatial Audio.""",
