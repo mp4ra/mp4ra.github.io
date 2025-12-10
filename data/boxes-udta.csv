@@ -39,3 +39,9 @@ tsel,Track selection,ISO
 urat,User 'star' rating of the media,3GPP
 yrrc,Year when media was recorded,3GPP
 swre,Name and version number of the software that generated this movie,Apple
+diap,"""Box signaling dialogue gain for AC‑4 preselections in CMAF/ISOBMFF files.
+
+**Technical summary**: The `diap` box (DialogueProcessingBox) extends FullBox and contains a signed 16-bit `dialog_gain` field. It represents the gain applied to the dialogue component compared to the default mix.
+**Location**: `prsl/udta/diap` (child of User Data Box inside PreselectionGroupBox).
+
+Used to differentiate preselections that share language, role and other attributes but differ in dialogue level. The `diap` box complements existing preselection metadata structures (`prsl`) and supports accessibility and personalization features in AC‑4 CMAF workflows.""",
