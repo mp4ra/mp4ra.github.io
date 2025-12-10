@@ -279,3 +279,12 @@ cmfr,CMAF Random Access chunk,CMAF
 cmh1,MPEG-H audio BL single-stream media profile,CMAF
 cmh2,MPEG-H audio BL multi-stream media profile,CMAF
 saie,SampleAuxiliaryInformationSizesBox with version 1 and 2,ISO
+ca4e,"""CMAF/ISOBMFF media brand for Dolby AC‑4 with Common Encryption using subsample encryption.
+ 
+Technical summary:
+  The ca4e brand identifies AC‑4 tracks encrypted per CENC (ISO/IEC 23001‑7), with the AC‑4 table of contents (TOC)
+  left clear and payload encrypted (“subsample encryption”). Packaging requirements include signaling as per
+  ISOBMFF and ETSI TS 103 190‑2 Annex E/H and constraints listed in the Dolby AC‑4 ISOBMFF guidance (v0.7, pending publication).
+
+ca4s (AC‑4 single-stream CMAF media brand) and ca4m (AC‑4 multi-track CMAF media brand) are already
+  registered with MP4RA; ca4e complements them by specifically indicating subsample encryption.""",
