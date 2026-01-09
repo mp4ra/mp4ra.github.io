@@ -279,3 +279,187 @@ cmfr,CMAF Random Access chunk,CMAF
 cmh1,MPEG-H audio BL single-stream media profile,CMAF
 cmh2,MPEG-H audio BL multi-stream media profile,CMAF
 saie,SampleAuxiliaryInformationSizesBox with version 1 and 2,ISO
+dv58,"""We request registration of four ISO brand FourCCs used to signal Dolby Vision CMAF media profiles in ISOBMFF/CMAF content:
+ 
+## dv58 — Dolby Vision Profile 5/8 CMAF Media Profile
+Dolby Vision CMAF Media Profile for Profiles 5 and 8.
+Base-layer codec/profile: HEVC Main10.
+Max Dolby Vision level: 9.
+Max resolution/frame rate: 3840x2160 @ 60 fps.
+
+**intended usage**: To be added to ftyp/styp compatible_brands to indicate CMAF
+  compliance for Dolby Vision Profile 5 and 8 tracks and enable
+  adaptive set identification/switching across CMAF streams.
+
+**note**: Profiles 5 and 8 share a CMAF media profile because P8.1/P8.4-capable
+  decoders can also decode P5.
+
+## dv09 — Dolby Vision Profile 9 CMAF Media Profile
+
+Dolby Vision CMAF Media Profile for Profile 9.
+Base-layer codec/profile: AVC High.
+Max Dolby Vision level: 5.
+Max resolution/frame rate: 1920x1080 @ 60 fps.
+
+**intended_usage**: Used in ftyp/styp compatible_brands to mark CMAF compliance for
+  Dolby Vision Profile 9 tracks (AVC base layer) enabling interoperable
+  adaptive delivery across CMAF-based systems.
+
+## dv10 — Dolby Vision Profile 10 CMAF Media Profile
+
+Dolby Vision CMAF Media Profile for Profile 10.
+Base-layer codec/profile: AV1 Main.
+Max Dolby Vision level: 9.
+Max resolution/frame rate: 3840x2160 @ 60 fps.
+
+**intended_usage**:  Signaled in ftyp/styp compatible_brands for CMAF-compliant Dolby Vision
+  Profile 10 tracks carried in AV1, supporting identification across adaptive sets.
+
+## dv20 — Dolby Vision Profile 20 CMAF Media Profile
+
+Dolby Vision CMAF Media Profile for Profile 20.
+Base-layer codec/profile: HEVC Multiview Main10.
+Max Dolby Vision level: 10.
+Max resolution/frame rate: 3840x2160 @ 120 fps.
+
+**intended_usage**:  Used in ftyp/styp compatible_brands to denote CMAF compliance for
+  Dolby Vision Profile 20 (HEVC Multiview) tracks, enabling adaptive
+  set discovery and switching in CMAF workflows.""",
+dv09,"""We request registration of four ISO brand FourCCs used to signal Dolby Vision CMAF media profiles in ISOBMFF/CMAF content:
+ 
+## dv58 — Dolby Vision Profile 5/8 CMAF Media Profile
+Dolby Vision CMAF Media Profile for Profiles 5 and 8.
+Base-layer codec/profile: HEVC Main10.
+Max Dolby Vision level: 9.
+Max resolution/frame rate: 3840x2160 @ 60 fps.
+
+**intended usage**: To be added to ftyp/styp compatible_brands to indicate CMAF
+  compliance for Dolby Vision Profile 5 and 8 tracks and enable
+  adaptive set identification/switching across CMAF streams.
+
+**note**: Profiles 5 and 8 share a CMAF media profile because P8.1/P8.4-capable
+  decoders can also decode P5.
+
+## dv09 — Dolby Vision Profile 9 CMAF Media Profile
+
+Dolby Vision CMAF Media Profile for Profile 9.
+Base-layer codec/profile: AVC High.
+Max Dolby Vision level: 5.
+Max resolution/frame rate: 1920x1080 @ 60 fps.
+
+**intended_usage**: Used in ftyp/styp compatible_brands to mark CMAF compliance for
+  Dolby Vision Profile 9 tracks (AVC base layer) enabling interoperable
+  adaptive delivery across CMAF-based systems.
+
+## dv10 — Dolby Vision Profile 10 CMAF Media Profile
+
+Dolby Vision CMAF Media Profile for Profile 10.
+Base-layer codec/profile: AV1 Main.
+Max Dolby Vision level: 9.
+Max resolution/frame rate: 3840x2160 @ 60 fps.
+
+**intended_usage**:  Signaled in ftyp/styp compatible_brands for CMAF-compliant Dolby Vision
+  Profile 10 tracks carried in AV1, supporting identification across adaptive sets.
+
+## dv20 — Dolby Vision Profile 20 CMAF Media Profile
+
+Dolby Vision CMAF Media Profile for Profile 20.
+Base-layer codec/profile: HEVC Multiview Main10.
+Max Dolby Vision level: 10.
+Max resolution/frame rate: 3840x2160 @ 120 fps.
+
+**intended_usage**:  Used in ftyp/styp compatible_brands to denote CMAF compliance for
+  Dolby Vision Profile 20 (HEVC Multiview) tracks, enabling adaptive
+  set discovery and switching in CMAF workflows.""",
+dv10,"""We request registration of four ISO brand FourCCs used to signal Dolby Vision CMAF media profiles in ISOBMFF/CMAF content:
+ 
+## dv58 — Dolby Vision Profile 5/8 CMAF Media Profile
+Dolby Vision CMAF Media Profile for Profiles 5 and 8.
+Base-layer codec/profile: HEVC Main10.
+Max Dolby Vision level: 9.
+Max resolution/frame rate: 3840x2160 @ 60 fps.
+
+**intended usage**: To be added to ftyp/styp compatible_brands to indicate CMAF
+  compliance for Dolby Vision Profile 5 and 8 tracks and enable
+  adaptive set identification/switching across CMAF streams.
+
+**note**: Profiles 5 and 8 share a CMAF media profile because P8.1/P8.4-capable
+  decoders can also decode P5.
+
+## dv09 — Dolby Vision Profile 9 CMAF Media Profile
+
+Dolby Vision CMAF Media Profile for Profile 9.
+Base-layer codec/profile: AVC High.
+Max Dolby Vision level: 5.
+Max resolution/frame rate: 1920x1080 @ 60 fps.
+
+**intended_usage**: Used in ftyp/styp compatible_brands to mark CMAF compliance for
+  Dolby Vision Profile 9 tracks (AVC base layer) enabling interoperable
+  adaptive delivery across CMAF-based systems.
+
+## dv10 — Dolby Vision Profile 10 CMAF Media Profile
+
+Dolby Vision CMAF Media Profile for Profile 10.
+Base-layer codec/profile: AV1 Main.
+Max Dolby Vision level: 9.
+Max resolution/frame rate: 3840x2160 @ 60 fps.
+
+**intended_usage**:  Signaled in ftyp/styp compatible_brands for CMAF-compliant Dolby Vision
+  Profile 10 tracks carried in AV1, supporting identification across adaptive sets.
+
+## dv20 — Dolby Vision Profile 20 CMAF Media Profile
+
+Dolby Vision CMAF Media Profile for Profile 20.
+Base-layer codec/profile: HEVC Multiview Main10.
+Max Dolby Vision level: 10.
+Max resolution/frame rate: 3840x2160 @ 120 fps.
+
+**intended_usage**:  Used in ftyp/styp compatible_brands to denote CMAF compliance for
+  Dolby Vision Profile 20 (HEVC Multiview) tracks, enabling adaptive
+  set discovery and switching in CMAF workflows.""",
+dv20,"""We request registration of four ISO brand FourCCs used to signal Dolby Vision CMAF media profiles in ISOBMFF/CMAF content:
+ 
+## dv58 — Dolby Vision Profile 5/8 CMAF Media Profile
+Dolby Vision CMAF Media Profile for Profiles 5 and 8.
+Base-layer codec/profile: HEVC Main10.
+Max Dolby Vision level: 9.
+Max resolution/frame rate: 3840x2160 @ 60 fps.
+
+**intended usage**: To be added to ftyp/styp compatible_brands to indicate CMAF
+  compliance for Dolby Vision Profile 5 and 8 tracks and enable
+  adaptive set identification/switching across CMAF streams.
+
+**note**: Profiles 5 and 8 share a CMAF media profile because P8.1/P8.4-capable
+  decoders can also decode P5.
+
+## dv09 — Dolby Vision Profile 9 CMAF Media Profile
+
+Dolby Vision CMAF Media Profile for Profile 9.
+Base-layer codec/profile: AVC High.
+Max Dolby Vision level: 5.
+Max resolution/frame rate: 1920x1080 @ 60 fps.
+
+**intended_usage**: Used in ftyp/styp compatible_brands to mark CMAF compliance for
+  Dolby Vision Profile 9 tracks (AVC base layer) enabling interoperable
+  adaptive delivery across CMAF-based systems.
+
+## dv10 — Dolby Vision Profile 10 CMAF Media Profile
+
+Dolby Vision CMAF Media Profile for Profile 10.
+Base-layer codec/profile: AV1 Main.
+Max Dolby Vision level: 9.
+Max resolution/frame rate: 3840x2160 @ 60 fps.
+
+**intended_usage**:  Signaled in ftyp/styp compatible_brands for CMAF-compliant Dolby Vision
+  Profile 10 tracks carried in AV1, supporting identification across adaptive sets.
+
+## dv20 — Dolby Vision Profile 20 CMAF Media Profile
+
+Dolby Vision CMAF Media Profile for Profile 20.
+Base-layer codec/profile: HEVC Multiview Main10.
+Max Dolby Vision level: 10.
+Max resolution/frame rate: 3840x2160 @ 120 fps.
+
+**intended_usage**:  Used in ftyp/styp compatible_brands to denote CMAF compliance for
+  Dolby Vision Profile 20 (HEVC Multiview) tracks, enabling adaptive
+  set discovery and switching in CMAF workflows.""",
