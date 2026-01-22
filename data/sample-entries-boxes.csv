@@ -95,3 +95,4 @@ dca3,Decoder configuration for AVS3-P3 Codec,Audio,T-AI-109.7
 apvC,APV Codec Configuration Box,Video,OpenAPV
 amve,Ambient viewing environment,Video,ISO
 almo,Alpha mode (straight vs premultiplied alpha) signaling,Video,Apple
+jaiC,JPEG AI JAIMConfigurationBox,Video,JPEGAI
