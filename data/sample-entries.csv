@@ -25,6 +25,9 @@ camm,Camera motion metadata track,Video,CamMotion,
 cavs,AVS2-P3 Codec,Audio,GB-T-20090-9,0xF0
 av3a,AVS3-P3 Codec,Audio,T-AI-109.7,0xF1
 dav1,AV1-related Dolby Vision consistent with av01,Video,Dolby Vision,
+depi,Decoder power indication,Metadata,Metrics,
+dfce,Display fine control,Metadata,Metrics,
+dipi,Display power indication,Metadata,Metrics,
 dra1,DRA Audio,Audio,DRA,0xA7
 drac,Dirac Video Coder,Video,Dirac,0xA4
 dts+,Enhancement layer for DTS layered audio,Audio,DTS,
@@ -164,6 +167,7 @@ v3t1,V3C atlas tile track with atlas tile data,Volumetric visual media,V3C-SYS,
 vc-1,SMPTE VC-1,Video,SMPTE,0xA3
 vp08,VP8 video,Video,VPxx,
 vp09,VP9 video,Video,VPxx,0xB1
+vqme,Quality metrics,Metadata,Metrics,
 vrsp,Viewing space,Metadata,OMAF,
 vvcN,Versatile Video Coding with non-VCL (Video Coding Layer) NAL (Network Abstraction Layer) units only,Video,NALu Video,
 vvc1,Versatile Video Coding with parameter sets only in sample entries,Video,NALu Video,
