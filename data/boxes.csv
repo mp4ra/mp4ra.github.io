@@ -281,3 +281,4 @@ labl,Label box,ISO
 elng,Extended Language Tag,ISO
 rsot,Redundant Sample Original Timing,ISO
 ssrt,Sub-sample Reference Table Box,ISO
+mini,The MinimizedImageBox provides a more compact representation of the MetaBox for a subset of use cases,HEIF
