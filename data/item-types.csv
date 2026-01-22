@@ -21,3 +21,4 @@ vvc1,VVC image item,HEIF
 unci,Uncompressed Image Item,UNCV
 it35,T.35 Item,ISO
 nnr1,"NNR Item that carries a bitstream conforming to ISO/IEC 15398-17 (Neural Network Representation NNR, also known as Neural Network Coding, NNC)",NALu Video
+auxi,Auxiliary information item,CENC

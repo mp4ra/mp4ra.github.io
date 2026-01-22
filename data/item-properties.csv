@@ -20,8 +20,8 @@ fobr,Focus information,HEIF
 fovi,Essential fisheye information,OMAF
 fvsi,Supplemental fisheye information,OMAF
 hvcC,HEVC Image item configuration,HEIF
-iaux,Item Auxiliary Information,ISO Common Encryption
-ienc,Item Encryption,ISO Common Encryption
+iaux,Item Auxiliary Information,CENC
+ienc,Item Encryption,CENC
 iivo,Initial viewing orientation,OMAF
 imir,Image mirroring,HEIF
 irot,Image rotation,HEIF
