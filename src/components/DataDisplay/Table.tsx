@@ -134,9 +134,16 @@ export default function Table({ data, globalFilter }: { data: object[]; globalFi
 
     if (globalFilter !== undefined && globalFilter.length < 2) return null;
 
+    const filteredRowCount = table.getFilteredRowModel().rows.length;
+    const totalRowCount = table.getCoreRowModel().rows.length;
+
     return (
-        <div className="flex items-center overflow-y-auto">
-            <table className="flex-[1]">
+        <div className="flex flex-col gap-2">
+            <div className="text-sm text-gray-600">
+                Showing {filteredRowCount} of {totalRowCount} {totalRowCount === 1 ? "box" : "boxes"}
+            </div>
+            <div className="flex items-center overflow-y-auto">
+                <table className="flex-[1]">
                 <thead>
                     {table.getHeaderGroups().map((headerGroup) => (
                         <tr key={headerGroup.id}>
@@ -158,6 +165,7 @@ export default function Table({ data, globalFilter }: { data: object[]; globalFi
                     ))}
                 </tbody>
             </table>
+            </div>
         </div>
     );
 }
