@@ -97,3 +97,4 @@ amve,Ambient viewing environment,Video,ISO
 almo,Alpha mode (straight vs premultiplied alpha) signaling,Video,Apple
 taic,TAI clock information box,General,UNCV
 jaiC,JPEG AI JAIMConfigurationBox,Video,JPEGAI
+ccfg,SCL6SpecificBox,Audio,SCL6

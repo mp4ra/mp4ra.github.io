@@ -724,5 +724,11 @@
     "url": "https://www.iso.org/standard/90193.html",
     "description": "ISO/IEC DIS 6048-5: Information technology — JPEG AI learning-based image coding system: Part 5: File format",
     "MPEG": false
+  },
+  {
+    "specification": "SCL6",
+    "url": "https://mqalabs.com/",
+    "description": "Encapsulation of SCL6 in ISO Base Media File Format",
+    "MPEG": false
   }
 ]
