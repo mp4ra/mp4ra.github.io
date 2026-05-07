@@ -186,8 +186,8 @@
     "MPEG": false
   },
   {
-    "specification": "ISO Common Encryption",
-    "url": "http://www.iso.ch/",
+    "specification": "CENC",
+    "url": "https://www.iso.org/standard/84637.html",
     "description": "ISO/IEC 23001-7: Common encryption format for ISO base media file format",
     "MPEG": true
   },
@@ -712,5 +712,17 @@
     "url": "http://www.iso.ch/",
     "description": "ISO/IEC 23001-17: Carriage of uncompressed video and images in ISO Base Media File Format",
     "MPEG": true
+  },
+  {
+    "specification": "NGA.STND.0076",
+    "url": "https://nsgreg.nga.mil/doc/view?i=5650&month=8&day=7&year=2025",
+    "description": "NGA STANDARDIZATION DOCUMENT: GEOINT Imagery Media for Intelligence, Surveillance, and Reconnaissance (ISR) (GIMI) Volume 1. Profile of ISOBMFF & HEIF",
+    "MPEG": false
+  },
+  {
+    "specification": "JPEGAI",
+    "url": "https://www.iso.org/standard/90193.html",
+    "description": "ISO/IEC DIS 6048-5: Information technology — JPEG AI learning-based image coding system: Part 5: File format",
+    "MPEG": false
   }
 ]
