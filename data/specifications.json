@@ -730,5 +730,11 @@
     "url": "https://mqalabs.com/",
     "description": "Encapsulation of SCL6 in ISO Base Media File Format",
     "MPEG": false
+  },
+  {
+    "specification": "SAVX",
+    "url": "https://www.both.works/savx-static-audio-verified-x-specs",
+    "description": "SAV1 Static Audible Verified X Brand Profile",
+    "MPEG": false
   }
 ]
