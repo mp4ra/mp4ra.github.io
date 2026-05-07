@@ -279,3 +279,5 @@ cmfr,CMAF Random Access chunk,CMAF
 cmh1,MPEG-H audio BL single-stream media profile,CMAF
 cmh2,MPEG-H audio BL multi-stream media profile,CMAF
 saie,SampleAuxiliaryInformationSizesBox with version 1 and 2,ISO
+geo1,The file is conformant to version 1 of NGA.STND.0076-01_V1.0_GIMI,NGA.STND.0076
+sm01,The file carries GIMI Security XML markings,NGA.STND.0076
