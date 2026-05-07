@@ -20,8 +20,8 @@ fobr,Focus information,HEIF
 fovi,Essential fisheye information,OMAF
 fvsi,Supplemental fisheye information,OMAF
 hvcC,HEVC Image item configuration,HEIF
-iaux,Item Auxiliary Information,ISO Common Encryption
-ienc,Item Encryption,ISO Common Encryption
+iaux,Item Auxiliary Information,CENC
+ienc,Item Encryption,CENC
 iivo,Initial viewing orientation,OMAF
 imir,Image mirroring,HEIF
 irot,Image rotation,HEIF
@@ -76,3 +76,6 @@ fpac,Frame Packing Information,UNCV
 disi,Disparity Information,UNCV
 ilcp,Field Interlace Property,UNCV
 nnrC,Configuration item property for 'nnr1' item,NALu Video
+taic,TAI clock information box,UNCV
+itai,Item TAI timestamps,UNCV
+jaih,JPEG AI header item property,JPEGAI
