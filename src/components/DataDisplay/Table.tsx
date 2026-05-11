@@ -140,31 +140,32 @@ export default function Table({ data, globalFilter }: { data: object[]; globalFi
     return (
         <div className="flex flex-col gap-2">
             <div className="text-sm text-gray-600">
-                Showing {filteredRowCount} of {totalRowCount} {totalRowCount === 1 ? "entry" : "entries"}
+                Showing {filteredRowCount} of {totalRowCount}{" "}
+                {totalRowCount === 1 ? "entry" : "entries"}
             </div>
             <div className="flex items-center overflow-y-auto">
                 <table className="flex-[1]">
-                <thead>
-                    {table.getHeaderGroups().map((headerGroup) => (
-                        <tr key={headerGroup.id}>
-                            {headerGroup.headers.map((header) => (
-                                <TableHeader key={header.id} header={header} />
-                            ))}
-                        </tr>
-                    ))}
-                </thead>
-                <tbody>
-                    {table.getRowModel().rows.map((row) => (
-                        <tr key={row.id} id={row.id}>
-                            {row.getVisibleCells().map((cell) => (
-                                <td key={cell.id}>
-                                    {flexRender(cell.column.columnDef.cell, cell.getContext())}
-                                </td>
-                            ))}
-                        </tr>
-                    ))}
-                </tbody>
-            </table>
+                    <thead>
+                        {table.getHeaderGroups().map((headerGroup) => (
+                            <tr key={headerGroup.id}>
+                                {headerGroup.headers.map((header) => (
+                                    <TableHeader key={header.id} header={header} />
+                                ))}
+                            </tr>
+                        ))}
+                    </thead>
+                    <tbody>
+                        {table.getRowModel().rows.map((row) => (
+                            <tr key={row.id} id={row.id}>
+                                {row.getVisibleCells().map((cell) => (
+                                    <td key={cell.id}>
+                                        {flexRender(cell.column.columnDef.cell, cell.getContext())}
+                                    </td>
+                                ))}
+                            </tr>
+                        ))}
+                    </tbody>
+                </table>
             </div>
         </div>
     );
