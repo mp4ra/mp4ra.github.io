@@ -288,3 +288,4 @@ dv58,Dolby Vision Profile 5/8 CMAF Media Profile,Dolby Vision
 dv09,Dolby Vision Profile 9 CMAF Media Profile,Dolby Vision
 dv10,Dolby Vision Profile 10 CMAF Media Profile,Dolby Vision
 dv20,Dolby Vision Profile 20 CMAF Media Profile,Dolby Vision
+gltf,glTF JSON document as primary metadata item with timed media,MPEG-SD
