@@ -140,7 +140,7 @@ export default function Table({ data, globalFilter }: { data: object[]; globalFi
     return (
         <div className="flex flex-col gap-2">
             <div className="text-sm text-gray-600">
-                Showing {filteredRowCount} of {totalRowCount} {totalRowCount === 1 ? "box" : "boxes"}
+                Showing {filteredRowCount} of {totalRowCount} {totalRowCount === 1 ? "entry" : "entries"}
             </div>
             <div className="flex items-center overflow-y-auto">
                 <table className="flex-[1]">
