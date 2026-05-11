@@ -730,5 +730,17 @@
     "url": "https://mqalabs.com/",
     "description": "Encapsulation of SCL6 in ISO Base Media File Format",
     "MPEG": false
+  },
+  {
+    "specification": "SAVX",
+    "url": "https://www.both.works/savx-static-audio-verified-x-specs",
+    "description": "SAV1 Static Audible Verified X Brand Profile",
+    "MPEG": false
+  },
+  {
+    "specification": "MPEG-SD",
+    "url": "https://www.iso.org/standard/90191.html",
+    "description": "ISO/IEC 23090-14: Coded representation of immersive media - Part 14: Scene description",
+    "MPEG": false
   }
 ]
