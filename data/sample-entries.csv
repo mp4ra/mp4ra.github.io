@@ -188,3 +188,4 @@ apv1,APV mezzanine video codec for storage exchange and editing of professional 
 jaim,JPEG AI Image Sequence,Video,JPEGAI,
 scl6,SCL6 audio,Audio,SCL6,
 savp,SAV Parametric Ultrasonic Verification,Metadata,SAVX,
+vqem,Quality metrics,Metadata,Metrics,
