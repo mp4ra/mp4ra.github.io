@@ -284,3 +284,7 @@ sm01,The file carries GIMI Security XML markings,NGA.STND.0076
 jaii,JPEG AI coded image,JPEGAI
 SAV1,ISOBMFF brand for Static Audible Verified X profile,SAVX
 ca4e,CMAF Media Profile - AC-4 subsample encrypted,ETSI AC-4
+dv58,Dolby Vision Profile 5/8 CMAF Media Profile,Dolby Vision
+dv09,Dolby Vision Profile 9 CMAF Media Profile,Dolby Vision
+dv10,Dolby Vision Profile 10 CMAF Media Profile,Dolby Vision
+dv20,Dolby Vision Profile 20 CMAF Media Profile,Dolby Vision
