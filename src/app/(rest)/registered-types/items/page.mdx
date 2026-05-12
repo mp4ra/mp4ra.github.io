@@ -1,0 +1,29 @@
+import { DataDisplay } from "@/components";
+
+export const metadata = {
+    title: "Items"
+};
+
+# Items
+
+The ISO base media file format (ISO/IEC 14496-12) defines an item model within the `MetaBox` for storing non-timed data such as images, metadata documents, and derived content. Each item is described by an `ItemInfoEntry` that declares its `item_type` — a four-character code identifying the format of the item's data.
+
+Items can be associated with properties and linked to other items through typed references, enabling complex relationships such as thumbnails, auxiliary images, and derived image constructions.
+
+## Item types
+
+The `item_type` in the `ItemInfoEntry` identifies the coding format or role of an item. For example, an HEVC coded image uses item type `hvc1`, while Exif metadata uses `Exif`.
+
+<DataDisplay csv="item-types" />
+
+## Item properties
+
+Item properties are small data records stored in the `ItemPropertyContainerBox` ('ipco') and associated with items via the `ItemPropertyAssociation` ('ipma'). Each property is identified by its box type and provides descriptive or transformative metadata for the associated item (e.g., image dimensions, rotation, colour information).
+
+<DataDisplay csv="item-properties" />
+
+## Item references
+
+Item references in the `ItemReferenceBox` ('iref') define typed links between items. Each reference type is a four-character code indicating the relationship (e.g., `thmb` for thumbnail, `dimg` for derived image source, `auxl` for auxiliary image).
+
+<DataDisplay csv="item-references" />
