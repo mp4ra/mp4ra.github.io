@@ -41,3 +41,50 @@ yrrc,Year when media was recorded,3GPP
 swre,Name and version number of the software that generated this movie,Apple
 diap,Dialogue processing (DialogueProcessingBox),ETSI AC-4
 ctlc,Content type for loudness control,Apple
+©arg,Name of arranger,QT
+©ark,Keywords for arranger,QT
+©cok,Keywords for composer,QT
+©com,Name of composer,QT
+©cpy,Copyright statement,QT
+©day,Date the movie content was created,QT
+©dir,Name of movie's director,QT
+©ed1,Edit date and description 1,QT
+©ed2,Edit date and description 2,QT
+©ed3,Edit date and description 3,QT
+©ed4,Edit date and description 4,QT
+©ed5,Edit date and description 5,QT
+©ed6,Edit date and description 6,QT
+©ed7,Edit date and description 7,QT
+©ed8,Edit date and description 8,QT
+©ed9,Edit date and description 9,QT
+©fmt,Indication of movie format,QT
+©inf,Information about the movie,QT
+©isr,ISRC code,QT
+©lab,Name of record label,QT
+©lal,URL of record label,QT
+©mak,Name of file creator or maker,QT
+©mal,URL of file creator or maker,QT
+©nak,Title keywords of the content,QT
+©nam,Title of the content,QT
+©pdk,Keywords for producer,QT
+©phg,Recording copyright statement (P),QT
+©prd,Name of producer,QT
+©prf,Names of performers,QT
+©prk,Keywords of main artist and performer,QT
+©prl,URL of main artist and performer,QT
+©req,Special hardware and software requirements,QT
+©snk,Subtitle keywords of the content,QT
+©snm,Subtitle of content,QT
+©src,Credits for those who provided movie source content,QT
+©swf,Name of songwriter,QT
+©swk,Keywords for songwriter,QT
+©swr,Name and version number of the software (or hardware) that generated this movie,QT
+©wrt,Name of movie's writer,QT
+AllF,Play all frames,QT
+name,Name of object,QT
+tnam,Localized track name,QT
+tagc,Media characteristic tag,QT
+LOOP,Looping style,QT
+ptv$20,Print to video (full screen mode),QT
+SelO,Play selection only,QT
+WLOC,Default window location for movie,QT
