@@ -1,0 +1,13 @@
+import { DataDisplay } from "@/components";
+
+export const metadata = {
+    title: "Key Namespaces"
+};
+
+# Key namespaces
+
+Multiplexed timed metadata tracks (`mebx`) in ISO/IEC 14496-12 use the `MetadataKeyDeclarationBox` (`keyd`) to declare the type and interpretation of metadata keys carried in each sample entry. The `key_namespace` field is a 4CC that identifies the domain and structure of the associated `key_value`.
+
+## Registered key namespaces
+
+<DataDisplay csv="key-namespaces" />
