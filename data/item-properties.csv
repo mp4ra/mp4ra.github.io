@@ -79,3 +79,8 @@ nnrC,Configuration item property for 'nnr1' item,NALu Video
 taic,TAI clock information box,UNCV
 itai,Item TAI timestamps,UNCV
 jaih,JPEG AI header item property,JPEGAI
+cexg,Constrained extents grid,HEIF
+dadj,Disparity adjustment,HEIF
+stag,Stereo aggressors,HEIF
+reve,Reference viewing environment,HEIF
+ndwt,Nominal diffuse white,HEIF

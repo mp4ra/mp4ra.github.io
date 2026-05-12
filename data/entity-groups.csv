@@ -25,3 +25,6 @@ vipo,Viewpoint entity grouping,OMAF
 vvcb,VVC bitstream,NALu Video
 wbbr,White balance bracketing entity group,HEIF
 prsl,Preselection grouping,ISO
+stem,Stereo pair with monoscopic fallback,HEIF
+pymd,Image pyramid,HEIF
+rgpa,Region partition group,HEIF

@@ -1,25 +1,28 @@
-code,description,specification
-auvd,Auxiliary Video descriptor,ISO
-av01,AVIF image item,AVIF
-avc1,AVC image item,HEIF
-Exif,EXIF item,HEIF
-evc1,EVC image item,HEIF
-grid,Image item grid derivation,HEIF
-hvc1,HEVC image item,HEIF
-hvt1,HEVC tile image item,HEIF
-iden,Image item identity derivation,HEIF
-iovl,Image item overlay derivation,HEIF
-j2k1,Contiguous Codestream box as specified in Rec. ITU-T T.800 | ISO/IEC 15444-1,J2KHEIF
-jpeg,JPEG image item,HEIF
-jxs1,Images coded to the JPEG-XS coding format,JPXS
-lhv1,Layered HEVC image item,HEIF
-mint,Data integrity item,HEIF
-mime,Item identified by a MIME type,ISO
-mski,Mask item,HEIF
-rgan,Region item,HEIF
-vvc1,VVC image item,HEIF
-unci,Uncompressed Image Item,UNCV
-it35,T.35 Item,ISO
-nnr1,"NNR Item that carries a bitstream conforming to ISO/IEC 15398-17 (Neural Network Representation NNR, also known as Neural Network Coding, NNC)",NALu Video
-auxi,Auxiliary information item,CENC
-jai0,JPEG AI coded image item,JPEGAI
+code,description,type,specification
+auvd,Auxiliary Video descriptor,metadata,ISO
+av01,AVIF image item,coded,AVIF
+avc1,AVC image item,coded,HEIF
+Exif,EXIF item,metadata,HEIF
+evc1,EVC image item,coded,HEIF
+grid,Image item grid derivation,derived,HEIF
+hvc1,HEVC image item,coded,HEIF
+hvt1,HEVC tile image item,coded,HEIF
+iden,Image item identity derivation,derived,HEIF
+iovl,Image item overlay derivation,derived,HEIF
+j2k1,Contiguous Codestream box as specified in Rec. ITU-T T.800 | ISO/IEC 15444-1,coded,J2KHEIF
+jpeg,JPEG image item,coded,HEIF
+jxs1,Images coded to the JPEG-XS coding format,coded,JPXS
+lhv1,Layered HEVC image item,coded,HEIF
+mint,Data integrity item,metadata,HEIF
+mime,Item identified by a MIME type,metadata,ISO
+mski,Mask item,coded,HEIF
+rgan,Region item,metadata,HEIF
+vvc1,VVC image item,coded,HEIF
+unci,Uncompressed Image Item,coded,UNCV
+it35,T.35 Item,metadata,ISO
+nnr1,"NNR Item that carries a bitstream conforming to ISO/IEC 15398-17 (Neural Network Representation NNR, also known as Neural Network Coding, NNC)",coded,NALu Video
+auxi,Auxiliary information item,metadata,CENC
+jai0,JPEG AI coded image item,coded,JPEGAI
+sato,Sample Transform derived image item,derived,AVIF
+tmap,Tone-map derived image item,derived,HEIF
+cfen,Colour format enhancement derived image item,derived,HEIF
