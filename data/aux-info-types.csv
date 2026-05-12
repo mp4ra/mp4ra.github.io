@@ -1,0 +1,8 @@
+code,description,specification
+cbc1,AES-CBC encryption sample auxiliary information,CENC
+cbcs,AES-CBC subsample pattern encryption sample auxiliary information,CENC
+cenc,AES-CTR encryption sample auxiliary information,CENC
+cens,AES-CTR subsample pattern encryption sample auxiliary information,CENC
+stai,TAI timestamp sample auxiliary information,UNCV
+suid,Universally unique content identifier per sample auxiliary information,NGA.STND.0076
+sve1,Content sensitive encryption sample auxiliary information,CENC

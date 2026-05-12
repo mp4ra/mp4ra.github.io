@@ -1,0 +1,15 @@
+import { DataDisplay } from "@/components";
+
+export const metadata = {
+    title: "Auxiliary Information Types"
+};
+
+# Auxiliary information types
+
+Sample auxiliary information provides per-sample metadata that is stored alongside media samples in an ISO base media file format track. The type of auxiliary information is identified by a four-character code (`aux_info_type`) carried in the `SampleAuxiliaryInformationSizesBox` ('saiz') and `SampleAuxiliaryInformationOffsetBox` ('saio'), as defined in ISO/IEC 14496-12.
+
+The `aux_info_type` determines the format of the auxiliary data. When omitted, its value defaults to the protection scheme type (for encrypted tracks) or the sample entry type. A track may carry multiple streams of auxiliary information distinguished by different `aux_info_type` and `aux_info_type_parameter` values.
+
+## Registered auxiliary information types
+
+<DataDisplay csv="aux-info-types" />
