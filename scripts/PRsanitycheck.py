@@ -72,7 +72,7 @@ def getCSV4CCs(directory):
 # 1. Valid, Four Characters Check
 # Check to ensure all 4CCs are actually four characters long and valid characters matching the regex below
 def notfourcharacters(codes, exceptions=[]):
-    pattern = re.compile("^[\u0020-\u007E]{4}$", re.UNICODE)
+    pattern = re.compile("^[ -~©]{4}$", re.UNICODE)
     mistakeCodes = []
     for code in codes:
         if pattern.match(code[0]) == None:
