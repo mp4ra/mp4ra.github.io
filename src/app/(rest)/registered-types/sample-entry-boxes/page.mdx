@@ -1,0 +1,13 @@
+import { DataDisplay } from "@/components";
+
+export const metadata = {
+    title: "Sample Entry Boxes"
+};
+
+# Sample entry boxes
+
+Sample entries (sample descriptions) in ISO/IEC 14496-12 may contain codec-specific or format-independent child boxes that provide configuration and descriptive information for the samples in a track. These boxes are placed inside the sample entry within the `SampleDescriptionBox` ('stsd').
+
+Some boxes are defined for use in the abstract `VisualSampleEntry`, `AudioSampleEntry`, or `MetaDataSampleEntry` containers and are therefore codec-independent — they apply across multiple coding formats. Others are specific to a particular codec or format.
+
+<DataDisplay csv="sample-entries-boxes" />
