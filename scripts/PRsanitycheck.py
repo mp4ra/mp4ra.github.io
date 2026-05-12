@@ -122,8 +122,8 @@ def duplicatecodes(codes, exceptions=[]):
                 if dupssorted[i][0] not in warned:
                     warned.add(dupssorted[i][0])
                     print(
-                        "ERROR: '%s' is duplicated in: '%s'" % dupssorted[i][0],
-                        dupssorted[i][3],
+                        "ERROR: '%s' is duplicated in: '%s'" % (dupssorted[i][0],
+                        dupssorted[i][3]),
                     )
                 dupsame.append([dupssorted[i][0]])
         if dupsame != []:
