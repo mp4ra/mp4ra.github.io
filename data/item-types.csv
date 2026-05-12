@@ -23,3 +23,4 @@ it35,T.35 Item,metadata,ISO
 nnr1,"NNR Item that carries a bitstream conforming to ISO/IEC 15398-17 (Neural Network Representation NNR, also known as Neural Network Coding, NNC)",coded,NALu Video
 auxi,Auxiliary information item,metadata,CENC
 jai0,JPEG AI coded image item,coded,JPEGAI
+sato,Sample Transform derived image item,derived,AVIF
