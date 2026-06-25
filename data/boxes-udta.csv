@@ -40,4 +40,4 @@ urat,User 'star' rating of the media,3GPP
 yrrc,Year when media was recorded,3GPP
 swre,Name and version number of the software that generated this movie,Apple
 diap,Dialogue processing (DialogueProcessingBox),ETSI AC-4
-ctlc,Content type for loudness control,Apple
+ctlc,Content type for loudness control,AppleCTLC
