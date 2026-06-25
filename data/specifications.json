@@ -72,6 +72,12 @@
     "MPEG": false
   },
   {
+    "specification": "AppleCTLC",
+    "url": "https://developer.apple.com/download/files/Content-Type-Loudness-Specification.pdf",
+    "description": "Content Type for Loudness Control. Apple Inc.",
+    "MPEG": false
+  },
+  {
     "specification": "ATSC 3.0 A337",
     "url": "https://www.atsc.org/atsc-documents/type/3-0-standards/",
     "description": "ATSC 3.0 A337 Application Event Delivery",
