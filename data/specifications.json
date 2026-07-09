@@ -42,6 +42,12 @@
     "MPEG": false
   },
   {
+    "specification": "AV2-ISOBMFF",
+    "url": "https://aomediacodec.github.io/av2-isobmff/",
+    "description": "AV2-ISOBMFF",
+    "MPEG": false
+  },
+  {
     "specification": "AVIF",
     "url": "https://aomediacodec.github.io/av1-avif/",
     "description": "AVIF",
