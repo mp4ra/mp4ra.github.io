@@ -2,3 +2,5 @@ code,description,type,specification
 nclx,Normal color information,Color info,ISO
 prof,Full ICC color profile,Color info,ISO
 rICC,Restricted ICC color profile,Color info,ISO
+nclc,Video color information; same as nclx with full_range_flag equal to 0,Color info,QT-TN2162
+full,Full range video color information; same as nclx with full_range_flag equal to 1,Color info,QT
