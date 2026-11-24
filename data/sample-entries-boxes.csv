@@ -4,6 +4,7 @@ code,description,handler,specification
 a3dC,A3DConfigurationBox,Video,NALu Video
 auxi,AuxiliaryTypeInfoBox of an auxiliary image sequence track,Video,HEIF
 av1C,AOM Video Codec Configuration,Video,AV1-ISOBMFF
+av2C,Alliance for Open Media Video 2 (AV2) codec configuration,Video,AV2-ISOBMFF
 avcC,AVC Configuration,Video,NALu Video
 btrt,Bit-rate information,General,ISO
 cclv,Content colour volume,Video,ISO
